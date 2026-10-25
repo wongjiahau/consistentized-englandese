@@ -80,7 +80,7 @@ Notes:
 | Person or thing that is to be X-ed (gerundive) | `-and` | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *enaffixand* |
 | Person or thing that is about to X (active, prospective) | `-ure` | *would-be* X-or, X-or *to be* | *electure* (a person about to vote), *departure* (*departing*: *the departure passengers*), *launchure* (a rocket about to launch), *graduateure* |
 | Can be X-ed | `-able` | -ible, -uble | *seeable*, *readable*, *solveable* |
-| Process or act of X (noun) | `-ment` | -tion, -sion, -ation, -ance, -ence, -al, -age, -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
+| Noun of the verb X: the act of X, or what X makes | `-ment` | -tion, -sion, -ation, -ance, -ence, -al, -age, -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
 | State or quality of being X | `-ness` | -ity, -th, -ance, -ence, -cy, -hood, -ship | *unpossibleness*, *trueness*, *longness*, *safeness* |
 | Relating to X | `-al` | -ic, -ical, -ar, -ary | *scienceal*, *historyal*, *personal* |
 | Full of / having X | `-ful` | -ous, -y, -ive | *dangerful*, *fameful*, *rainful* |
@@ -89,7 +89,7 @@ Notes:
 | Make X / become X (verb) | `-ize` | -ify, -en, -ate | *widize*, *simpleize*, *activeize* |
 
 Notes:
-- `-ing` is only a verb form (§4.1). It is never a derived noun. Use `-ment` for the process noun: *the connectment of the wires*, not *the connecting of the wires*. A gerund keeps its object without *of*: *connecting the wires is easy*.
+- `-ing` is only a verb form (§4.1). It is never a derived noun. Use `-ment` for the noun: *the connectment of the wires*, not *the connecting of the wires*. A gerund keeps its object without *of*: *connecting the wires is easy*.
 - `-ment` starts with a consonant, so it never makes a vowel clash with a base that ends in *e*: *makement*, *replacement*.
 - *able* + *ize* + *ment* makes "the process of making X-able": *observeableizement* (*observe* + *able* + *ize* + *ment*; 3 derivational affixes, the limit in U2).
 - `-and` and `-ure` are a pair. `-and` is passive and means "must be X-ed" (*an addand* is a number that must be added). `-ure` is active and means "will soon X" (*an addure* is a person who will soon add). Neither one says that the action happens now. For that, use `-ing` (*the adding machine*).
@@ -181,6 +181,7 @@ CE is agglutinative: each affix has one meaning, the base never changes, and aff
 - **U1. Prefer the affixed form.** If an affixed word replaces a phrase of two or more words, use the affixed word.
 - **U2. Limit the stack.** Use no more than three derivational affixes in one word. Inflectional affixes (§4.1) are not counted.
 - **U3. Use a phrase when U2 is broken.** If the affixed form needs more than three derivational affixes, write a phrase.
+- **U4. Do not let `-ment` be unclear.** `-ment` names both an act and its result (*the connectment took one hour*; *the connectment is loose*). When the difference is important, use a different form. To name an action, prefer the verb (*connect the wires*, not *do the connectment of the wires*). To name a physical result, use a concrete base word (*the joint*) or `-ee` for a thing that the action makes (*buildee*, *writee*).
 
 | Phrase | Affixed form | Derivational affixes | Use |
 |---|---|---|---|
@@ -283,7 +284,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q1.** Do we regularize *be* (*I be, he bes, he beed*)?
 - **Q2.** How do we handle collisions such as *seed* (see §6)? Options: accept the collision, add a hyphen (*see-ed*), or change the allomorph rule.
 - **Q3.** Do we need a variant that keeps the sound of the base without changing its spelling? Example: a hyphen or a written mark between base and affix (*stop-ed*, *panic-ed*).
-- **Q4.** `-ment` is the process noun (*the connectment of the wires*). Do we need a separate affix for the *result* of an action (*a loose connection* as a thing, not an act)?
+- **Q4.** (Closed.) No separate result-noun affix. `-ment` covers the act and its result, and U4 handles cases where the difference is important.
 - **Q5.** Should `-or` cover both persons (*teachor*) and tools (*computeor*), or should tools use a separate affix?
 - **Q6.** Plural place names make awkward forms (*Netherlandsese*, *Philippinesese*). Do we need an `-ese` variant after *s*?
 
