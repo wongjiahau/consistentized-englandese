@@ -182,6 +182,23 @@ CE is agglutinative: each affix has one meaning, the base never changes, and aff
 | *the state of being unable to be connected again* | *unreconnectableness* | 4 | phrase (U3) |
 | *cannot be connected again* | *unreconnectable* | 3 | affixed form (U1) |
 
+### 4.7 Compounds
+
+A compound is two or more words that name one thing. Join the words with hyphens: *blood-sugar*, *finance-minister*, *low-blood-sugar*.
+
+- **C1. One base.** A hyphenated compound is one base. It takes affixes like any other base.
+- **C2. Affixes go on the ends.** Attach prefixes to the first word and suffixes to the last word, with no hyphen. The affix applies to the whole compound.
+- **C3. No inner affix at an end.** Because of C2, a word inside a compound cannot have its own affix at the start or end of the compound. If it needs one, do not make a compound. Write a phrase.
+- **C4. Counting.** For U2, count only the affixes on the ends of the compound.
+
+| Form | Parts | Meaning |
+|---|---|---|
+| *low-blood-sugarize* | [low-blood-sugar] + ize | make or become low in blood sugar |
+| *low-blood-sugarizing* | [low-blood-sugar] + ize + ing | the process of becoming low in blood sugar |
+| *exfinance-minister* | ex + [finance-minister] | former finance minister |
+| *unconfidence-vote* | un + [confidence-vote] | something that is not a confidence vote (C2) |
+| *unconfidence vote* | [unconfidence] + *vote* (two words) | a vote that expresses no confidence (C3) |
+
 ## 5. Allowed allomorphs
 
 **Rule: the base word never changes.** An affix never adds, removes or changes a letter of the base. All variation is in the affix.
@@ -256,7 +273,6 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q3.** Do we need a variant that keeps the sound of the base without changing its spelling? Example: a hyphen or a written mark between base and affix (*stop-ed*, *panic-ed*).
 - **Q4.** Process nouns with `-ing` and gerunds have the same form. Do we need a separate affix for the *result* of an action (*a connection* as a thing, not an act)?
 - **Q5.** Should `-or` cover both persons (*teachor*) and tools (*computeor*), or should tools use a separate affix?
-- **Q8.** Where does a prefix go when its meaning covers a phrase (*finance exminister* or *exfinance minister*)? How are noun + noun compounds (*unconfidence vote*) formed?
 - **Q6.** Plural place names make awkward forms (*Netherlandsese*, *Philippinesese*). Do we need an `-ese` variant after *s*?
 
 ## Appendix A. Example translation
@@ -359,7 +375,7 @@ The country and the people in this text are not real.
 
 **Consistentized Englandese** (87 words)
 
-> Velmora's Prime Minister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electing. The opposeors, under finance exminister Tomas Bell, accused the governor of corrupting and of underfunding public hospitals. Reyes's popularness is now at its lowest since 2022. Reyes promised an anticorrupting law and said that the cogovernor will not increase taxes. Thousands of protestors met outside the parliament. Analyzeors said that the result is unpreseeable. Most of the voteordom is still undecided, and both electands are untrustabler than their partys.
+> Velmora's Prime Minister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electing. The opposeors, under exfinance-minister Tomas Bell, accused the governor of corrupting and of underfunding public hospitals. Reyes's popularness is now at its lowest since 2022. Reyes promised an anticorrupting law and said that the cogovernor will not increase taxes. Thousands of protestors met outside the parliament. Analyzeors said that the result is unpreseeable. Most of the voteordom is still undecided, and both electands are untrustabler than their partys.
 
 ### C.2 Word breakdown
 
@@ -371,7 +387,7 @@ The country and the people in this text are not real.
 | *opposeors* | oppose + or + s | *the opposition* | |
 | *unpreseeable* | un + pre + see + able | *unforeseeable* | 3 derivational affixes, the limit in U2 |
 | *untrustabler* | un + trust + able + er | *less trusted* | |
-| *finance exminister* | ex + minister | *former finance minister* | see Q8 |
+| *exfinance-minister* | ex + [finance-minister] | *former finance minister* | compound (§4.7) |
 | *governor* | govern + or | *government* | collision, see §6 |
 | *partys*, *protestors* | party + s, protest + or + s | *parties*, *protesters* | |
 | *Prime Minister*, *parliament* | — | no change | legally defined names (P6) |
