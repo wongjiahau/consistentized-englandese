@@ -302,3 +302,45 @@ A learner who knows one base word and the affix rules can make every related for
 ### A.4 Cost
 
 To an ordinary English reader, CE forms such as *finded*, *easyly* and *techniqueor* look like mistakes, although they are easy to understand. CE accepts this cost in exchange for predictable word forms.
+
+## Appendix B. Agglutination example
+
+This example shows how CE uses stacked affixes (§4.6) to make text shorter.
+
+### B.1 Text
+
+**Standard English** (118 words)
+
+> Each door that locks automatically in the testing room can only be opened again by a trained operator. Before each test, write the items that are to be tested on the board. If an item that is to be tested malfunctions, work together with a robotics specialist. Do not tighten the bolts too much. Bolts that are too tight cannot be removed. Mark cables that cannot be connected again with red tape. The newer small robots are faster, but they are also the most easily overheated. Move hot small robots toward the door. On the third day, examine each joint for cracks that cannot be seen. The machinery in the testing room is the responsibility of every operator.
+
+**Consistentized Englandese** (79 words)
+
+> Each autolock door in the testery is reopenable only by a trained operateor. Before each test, write the testands on the board. If a testand misfunctions, cowork with a robotologyor. Do not overtightize the bolts. Overtight bolts are unremoveable. Mark unreconnectable cables with red tape. The newer robotlets are faster, but they are also the overheatablest. Move hot robotlets doorward. On the threeth day, examine each joint for unseeable cracks. The testery's machinedom is the responsibleness of each operateor.
+
+The CE text has 33% fewer words and 22% fewer characters.
+
+### B.2 Word breakdown
+
+| CE word | Parts | Replaces |
+|---|---|---|
+| *reopenable* | re + open + able | *can be opened again* |
+| *unreconnectable* | un + re + connect + able (3, the limit in U2) | *cannot be connected again* |
+| *testand* | test + and | *item that is to be tested* |
+| *robotologyor* | robot + ology + or | *robotics specialist* |
+| *overtightize* | over + tight + ize | *tighten too much* |
+| *unremoveable* | un + remove + able | *cannot be removed* |
+| *overheatablest* | over + heat + able + est | *most easily overheated* |
+| *robotlet* | robot + let | *small robot* |
+| *doorward* | door + ward | *toward the door* |
+| *testery* | test + ery | *testing room* |
+| *machinedom* | machine + dom | *machinery* |
+| *autolock* | auto + lock | *that locks automatically* |
+| *cowork* | co + work | *work together* |
+| *misfunctions* | mis + function + s | *malfunctions* |
+| *unseeable* | un + see + able | *that cannot be seen* |
+| *operateor* | operate + or | *operator* |
+| *threeth* | three + th | *third* |
+
+### B.3 Where the savings come from
+
+Most of the savings come from relative clauses (*that cannot be …*, *that is to be …*). In CE, each of these becomes one affixed adjective or noun. *testand* replaces five words. *overheatablest* stacks two derivational affixes and one inflection in one word.
