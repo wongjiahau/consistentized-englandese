@@ -57,7 +57,7 @@ Consistentized Englandese (CE) is a controlled form of English. It has two layer
 | Third person singular present | `-s` | — | *gos*, *haves* (*has*) |
 | Past tense | `-ed` | strong/irregular verbs | *goed*, *runned*, *taked*, *thinked* |
 | Past participle | `-ed` | -en, vowel change | *taked*, *writed*, *goed* |
-| Progressive / gerund | `-ing` | — | *runing* |
+| Progressive, gerund, present participle | `-ing` | — | *runing*, *connecting the wires is easy* |
 | Comparative | `-er` | *more* + adjective, irregular forms | *taller*, *gooder* (*better*), *bader* (*worse*), *beautifuler* (*more beautiful*), *larger* |
 | Superlative | `-est` | *most* + adjective, irregular forms | *tallest*, *goodest* (*best*), *badest* (*worst*), *beautifulest* (*most beautiful*), *largest* |
 
@@ -79,13 +79,18 @@ Notes:
 | Person or thing that receives X (the action is done or in progress) | `-ee` | — | *employee*, *payee*, *usee* |
 | Person or thing that is to be X-ed (gerundive) | `-and` | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *enaffixand* |
 | Can be X-ed | `-able` | -ible, -uble | *seeable*, *readable*, *solveable* |
-| Process or act of X (noun) | `-ing` | -tion, -sion, -ment, -ance, -ence, -al, -age | *connecting*, *paying*, *arriving* |
+| Process or act of X (noun) | `-ment` | -tion, -sion, -ation, -ance, -ence, -al, -age, -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
 | State or quality of being X | `-ness` | -ity, -th, -ance, -ence, -cy, -hood, -ship | *unpossibleness*, *trueness*, *longness*, *safeness* |
 | Relating to X | `-al` | -ic, -ical, -ar, -ary | *scienceal*, *historyal*, *personal* |
 | Full of / having X | `-ful` | -ous, -y, -ive | *dangerful*, *fameful*, *rainful* |
 | Without X | `-less` | — | *powerless* |
 | In an X way (adverb) | `-ly` | irregular adverbs | *goodly* (*well*), *fastly* (*fast*) |
 | Make X / become X (verb) | `-ize` | -ify, -en, -ate | *widize*, *simpleize*, *activeize* |
+
+Notes:
+- `-ing` is only a verb form (§4.1). It is never a derived noun. Use `-ment` for the process noun: *the connectment of the wires*, not *the connecting of the wires*. A gerund keeps its object without *of*: *connecting the wires is easy*.
+- `-ment` starts with a consonant, so it never makes a vowel clash with a base that ends in *e*: *makement*, *replacement*.
+- *able* + *ize* + *ment* makes "the process of making X-able": *observeableizement* (*observe* + *able* + *ize* + *ment*; 3 derivational affixes, the limit in U2).
 
 ### 4.3 Affix order
 
@@ -194,7 +199,7 @@ A compound is two or more words that name one thing. Join the words with hyphens
 | Form | Parts | Meaning |
 |---|---|---|
 | *low-blood-sugarize* | [low-blood-sugar] + ize | make or become low in blood sugar |
-| *low-blood-sugarizing* | [low-blood-sugar] + ize + ing | the process of becoming low in blood sugar |
+| *low-blood-sugarizement* | [low-blood-sugar] + ize + ment | the process of becoming low in blood sugar |
 | *exfinance-minister* | ex + [finance-minister] | former finance minister |
 | *unconfidence-vote* | un + [confidence-vote] | something that is not a confidence vote (C2) |
 | *unconfidence vote* | [unconfidence] + *vote* (two words) | a vote that expresses no confidence (C3) |
@@ -271,7 +276,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q1.** Do we regularize *be* (*I be, he bes, he beed*)?
 - **Q2.** How do we handle collisions such as *seed* (see §6)? Options: accept the collision, add a hyphen (*see-ed*), or change the allomorph rule.
 - **Q3.** Do we need a variant that keeps the sound of the base without changing its spelling? Example: a hyphen or a written mark between base and affix (*stop-ed*, *panic-ed*).
-- **Q4.** Process nouns with `-ing` and gerunds have the same form. Do we need a separate affix for the *result* of an action (*a connection* as a thing, not an act)?
+- **Q4.** `-ment` is the process noun (*the connectment of the wires*). Do we need a separate affix for the *result* of an action (*a loose connection* as a thing, not an act)?
 - **Q5.** Should `-or` cover both persons (*teachor*) and tools (*computeor*), or should tools use a separate affix?
 - **Q6.** Plural place names make awkward forms (*Netherlandsese*, *Philippinesese*). Do we need an `-ese` variant after *s*?
 
@@ -285,7 +290,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 
 **Consistentized Englandese**
 
-> Deconnect the machine completely from the power supply before you start. It is unpossible to examine the electric parts safely when the machine operates. The techniqueor who did the last inspecting finded that some bolts were looseized and two seals were breaked. These problems are not easyly seeable. Examine each joint carefully. If a seal is unuseable, replace it immediately. Only a trained operateor can do the replacing.
+> Deconnect the machine completely from the power supply before you start. It is unpossible to examine the electric parts safely when the machine operates. The techniqueor who did the last inspectment finded that some bolts were looseized and two seals were breaked. These problems are not easyly seeable. Examine each joint carefully. If a seal is unuseable, replace it immediately. Only a trained operateor can do the replacement.
 
 ### A.2 Changes
 
@@ -294,7 +299,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 | *disconnected* | *deconnect* | `de-` is the only "reverse the action" prefix (§4.2) |
 | *impossible*, *unusable* | *unpossible*, *unuseable* | `un-` is the only "not" prefix (§4.2) |
 | *technician*, *operator* | *techniqueor*, *operateor* | one agent suffix, `-or`; base unchanged (§4.2, §5.2) |
-| *inspection*, *replacement* | *inspecting*, *replacing* | one process-noun suffix, `-ing` (§4.2) |
+| *inspection*, *replacement* | *inspectment*, *replacement* | one process-noun suffix, `-ment` (§4.2) |
 | *found*, *broken* | *finded*, *breaked* | every past form uses `-ed` (§4.1) |
 | *loosened* | *looseized* | one "make X" suffix, `-ize` (§4.2) |
 | *visible* | *seeable* | affix goes on the plain base (P4) |
@@ -375,7 +380,7 @@ The country and the people in this text are not real.
 
 **Consistentized Englandese** (87 words)
 
-> Velmora's Prime Minister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electing. The opposeors, under exfinance-minister Tomas Bell, accused the governor of corrupting and of underfunding public hospitals. Reyes's popularness is now at its lowest since 2022. Reyes promised an anticorrupting law and said that the cogovernor will not increase taxes. Thousands of protestors met outside the parliament. Analyzeors said that the result is unpreseeable. Most of the voteordom is still undecided, and both electands are untrustabler than their partys.
+> Velmora's Prime Minister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electment. The opposeors, under exfinance-minister Tomas Bell, accused the governor of corruptment and of underfunding public hospitals. Reyes's popularness is now at its lowest since 2022. Reyes promised an anticorruptment law and said that the cogovernor will not increase taxes. Thousands of protestors met outside the parliament. Analyzeors said that the result is unpreseeable. Most of the voteordom is still undecided, and both electands are untrustabler than their partys.
 
 ### C.2 Word breakdown
 
@@ -383,6 +388,8 @@ The country and the people in this text are not real.
 |---|---|---|---|
 | *electand* | elect + and | *candidate* | one who is to be elected |
 | *voteordom* | vote + or + dom | *electorate* | all voters as a group |
+| *electment*, *corruptment* | elect + ment, corrupt + ment | *election*, *corruption* | process noun |
+| *underfunding* | under + fund + ing | *underfunding* | gerund with an object (*public hospitals*), so `-ing` stays |
 | *cogovernor* | co + govern + or | *coalition* | those who govern together |
 | *opposeors* | oppose + or + s | *the opposition* | |
 | *unpreseeable* | un + pre + see + able | *unforeseeable* | 3 derivational affixes, the limit in U2 |
