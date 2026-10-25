@@ -120,7 +120,9 @@ In standard English, many affixes work only with some words. For example, *-hood
 | Above (place or rank) | `super-` | noun | over- (in this meaning), supra- | *superhead* (*overhead*), *superpass* (*overpass*) |
 | Before (time) | `pre-` | noun, verb | fore-, ante- | *prewarn* (*forewarn*), *preroom* (*anteroom*), *prewash* |
 | After (time) | `post-` | noun, verb | after- | *postshock* (*aftershock*), *postwash* |
-| Between | `inter-` | noun, verb | — | *intercity*, *interconnect* |
+| Between; each other (reciprocal) | `inter-` | noun, verb | *each other*, *one another* | *intercity*, *interconnect* (connect to each other), *interhelp* (help each other) |
+| Inside one X | `intra-` | noun | endo-, *within* | *intracompany*, *intranet*, *intravein* (*intravenous*) |
+| Done against X or in response to X | `counter-` | noun, verb | contra- | *counterattack*, *countermeasure*, *counterweight*, *counterspeak* (*contradict*) |
 | Across | `trans-` | noun | — | *transsea*, *transcountry* |
 | Together, jointly | `co-` | noun, verb | con-, com-, syn-, sym- (in new forms) | *cowork*, *cowriteor* |
 | Former | `ex-` | noun | *former* | *exteachor*, *exhome* |
@@ -137,6 +139,9 @@ In standard English, many affixes work only with some words. For example, *-hood
 Notes:
 - *under-* and *over-* now have one meaning each (amount). Place and rank use *sub-* and *super-*.
 - *self-* and *auto-* are different. A *selfclean* oven cleans its own inside. An *autoclean* print head starts its cleaning cycle with no operator.
+- *inter-* and *intra-* are different. *intercompany* is between companies. *intracompany* is inside one company.
+- *inter-* on a verb makes it reciprocal: *the parts interconnect* means "the parts connect to each other". The verb has no object.
+- *anti-* and *counter-* are different. *anti-* means "opposed to X" (*antitheft*). *counter-* means "done in reply to X" (*counterattack*).
 - *en-* has no *em-* variant. *enpower* is easy to say (§5).
 
 #### 4.4.2 Suffixes
@@ -155,12 +160,23 @@ Notes:
 | From place X; language of place X | `-ese` | proper noun | -ian, -ish, -an, -i, -ic, -er | *Italyese*, *Englandese* (*English*), *Franceese* → *Francese* (*French*), *Iraqese* (*Iraqi*) |
 | Number X in order (ordinal) | `-th` | number | irregular ordinals | *oneth* (*first*), *twoth* (*second*), *threeth* (*third*), *fiveth*, *eighth*, *twentyth* |
 | X times as many | `-fold` | number | -ple, -ble | *twofold* (*double*), *threefold* (*triple*) |
+| Not damaged or affected by X | `-proof` | noun | -tight, -resistant | *waterproof*, *heatproof*, *shockproof*, *tamperproof*, *airproof* (*airtight*) |
+| Good enough or safe enough for X | `-worthy` | noun | — | *airworthy*, *roadworthy*, *trustworthy*, *newsworthy* |
+| Tool that measures X | `-meter` | noun | -ometer, gauge | *speedmeter* (*speedometer*), *heatmeter* (*thermometer*), *pressuremeter* (*pressure gauge*) |
+| Causes X (a feeling or state) in others | `-some` | noun | -ing (in this meaning), -y | *fearsome*, *painsome*, *worrysome* (*worrying*), *scaresome* (*scary*), *troublesome* |
 
 Notes:
 - `-ese` overwrites names of peoples and languages too (P5). The name of this language is *Consistentized Englandese*. More examples: *Chinaese* (*Chinese*), *Thailandese* (*Thai*), *Spainese* (*Spanish*, *Spaniard*), *Walesese* (*Welsh*), *Netherlandsese* (*Dutch*), *Japanese* (no change).
 - A people or language whose name is itself the base word does not take `-ese`. Examples: *Tamil*, *Yoruba*, *Basque*, *Latin*, *Esperanto*.
 - Place names themselves do not change (*England*, *Malaysia*). Only the derived forms change.
 - *-like* and *-ly* are different. *-like* makes an adjective from a noun. *-ly* makes an adverb from an adjective. So *friendly* (adjective, "like a friend") becomes *friendlike*.
+- Four suffixes say what can or must happen to a thing. They are different:
+  - *flyable*: it can fly, or it can be flown.
+  - *flyand*: it must be flown.
+  - *airworthy*: it is safe enough to fly.
+  - *airproof*: air does not go through it.
+- *-ful* and *-some* are different. *-ful* means the thing has X (*a fearful child* feels fear). *-some* means the thing causes X (*a fearsome dog* causes fear).
+- *-meter* is only for tools that measure. Other tools use *-or* (see Q5).
 - *-ish* and *-like* are different. *childish* (like a child) becomes *childlike*. *reddish* (somewhat red) does not change.
 
 ### 4.5 Removed affixes
