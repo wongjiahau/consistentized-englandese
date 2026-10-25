@@ -262,6 +262,7 @@ Some regular CE forms have the same spelling as an existing English word with a 
 | *governor* | the one that governs (the government) | the head of a state or province |
 | *departure* | a person or thing that is about to depart | the act of leaving (CE: *department*) |
 | *department* | the act of departing | a part of an organization (CE: *partdom* or a dictionary base word, to be decided) |
+| *pressure* | a person or thing that is about to press | force on a surface (if *pressure* is kept as a base word, the two meanings collide) |
 
 (Open question Q2.)
 
