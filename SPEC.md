@@ -51,15 +51,15 @@ Consistentized Englandese (CE) is a controlled form of English. It has two layer
 
 ### 4.1 Inflection
 
-| Meaning | Affix | Replaces | Examples |
-|---|---|---|---|
-| Plural noun | `-s` | -en, -i, -a, vowel change, zero plural | *mouses*, *childs*, *mans*, *sheeps*, *datums*, *criterions* |
-| Third person singular present | `-s` | — | *gos*, *haves* (*has*) |
-| Past tense | `-ed` | strong/irregular verbs | *goed*, *runned*, *taked*, *thinked* |
-| Past participle | `-ed` | -en, vowel change | *taked*, *writed*, *goed* |
-| Progressive, gerund, present participle | `-ing` | — | *runing*, *connecting the wires is easy* |
-| Comparative | `-er` | *more* + adjective, irregular forms | *taller*, *gooder* (*better*), *bader* (*worse*), *beautifuler* (*more beautiful*), *larger* |
-| Superlative | `-est` | *most* + adjective, irregular forms | *tallest*, *goodest* (*best*), *badest* (*worst*), *beautifulest* (*most beautiful*), *largest* |
+| Meaning | Affix | Term | Replaces | Examples |
+|---|---|---|---|---|
+| Plural noun | `-s` | plural | -en, -i, -a, vowel change, zero plural | *mouses*, *childs*, *mans*, *sheeps*, *datums*, *criterions* |
+| Third person singular present | `-s` | 3rd person singular agreement | — | *gos*, *haves* (*has*) |
+| Past tense | `-ed` | past tense | strong/irregular verbs | *goed*, *runned*, *taked*, *thinked* |
+| Past participle | `-ed` | past (perfective/passive) participle | -en, vowel change | *taked*, *writed*, *goed* |
+| Progressive, gerund, present participle | `-ing` | progressive, gerund, present participle | — | *runing*, *connecting the wires is easy* |
+| Comparative | `-er` | comparative | *more* + adjective, irregular forms | *taller*, *gooder* (*better*), *bader* (*worse*), *beautifuler* (*more beautiful*), *larger* |
+| Superlative | `-est` | superlative | *most* + adjective, irregular forms | *tallest*, *goodest* (*best*), *badest* (*worst*), *beautifulest* (*most beautiful*), *largest* |
 
 Notes:
 - Plural `-s` and third person `-s` have the same form. This is a known exception to P2. It is kept because the part of speech is always clear from context and from P1.
@@ -69,24 +69,24 @@ Notes:
 
 ### 4.2 Derivation
 
-| Meaning | Affix | Replaces | Examples |
-|---|---|---|---|
-| Not X (adjective, noun) | `un-` | in-, im-, il-, ir-, non-, dis-, a- | *unpossible*, *unlegal*, *unregular*, *unhonest*, *unmoral* |
-| Reverse the action X (verb) | `de-` | un-, dis- (on verbs) | *detie*, *delock*, *deconnect* |
-| Against X | `anti-` | counter-, contra- | *antiact*, *antisay* |
-| Again | `re-` | — | *redo* |
-| Person or thing that does X | `-or` | -er, -ar, -ist, -ian, -ant, -ent | *actor*, *teachor* (*teacher*), *begor* (*beggar*), *scienceor* (*scientist*), *assistor* (*assistant*), *makeor* (*maker*) |
-| Person or thing that receives X (the action is done or in progress) | `-ee` | — | *employee*, *payee*, *usee* |
-| Person or thing that is to be X-ed (gerundive) | `-and` | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *enaffixand* |
-| Person or thing that is about to X (active, prospective) | `-ure` | *would-be* X-or, X-or *to be* | *electure* (a person about to vote), *departure* (*departing*: *the departure passengers*), *launchure* (a rocket about to launch), *graduateure* |
-| Can be X-ed | `-able` | -ible, -uble | *seeable*, *readable*, *solveable* |
-| Noun of the verb X: the act of X, or what X makes | `-ment` | -tion, -sion, -ation, -ance, -ence, -al, -age, -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
-| State or quality of being X | `-ness` | -ity, -th, -ance, -ence, -cy, -hood, -ship | *unpossibleness*, *trueness*, *longness*, *safeness* |
-| Relating to X | `-al` | -ic, -ical, -ar, -ary | *scienceal*, *historyal*, *personal* |
-| Full of / having X | `-ful` | -ous, -y, -ive | *dangerful*, *fameful*, *rainful* |
-| Without X | `-less` | — | *powerless* |
-| In an X way (adverb) | `-ly` | irregular adverbs | *goodly* (*well*), *fastly* (*fast*) |
-| Make X / become X (verb) | `-ize` | -ify, -en, -ate | *widize*, *simpleize*, *activeize* |
+| Meaning | Affix | Term | Replaces | Examples |
+|---|---|---|---|---|
+| Not X (adjective, noun) | `un-` | negation | in-, im-, il-, ir-, non-, dis-, a- | *unpossible*, *unlegal*, *unregular*, *unhonest*, *unmoral* |
+| Reverse the action X (verb) | `de-` | reversative | un-, dis- (on verbs) | *detie*, *delock*, *deconnect* |
+| Against X | `anti-` | oppositive | counter-, contra- | *antiact*, *antisay* |
+| Again | `re-` | repetitive | — | *redo* |
+| Person or thing that does X | `-or` | agent noun (*nomen agentis*) | -er, -ar, -ist, -ian, -ant, -ent | *actor*, *teachor* (*teacher*), *begor* (*beggar*), *scienceor* (*scientist*), *assistor* (*assistant*), *makeor* (*maker*) |
+| Person or thing that receives X (the action is done or in progress) | `-ee` | patient noun | — | *employee*, *payee*, *usee* |
+| Person or thing that is to be X-ed (gerundive) | `-and` | gerundive (future passive participle) | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *enaffixand* |
+| Person or thing that is about to X (active, prospective) | `-ure` | future active participle (prospective) | *would-be* X-or, X-or *to be* | *electure* (a person about to vote), *departure* (*departing*: *the departure passengers*), *launchure* (a rocket about to launch), *graduateure* |
+| Can be X-ed | `-able` | potential (abilitative) adjective | -ible, -uble | *seeable*, *readable*, *solveable* |
+| Noun of the verb X: the act of X, or what X makes | `-ment` | action noun (*nomen actionis*) | -tion, -sion, -ation, -ance, -ence, -al, -age, -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
+| State or quality of being X | `-ness` | quality noun (*nomen qualitatis*) | -ity, -th, -ance, -ence, -cy, -hood, -ship | *unpossibleness*, *trueness*, *longness*, *safeness* |
+| Relating to X | `-al` | relational adjective | -ic, -ical, -ar, -ary | *scienceal*, *historyal*, *personal* |
+| Full of / having X | `-ful` | possessive (proprietive) adjective | -ous, -y, -ive | *dangerful*, *fameful*, *rainful* |
+| Without X | `-less` | privative | — | *powerless* |
+| In an X way (adverb) | `-ly` | manner adverb | irregular adverbs | *goodly* (*well*), *fastly* (*fast*) |
+| Make X / become X (verb) | `-ize` | factitive, inchoative; causative on verbs | -ify, -en, -ate | *widize*, *simpleize*, *activeize* |
 
 Notes:
 - `-ing` is only a verb form (§4.1). It is never a derived noun. Use `-ment` for the noun: *the connectment of the wires*, not *the connecting of the wires*. A gerund keeps its object without *of*: *connecting the wires is easy*.
@@ -112,30 +112,30 @@ In standard English, many affixes work only with some words. For example, *-hood
 
 #### 4.4.1 Prefixes
 
-| Meaning | Affix | Attaches to | Replaces | Examples |
-|---|---|---|---|---|
-| Wrongly, badly | `mis-` | verb | mal-, mis- | *misfunction* (*malfunction*), *misopen*, *misset* |
-| Too much | `over-` | verb, adj | hyper-, ultra-, super- (in this meaning) | *overheat*, *overtight*, *overactive* (*hyperactive*) |
-| Too little | `under-` | verb, adj | hypo- | *undercook*, *underfill* |
-| Below (place or rank) | `sub-` | noun | under- (in this meaning), infra- | *subground* (*underground*), *subline* (*underline*), *subgroup* |
-| Above (place or rank) | `super-` | noun | over- (in this meaning), supra- | *superhead* (*overhead*), *superpass* (*overpass*) |
-| Before (time) | `pre-` | noun, verb | fore-, ante- | *prewarn* (*forewarn*), *preroom* (*anteroom*), *prewash* |
-| After (time) | `post-` | noun, verb | after- | *postshock* (*aftershock*), *postwash* |
-| Between; each other (reciprocal) | `inter-` | noun, verb | *each other*, *one another* | *intercity*, *interconnect* (connect to each other), *interhelp* (help each other) |
-| Inside one X | `intra-` | noun | endo-, *within* | *intracompany*, *intranet*, *intravein* (*intravenous*) |
-| Done against X or in response to X | `counter-` | noun, verb | contra- | *counterattack*, *countermeasure*, *counterweight*, *counterspeak* (*contradict*) |
-| Across | `trans-` | noun | — | *transsea*, *transcountry* |
-| Together, jointly | `co-` | noun, verb | con-, com-, syn-, sym- (in new forms) | *cowork*, *cowriteor* |
-| Former | `ex-` | noun | *former* | *exteachor*, *exhome* |
-| Done to itself (the doer is also the receiver) | `self-` | verb, noun | auto- (in this meaning) | *selfclean*, *selfteach*, *selfdefend*, *selfbiography* (*autobiography*) |
-| Done without outside control, automatic | `auto-` | verb, noun | — | *autofocus*, *autolock*, *autopilot*, *automoveor* (*automobile*) |
-| Do more than, do better than | `out-` | verb | — | *outrun*, *outsee*, *outbuild* |
-| Put in, give | `en-` | noun | em-, be- | *encage*, *enpower* (*empower*), *enfriend* (*befriend*) |
-| Half, partly | `semi-` | noun, adj | hemi-, demi-, half- | *semisphere* (*hemisphere*), *semicircle* |
-| One | `uni-` | noun | mono-, single- | *uniwheel*, *unirail* (*monorail*) |
-| Two | `bi-` | noun | di-, twi-, double- | *biwheel*, *bilight* (*twilight*); not in chemical names (P6) |
-| Three | `tri-` | noun | — | *triwheel* (*tricycle*), *triangle* |
-| Many | `multi-` | noun, adj | poly-, many- | *multicolor*, *multisided* (*polygonal*) |
+| Meaning | Affix | Term | Attaches to | Replaces | Examples |
+|---|---|---|---|---|---|
+| Wrongly, badly | `mis-` | — | verb | mal-, mis- | *misfunction* (*malfunction*), *misopen*, *misset* |
+| Too much | `over-` | excessive | verb, adj | hyper-, ultra-, super- (in this meaning) | *overheat*, *overtight*, *overactive* (*hyperactive*) |
+| Too little | `under-` | deficient | verb, adj | hypo- | *undercook*, *underfill* |
+| Below (place or rank) | `sub-` | subessive | noun | under- (in this meaning), infra- | *subground* (*underground*), *subline* (*underline*), *subgroup* |
+| Above (place or rank) | `super-` | superessive | noun | over- (in this meaning), supra- | *superhead* (*overhead*), *superpass* (*overpass*) |
+| Before (time) | `pre-` | anterior | noun, verb | fore-, ante- | *prewarn* (*forewarn*), *preroom* (*anteroom*), *prewash* |
+| After (time) | `post-` | posterior | noun, verb | after- | *postshock* (*aftershock*), *postwash* |
+| Between; each other (reciprocal) | `inter-` | interessive; reciprocal | noun, verb | *each other*, *one another* | *intercity*, *interconnect* (connect to each other), *interhelp* (help each other) |
+| Inside one X | `intra-` | inessive | noun | endo-, *within* | *intracompany*, *intranet*, *intravein* (*intravenous*) |
+| Done against X or in response to X | `counter-` | — | noun, verb | contra- | *counterattack*, *countermeasure*, *counterweight*, *counterspeak* (*contradict*) |
+| Across | `trans-` | perlative | noun | — | *transsea*, *transcountry* |
+| Together, jointly | `co-` | comitative | noun, verb | con-, com-, syn-, sym- (in new forms) | *cowork*, *cowriteor* |
+| Former | `ex-` | — | noun | *former* | *exteachor*, *exhome* |
+| Done to itself (the doer is also the receiver) | `self-` | reflexive | verb, noun | auto- (in this meaning) | *selfclean*, *selfteach*, *selfdefend*, *selfbiography* (*autobiography*) |
+| Done without outside control, automatic | `auto-` | — | verb, noun | — | *autofocus*, *autolock*, *autopilot*, *automoveor* (*automobile*) |
+| Do more than, do better than | `out-` | surpassive | verb | — | *outrun*, *outsee*, *outbuild* |
+| Put in, give | `en-` | illative, ornative | noun | em-, be- | *encage*, *enpower* (*empower*), *enfriend* (*befriend*) |
+| Half, partly | `semi-` | — | noun, adj | hemi-, demi-, half- | *semisphere* (*hemisphere*), *semicircle* |
+| One | `uni-` | numeral prefix | noun | mono-, single- | *uniwheel*, *unirail* (*monorail*) |
+| Two | `bi-` | numeral prefix | noun | di-, twi-, double- | *biwheel*, *bilight* (*twilight*); not in chemical names (P6) |
+| Three | `tri-` | numeral prefix | noun | — | *triwheel* (*tricycle*), *triangle* |
+| Many | `multi-` | — | noun, adj | poly-, many- | *multicolor*, *multisided* (*polygonal*) |
 
 Notes:
 - *under-* and *over-* now have one meaning each (amount). Place and rank use *sub-* and *super-*.
@@ -147,24 +147,24 @@ Notes:
 
 #### 4.4.2 Suffixes
 
-| Meaning | Affix | Attaches to | Replaces | Examples |
-|---|---|---|---|---|
-| Small X | `-let` | noun | -ling, -ette, -kin, -ie, -y, mini- | *ducklet* (*duckling*), *kitchenlet* (*kitchenette*), *doglet* (*doggy*), *carlet* |
-| Like X, in the manner of X | `-like` | noun | -ish (on nouns), -ly (on nouns), -esque, -oid | *childlike* (*childish*), *friendlike* (*friendly*), *humanlike* (*humanoid*) |
-| Somewhat X, almost X | `-ish` | adj, number | -y (on colors) | *reddish*, *coldish*, *tenish* |
-| Place where X is done or made | `-ery` | verb, noun | -ory, -arium, -ary, -age, room words | *bakery*, *washery* (*laundry*), *readery* (*library*), *cookery* (*kitchen*), *fishery* |
-| All X as a group; area ruled by X | `-dom` | noun | -ry, -ery (in this meaning), -age, -ware | *kingdom*, *machinedom* (*machinery*), *bagdom* (*baggage*), *kitchendom* (*kitchenware*) |
-| Toward X | `-ward` | noun | -wards | *homeward*, *skyward*, *doorward* |
-| With respect to X | `-wise` | noun | — | *costwise*, *timewise* |
-| Belief or system of X | `-ism` | noun, adj | -cracy | *realism*, *peopleism* (*democracy*) |
-| Study or science of X | `-ology` | noun | -ics, -logy, -nomy, -graphy | *earthology* (*geology*), *animalology* (*zoology*), *starology* (*astronomy*), *lifeology* (*biology*) |
-| From place X; language of place X | `-ese` | proper noun | -ian, -ish, -an, -i, -ic, -er | *Italyese*, *Englandese* (*English*), *Franceese* → *Francese* (*French*), *Iraqese* (*Iraqi*) |
-| Number X in order (ordinal) | `-th` | number | irregular ordinals | *oneth* (*first*), *twoth* (*second*), *threeth* (*third*), *fiveth*, *eighth*, *twentyth* |
-| X times as many | `-fold` | number | -ple, -ble | *twofold* (*double*), *threefold* (*triple*) |
-| Not damaged or affected by X | `-proof` | noun | -tight, -resistant | *waterproof*, *heatproof*, *shockproof*, *tamperproof*, *airproof* (*airtight*) |
-| Good enough or safe enough for X | `-worthy` | noun | — | *airworthy*, *roadworthy*, *trustworthy*, *newsworthy* |
-| Tool that measures X | `-meter` | noun | -ometer, gauge | *speedmeter* (*speedometer*), *heatmeter* (*thermometer*), *pressuremeter* (*pressure gauge*) |
-| Causes X (a feeling or state) in others | `-some` | noun | -ing (in this meaning), -y | *fearsome*, *painsome*, *worrysome* (*worrying*), *scaresome* (*scary*), *troublesome* |
+| Meaning | Affix | Term | Attaches to | Replaces | Examples |
+|---|---|---|---|---|---|
+| Small X | `-let` | diminutive | noun | -ling, -ette, -kin, -ie, -y, mini- | *ducklet* (*duckling*), *kitchenlet* (*kitchenette*), *doglet* (*doggy*), *carlet* |
+| Like X, in the manner of X | `-like` | similative | noun | -ish (on nouns), -ly (on nouns), -esque, -oid | *childlike* (*childish*), *friendlike* (*friendly*), *humanlike* (*humanoid*) |
+| Somewhat X, almost X | `-ish` | approximative (attenuative) | adj, number | -y (on colors) | *reddish*, *coldish*, *tenish* |
+| Place where X is done or made | `-ery` | place noun (*nomen loci*) | verb, noun | -ory, -arium, -ary, -age, room words | *bakery*, *washery* (*laundry*), *readery* (*library*), *cookery* (*kitchen*), *fishery* |
+| All X as a group; area ruled by X | `-dom` | collective | noun | -ry, -ery (in this meaning), -age, -ware | *kingdom*, *machinedom* (*machinery*), *bagdom* (*baggage*), *kitchendom* (*kitchenware*) |
+| Toward X | `-ward` | directional (allative) | noun | -wards | *homeward*, *skyward*, *doorward* |
+| With respect to X | `-wise` | limitative | noun | — | *costwise*, *timewise* |
+| Belief or system of X | `-ism` | — | noun, adj | -cracy | *realism*, *peopleism* (*democracy*) |
+| Study or science of X | `-ology` | — | noun | -ics, -logy, -nomy, -graphy | *earthology* (*geology*), *animalology* (*zoology*), *starology* (*astronomy*), *lifeology* (*biology*) |
+| From place X; language of place X | `-ese` | demonym, glottonym | proper noun | -ian, -ish, -an, -i, -ic, -er | *Italyese*, *Englandese* (*English*), *Franceese* → *Francese* (*French*), *Iraqese* (*Iraqi*) |
+| Number X in order (ordinal) | `-th` | ordinal | number | irregular ordinals | *oneth* (*first*), *twoth* (*second*), *threeth* (*third*), *fiveth*, *eighth*, *twentyth* |
+| X times as many | `-fold` | multiplicative | number | -ple, -ble | *twofold* (*double*), *threefold* (*triple*) |
+| Not damaged or affected by X | `-proof` | — | noun | -tight, -resistant | *waterproof*, *heatproof*, *shockproof*, *tamperproof*, *airproof* (*airtight*) |
+| Good enough or safe enough for X | `-worthy` | — | noun | — | *airworthy*, *roadworthy*, *trustworthy*, *newsworthy* |
+| Tool that measures X | `-meter` | instrument noun (*nomen instrumenti*) | noun | -ometer, gauge | *speedmeter* (*speedometer*), *heatmeter* (*thermometer*), *pressuremeter* (*pressure gauge*) |
+| Causes X (a feeling or state) in others | `-some` | — | noun | -ing (in this meaning), -y | *fearsome*, *painsome*, *worrysome* (*worrying*), *scaresome* (*scary*), *troublesome* |
 
 Notes:
 - `-ese` overwrites names of peoples and languages too (P5). The name of this language is *Consistentized Englandese*. More examples: *Chinaese* (*Chinese*), *Thailandese* (*Thai*), *Spainese* (*Spanish*, *Spaniard*), *Walesese* (*Welsh*), *Netherlandsese* (*Dutch*), *Japanese* (no change).
