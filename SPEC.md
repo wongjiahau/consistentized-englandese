@@ -78,6 +78,7 @@ Notes:
 | Person or thing that does X | `-or` | -er, -ar, -ist, -ian, -ant, -ent | *actor*, *teachor* (*teacher*), *begor* (*beggar*), *scienceor* (*scientist*), *assistor* (*assistant*), *makeor* (*maker*) |
 | Person or thing that receives X (the action is done or in progress) | `-ee` | — | *employee*, *payee*, *usee* |
 | Person or thing that is to be X-ed (gerundive) | `-and` | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *enaffixand* |
+| Person or thing that is about to X (active, prospective) | `-ure` | *would-be* X-or, X-or *to be* | *electure* (a person about to vote), *departure* (*departing*: *the departure passengers*), *launchure* (a rocket about to launch), *graduateure* |
 | Can be X-ed | `-able` | -ible, -uble | *seeable*, *readable*, *solveable* |
 | Process or act of X (noun) | `-ment` | -tion, -sion, -ation, -ance, -ence, -al, -age, -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
 | State or quality of being X | `-ness` | -ity, -th, -ance, -ence, -cy, -hood, -ship | *unpossibleness*, *trueness*, *longness*, *safeness* |
@@ -91,6 +92,8 @@ Notes:
 - `-ing` is only a verb form (§4.1). It is never a derived noun. Use `-ment` for the process noun: *the connectment of the wires*, not *the connecting of the wires*. A gerund keeps its object without *of*: *connecting the wires is easy*.
 - `-ment` starts with a consonant, so it never makes a vowel clash with a base that ends in *e*: *makement*, *replacement*.
 - *able* + *ize* + *ment* makes "the process of making X-able": *observeableizement* (*observe* + *able* + *ize* + *ment*; 3 derivational affixes, the limit in U2).
+- `-and` and `-ure` are a pair. `-and` is passive and means "must be X-ed" (*an addand* is a number that must be added). `-ure` is active and means "will soon X" (*an addure* is a person who will soon add). Neither one says that the action happens now. For that, use `-ing` (*the adding machine*).
+- Traditional words in *-ure* that name a process or result use `-ment`: *failment* (*failure*), *closement* (*closure*), *mixment* (*mixture*). *pressure*, *nature*, *culture* and *measure* are base words.
 
 ### 4.3 Affix order
 
@@ -230,6 +233,7 @@ When the base ends in the letter that the affix starts with, and keeping both wo
 |---|---|---|---|
 | Any suffix that starts with *e* (`-ed`, `-er`, `-est`, `-ee`, `-ery`, `-ese`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese* |
 | `-or` | no variant | Base ends in *e* | *make* → *makeor*, *operate* → *operateor* (the base never changes; *e* + *o* is not a doubled *e*) |
+| `-ure` | no variant | Base ends in *e* | *close* → *closeure*, *graduate* → *graduateure* |
 | Any affix | drop its first letter | The result would have three of the same letter | *full* + `-ly` → *fully*; *skill* + `-less` → *skilless* |
 | `-th` | `-h` | Base ends in *t* | *eight* → *eighth* |
 
@@ -256,6 +260,8 @@ Some regular CE forms have the same spelling as an existing English word with a 
 | *seed* | past tense of *see* | part of a plant |
 | *goodly* | in a good way | large in amount (archaic) |
 | *governor* | the one that governs (the government) | the head of a state or province |
+| *departure* | a person or thing that is about to depart | the act of leaving (CE: *department*) |
+| *department* | the act of departing | a part of an organization (CE: *partdom* or a dictionary base word, to be decided) |
 
 (Open question Q2.)
 
