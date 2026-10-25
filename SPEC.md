@@ -233,6 +233,7 @@ Some regular CE forms have the same spelling as an existing English word with a 
 |---|---|---|
 | *seed* | past tense of *see* | part of a plant |
 | *goodly* | in a good way | large in amount (archaic) |
+| *governor* | the one that governs (the government) | the head of a state or province |
 
 (Open question Q2.)
 
@@ -255,6 +256,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q3.** Do we need a variant that keeps the sound of the base without changing its spelling? Example: a hyphen or a written mark between base and affix (*stop-ed*, *panic-ed*).
 - **Q4.** Process nouns with `-ing` and gerunds have the same form. Do we need a separate affix for the *result* of an action (*a connection* as a thing, not an act)?
 - **Q5.** Should `-or` cover both persons (*teachor*) and tools (*computeor*), or should tools use a separate affix?
+- **Q8.** Where does a prefix go when its meaning covers a phrase (*finance exminister* or *exfinance minister*)? How are noun + noun compounds (*unconfidence vote*) formed?
 - **Q6.** Plural place names make awkward forms (*Netherlandsese*, *Philippinesese*). Do we need an `-ese` variant after *s*?
 
 ## Appendix A. Example translation
@@ -344,3 +346,36 @@ The CE text has 33% fewer words and 22% fewer characters.
 ### B.3 Where the savings come from
 
 Most of the savings come from relative clauses (*that cannot be …*, *that is to be …*). In CE, each of these becomes one affixed adjective or noun. *testand* replaces five words. *overheatablest* stacks two derivational affixes and one inflection in one word.
+
+## Appendix C. News example
+
+The country and the people in this text are not real.
+
+### C.1 Text
+
+**Standard English** (90 words)
+
+> Velmora's Prime Minister Ana Reyes narrowly survived a no-confidence vote on Tuesday, two weeks before the general election. The opposition, led by former finance minister Tomas Bell, accused the government of corruption and of underfunding public hospitals. Reyes's popularity is now at its lowest level since 2022. Reyes promised an anti-corruption law and said that the coalition would not raise taxes. Thousands of protesters gathered outside parliament. Analysts said that the result is unforeseeable. Most of the electorate is still undecided, and both candidates are less trusted than their parties.
+
+**Consistentized Englandese** (87 words)
+
+> Velmora's Prime Minister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electing. The opposeors, under finance exminister Tomas Bell, accused the governor of corrupting and of underfunding public hospitals. Reyes's popularness is now at its lowest since 2022. Reyes promised an anticorrupting law and said that the cogovernor will not increase taxes. Thousands of protestors met outside the parliament. Analyzeors said that the result is unpreseeable. Most of the voteordom is still undecided, and both electands are untrustabler than their partys.
+
+### C.2 Word breakdown
+
+| CE | Parts | Standard | Note |
+|---|---|---|---|
+| *electand* | elect + and | *candidate* | one who is to be elected |
+| *voteordom* | vote + or + dom | *electorate* | all voters as a group |
+| *cogovernor* | co + govern + or | *coalition* | those who govern together |
+| *opposeors* | oppose + or + s | *the opposition* | |
+| *unpreseeable* | un + pre + see + able | *unforeseeable* | 3 derivational affixes, the limit in U2 |
+| *untrustabler* | un + trust + able + er | *less trusted* | |
+| *finance exminister* | ex + minister | *former finance minister* | see Q8 |
+| *governor* | govern + or | *government* | collision, see §6 |
+| *partys*, *protestors* | party + s, protest + or + s | *parties*, *protesters* | |
+| *Prime Minister*, *parliament* | — | no change | legally defined names (P6) |
+
+### C.3 Comment
+
+The CE text is only 3% shorter. News text uses many nouns and names, and few relative clauses (*that cannot be …*), so agglutination saves less than in technical text (Appendix B). The benefit here is transparency: a reader can take apart each CE word to find its meaning.
