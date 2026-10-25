@@ -75,7 +75,8 @@ Notes:
 | Against X | `anti-` | counter-, contra- | *antiact*, *antisay* |
 | Again | `re-` | — | *redo* |
 | Person or thing that does X | `-er` | -or, -ar, -ist, -ian, -ant, -ent | *acter*, *beger* (*beggar*), *sciencer*, *assister* |
-| Person or thing that receives X | `-ee` | — | *employee*, *payee*, *usee* |
+| Person or thing that receives X (the action is done or in progress) | `-ee` | — | *employee*, *payee*, *usee* |
+| Person or thing that is to be X-ed (gerundive) | `-and` | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *enaffixand* |
 | Can be X-ed | `-able` | -ible, -uble | *seeable*, *readable*, *solveable* |
 | Process or act of X (noun) | `-ing` | -tion, -sion, -ment, -ance, -ence, -al, -age | *connecting*, *paying*, *arriving* |
 | State or quality of being X | `-ness` | -ity, -th, -ance, -ence, -cy, -hood, -ship | *unpossibleness*, *trueness*, *longness*, *safeness* |
