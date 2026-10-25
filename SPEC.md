@@ -165,6 +165,22 @@ These affixes have no CE form. Use a separate word.
 
 Reason for *-ly* on time nouns: *-ly* already means "in an X way" (§4.2). *daily* would break P2.
 
+### 4.6 When to use affixes
+
+CE is agglutinative: each affix has one meaning, the base never changes, and affixes stack in a fixed order (§4.3). Use this to make text shorter, but keep each word easy to take apart.
+
+- **U1. Prefer the affixed form.** If an affixed word replaces a phrase of two or more words, use the affixed word.
+- **U2. Limit the stack.** Use no more than three derivational affixes in one word. Inflectional affixes (§4.1) are not counted.
+- **U3. Use a phrase when U2 is broken.** If the affixed form needs more than three derivational affixes, write a phrase.
+
+| Phrase | Affixed form | Derivational affixes | Use |
+|---|---|---|---|
+| *cannot be seen* | *unseeable* | 2 | affixed form (U1) |
+| *the word that is to be given an affix* | *enaffixand* | 2 | affixed form (U1) |
+| *cleans itself* | *selfcleans* | 1 (*-s* not counted) | affixed form (U1) |
+| *the state of being unable to be connected again* | *unreconnectableness* | 4 | phrase (U3) |
+| *cannot be connected again* | *unreconnectable* | 3 | affixed form (U1) |
+
 ## 5. Allowed allomorphs
 
 **Rule: the base word never changes.** An affix never adds, removes or changes a letter of the base. All variation is in the affix.
