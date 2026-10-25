@@ -58,13 +58,13 @@ Consistentized Englandese (CE) is a controlled form of English. It has two layer
 | Past tense | `-ed` | past tense | strong/irregular verbs | *goed*, *runned*, *taked*, *thinked* |
 | Past participle | `-ed` | past (perfective/passive) participle | -en, vowel change | *taked*, *writed*, *goed* |
 | Progressive, gerund, present participle | `-ing` | progressive, gerund, present participle | — | *runing*, *connecting the wires is easy* |
-| Comparative | `-er` | comparative | *more* + adjective, irregular forms | *taller*, *gooder* (*better*), *bader* (*worse*), *beautifuler* (*more beautiful*), *larger* |
-| Superlative | `-est` | superlative | *most* + adjective, irregular forms | *tallest*, *goodest* (*best*), *badest* (*worst*), *beautifulest* (*most beautiful*), *largest* |
+| Comparative | `-er` | comparative | *more* + adjective or adverb, irregular forms | *taller*, *gooder* (*better*), *bader* (*worse*), *beautifuler* (*more beautiful*), *larger*, *carefullyer* (*more carefully*), *goodlyer* (*better*, adverb) |
+| Superlative | `-est` | superlative | *most* + adjective or adverb, irregular forms | *tallest*, *goodest* (*best*), *badest* (*worst*), *beautifulest* (*most beautiful*), *largest* |
 
 Notes:
 - Plural `-s` and third person `-s` have the same form. This is a known exception to P2. It is kept because the part of speech is always clear from context and from P1.
 - `-er` is only the comparative. The agent noun uses `-or` (§4.2). By P1 a base is an adjective or a verb, never both, so the two suffixes never attach to the same base.
-- Every adjective takes `-er` / `-est`, also long adjectives (*beautifuler*). Do not use *more* / *most* + adjective.
+- Every adjective and every adverb takes `-er` / `-est`, also long ones (*beautifuler*, *carefullyest*). Do not use *more* / *most* for degree. Use *more* / *most* only for amount (*more water*, *most bolts*).
 - *be* is the only irregular verb. Its forms are kept: *am, is, are, was, were, been*. (Open question Q1.)
 
 ### 4.2 Derivation
