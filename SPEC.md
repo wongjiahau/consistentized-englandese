@@ -92,6 +92,7 @@ Notes:
 - `-ing` is only a verb form (§4.1). It is never a derived noun. Use `-ment` for the noun: *the connectment of the wires*, not *the connecting of the wires*. A gerund keeps its object without *of*: *connecting the wires is easy*.
 - `-ment` starts with a consonant, so it never makes a vowel clash with a base that ends in *e*: *makement*, *replacement*.
 - *able* + *ize* + *ment* makes "the process of making X-able": *observeableizement* (*observe* + *able* + *ize* + *ment*; 3 derivational affixes, the limit in U2).
+- `-ize` on a verb is causative: "make (the object) do X". The object is the one that does X: *deboardize the crew* (make the crew deboard), *fallize the tree* (*fell*), *riseize the flag* (*raise*), *lieize the cable on the floor* (*lay*). Use it only on verbs that have no object. If the verb has its own object, write a phrase: *tell the operator to examine the valve*. Do not put `-ize` on a word that already ends in `-ize`.
 - `-and` and `-ure` are a pair. `-and` is passive and means "must be X-ed" (*an addand* is a number that must be added). `-ure` is active and means "will soon X" (*an addure* is a person who will soon add). Neither one says that the action happens now. For that, use `-ing` (*the adding machine*).
 - Traditional words in *-ure* that name a process or result use `-ment`: *failment* (*failure*), *closement* (*closure*), *mixment* (*mixture*). *pressure*, *nature*, *culture* and *measure* are base words.
 
