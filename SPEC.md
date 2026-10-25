@@ -58,12 +58,13 @@ Consistentized Englandese (CE) is a controlled form of English. It has two layer
 | Past tense | `-ed` | strong/irregular verbs | *goed*, *runned*, *taked*, *thinked* |
 | Past participle | `-ed` | -en, vowel change | *taked*, *writed*, *goed* |
 | Progressive / gerund | `-ing` | — | *runing* |
-| Comparative | *more* + adjective | -er, irregular forms | *more good*, *more big* |
-| Superlative | *most* + adjective | -est, irregular forms | *most good*, *most big* |
+| Comparative | `-er` | *more* + adjective, irregular forms | *taller*, *gooder* (*better*), *bader* (*worse*), *beautifuler* (*more beautiful*), *larger* |
+| Superlative | `-est` | *most* + adjective, irregular forms | *tallest*, *goodest* (*best*), *badest* (*worst*), *beautifulest* (*most beautiful*), *largest* |
 
 Notes:
 - Plural `-s` and third person `-s` have the same form. This is a known exception to P2. It is kept because the part of speech is always clear from context and from P1.
-- Comparison uses *more* / *most*, not `-er` / `-est`. This keeps `-er` for the agent noun only (§4.2).
+- `-er` is only the comparative. The agent noun uses `-or` (§4.2). By P1 a base is an adjective or a verb, never both, so the two suffixes never attach to the same base.
+- Every adjective takes `-er` / `-est`, also long adjectives (*beautifuler*). Do not use *more* / *most* + adjective.
 - *be* is the only irregular verb. Its forms are kept: *am, is, are, was, were, been*. (Open question Q1.)
 
 ### 4.2 Derivation
@@ -74,7 +75,7 @@ Notes:
 | Reverse the action X (verb) | `de-` | un-, dis- (on verbs) | *detie*, *delock*, *deconnect* |
 | Against X | `anti-` | counter-, contra- | *antiact*, *antisay* |
 | Again | `re-` | — | *redo* |
-| Person or thing that does X | `-er` | -or, -ar, -ist, -ian, -ant, -ent | *acter*, *beger* (*beggar*), *sciencer*, *assister* |
+| Person or thing that does X | `-or` | -er, -ar, -ist, -ian, -ant, -ent | *actor*, *teachor* (*teacher*), *begor* (*beggar*), *scienceor* (*scientist*), *assistor* (*assistant*), *makeor* (*maker*) |
 | Person or thing that receives X (the action is done or in progress) | `-ee` | — | *employee*, *payee*, *usee* |
 | Person or thing that is to be X-ed (gerundive) | `-and` | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *enaffixand* |
 | Can be X-ed | `-able` | -ible, -uble | *seeable*, *readable*, *solveable* |
@@ -113,10 +114,10 @@ In standard English, many affixes work only with some words. For example, *-hood
 | After (time) | `post-` | noun, verb | after- | *postshock* (*aftershock*), *postwash* |
 | Between | `inter-` | noun, verb | — | *intercity*, *interconnect* |
 | Across | `trans-` | noun | — | *transsea*, *transcountry* |
-| Together, jointly | `co-` | noun, verb | con-, com-, syn-, sym- (in new forms) | *cowork*, *cowriter* |
-| Former | `ex-` | noun | *former* | *exteacher*, *exhome* |
+| Together, jointly | `co-` | noun, verb | con-, com-, syn-, sym- (in new forms) | *cowork*, *cowriteor* |
+| Former | `ex-` | noun | *former* | *exteachor*, *exhome* |
 | Done to itself (the doer is also the receiver) | `self-` | verb, noun | auto- (in this meaning) | *selfclean*, *selfteach*, *selfdefend*, *selfbiography* (*autobiography*) |
-| Done without outside control, automatic | `auto-` | verb, noun | — | *autofocus*, *autolock*, *autopilot*, *automover* (*automobile*) |
+| Done without outside control, automatic | `auto-` | verb, noun | — | *autofocus*, *autolock*, *autopilot*, *automoveor* (*automobile*) |
 | Do more than, do better than | `out-` | verb | — | *outrun*, *outsee*, *outbuild* |
 | Put in, give | `en-` | noun | em-, be- | *encage*, *enpower* (*empower*), *enfriend* (*befriend*) |
 | Half, partly | `semi-` | noun, adj | hemi-, demi-, half- | *semisphere* (*hemisphere*), *semicircle* |
@@ -160,7 +161,7 @@ These affixes have no CE form. Use a separate word.
 
 | Affix | Meaning | CE form | Examples |
 |---|---|---|---|
-| -ess, -ette, -trix, -ine | female | *female* + noun | *actress* → *female acter*, *heroine* → *female hero* |
+| -ess, -ette, -trix, -ine | female | *female* + noun | *actress* → *female actor*, *heroine* → *female hero* |
 | -ly (on time nouns) | every X | *each* + noun | *daily* → *each day*, *weekly* → *each week* |
 
 Reason for *-ly* on time nouns: *-ly* already means "in an X way" (§4.2). *daily* would break P2.
@@ -205,7 +206,8 @@ When the base ends in the letter that the affix starts with, and keeping both wo
 
 | Affix | Variant | Condition | Examples |
 |---|---|---|---|
-| Any suffix that starts with *e* (`-ed`, `-er`, `-ee`, `-ery`, `-ese`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *make* → *maker*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese* |
+| Any suffix that starts with *e* (`-ed`, `-er`, `-est`, `-ee`, `-ery`, `-ese`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese* |
+| `-or` | no variant | Base ends in *e* | *make* → *makeor*, *operate* → *operateor* (the base never changes; *e* + *o* is not a doubled *e*) |
 | Any affix | drop its first letter | The result would have three of the same letter | *full* + `-ly` → *fully*; *skill* + `-less` → *skilless* |
 | `-th` | `-h` | Base ends in *t* | *eight* → *eighth* |
 
@@ -252,7 +254,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q2.** How do we handle collisions such as *seed* (see §6)? Options: accept the collision, add a hyphen (*see-ed*), or change the allomorph rule.
 - **Q3.** Do we need a variant that keeps the sound of the base without changing its spelling? Example: a hyphen or a written mark between base and affix (*stop-ed*, *panic-ed*).
 - **Q4.** Process nouns with `-ing` and gerunds have the same form. Do we need a separate affix for the *result* of an action (*a connection* as a thing, not an act)?
-- **Q5.** Should `-er` cover both persons (*teacher*) and tools (*computer*), or should tools use a separate affix?
+- **Q5.** Should `-or` cover both persons (*teachor*) and tools (*computeor*), or should tools use a separate affix?
 - **Q6.** Plural place names make awkward forms (*Netherlandsese*, *Philippinesese*). Do we need an `-ese` variant after *s*?
 
 ## Appendix A. Example translation
@@ -265,7 +267,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 
 **Consistentized Englandese**
 
-> Deconnect the machine completely from the power supply before you start. It is unpossible to examine the electric parts safely when the machine operates. The techniquer who did the last inspecting finded that some bolts were looseized and two seals were breaked. These problems are not easyly seeable. Examine each joint carefully. If a seal is unuseable, replace it immediately. Only a trained operater can do the replacing.
+> Deconnect the machine completely from the power supply before you start. It is unpossible to examine the electric parts safely when the machine operates. The techniqueor who did the last inspecting finded that some bolts were looseized and two seals were breaked. These problems are not easyly seeable. Examine each joint carefully. If a seal is unuseable, replace it immediately. Only a trained operateor can do the replacing.
 
 ### A.2 Changes
 
@@ -273,7 +275,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 |---|---|---|
 | *disconnected* | *deconnect* | `de-` is the only "reverse the action" prefix (§4.2) |
 | *impossible*, *unusable* | *unpossible*, *unuseable* | `un-` is the only "not" prefix (§4.2) |
-| *technician*, *operator* | *techniquer*, *operater* | one agent suffix, `-er`; `-r` after *e* (§4.2, §5.2) |
+| *technician*, *operator* | *techniqueor*, *operateor* | one agent suffix, `-or`; base unchanged (§4.2, §5.2) |
 | *inspection*, *replacement* | *inspecting*, *replacing* | one process-noun suffix, `-ing` (§4.2) |
 | *found*, *broken* | *finded*, *breaked* | every past form uses `-ed` (§4.1) |
 | *loosened* | *looseized* | one "make X" suffix, `-ize` (§4.2) |
@@ -291,7 +293,7 @@ A learner who knows one base word and the affix rules can make every related for
 |---|---|---|
 | past | *saw* | *seed* (see Q2) |
 | past participle | *seen* | *seed* (see Q2) |
-| one who sees | *viewer* | *seer* |
+| one who sees | *viewer* | *seeor* |
 | can be seen | *visible* | *seeable* |
 | cannot be seen | *invisible* | *unseeable* |
 | state of being seeable | *visibility* | *seeableness* |
@@ -299,4 +301,4 @@ A learner who knows one base word and the affix rules can make every related for
 
 ### A.4 Cost
 
-To an ordinary English reader, CE forms such as *finded*, *easyly* and *techniquer* look like mistakes, although they are easy to understand. CE accepts this cost in exchange for predictable word forms.
+To an ordinary English reader, CE forms such as *finded*, *easyly* and *techniqueor* look like mistakes, although they are easy to understand. CE accepts this cost in exchange for predictable word forms.
