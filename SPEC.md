@@ -56,7 +56,7 @@ Notes:
 
 #### 3.1.1 Verb slots
 
-Eight suffixes replace auxiliary verbs. Each slot is used once at most. `-end`, `-can` and `-may` share slot 2, so a verb takes only one of them.
+Nine suffixes replace auxiliary verbs. Each slot is used once at most. `-end`, `-can` and `-may` share slot 2, so a verb takes only one of them.
 
 | Slot | Affix | Term | Replaces | Anchor word | Example |
 |---|---|---|---|---|---|
@@ -68,6 +68,7 @@ Eight suffixes replace auxiliary verbs. Each slot is used once at most. `-end`, 
 | 4 | `-'ll` | future tense | *will* | *he'll* | *choose'll* (will choose) |
 | 5 | `-ed` | past or hypothetical; stacks on slots 1–4 | *had*, *would*, *could*, *might* | *walked* | *choose'ved* (had chosen), *choose'lled* (would choose), *choosecaned* (could choose), *choosemayed* (might choose) |
 | 6 | `-not` | negation | *do not*, *not* | *cannot* | *choosenot* (does not choose) |
+| 7 | `-said` | reportive evidential | *reportedly*, *allegedly*, *is said to*, *it is said that* | *aforesaid* | *choosesaid* (reportedly chooses) |
 
 | Form | Parts | Meaning |
 |---|---|---|
@@ -84,9 +85,12 @@ Eight suffixes replace auxiliary verbs. Each slot is used once at most. `-end`, 
 | *choosecan'ved* | choose + can + 've + ed | could have chosen |
 | *choosenmay* | choose + en + may | may be chosen |
 | *choosemay'ved* | choose + may + 've + ed | might have chosen |
+| *choosedsaid* | choose + ed + said | reportedly chose |
+| *choosednotsaid* | choose + ed + not + said | reportedly did not choose |
+| *choosenedsaid* | choose + en + ed + said | was allegedly chosen |
 
 Notes:
-- Stack in slot order: voice, then mood, aspect, tense, polarity.
+- Stack in slot order: voice, then mood, aspect, tense, polarity, evidence. The order is also the scope: each suffix covers everything before it. *choosednotsaid* is "it is said that he did not choose".
 - `-en` and `-end` drop their *e* after a base that ends in *e*: *choosen*, *choosend* (§4.2).
 - `-'ve` and `-'ll` keep the apostrophe, so that letters do not run together: *call'll*, not *callll*. They are the only affixes with an apostrophe. `-ed` after `-'ve` drops its *e* (§4.2): *choose'ved*.
 - `-not` is used, not `-n't`, because *choosen't* (does not choose) and *choosend* (shall choose) are almost the same in speech.
@@ -104,6 +108,8 @@ Notes:
 - `-can` can take `-'ll` and `-'ve`, which English *can* cannot: *choosecan'll* (will be able to choose). English uses *be able to* there.
 - *choosecan'ved* is ambiguous: "could have chosen" (counterfactual) or "had been able to choose" (past fact). Context decides.
 - `-able` and `-can` are different. `-able` makes an adjective: *seeable*. `-can` makes a verb: *these problems seencannot easyly*.
+- `-said` means that the speaker heard the claim from others and does not vouch for it. It does not name the source. When the text names who said it, use *say*: *Reyes sayed that …*. CE has no word *said* (the past of *say* is *sayed*), so the suffix does not collide with a word.
+- `-said` after a base that ends in *s* loses its *s*, to prevent a triple letter (§4.2): *pass* → *passaid*.
 - `-end` and `-and` are different. `-end` makes a verb: *the operateor testend the valve* (shall test). `-and` makes a noun: *the testand* (the thing that is to be tested).
 
 ### 3.2 Derivation
@@ -498,6 +504,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q10.** Is a stack of four slot suffixes acceptable? Example: *passen've'lled* (would have been passed).
 - **Q11.** (Closed.) *be* + `-end` gave *bend* by §4.2. Now a suffix keeps its *e* after *be* (§4.2): *No Person beend a Representor* (G.4).
 - **Q12.** When two verbs share one set of auxiliaries, does each verb take the slots? Example: *shall not have attained … and been …* (G.4). Until this is decided, the text keeps the auxiliaries.
+- **Q13.** Does CE need an inferential evidential (*apparently*, *it seems*), next to the reportive `-said`?
 
 ## Appendix A. Example translation
 
@@ -633,6 +640,8 @@ The country and the people in this text are not real.
 ### C.3 Comment
 
 The CE text has only 7% fewer words, and 3 of the 6 words come from one verb (*would not raise* → *increase'llednot*). News text uses many nouns and names, and few relative clauses (*that cannot be …*), so agglutination saves less than in technical text (Appendix B). The benefit here is transparency: a reader can take apart each CE word to find its meaning.
+
+The text names each speaker (*Reyes sayed*, *Analyzeors sayed*), so it does not use the evidential `-said` (§3.1.1). A news text with an unnamed source would: *The minister takedsaid bribes* (the minister reportedly took bribes).
 
 ## Appendix D. Feature tour
 
