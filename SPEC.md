@@ -14,7 +14,7 @@ CE changes word forms only. It does not limit sentence length, voice, tense or s
 - **P2. One meaning, one affix.** Each affix meaning has one affix. Different meanings use different affixes.
 - **P3. Conditioned allomorphy only.** An affix may have more than one written form (allomorph). An allomorph exists only to prevent awkward spelling or pronunciation: a forced consonant cluster, a vowel clash, a triple letter, or a change in the sound of the base. A fixed rule always chooses the form; the writer never chooses freely. All allowed allomorphs are listed in §4.
 - **P4. Plain base.** Derivations attach to the plain English base word. They do not attach to a Latin or Greek root. Example: *see* + *-able* → *seeable*, not *visible*. The test is that a reader can guess the meaning from the parts. A loan word that a reader cannot guess is rebuilt in this order:
-  1. **Part swap.** Swap each Latin or Greek part for the plain English word with the same meaning: *legislative* (*legis*, "of law") → *lawizive*; *domestic* (*domus*, "home") → *homeal*.
+  1. **Part swap.** Swap each Latin or Greek part for the plain English word with the same meaning: *legislative* (*legis*, "of law") → *lawizive*; *domestic* (*domus*, "home") → *homeal*. Stop at the first level that has a plain English word with the same meaning: *inhabit* (*habitare*, "dwell") → *dwell*, not a form of *have* (*habere*).
   2. **Synonym swap.** If no part swap works, derive from a plain word with the same meaning: *posterity* → *descendorage*; *liberty* → *freeness*.
   3. **Keep.** Otherwise, the loan stays as one base word: *Congress*, *Senate*, *torture*.
 
@@ -402,6 +402,8 @@ Some loan words start or end with letters that look like a CE affix, but the let
 | *detail* | `de-` + *tail* | reverse the action | small part | one base word |
 | *defend* | `de-` + *fend* | reverse the action | guard | one base word (*defendment*) |
 | *descend* | `de-` + *scend* | reverse the action | go down | one base word (*descendorage*) |
+| *inhabit* | `in-` + *habit* | — (old "not"; *habit* is "custom") | dwell | *dwell* (*dwellor*: *inhabitant*) |
+| *legislature* | *legislate* + `-ure` | about to X | the body that makes law | *lawizorage* |
 
 ## 6. Dictionary
 
@@ -941,3 +943,76 @@ These translations use only the rules above. The capital letters of the original
 
 - *Representatives* uses `-ive` as a noun for a person. In CE, `-ive` is only an adjective, so the person uses `-or`.
 - *legislate* is a Latin compound (*legis* "of law" + *latus* "carried"), so P4 rebuilds it from *law*. Before the `-iz` variant (§4.2), the form was *lawizeive*.
+
+### G.3 Article I, Section 2, Clause 1
+
+#### G.3.1 Text
+
+**Standard English** (42 words)
+
+> The House of Representatives shall be composed of Members chosen every second Year by the People of the several States, and the Electors in each State shall have the Qualifications requisite for Electors of the most numerous Branch of the State Legislature.
+
+**Consistentized Englandese** (41 words)
+
+> The House of Representors shall be composed of Members choosed every twoth Year by the People of the several States, and the Electors in each State shall have the Qualifyions needed for Electors of the numberfulest Branch of the State Lawizorage.
+
+#### G.3.2 Word breakdown
+
+| CE | Parts | Standard | Note |
+|---|---|---|---|
+| *choosed* | choose + ed | *chosen* | regular past participle (§3.1) |
+| *twoth* | two + th | *second* | ordinal (§3.4.2) |
+| *Qualifyions* | qualify + ion + s | *Qualifications* | the conditions that qualify a person: result noun (§3.2) |
+| *needed* | need + ed | *requisite* | synonym swap (P4); *requisite* is not guessable and starts with a false `re-` (§5.1) |
+| *numberfulest* | number + ful + est | *most numerous* | `-ful` replaces `-ous` (§3.2); no *most* for degree (§3.1) |
+| *Lawizorage* | law + iz + or + age | *Legislature* | all who make law, as a group (§6); part swap as in *lawizive* (G.2); `-ize` is `-iz` before a vowel (§4.2) |
+| *Electors* | elect + or + s | no change | already CE: the ones who elect |
+| *composed* | — | no change | common and easy to guess (P4) |
+| *Members*, *Branch*, *Year* | — | no change | base words |
+
+#### G.3.3 Size
+
+| Version | Words | Characters |
+|---|---|---|
+| Standard English | 42 | 257 |
+| CE | 41 | 246 |
+
+#### G.3.4 Gaps
+
+- *Legislature* ends in letters that look like CE `-ure` (about to X), so a CE reader would take it as "a person who is about to legislate". It is a false affix (§5.1).
+- *Qualifyions* is not a clear result. A qualification here is a condition that a person must meet before the act, not a thing that qualifying makes. CE has no affix for "a condition for X".
+- *Lawizorage* and *Legislature* have the same length, but the CE word shows its parts.
+
+### G.4 Article I, Section 2, Clause 2
+
+#### G.4.1 Text
+
+**Standard English** (46 words)
+
+> No Person shall be a Representative who shall not have attained to the Age of twenty five Years, and been seven Years a Citizen of the United States, and who shall not, when elected, be an Inhabitant of that State in which he shall be chosen.
+
+**Consistentized Englandese** (46 words)
+
+> No Person shall be a Representor who shall not have attained to the Age of twenty five Years, and been seven Years a Citizen of the United States, and who shall not, when elected, be a Dwellor of that State in which he shall be choosed.
+
+#### G.4.2 Word breakdown
+
+| CE | Parts | Standard | Note |
+|---|---|---|---|
+| *Representor* | represent + or | *Representative* | as in G.2 |
+| *Dwellor* | dwell + or | *Inhabitant* | *habitare* means "dwell", so part swap (P4); *inhabit* is a false affix (§5.1); `-or` replaces `-ant` (§3.2) |
+| *choosed* | choose + ed | *chosen* | regular past participle (§3.1) |
+| *attained*, *elected* | attain + ed, elect + ed | no change | already CE; *attain* is common and easy to guess (P4) |
+| *Citizen*, *Person*, *Age* | — | no change | base words |
+
+#### G.4.3 Size
+
+| Version | Words | Characters |
+|---|---|---|
+| Standard English | 46 | 242 |
+| CE | 46 | 236 |
+
+#### G.4.4 Gaps
+
+- This clause is short on derived words, so CE changes only three of them.
+- The part swap stops at *habitare* ("dwell"), not at its root *habere* ("have") (P4).
