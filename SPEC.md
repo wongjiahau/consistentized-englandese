@@ -60,9 +60,9 @@ Notes:
 | Person or thing that is to be X-ed (gerundive) | `-and` | gerundive (future passive participle) | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *beaffixand* |
 | Person or thing that is about to X (active, prospective) | `-ure` | future active participle (prospective) | *would-be* X-or, X-or *to be* | *electure* (a person about to vote), *departure* (*departing*: *the departure passengers*), *launchure* (a rocket about to launch), *graduateure* |
 | Can be X-ed | `-able` | passive potential adjective | -ible, -uble | *seeable*, *readable*, *solveable*, *flyable* (can be flown) |
-| The act of X | `-ment` | action noun (*nomen actionis*) | -tion, -sion, -ation (as an act), -ance, -ence, -al, -age, -ery (practice), -ism (practice), -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
+| The act of X | `-ment` | action noun (*nomen actionis*) | -tion, -sion, -ation (as an act), -ance, -ence, -al, -age, -ice (act), -ery (practice), -ism (practice), -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
 | The thing that X makes | `-ion` | result noun | -tion, -sion, -ation, -ing, -ure (in this meaning) | *connection* (a connection that has been made), *collection*, *confession*, *paintion* (*painting*), *buildion* (*building*), *describeion* (*description*), *mixion* (*mixture*) |
-| State or quality of being X | `-ness` | quality noun (*nomen qualitatis*) | -ity, -th, -ance, -ence, -cy, -hood, -ship, -tude, -ery (state), -ism (quality or condition) | *unpossibleness*, *trueness*, *longness*, *safeness* |
+| State or quality of being X | `-ness` | quality noun (*nomen qualitatis*) | -ity, -th, -ance, -ence, -cy, -hood, -ship, -tude, -ice (quality), -ery (state), -ism (quality or condition) | *unpossibleness*, *trueness*, *longness*, *safeness* |
 | Relating to X | `-al` | relational adjective | -ic, -ical, -ar, -ary (in this meaning); demonym adjectives (-ese, -ish, -ian, -an, -i) | *scienceal*, *historyal*, *personal*, *Englandal* (*English*: *Englandal food*), *Chinal* (*Chinese*) |
 | Full of / having X | `-ful` | possessive (proprietive) adjective | -ous, -y (on nouns) | *dangerful*, *fameful*, *rainful* |
 | Without X | `-less` | privative | — | *powerless* |
@@ -833,3 +833,49 @@ These translations use only the rules above. They are a baseline: when a new aff
 
 - Only one word changes. *treatment* and *punishment* already use the act suffix `-ment`.
 - *degrading* could also take `-ive` (it can degrade) or `-some` (it causes shame). `-ing` is the closest: the treatment degrades the person each time it happens.
+
+## Appendix G. Baseline: Constitution of the United States
+
+These translations use only the rules above. The capital letters of the original are kept.
+
+### G.1 Preamble
+
+#### G.1.1 Text
+
+**Standard English** (52 words)
+
+> We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.
+
+**Consistentized Englandese** (51 words)
+
+> We the People of the United States, in Order to form a perfecter Uniteion, establish Justness, insure homeal Tranquilness, provide for the common defendment, promote the general Welfare, and secure the Blessions of Freeness to ourselves and our Descendorage, do ordain and establish this Constituteion for the United States of America.
+
+#### G.1.2 Word breakdown
+
+| CE | Parts | Standard | Note |
+|---|---|---|---|
+| *perfecter* | perfect + er | *more perfect* | no *more* for degree (§3.1) |
+| *Uniteion* | unite + ion | *Union* | the thing that uniting makes, so `-ion` (§3.2); plain base (P4) |
+| *Justness* | just + ness | *Justice* | `-ness` replaces `-ice` |
+| *homeal* | home + al | *domestic* | plain base (P4); `-al` replaces `-ic` (§3.2) |
+| *Tranquilness* | tranquil + ness | *Tranquility* | `-ness` replaces `-ity` (§3.2) |
+| *defendment* | defend + ment | *defence* | the act (§3.2) |
+| *Blessions* | bless + ion + s | *Blessings* | `-ing` is never a noun; the things that blessing gives are a result, so `-ion` (§3.2) |
+| *Freeness* | free + ness | *Liberty* | as in UDHR Article 3 (F.3) |
+| *Descendorage* | descend + or + age | *Posterity* | all who descend, as a group (§3.2, §3.4.2); 2 derivational affixes |
+| *Constituteion* | constitute + ion | *Constitution* | the document that constituting makes, as *Declareion* (F.2) |
+| *United States*, *America* | — | no change | place names |
+| *Welfare*, *People* | — | no change | base words |
+
+#### G.1.3 Size
+
+| Version | Words | Characters |
+|---|---|---|
+| Standard English | 52 | 327 |
+| CE | 51 | 335 |
+
+#### G.1.4 Gaps
+
+- (Closed.) `-ice` was not in any Replaces column. It now goes to `-ness` for a quality (*justness*, *cowardness*) and to `-ment` for an act (*servement*). *Justness* keeps only the quality of *justice*, not the system of fair law.
+- *Uniteion* and *Constituteion* show the cost of `-ion` after *e* (§3.2). Both are among the most familiar words of the text.
+- *Descendorage* is clear but long. Standard English has many collective words for people (*posterity*, *ancestry*, *humanity*) that CE builds with `-or` + `-age`.
