@@ -67,12 +67,13 @@ Notes:
 | Full of / having X | `-ful` | possessive (proprietive) adjective | -ous, -y (on nouns) | *dangerful*, *fameful*, *rainful* |
 | Without X | `-less` | privative | — | *powerless* |
 | In an X way (adverb) | `-ly` | manner adverb | irregular adverbs | *goodly* (*well*), *fastly* (*fast*) |
-| Make X / become X (verb) | `-ize` | factitive, inchoative; causative on verbs | -ify, -en, -ate | *widize*, *simpleize*, *activeize* |
+| Bring into the state X, or come into it (verb) | `-ize` | factitive, inchoative; causative on verbs | -ify, -en, -ate | *widize*, *simpleize*, *activeize* |
 
 Notes:
 - `-ing` is only a verb form (§3.1). It is never a derived noun. Use `-ment` for the noun: *the connectment of the wires*, not *the connecting of the wires*. A gerund keeps its object without *of*: *connecting the wires is easy*.
 - `-ment` starts with a consonant, so it never makes a vowel clash with a base that ends in *e*: *makement*, *replacement*.
 - *able* + *ize* + *ment* makes "the process of making X-able": *observeableizement* (*observe* + *able* + *ize* + *ment*; 3 derivational affixes, the limit in U2).
+- `-ize` has one meaning: a change into the state X. With an object, it means "make" (*widize the road*). With no object, it means "become" (*the road widizes*). This is like *open* in *open the door* and *the door opens*.
 - `-ize` on a verb is causative: "make (the object) do X". The object is the one that does X: *deboardize the crew* (make the crew deboard), *fallize the tree* (*fell*), *riseize the flag* (*raise*), *lieize the cable on the floor* (*lay*). Use it only on verbs that have no object. If the verb has its own object, write a phrase: *tell the operator to examine the valve*. Do not put `-ize` on a word that already ends in `-ize`.
 - A noun that ends in *-ics* uses the form without *-s* as the base for a suffix, like a plural place name (§3.4.2): *politics* → *political*, *economics* → *economical*. The noun alone keeps its *-s*. (A field of study uses `-ology`, §3.4.2.)
 - `-ment` and `-ion` are different. *the connectment took one hour* (the act). *the connection is loose* (the thing that the act maked).
@@ -118,13 +119,13 @@ In standard English, many affixes work only with some words. For example, *-hood
 | On purpose, in bad faith | `mal-` | — | verb | mis- (in this meaning), *ab-* | *maltreat*, *malread* (read in a twisted way on purpose), *malbehave* (*misbehave*), *malgovern* (govern corruptly), *maluse* (*abuse*) |
 | Too much | `over-` | excessive | verb, adj | hyper-, ultra-, super- (in this meaning) | *overheat*, *overtight*, *overactive* (*hyperactive*) |
 | Too little | `under-` | deficient | verb, adj | hypo- | *undercook*, *underfill* |
-| Below (place or rank) | `sub-` | subessive | noun | under- (in this meaning), infra- | *subground* (*underground*), *subline* (*underline*), *subgroup* |
-| Above (place or rank) | `super-` | superessive | noun | over- (in this meaning), supra- | *superhead* (*overhead*), *superpass* (*overpass*) |
+| Below | `sub-` | subessive | noun | under- (in this meaning), infra- | *subground* (*underground*), *subline* (*underline*), *subgroup* |
+| Above | `super-` | superessive | noun | over- (in this meaning), supra- | *superhead* (*overhead*), *superpass* (*overpass*) |
 | Before (time) | `pre-` | anterior | noun, verb | fore-, ante- | *prewarn* (*forewarn*), *preroom* (*anteroom*), *prewash* |
 | After (time) | `post-` | posterior | noun, verb | after- | *postshock* (*aftershock*), *postwash* |
 | Between; each other (reciprocal) | `inter-` | interessive; reciprocal | noun, verb | *each other*, *one another* | *intercity*, *interconnect* (connect to each other), *interhelp* (help each other) |
 | Inside one X | `intra-` | inessive | noun | endo-, *within* | *intracompany*, *intranet*, *intravein* (*intravenous*) |
-| Done against X or in response to X | `counter-` | — | noun, verb | contra- | *counterattack*, *countermeasure*, *counterweight*, *counterspeak* (*contradict*) |
+| Done in reply to X, to stop or balance it | `counter-` | — | noun, verb | contra- | *counterattack*, *countermeasure*, *counterweight*, *counterspeak* (*contradict*) |
 | Across (noun); through (verb) | `trans-` | perlative | noun, verb | dia-, per-, verb + *through* | *transsea*, *transcountry*; *transchew* (*chew through*), *transdrill*, *transpierce* |
 | Together, jointly | `co-` | comitative | noun, verb | con-, com-, syn-, sym- (in new forms) | *cowork*, *cowriteor* |
 | Former | `ex-` | — | noun | *former* | *exteachor*, *exhome* |
@@ -147,6 +148,7 @@ Notes:
   - More pairs: *misquote* / *malquote*, *misrepresent* / *malrepresent*, *misinform* / *malinform* (*disinform*).
   - *That's a malquoteion!* names the twisted quote (the result, `-ion`). *That's malquotement!* names the act (`-ment`).
 - *under-* and *over-* now have one meaning each (amount). Place and rank use *sub-* and *super-*.
+- *sub-* and *super-* have one meaning each: below and above. A rank is a place on a scale, so *subgroup* and *superpass* use the same meaning.
 - *self-* and *auto-* are different. A *selfclean* oven cleans its own inside. An *autoclean* print head starts its cleaning cycle with no operator.
 - *inter-* and *intra-* are different. *intercompany* is between companies. *intracompany* is inside one company.
 - *inter-* on a verb makes it reciprocal: *the parts interconnect* means "the parts connect to each other". The verb has no object.
@@ -154,7 +156,7 @@ Notes:
 - *a-* makes an adverb or an adjective that comes after a verb: *lieize the cables afloor*, *the crew is aboard*. Do not put it before a noun: write *the cables afloor*, not *the afloor cables*. Before a vowel it is *an-* (§4.1).
 - *a-* and *super-* are different. *awall* is on the wall and touches it. *superwall* is above the wall.
 - *mock-* and *ex-* are different. *a mockdoctor* is not a real doctor. *an exdoctor* was a real doctor before.
-- *anti-* and *counter-* are different. *anti-* means "opposed to X" (*antitheft*). *counter-* means "done in reply to X" (*counterattack*).
+- *anti-* and *counter-* are different. *anti-* means "opposed to X" (*antitheft*). *counter-* means "done in reply to X, to stop or balance it" (*counterattack*, *counterweight*).
 - *en-* has no *em-* variant. *enprison* is easy to say (§4).
 - *en-* and *be-* are different. *enbox the cake* puts the cake in a box. *bebox the cake* gives the cake a box.
 
@@ -163,7 +165,7 @@ Notes:
 | Meaning | Affix | Term | Attaches to | Replaces | Examples |
 |---|---|---|---|---|---|
 | Small X | `-let` | diminutive | noun | -ette, -kin, -ie, -y, mini- | *booklet*, *kitchenlet* (*kitchenette*), *doglet* (*doggy*), *carlet* |
-| Young of X, child of X | `-ling` | — | noun | *X's child*, *son* / *daughter of X*, irregular young-animal nouns | *duckling*, *catling* (*kitten*), *dogling* (*puppy*), *kingling* (*prince*), *bakeorling* (a baker's child) |
+| Child of X | `-ling` | — | noun | *X's child*, *son* / *daughter of X*, irregular young-animal nouns | *duckling*, *catling* (*kitten*), *dogling* (*puppy*), *kingling* (*prince*), *bakeorling* (a baker's child) |
 | Like X, in the manner of X | `-like` | similative | noun | -ish (on nouns), -ly (on nouns), -esque, -oid | *childlike* (*childish*), *friendlike* (*friendly*), *humanlike* (*humanoid*) |
 | Somewhat X, almost X | `-ish` | approximative (attenuative) | adj, number | -y (on colors) | *reddish*, *coldish*, *tenish* |
 | Place where X is done or made | `-ery` | place noun (*nomen loci*) | verb, noun | -ory, -arium, -ary (in this meaning), -age, room words | *bakery*, *washery* (*laundry*), *readery* (*library*), *cookery* (*kitchen*), *fishery* |
@@ -204,6 +206,7 @@ Notes:
 - *-ful* and *-some* are different. *-ful* means the thing has X (*a fearful child* feels fear). *-some* means the thing causes X (*a fearsome dog* causes fear).
 - *-meter* is only for tools that measure. Other tools use *-or* (see Q5).
 - `-let` and `-ling` are different. *a doglet* is a small dog of any age. *a dogling* is a young dog, or the child of a dog.
+- `-ling` means a child of any age. *a bakeorling* can be an adult. *catling* (*kitten*) is a cat's child. `-ling` does not say that the child is young; for that, write *a young dog*.
 - `-ling` never means "lesser person". Traditional words with that meaning are not CE forms. Write a phrase: *weakling* → *weak person*, *underling* → *junior worker*.
 - *-ish* and *-like* are different. *childish* (like a child) becomes *childlike*. *reddish* (somewhat red) does not change.
 - `-ess` is the only gender affix. There is no male affix: a noun without `-ess` means a male, or a person or animal whose sex is unknown or mixed (as in Esperanto). *an actor* is a male actor or an actor of unknown sex. *the actors* can be a mixed group. Use `-ess` for each known female: *the engineoress*, not *the engineor*, when the engineer is a woman.
