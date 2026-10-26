@@ -135,6 +135,7 @@ Notes:
 | Person or thing that does X (the subject of X) | `-or` | agent noun (*nomen agentis*), A or S | -er, -ar, -ist, -ian, -ant, -ent, -ee (on verbs with no object) | *actor*, *teachor* (*teacher*), *begor* (*beggar*), *scienceor* (*scientist*), *assistor* (*assistant*), *makeor* (*maker*), *escapeor* (*escapee*), *attendor* (*attendee*) |
 | Person or thing that is X-ed (the direct object of X; the action is done or in progress) | `-ee` | object noun, O | — | *employee*, *trainee*, *usee*, *givee* (the gift), *sendee* (the thing that is sent) |
 | Person or thing that gets something from X, or that X is done for (the indirect object of X) | `-ary` | recipient noun | -ee (in this meaning) | *giveary*, *sendary* (*addressee*), *payary* (the person who is payed), *teachary* (*student*), *grantary* (*grantee*), *leaseary* (*lessee*), *beneficiary* |
+| Thing that someone uses to X (the instrument of X) | `-el` | instrument noun (*nomen instrumenti*) | -er, -or (in this meaning) | *openel* (*opener*), *cutel* (*knife*), *screwel* (*screwdriver*), *writel* (*pen*), *shovel* (*shove* + *el*) |
 | Person or thing that is to be X-ed (gerundive) | `-and` | gerundive (future passive participle) | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *beaffixand* |
 | Person or thing that is about to X (active, prospective) | `-ure` | future active participle (prospective) | *would-be* X-or, X-or *to be* | *electure* (a person about to vote), *departure* (*departing*: *the departure passengers*), *launchure* (a rocket about to launch), *graduateure* |
 | Can be X-ed | `-able` | passive potential adjective | -ible, -uble | *seeable*, *readable*, *solveable*, *flyable* (can be flown) |
@@ -171,6 +172,7 @@ Notes:
   | Subject | `-or` (*testor*) | `-ure` (*testure*: about to test) |
   | Direct object | `-ee` (*testee*: is or was tested) | `-and` (*testand*: is to be tested) |
   | Indirect object | `-ary` (*giveary*) | — |
+- `-or` and `-el` are different. `-or` is whoever or whatever does X by itself: *teachor*, *regulateor* (a thermostat), *computeor*. `-el` is a thing that someone uses to do X; it does nothing alone: *cutel*, *openel*. The line is the role, not the difference between persons and things. When a case is unclear (a washing machine), the dictionary decides (§6).
 
 - `-and` and `-ure` are a pair. `-and` is passive and means "to be X-ed" (*an addand* is a number that is to be added). It does not say "must"; for that, use `-end` (§3.1.1). `-ure` is active and means "will soon X" (*an addure* is a person who will soon add). Neither one says that the action happens now. For that, use `-ing` (*the adding machine*).
 - Traditional words in *-ure* that name a process use `-ment`: *failment* (*failure*), *closement* (*closure*). Words that name a result use `-ion`: *mixion* (*mixture*). *pressure*, *nature*, *culture* and *measure* are base words.
@@ -418,7 +420,7 @@ When the base ends in the letter that the affix starts with, and keeping both wo
 
 | Affix | Variant | Condition | Examples |
 |---|---|---|---|
-| Any suffix that starts with *e* (`-ed`, `-en`, `-end`, `-eh`, `-er`, `-est`, `-ee`, `-ent`, `-ery`, `-ese`, `-ess`, `-ectomy`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *choose* → *choosen*, *choosend*, *chooseh*; *choose've* → *choose'ved*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese*; *graduateure* → *graduateuress*; *please* → *pleasent* |
+| Any suffix that starts with *e* (`-ed`, `-el`, `-en`, `-end`, `-eh`, `-er`, `-est`, `-ee`, `-ent`, `-ery`, `-ese`, `-ess`, `-ectomy`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *shove* → *shovel*, *write* → *writel*; *choose* → *choosen*, *choosend*, *chooseh*; *choose've* → *choose'ved*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese*; *graduateure* → *graduateuress*; *please* → *pleasent* |
 | Any suffix that starts with *a* (`-al`, `-an`, `-able`, `-and`, `-age`, `-ary`) | drop the *a* | Base ends in *a* | *China* → *Chinal*, *Chinan*; *Canada* → *Canadal*, *Canadan*; *Korea* → *Korean*; *formula* → *formulal*, *formulage* |
 | `-or` | no variant | Base ends in *e* | *make* → *makeor*, *operate* → *operateor* (the base never changes; *e* + *o* is not a doubled *e*) |
 | `-ure` | no variant | Base ends in *e* | *close* → *closeure*, *graduate* → *graduateure* |
@@ -455,6 +457,9 @@ Some regular CE forms have the same spelling as an existing English word with a 
 | *departure* | a person or thing that is about to depart | the act of leaving (CE: *department*) |
 | *department* | the act of departing | a part of an organization (CE: *partdom* or a dictionary base word, to be decided) |
 | *pressure* | a person or thing that is about to press | force on a surface (if *pressure* is kept as a base word, the two meanings collide) |
+| *towel* | a tool for towing | a cloth for drying |
+| *gravel* | a tool for engraving (*grave*) | small stones |
+| *bowel* | a tool for bowing | a part of the gut |
 | *ahead* | on the head | in front |
 | *away* | on the way | at a distance |
 | *haven*, *liken*, *waken*, *leaven* | is had, is liked, is woken, is left (`-en`, §3.1.1) | a safe place; compare; wake; yeast |
@@ -508,7 +513,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q2.** How do we handle collisions such as *seed* (see §5)? Options: accept the collision, add a hyphen (*see-ed*), or change the allomorph rule.
 - **Q3.** Do we need a variant that keeps the sound of the base without changing its spelling? Example: a hyphen or a written mark between base and affix (*stop-ed*, *panic-ed*).
 - **Q4.** (Closed.) `-ment` covered the act and its result. It now names only the act, and the result uses `-ion` (§3.2).
-- **Q5.** (Closed.) `-or` covers persons (*teachor*) and tools (*computeor*). Both mean "the one that does X", which is one meaning. `-ee`, `-and` and `-ure` also cover persons and things. When the context does not show which one it is, use a compound: *wash-machine*.
+- **Q5.** (Closed.) `-or` covered agents and instruments. These are different thematic roles, so the instrument now uses `-el` (§3.2): *cutel*, *openel*. The line between them is the role, not the difference between persons and things: a thermostat is a *regulateor*. `-ee`, `-and` and `-ure` still cover persons and things.
 - **Q6.** (Closed.) Plural place names made awkward language names (*Netherlandsese*). A plural place name now uses its singular form as the base (§3.4.2): *Netherlandese*, *Philippinese*.
 - **Q7.** (Partly closed.) *will*, *shall*, *must*, *would*, *had*, *can*, *could*, *may* and *might* are now verb slots (§3.1.1). Still open: *should* (weak obligation).
 - **Q8.** (Closed.) `-ee` covered three thematic roles: patient (*employee*), recipient (*payee*) and agent (*escapee*). `-ee` now means only the direct object. The recipient uses `-ary`, and the agent uses `-or` (§3.2).
