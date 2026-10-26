@@ -799,3 +799,37 @@ These translations use only the rules above. They are a baseline: when a new aff
 
 - (Closed.) *slavery* has two meanings in this text: a state (*held in slavery*) and a practice (*slavery … shall be prohibited*). Standard `-ery` also names both, but CE `-ery` is only a place. The `-ness` row now replaces `-ery` (state) and `-tude`, and the `-ment` row replaces `-ery` (practice).
 - *serveorness* needs two affixes, because the state belongs to the person (*serveor*), not to the verb (*serve*).
+
+### F.5 Article 5
+
+#### F.5.1 Text
+
+**Standard English** (16 words)
+
+> No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment.
+
+**Consistentized Englandese** (16 words)
+
+> No one shall be subjected to torture or to cruel, unhuman or degrading treatment or punishment.
+
+#### F.5.2 Word breakdown
+
+| CE | Parts | Standard | Note |
+|---|---|---|---|
+| *unhuman* | un + human | *inhuman* | `un-` replaces `in-` (§3.2) |
+| *subjected* | subject + ed | no change | already CE |
+| *treatment*, *punishment* | treat + ment, punish + ment | no change | already CE: the act (§3.2) |
+| *degrading* | degrade + ing | no change | present participle (§3.1): the treatment degrades when it happens |
+| *torture* | — | no change | base word, like *pressure* and *nature* (§3.2); it has no plain English base |
+
+#### F.5.3 Size
+
+| Version | Words | Characters |
+|---|---|---|
+| Standard English | 16 | 95 |
+| CE | 16 | 95 |
+
+#### F.5.4 Gaps
+
+- Only one word changes. *treatment* and *punishment* already use the act suffix `-ment`.
+- *degrading* could also take `-ive` (it can degrade) or `-some` (it causes shame). `-ing` is the closest: the treatment degrades the person each time it happens.
