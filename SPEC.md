@@ -490,7 +490,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 
 **Consistentized Englandese**
 
-> Before you begin, make sure the machine deconnecten completely from the power supply. It is unpossible to safely inspect the electric components while the unit is runing. The techniqueor who carryed out the last inspectment finded that several bolts looseizen'ved and two of the seals breakened. These problems arenot easyly seeable, so you should check each joint carefully. If a seal is unuseable, replace it immediately. The replacement doenend by a qualifyed operateor.
+> Before you begin, sureize the machine deconnecten completely from the power supply. It is unpossible to safely inspect the electric components while the unit is runing. The techniqueor who carryed out the last inspectment finded that several bolts looseizen'ved and two of the seals breakened. These problems arenot easyly seeable, so you should check each joint carefully. If a seal is unuseable, replace it immediately. The replacement doenend by a qualifyed operateor.
 
 ### A.2 Changes
 
@@ -501,6 +501,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 | *technician*, *operator* | *techniqueor*, *operateor* | one agent suffix, `-or`; base unchanged (§3.2, §4.2) |
 | *inspection*, *replacement* | *inspectment*, *replacement* | one process-noun suffix, `-ment` (§3.2) |
 | *found* | *finded* | every past form uses `-ed` (§3.1) |
+| *make sure* | *sureize* | one "make X" suffix, `-ize` (§3.2); as in G.1 |
 | *had been loosened* | *looseizen'ved* | one "make X" suffix, `-ize` (§3.2), as `-iz` before a vowel (§4.2); then passive `-en`, perfect `-'ve`, past `-ed` (§3.1.1) |
 | *is completely disconnected*, *were broken* | *deconnecten completely*, *breakened* | passive `-en` (§3.1.1) |
 | *must be done* | *doenend* | passive `-en`, deontic `-end` (§3.1.1) |
