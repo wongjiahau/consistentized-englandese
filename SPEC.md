@@ -205,7 +205,7 @@ Notes:
   - *airproof*: air does not go through it.
 - *-ful* and *-some* are different. *-ful* means the thing has X (*a fearful child* feels fear). *-some* means the thing causes X (*a fearsome dog* causes fear).
 - *-meter* is only for tools that measure. Other tools use *-or* (see Q5).
-- `-let` and `-ling` are different. *a doglet* is a small dog of any age. *a dogling* is a young dog, or the child of a dog.
+- `-let` and `-ling` are different. *a doglet* is a small dog of any age. *a dogling* is the child of a dog, of any size.
 - `-ling` means a child of any age. *a bakeorling* can be an adult. *catling* (*kitten*) is a cat's child. `-ling` does not say that the child is young; for that, write *a young dog*.
 - `-ling` never means "lesser person". Traditional words with that meaning are not CE forms. Write a phrase: *weakling* → *weak person*, *underling* → *junior worker*.
 - *-ish* and *-like* are different. *childish* (like a child) becomes *childlike*. *reddish* (somewhat red) does not change.
