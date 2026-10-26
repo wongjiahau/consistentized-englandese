@@ -377,7 +377,6 @@ Some regular CE forms have the same spelling as an existing English word with a 
 |---|---|---|
 | *seed* | past tense of *see* | part of a plant |
 | *goodly* | in a good way | large in amount (archaic) |
-| *governor* | the one that governs (the government) | the head of a state or province |
 | *departure* | a person or thing that is about to depart | the act of leaving (CE: *department*) |
 | *department* | the act of departing | a part of an organization (CE: *partdom* or a dictionary base word, to be decided) |
 | *pressure* | a person or thing that is about to press | force on a surface (if *pressure* is kept as a base word, the two meanings collide) |
@@ -403,6 +402,13 @@ Some loan words start or end with letters that look like a CE affix, but the let
 | *defend* | `de-` + *fend* | reverse the action | guard | one base word (*defendment*) |
 | *descend* | `de-` + *scend* | reverse the action | go down | one base word (*descendorage*) |
 | *inhabit* | `in-` + *habit* | — (old "not"; *habit* is "custom") | dwell | *dwell* (*dwellor*: *inhabitant*) |
+| *respective*, *respecting* | `re-` + *spect* (+ `-ive`) | again; can X | each one's own; on the subject of | *own*, *about* |
+| *determine* | `de-` + *termine* | reverse the action | find out, fix | one base word, or a plain verb (*count*) |
+| *exclude*, *exceed* | `ex-` + *clude*, `ex-` + *ceed* | former | shut out, go beyond | *leave out*, *outgo* |
+| *subsequent* | `sub-` + *sequent* | below | following | *following* |
+| *abridge* | `a-` + *bridge* | on the surface of | make short | *shortize* |
+| *redress* | `re-` + *dress* | again | set right | *rightize* (*rightizement*) |
+| *peaceable* | *peace* + `-able` | can be X-ed | in a peaceful way | *peaceful* |
 | *legislature* | *legislate* + `-ure` | about to X | the body that makes law | *lawizorage* |
 
 ## 6. Dictionary
@@ -415,7 +421,7 @@ The CE dictionary lists base words, so that each base has one part of speech (P1
 - one example sentence
 - the traditional words it replaces (optional)
 
-A base noun names one thing, not a group. A group of things uses `-age` (§3.4.2): *kin* (one relative) → *kinage*; *machine* → *machineage*; *voteor* → *voteorage*.
+A base noun names one thing, not a group. A group of things uses `-age` (§3.4.2): *kin* (one relative) → *kinage*; *machine* → *machineage*; *voteor* → *voteorage*; *governor* → *governorage* (*government*).
 
 The dictionary is to be done. Only base words go in the dictionary. Affixed forms are made by the rules in §3 and are not listed.
 
@@ -531,7 +537,7 @@ The country and the people in this text are not real.
 
 **Consistentized Englandese** (87 words)
 
-> Velmora's Prime Minister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electment. The opposeors, under exfinance-minister Tomas Bell, accused the governor of corruptment and of underfunding public hospitals. Reyes's popularness is now at its lowest since 2022. Reyes promised an anticorruptment law and sayed that the cogovernor will not increase taxes. Thousands of protestors meeted outside the parliament. Analyzeors sayed that the result is unpreseeable. Most of the voteorage is still undecided, and both electands are untrustabler than their partys.
+> Velmora's Prime Minister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electment. The opposeors, under exfinance-minister Tomas Bell, accused the governorage of corruptment and of underfunding public hospitals. Reyes's popularness is now at its lowest since 2022. Reyes promised an anticorruptment law and sayed that the cogovernorage will not increase taxes. Thousands of protestors meeted outside the parliament. Analyzeors sayed that the result is unpreseeable. Most of the voteorage is still undecided, and both electands are untrustabler than their partys.
 
 ### C.2 Word breakdown
 
@@ -541,12 +547,12 @@ The country and the people in this text are not real.
 | *voteorage* | vote + or + age | *electorate* | all voters as a group |
 | *electment*, *corruptment* | elect + ment, corrupt + ment | *election*, *corruption* | process noun |
 | *underfunding* | under + fund + ing | *underfunding* | gerund with an object (*public hospitals*), so `-ing` stays |
-| *cogovernor* | co + govern + or | *coalition* | those who govern together |
+| *cogovernorage* | co + govern + or + age | *coalition* | all who govern together, as a group (§6); 3 derivational affixes, the limit in U2 |
 | *opposeors* | oppose + or + s | *the opposition* | |
 | *unpreseeable* | un + pre + see + able | *unforeseeable* | 3 derivational affixes, the limit in U2 |
 | *untrustabler* | un + trust + able + er | *less trusted* | |
 | *exfinance-minister* | ex + [finance-minister] | *former finance minister* | compound (§3.7) |
-| *governor* | govern + or | *government* | collision, see §5 |
+| *governorage* | govern + or + age | *government* | all who govern, as a group (§6) |
 | *partys*, *protestors* | party + s, protest + or + s | *parties*, *protesters* | |
 | *sayed*, *meeted* | say + ed, meet + ed | *said*, *gathered* | regular past (§3.1) |
 | *Prime Minister*, *parliament* | — | no change | base words |
@@ -577,7 +583,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 
 > Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She haved arrived after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, was prewarned of their arrivement. She telled them that her oven haved misfunctioned twice that month, that its heatmeter was unrelyable, and that the noise it maked was frightsome.
 >
-> The engineoress examined the machineage carefullyer than the governor's inspector haved. The subfloor wires were interconnected, and the superhead lamp was dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse was breaked and that mouses haved transchewed the insulatement. A skilled electricityor would have seed it at once, but the inspector haved not.
+> The engineoress examined the machineage carefullyer than the governorage's inspector haved. The subfloor wires were interconnected, and the superhead lamp was dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse was breaked and that mouses haved transchewed the insulatement. A skilled electricityor would have seed it at once, but the inspector haved not.
 >
 > They coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage was bader than her describeion. His repair, however, was gooder than his teachoress's. The new oven selfcleans, autostarts and bakes twofold the bread. It is waterproof and airproof, and it is beautifuler than the old one, although slightly noisefuler.
 >
@@ -618,7 +624,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 | Compound | *former firefighter* → *exfire-fightor* | affixes on the ends (§3.7) |
 | Allomorphs | *Japanian* (`-ian` after *an*), *Chinal* (drop *a*), *arrived*, *retired* (drop *e*), *fully* (no triple *l*), *eighth* (`-h` after *t*) | §4 |
 | Base never changes | *happier* → *happyer* (no *y* → *i*); *outran* → *outruned* (no doubled *n*) | §4.3 |
-| Collisions | *seen* → *seed*; *government* → *governor* | §5 |
+| Collisions | *seen* → *seed* | §5 |
 | Exempt names | *25 kilograms*, *sodium bicarbonate*, *London* | P6, place names |
 | Modals | *would* → no change | Q7 |
 
@@ -638,7 +644,7 @@ This is the passage from Appendix D, translated again with the biological affixe
 
 > Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She haved arrived after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, was prewarned of their arrivement. She telled them that her oven haved bimisfunctioned that month, that its heatmeter was unrelyable, and that the noise it maked was frightsome.
 >
-> The engineoress examined the machineage carefullyer than the governor's inspector haved. The subfloor wires were interconnected, and the superhead lamp was dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse was breaked and that mouses haved transchewed the insulatement. A skilled electricityor would have seed it at once, but the inspector haved not.
+> The engineoress examined the machineage carefullyer than the governorage's inspector haved. The subfloor wires were interconnected, and the superhead lamp was dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse was breaked and that mouses haved transchewed the insulatement. A skilled electricityor would have seed it at once, but the inspector haved not.
 >
 > They coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage was bader than her describeion. His repair, however, was gooder than his teachoress's. The neooven selfcleans, autostarts and bakes twofold the bread. It is waterproof and airproof, and it is beautifuler than the old one, although slightly noisefuler.
 >
@@ -662,8 +668,8 @@ This is the passage from Appendix D, translated again with the biological affixe
 | Version | Words | Characters |
 |---|---|---|
 | Standard English (D.1) | 359 | 2158 |
-| CE (D.1) | 330 | 2138 |
-| CE with §3.8 (E.1) | 320 | 2119 |
+| CE (D.1) | 330 | 2141 |
+| CE with §3.8 (E.1) | 320 | 2122 |
 
 ### E.4 Comment
 
@@ -1016,3 +1022,91 @@ These translations use only the rules above. The capital letters of the original
 
 - This clause is short on derived words, so CE changes only three of them.
 - The part swap stops at *habitare* ("dwell"), not at its root *habere* ("have") (P4).
+
+### G.5 Article I, Section 2, Clause 3
+
+The Fourteenth Amendment later changed this clause. The text is the original of 1787, with its spelling *chuse*.
+
+#### G.5.1 Text
+
+**Standard English** (164 words)
+
+> Representatives and direct Taxes shall be apportioned among the several States which may be included within this Union, according to their respective Numbers, which shall be determined by adding to the whole Number of free Persons, including those bound to Service for a Term of Years, and excluding Indians not taxed, three fifths of all other Persons. The actual Enumeration shall be made within three Years after the first Meeting of the Congress of the United States, and within every subsequent Term of ten Years, in such Manner as they shall by Law direct. The Number of Representatives shall not exceed one for every thirty Thousand, but each State shall have at Least one Representative; and until such enumeration shall be made, the State of New Hampshire shall be entitled to chuse three, Massachusetts eight, Rhode-Island and Providence Plantations one, Connecticut five, New-York six, New Jersey four, Pennsylvania eight, Delaware one, Maryland six, Virginia ten, North Carolina five, South Carolina five, and Georgia three.
+
+**Consistentized Englandese** (165 words)
+
+> Representors and direct Taxes shall be parted among the several States which may be included within this Uniteion, according to their own Numbers, which shall be counted by adding to the whole Number of free Persons, including those binded to Servement for a Term of Years, and leaving out Indians not taxed, three fiveths of all other Persons. The actual Numberment shall be maked within three Years after the oneth Meetment of the Congress of the United States, and within every following Term of ten Years, in such Manner as they shall by Law direct. The Number of Representors shall not outgo one for every thirty Thousand, but each State shall have at Least one Representor; and until such numberment shall be maked, the State of New Hampshire shall be betitled to choose three, Massachusetts eight, Rhode-Island and Providence Plantations one, Connecticut five, New-York six, New Jersey four, Pennsylvania eight, Delaware one, Maryland six, Virginia ten, North Carolina five, South Carolina five, and Georgia three.
+
+#### G.5.2 Word breakdown
+
+| CE | Parts | Standard | Note |
+|---|---|---|---|
+| *parted* | part + ed | *apportioned* | *portio* means "part", so part swap (P4) |
+| *Uniteion* | unite + ion | *Union* | as in G.1 |
+| *own* | — | *respective* | synonym swap (P4); *respective* is a false affix (§5.1) |
+| *counted* | count + ed | *determined* | synonym swap (P4); *determine* is a false affix (§5.1) |
+| *binded* | bind + ed | *bound* | regular past participle (§3.1) |
+| *Servement* | serve + ment | *Service* | the act (§3.2); `-ment` replaces `-ice` (act) |
+| *leaving out* | — | *excluding* | synonym swap (P4); *exclude* is a false affix (§5.1); *including* stays, because CE has no `in-` |
+| *fiveths*, *oneth* | five + th + s, one + th | *fifths*, *first* | ordinal (§3.4.2) |
+| *Numberment*, *numberment* | number + ment | *Enumeration* | *numerus* means "number", so part swap (P4); the act of counting (§3.2) |
+| *maked* | make + ed | *made* | regular past participle (§3.1) |
+| *Meetment* | meet + ment | *Meeting* | `-ing` is never a noun; the act (§3.2) |
+| *following* | follow + ing | *subsequent* | *sequi* means "follow", so part swap (P4); *subsequent* is a false affix (§5.1) |
+| *outgo* | out + go | *exceed* | *ex-* "out" + *cedere* "go", so part swap (P4); `out-` on a verb means "do better than" (§3.4.1) |
+| *betitled* | be + title + ed | *entitled* | `be-` (§3.4.1), as in F.2 |
+| *choose* | — | *chuse* | modern spelling of the base |
+| *actual*, *direct*, *included* | — | no change | common and easy to guess (P4) |
+| place names, *Providence Plantations* | — | no change | names |
+
+#### G.5.3 Size
+
+| Version | Words | Characters |
+|---|---|---|
+| Standard English | 164 | 1036 |
+| CE | 165 | 1021 |
+
+#### G.5.4 Gaps
+
+- *Indians* collides with the CE demonym: *India* + `-an` is a person from India (§3.4.2), but here the word means the first peoples of America. The text keeps *Indians* as the name it was in 1787.
+- *own* is a little wider than *respective* ("each one's own").
+- *Servement* names the act of serving, but here *Service* is a duty to work for a master. CE has no word that shows that this duty is not free.
+
+### G.6 First Amendment
+
+#### G.6.1 Text
+
+**Standard English** (45 words)
+
+> Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.
+
+**Consistentized Englandese** (45 words)
+
+> Congress shall make no law about an establishment of religion, or prohibiting the free exercise thereof; or shortizing the freeness of speakment, or of the press; or the right of the people peacefully to assemble, and to petition the Governorage for a rightizement of wrongs.
+
+#### G.6.2 Word breakdown
+
+| CE | Parts | Standard | Note |
+|---|---|---|---|
+| *about* | — | *respecting* | synonym swap (P4); *respect* is a false affix (§5.1) |
+| *shortizing* | short + iz + ing | *abridging* | *abridge* comes from Latin *abbreviare*, *brevis* "short", so part swap (P4); *abridge* is a false affix (§5.1); `-ize` is `-iz` before a vowel (§4.2) |
+| *freeness* | free + ness | *freedom* | `-dom` is a realm only (§3.4.2), as in F.2 |
+| *speakment* | speak + ment | *speech* | the act (§3.2) |
+| *peacefully* | peace + ful + ly | *peaceably* | *peaceable* does not mean "can be peaced", so `-able` is false (§5.1); `-ful` is "having X" (§3.2) |
+| *Governorage* | govern + or + age | *Government* | all who govern, as a group (§6), as *Lawizorage* (G.3) |
+| *rightizement* | right + iz + ment | *redress* | the act of making right; *redress* comes from Old French *redresser*, "set straight again" (P4); *redress* is a false affix (§5.1) |
+| *wrongs* | wrong + s | *grievances* | synonym swap (P4); `-ance` is not a CE affix, and *grievance* is neither an act nor a quality |
+| *establishment* | establish + ment | no change | already CE: the act of establishing |
+| *prohibiting*, *exercise*, *assemble*, *petition*, *religion* | — | no change | common and easy to guess (P4) |
+
+#### G.6.3 Size
+
+| Version | Words | Characters |
+|---|---|---|
+| Standard English | 45 | 272 |
+| CE | 45 | 275 |
+
+#### G.6.4 Gaps
+
+- *about* is wider than *respecting*. In this text both mean "on the subject of".
+- *speakment* is the act of speaking. The right also covers what is said, which would be *speakion* (the result).
