@@ -2,7 +2,7 @@
 
 > **Learn the rules, not the exceptions.**
 
-Consistentized Englandese (CE) is a controlled form of English. It builds on the principles of Simplified Technical English (ASD-STE100), then makes every affix regular:
+Consistentized Englandese (CE) is a regularized form of English. It makes every affix regular and leaves sentence style alone:
 
 - **One meaning, one affix.** *impossible*, *illegal*, *irregular* → *unpossible*, *unlegal*, *unregular*.
 - **Every affix works on every word.** *see* → *seed*, *seer*, *seeable*, *unseeable*, *seeableness*.

@@ -4,16 +4,15 @@ Status: draft v0.1
 
 ## 1. Purpose
 
-Consistentized Englandese (CE) is a controlled form of English. It has two layers:
+Consistentized Englandese (CE) is a regularized form of English. Each grammatical or derivational meaning has one affix. CE replaces irregular and competing forms with the regular form, including in existing English words.
 
-1. **Base layer.** Writing rules that follow the principles of Simplified Technical English (ASD-STE100). The rules are written here in our own words. CE does not copy the STE100 dictionary.
-2. **Affix layer.** Each grammatical or derivational meaning has one affix. CE replaces irregular and competing forms with the regular form, including in existing English words.
+CE changes word forms only. It does not limit sentence length, voice, tense or style. Any text in English can be written in CE.
 
 ## 2. Core principles
 
 - **P1. One word, one meaning.** Each word in the CE dictionary has one meaning and one part of speech.
 - **P2. One meaning, one affix.** Each affix meaning has one affix. Different meanings use different affixes.
-- **P3. Conditioned allomorphy only.** An affix may have more than one written form (allomorph). An allomorph exists only to prevent awkward spelling or pronunciation: a forced consonant cluster, a vowel clash, a triple letter, or a change in the sound of the base. A fixed rule always chooses the form; the writer never chooses freely. All allowed allomorphs are listed in §5.
+- **P3. Conditioned allomorphy only.** An affix may have more than one written form (allomorph). An allomorph exists only to prevent awkward spelling or pronunciation: a forced consonant cluster, a vowel clash, a triple letter, or a change in the sound of the base. A fixed rule always chooses the form; the writer never chooses freely. All allowed allomorphs are listed in §4.
 - **P4. Plain base.** Derivations attach to the plain English base word. They do not attach to a Latin or Greek root. Example: *see* + *-able* → *seeable*, not *visible*.
 - **P5. Overwrite.** If a regular CE form exists, it replaces the traditional English form. Example: *impossible* → *unpossible*. This includes technical vocabulary: *cardiology* → *heartology*, *flammable* → *burnable*.
 - **P6. Codified names are exempt.** If an outside standard defines a name, CE keeps it. Otherwise, CE builds it. The exempt names are:
@@ -26,30 +25,9 @@ Consistentized Englandese (CE) is a controlled form of English. It has two layer
 
   Reason: these names are already consistent systems with outside owners. A CE text must match the drawings, parts lists, data sheets and regulations it refers to.
 
-## 3. Base layer: writing rules
+## 3. Affix rules
 
-### 3.1 Words
-- Use only words in the CE dictionary (§7), or technical names and technical verbs from your field. Technical names follow the affix rules unless P6 exempts them.
-- Use a word only with its dictionary meaning and part of speech.
-- Do not use phrasal verbs (*set up*, *carry out*). Use a single verb.
-
-### 3.2 Sentences
-- Procedural sentences: no more than 20 words.
-- Descriptive sentences: no more than 25 words.
-- Write one instruction in each sentence. You can write two instructions in one sentence only when the reader must do them at the same time.
-- Use the active voice in procedures.
-- Use the imperative (command) form for instructions.
-- Use only these verb forms: simple present, simple past, simple future, imperative, infinitive, and past participle as an adjective.
-- Do not leave out articles (*a*, *the*) or other short words to make a sentence shorter.
-
-### 3.3 Paragraphs
-- Write one topic in each paragraph.
-- A paragraph has no more than 6 sentences.
-- Put a warning or caution before the instruction it applies to.
-
-## 4. Affix layer
-
-### 4.1 Inflection
+### 3.1 Inflection
 
 | Meaning | Affix | Term | Replaces | Examples |
 |---|---|---|---|---|
@@ -63,11 +41,11 @@ Consistentized Englandese (CE) is a controlled form of English. It has two layer
 
 Notes:
 - Plural `-s` and third person `-s` have the same form. This is a known exception to P2. It is kept because the part of speech is always clear from context and from P1.
-- `-er` is only the comparative. The agent noun uses `-or` (§4.2). By P1 a base is an adjective or a verb, never both, so the two suffixes never attach to the same base.
+- `-er` is only the comparative. The agent noun uses `-or` (§3.2). By P1 a base is an adjective or a verb, never both, so the two suffixes never attach to the same base.
 - Every adjective and every adverb takes `-er` / `-est`, also long ones (*beautifuler*, *carefullyest*). Do not use *more* / *most* for degree. Use *more* / *most* only for amount (*more water*, *most bolts*).
 - *be* is the only irregular verb. Its forms are kept: *am, is, are, was, were, been*. (Open question Q1.)
 
-### 4.2 Derivation
+### 3.2 Derivation
 
 | Meaning | Affix | Term | Replaces | Examples |
 |---|---|---|---|---|
@@ -89,14 +67,14 @@ Notes:
 | Make X / become X (verb) | `-ize` | factitive, inchoative; causative on verbs | -ify, -en, -ate | *widize*, *simpleize*, *activeize* |
 
 Notes:
-- `-ing` is only a verb form (§4.1). It is never a derived noun. Use `-ment` for the noun: *the connectment of the wires*, not *the connecting of the wires*. A gerund keeps its object without *of*: *connecting the wires is easy*.
+- `-ing` is only a verb form (§3.1). It is never a derived noun. Use `-ment` for the noun: *the connectment of the wires*, not *the connecting of the wires*. A gerund keeps its object without *of*: *connecting the wires is easy*.
 - `-ment` starts with a consonant, so it never makes a vowel clash with a base that ends in *e*: *makement*, *replacement*.
 - *able* + *ize* + *ment* makes "the process of making X-able": *observeableizement* (*observe* + *able* + *ize* + *ment*; 3 derivational affixes, the limit in U2).
 - `-ize` on a verb is causative: "make (the object) do X". The object is the one that does X: *deboardize the crew* (make the crew deboard), *fallize the tree* (*fell*), *riseize the flag* (*raise*), *lieize the cable on the floor* (*lay*). Use it only on verbs that have no object. If the verb has its own object, write a phrase: *tell the operator to examine the valve*. Do not put `-ize` on a word that already ends in `-ize`.
 - `-and` and `-ure` are a pair. `-and` is passive and means "must be X-ed" (*an addand* is a number that must be added). `-ure` is active and means "will soon X" (*an addure* is a person who will soon add). Neither one says that the action happens now. For that, use `-ing` (*the adding machine*).
 - Traditional words in *-ure* that name a process or result use `-ment`: *failment* (*failure*), *closement* (*closure*), *mixment* (*mixture*). *pressure*, *nature*, *culture* and *measure* are base words.
 
-### 4.3 Affix order
+### 3.3 Affix order
 
 When more than one affix attaches to a word, use this order:
 
@@ -106,11 +84,11 @@ prefix(es) + base + derivational suffix(es) + inflectional suffix
 
 Examples: *un* + *read* + *able* + *ness* → *unreadableness*; *re* + *connect* + *ed* → *reconnected*.
 
-### 4.4 Extended affixes
+### 3.4 Extended affixes
 
-In standard English, many affixes work only with some words. For example, *-hood* goes on *child* but not on *teacher*, and *mis-* goes on *read* but not on *open*. In CE, every affix in §4.2 and §4.4 is **fully productive**. It attaches to every base of its input part of speech when the result makes sense. Each affix has one meaning. All the forms it replaces are removed.
+In standard English, many affixes work only with some words. For example, *-hood* goes on *child* but not on *teacher*, and *mis-* goes on *read* but not on *open*. In CE, every affix in §3.2 and §3.4 is **fully productive**. It attaches to every base of its input part of speech when the result makes sense. Each affix has one meaning. All the forms it replaces are removed.
 
-#### 4.4.1 Prefixes
+#### 3.4.1 Prefixes
 
 | Meaning | Affix | Term | Attaches to | Replaces | Examples |
 |---|---|---|---|---|---|
@@ -124,32 +102,39 @@ In standard English, many affixes work only with some words. For example, *-hood
 | Between; each other (reciprocal) | `inter-` | interessive; reciprocal | noun, verb | *each other*, *one another* | *intercity*, *interconnect* (connect to each other), *interhelp* (help each other) |
 | Inside one X | `intra-` | inessive | noun | endo-, *within* | *intracompany*, *intranet*, *intravein* (*intravenous*) |
 | Done against X or in response to X | `counter-` | — | noun, verb | contra- | *counterattack*, *countermeasure*, *counterweight*, *counterspeak* (*contradict*) |
-| Across | `trans-` | perlative | noun | — | *transsea*, *transcountry* |
+| Across (noun); through (verb) | `trans-` | perlative | noun, verb | dia-, per-, verb + *through* | *transsea*, *transcountry*; *transchew* (*chew through*), *transdrill*, *transpierce* |
 | Together, jointly | `co-` | comitative | noun, verb | con-, com-, syn-, sym- (in new forms) | *cowork*, *cowriteor* |
 | Former | `ex-` | — | noun | *former* | *exteachor*, *exhome* |
 | Done to itself (the doer is also the receiver) | `self-` | reflexive | verb, noun | auto- (in this meaning) | *selfclean*, *selfteach*, *selfdefend*, *selfbiography* (*autobiography*) |
 | Done without outside control, automatic | `auto-` | — | verb, noun | — | *autofocus*, *autolock*, *autopilot*, *automoveor* (*automobile*) |
-| Do more than, do better than | `out-` | surpassive | verb | — | *outrun*, *outsee*, *outbuild* |
+| Do better than (verb); outside (noun) | `out-` | surpassive; exessive | verb, noun | ecto-, exo-, extra-, *outside* + noun | *outrun*, *outsee*, *outbuild*; *outhouse*, *outdoor*, *outbody*, *outLondon* |
+| On, at the surface of | `a-` | superessive | noun | epi-, *on* + noun | *aboard*, *ashore*, *aground*, *atop*, *afloor* (*on the floor*), *awall*, *anoven* (*on the oven*) |
+| Fake, false | `mock-` | — | noun | pseudo-, *fake* / *false* + noun | *mockgold*, *mockdoctor*, *mockscience* (*pseudoscience*) |
 | Put in, give | `en-` | illative, ornative | noun | em-, be- | *encage*, *enpower* (*empower*), *enfriend* (*befriend*) |
 | Half, partly | `semi-` | — | noun, adj | hemi-, demi-, half- | *semisphere* (*hemisphere*), *semicircle* |
-| One | `uni-` | numeral prefix | noun | mono-, single- | *uniwheel*, *unirail* (*monorail*) |
-| Two | `bi-` | numeral prefix | noun | di-, twi-, double- | *biwheel*, *bilight* (*twilight*); not in chemical names (P6) |
-| Three | `tri-` | numeral prefix | noun | — | *triwheel* (*tricycle*), *triangle* |
-| Many | `multi-` | — | noun, adj | poly-, many- | *multicolor*, *multisided* (*polygonal*) |
+| One | `uni-` | numeral prefix | noun, verb (§3.8.3) | mono-, single- | *uniwheel*, *unirail* (*monorail*) |
+| Two | `bi-` | numeral prefix | noun, verb (§3.8.3) | di-, twi-, double- | *biwheel*, *bilight* (*twilight*); not in chemical names (P6) |
+| Three | `tri-` | numeral prefix | noun, verb (§3.8.3) | — | *triwheel* (*tricycle*), *triangle* |
+| Many | `multi-` | — | noun, adj, verb (§3.8.3) | poly-, many- | *multicolor*, *multisided* (*polygonal*) |
 
 Notes:
 - *under-* and *over-* now have one meaning each (amount). Place and rank use *sub-* and *super-*.
 - *self-* and *auto-* are different. A *selfclean* oven cleans its own inside. An *autoclean* print head starts its cleaning cycle with no operator.
 - *inter-* and *intra-* are different. *intercompany* is between companies. *intracompany* is inside one company.
 - *inter-* on a verb makes it reciprocal: *the parts interconnect* means "the parts connect to each other". The verb has no object.
+- *inter-*, *trans-* and *out-* have one meaning on a noun and a related meaning on a verb. The part of speech of the base (P1) always shows which meaning it is.
+- *a-* makes an adverb or an adjective that comes after a verb: *lieize the cables afloor*, *the crew is aboard*. Do not put it before a noun: write *the cables afloor*, not *the afloor cables*. Before a vowel it is *an-* (§4.1).
+- *a-* and *super-* are different. *awall* is on the wall and touches it. *superwall* is above the wall.
+- *mock-* and *ex-* are different. *a mockdoctor* is not a real doctor. *an exdoctor* was a real doctor before.
 - *anti-* and *counter-* are different. *anti-* means "opposed to X" (*antitheft*). *counter-* means "done in reply to X" (*counterattack*).
-- *en-* has no *em-* variant. *enpower* is easy to say (§5).
+- *en-* has no *em-* variant. *enpower* is easy to say (§4).
 
-#### 4.4.2 Suffixes
+#### 3.4.2 Suffixes
 
 | Meaning | Affix | Term | Attaches to | Replaces | Examples |
 |---|---|---|---|---|---|
-| Small X | `-let` | diminutive | noun | -ling, -ette, -kin, -ie, -y, mini- | *ducklet* (*duckling*), *kitchenlet* (*kitchenette*), *doglet* (*doggy*), *carlet* |
+| Small X | `-let` | diminutive | noun | -ette, -kin, -ie, -y, mini- | *booklet*, *kitchenlet* (*kitchenette*), *doglet* (*doggy*), *carlet* |
+| Young of X, child of X | `-ling` | — | noun | *X's child*, *son* / *daughter of X*, irregular young-animal nouns | *duckling*, *catling* (*kitten*), *dogling* (*puppy*), *kingling* (*prince*), *bakeorling* (a baker's child) |
 | Like X, in the manner of X | `-like` | similative | noun | -ish (on nouns), -ly (on nouns), -esque, -oid | *childlike* (*childish*), *friendlike* (*friendly*), *humanlike* (*humanoid*) |
 | Somewhat X, almost X | `-ish` | approximative (attenuative) | adj, number | -y (on colors) | *reddish*, *coldish*, *tenish* |
 | Place where X is done or made | `-ery` | place noun (*nomen loci*) | verb, noun | -ory, -arium, -ary, -age, room words | *bakery*, *washery* (*laundry*), *readery* (*library*), *cookery* (*kitchen*), *fishery* |
@@ -166,13 +151,15 @@ Notes:
 | Good enough or safe enough for X | `-worthy` | — | noun | — | *airworthy*, *roadworthy*, *trustworthy*, *newsworthy* |
 | Tool that measures X | `-meter` | instrument noun (*nomen instrumenti*) | noun | -ometer, gauge | *speedmeter* (*speedometer*), *heatmeter* (*thermometer*), *pressuremeter* (*pressure gauge*) |
 | Causes X (a feeling or state) in others | `-some` | — | noun | -ing (in this meaning), -y | *fearsome*, *painsome*, *worrysome* (*worrying*), *scaresome* (*scary*), *troublesome* |
+| Female X | `-ess` | feminine | noun | -ette, -trix, -ine, -woman, *female* + noun | *actoress* (*actress*), *heroess* (*heroine*), *Walesaness* (*Welshwoman*), *lioness*, *dogess* (*bitch*) |
 
 Notes:
 - By P1, a place gives three different words: the person (`-an`), the adjective (`-al`) and the language (`-ese`). Example: *a Chinan* speaks *Chinaese* and eats *Chinal food*. The people as a group is the plural: *the Chinans* (*the Chinese*).
-- `-an` and `-ese` overwrite names of peoples and languages too (P5). The name of this language is *Consistentized Englandese*. More examples: *Thailandan*, *Thailandese* (*Thai*); *Walesan*, *Walesese* (*Welsh*); *Netherlandsan* (*Dutchman*), *Netherlandsese* (*Dutch*); *Canadan* (*Canadian*); *Francean* (*Frenchman*).
+- `-an` and `-ese` overwrite names of peoples and languages too (P5). The name of this language is *Consistentized Englandese*. More examples: *Thailandan*, *Thailandese* (*Thai*); *Walesan*, *Walesese* (*Welsh*); *Netherlandan* (*Dutchman*), *Netherlandese* (*Dutch*); *Canadan* (*Canadian*); *Francean* (*Frenchman*).
 - `-an` is also used for cities and regions: *Londonan*, *Texasan*.
 - A people or language whose name is itself the base word does not take `-an` or `-ese`. Examples: *a Tamil*, *the Yorubas*, *Basque*, *Latin*, *Esperanto*.
 - Place names themselves do not change (*England*, *Malaysia*). Only the derived forms change.
+- A plural place name uses its singular form as the base for a suffix: *Netherlands* → *Netherlandan*, *Netherlandal*, *Netherlandese*; *Philippines* → *Philippinean*, *Philippinese*. The name alone keeps its *-s* (*the Netherlands*). *Wales* is not a plural, so it keeps its *s*: *Walesan*, *Walesese*.
 - *-like* and *-ly* are different. *-like* makes an adjective from a noun. *-ly* makes an adverb from an adjective. So *friendly* (adjective, "like a friend") becomes *friendlike*.
 - Four suffixes say what can or must happen to a thing. They are different:
   - *flyable*: it can fly, or it can be flown.
@@ -181,25 +168,30 @@ Notes:
   - *airproof*: air does not go through it.
 - *-ful* and *-some* are different. *-ful* means the thing has X (*a fearful child* feels fear). *-some* means the thing causes X (*a fearsome dog* causes fear).
 - *-meter* is only for tools that measure. Other tools use *-or* (see Q5).
+- `-let` and `-ling` are different. *a doglet* is a small dog of any age. *a dogling* is a young dog, or the child of a dog.
+- `-ling` never means "lesser person". Traditional words with that meaning are not CE forms. Write a phrase: *weakling* → *weak person*, *underling* → *junior worker*.
 - *-ish* and *-like* are different. *childish* (like a child) becomes *childlike*. *reddish* (somewhat red) does not change.
+- `-ess` is the only gender affix. There is no male affix: a noun without `-ess` means a male, or a person or animal whose sex is unknown or mixed (as in Esperanto). *an actor* is a male actor or an actor of unknown sex. *the actors* can be a mixed group. Use `-ess` for each known female: *the engineoress*, not *the engineor*, when the engineer is a woman.
+- `-ess` goes after the other derivational suffixes: *teach* + *or* + *ess* → *teachoress*; *king* + *ling* + *ess* → *kinglingess* (*princess*).
 
-### 4.5 Removed affixes
+### 3.5 Removed affixes
 
 These affixes have no CE form. Use a separate word.
 
 | Affix | Meaning | CE form | Examples |
 |---|---|---|---|
-| -ess, -ette, -trix, -ine | female | *female* + noun | *actress* → *female actor*, *heroine* → *female hero* |
 | -ly (on time nouns) | every X | *each* + noun | *daily* → *each day*, *weekly* → *each week* |
 
-Reason for *-ly* on time nouns: *-ly* already means "in an X way" (§4.2). *daily* would break P2.
+For female forms, use `-ess` (§3.4.2).
 
-### 4.6 When to use affixes
+Reason for *-ly* on time nouns: *-ly* already means "in an X way" (§3.2). *daily* would break P2.
 
-CE is agglutinative: each affix has one meaning, the base never changes, and affixes stack in a fixed order (§4.3). Use this to make text shorter, but keep each word easy to take apart.
+### 3.6 When to use affixes
+
+CE is agglutinative: each affix has one meaning, the base never changes, and affixes stack in a fixed order (§3.3). Use this to make text shorter, but keep each word easy to take apart.
 
 - **U1. Prefer the affixed form.** If an affixed word replaces a phrase of two or more words, use the affixed word.
-- **U2. Limit the stack.** Use no more than three derivational affixes in one word. Inflectional affixes (§4.1) are not counted.
+- **U2. Limit the stack.** Use no more than three derivational affixes in one word. Inflectional affixes (§3.1) are not counted.
 - **U3. Use a phrase when U2 is broken.** If the affixed form needs more than three derivational affixes, write a phrase.
 - **U4. Do not let `-ment` be unclear.** `-ment` names both an act and its result (*the connectment took one hour*; *the connectment is loose*). When the difference is important, use a different form. To name an action, prefer the verb (*connect the wires*, not *do the connectment of the wires*). To name a physical result, use a concrete base word (*the joint*) or `-ee` for a thing that the action makes (*buildee*, *writee*).
 
@@ -211,7 +203,7 @@ CE is agglutinative: each affix has one meaning, the base never changes, and aff
 | *the state of being unable to be connected again* | *unreconnectableness* | 4 | phrase (U3) |
 | *cannot be connected again* | *unreconnectable* | 3 | affixed form (U1) |
 
-### 4.7 Compounds
+### 3.7 Compounds
 
 A compound is two or more words that name one thing. Join the words with hyphens: *blood-sugar*, *finance-minister*, *low-blood-sugar*.
 
@@ -228,7 +220,45 @@ A compound is two or more words that name one thing. Join the words with hyphens
 | *unconfidence-vote* | un + [confidence-vote] | something that is not a confidence vote (C2) |
 | *unconfidence vote* | [unconfidence] + *vote* (two words) | a vote that expresses no confidence (C3) |
 
-## 5. Allowed allomorphs
+### 3.8 Biological affixes
+
+CE imports common affixes from biology and medicine and makes them fully productive (§3.4). An affix is imported only when English has no native affix with the same meaning. Native affixes for "on", "outside", "through" and "fake" are in §3.4.1. Each one attaches to plain English bases (P4), not only to Greek and Latin roots. The affix keeps its scientific meaning, made general: *-vore* means "eats X" for any X, not only for animals.
+
+#### 3.8.1 Prefixes
+
+| Meaning | Affix | Source | Attaches to | Replaces | Examples |
+|---|---|---|---|---|---|
+| New | `neo-` | *neocortex* | noun | *new* + noun | *neooven*, *neoversion* |
+| Old | `paleo-` | *paleontology* | noun | *old* + noun | *paleooven*, *paleoroad* |
+| Large | `macro-` | *macrophage* | noun | *large* / *big* + noun | *macromakeery* (*large factory*), *macrodog*; not *mega-*, which is an SI prefix (P6) |
+| Around | `peri-` | *pericardium* | noun | *around* + noun | *perihouse*, *perilake* |
+
+#### 3.8.2 Suffixes
+
+| Meaning | Affix | Source | Attaches to | Replaces | Examples |
+|---|---|---|---|---|---|
+| Shaped like X | `-form` | *cruciform* | noun | *X-shaped* | *heartform*, *starform*, *bellform* |
+| Eats X | `-vore` | *herbivore* | noun | *-eater*, *-vorous* | *grassvore* (*herbivore*), *meatvore* (*carnivore*), *antvore* (*anteater*) |
+| Loves X | `-phile` | *hydrophile* | noun | *X-lover*, *-philic* | *bookphile*, *catphile* |
+| Fears X, avoids X | `-phobe` | *hydrophobe* | noun | *-phobic* | *waterphobe*, *crowdphobe* |
+| Kills X | `-cide` | *herbicide* | noun | *X-killer*, *-icide* | *weedcide* (*herbicide*), *bugcide* (*insecticide*) |
+| Produces X | `-gen` | *pathogen* | noun | *-genic*, *-ogen* | *diseasegen* (*pathogen*), *cancergen* (*carcinogen*) |
+| Swelling, inflammation of X | `-itis` | *arthritis* | noun | *-itis* on Greek roots | *jointitis* (*arthritis*), *skinitis* (*dermatitis*) |
+| Removal of X by cutting | `-ectomy` | *appendectomy* | noun | *-ectomy* on Greek roots | *tonsilectomy*, *wombectomy* (*hysterectomy*) |
+| Tool to look at X | `-scope` | *microscope* | noun | *-oscope* | *starscope* (*telescope*), *insidescope* (*endoscope*) |
+
+#### 3.8.3 Numeral prefixes on verbs
+
+On a verb, a numeral prefix (§3.4.1) means "X times": *bimisfunction* (*malfunction twice*), *triknock* (*knock three times*), *multicheck* (*check many times*). *uni-* on a verb means "once".
+
+Notes:
+- A prefix keeps the capital letter of a proper noun: *periParis*, *outLondon*.
+- `-form` and `-like` are different. `-form` is about shape (*a heartform cake*). `-like` is about manner (*childlike*).
+- `-gen`, `-ful` and `-some` are different. *a diseasegen* produces disease. *a diseaseful town* has disease. *a fearsome dog* causes fear.
+- `-phobe` and `anti-` are different. *a waterphobe* avoids water. *antiwater* is opposed to water.
+- `-scope` and `-meter` are different. `-scope` shows X. `-meter` measures X.
+
+## 4. Allowed allomorphs
 
 **Rule: the base word never changes.** An affix never adds, removes or changes a letter of the base. All variation is in the affix.
 
@@ -236,14 +266,15 @@ An affix may have a variant only to prevent awkward spelling or pronunciation (P
 
 These are the only allowed variants. A rule always chooses the form.
 
-### 5.1 Add a vowel to the affix (break a consonant cluster or a repeat)
+### 4.1 Add a letter to the affix (break a consonant cluster, a vowel clash or a repeat)
 
 | Affix | Variant | Condition | Examples |
 |---|---|---|---|
 | `-s` | `-es` | Base ends in *s, x, z, ch, sh* | *box* → *boxes*, *wish* → *wishes* |
+| `a-` | `an-` | Base starts with a vowel, as with the article *a* / *an* | *anoven* (*on the oven*), *anice* (*on the ice*) |
 | `-an` | `-ian` | Base ends in *an* (prevents *anan*) | *Japan* → *Japanian*, *Iran* → *Iranian*, *Pakistan* → *Pakistanian*, *Taiwan* → *Taiwanian* |
 
-### 5.2 Remove the first letter of the affix (prevent an overlap)
+### 4.2 Remove the first letter of the affix (prevent an overlap)
 
 When the base ends in the letter that the affix starts with, and keeping both would be awkward, the affix loses its first letter. Awkward means one of these:
 
@@ -253,14 +284,14 @@ When the base ends in the letter that the affix starts with, and keeping both wo
 
 | Affix | Variant | Condition | Examples |
 |---|---|---|---|
-| Any suffix that starts with *e* (`-ed`, `-er`, `-est`, `-ee`, `-ery`, `-ese`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese* |
+| Any suffix that starts with *e* (`-ed`, `-er`, `-est`, `-ee`, `-ery`, `-ese`, `-ess`, `-ectomy`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese*; *graduateure* → *graduateuress* |
 | Any suffix that starts with *a* (`-al`, `-an`, `-able`, `-and`) | drop the *a* | Base ends in *a* | *China* → *Chinal*, *Chinan*; *Canada* → *Canadal*, *Canadan*; *Korea* → *Korean*; *formula* → *formulal* |
 | `-or` | no variant | Base ends in *e* | *make* → *makeor*, *operate* → *operateor* (the base never changes; *e* + *o* is not a doubled *e*) |
 | `-ure` | no variant | Base ends in *e* | *close* → *closeure*, *graduate* → *graduateure* |
 | Any affix | drop its first letter | The result would have three of the same letter | *full* + `-ly` → *fully*; *skill* + `-less` → *skilless* |
 | `-th` | `-h` | Base ends in *t* | *eight* → *eighth* |
 
-### 5.3 Results of the rule
+### 4.3 Results of the rule
 
 Because the base never changes, these traditional spelling changes are not used:
 
@@ -274,7 +305,7 @@ Because the base never changes, these traditional spelling changes are not used:
 
 Note: without doubling and *c* → *ck*, some spellings no longer show the sound of the base (*stoped* looks like it has a long *o*; *paniced* looks like it has an *s* sound). See Q3.
 
-## 6. Collisions with existing words
+## 5. Collisions with existing words
 
 Some regular CE forms have the same spelling as an existing English word with a different meaning. CE gives the word its CE meaning. List of known collisions:
 
@@ -286,29 +317,32 @@ Some regular CE forms have the same spelling as an existing English word with a 
 | *departure* | a person or thing that is about to depart | the act of leaving (CE: *department*) |
 | *department* | the act of departing | a part of an organization (CE: *partdom* or a dictionary base word, to be decided) |
 | *pressure* | a person or thing that is about to press | force on a surface (if *pressure* is kept as a base word, the two meanings collide) |
+| *ahead* | on the head | in front |
+| *away* | on the way | at a distance |
 
 (Open question Q2.)
 
-## 7. Dictionary
+## 6. Dictionary
 
-CE uses its own core dictionary. It is not a copy of the STE100 dictionary. Each entry has:
+The CE dictionary lists base words, so that each base has one part of speech (P1) and the affix rules can choose the right suffix. CE does not limit text to dictionary words. A word that is not in the dictionary follows the same affix rules. Each entry has:
 
 - the base word
 - its one part of speech
 - its one meaning
 - one example sentence
-- the unapproved words it replaces (optional)
+- the traditional words it replaces (optional)
 
-The dictionary is to be done. Only base words go in the dictionary. Affixed forms are made by the rules in §4 and are not listed.
+The dictionary is to be done. Only base words go in the dictionary. Affixed forms are made by the rules in §3 and are not listed.
 
-## 8. Open questions
+## 7. Open questions
 
 - **Q1.** Do we regularize *be* (*I be, he bes, he beed*)?
-- **Q2.** How do we handle collisions such as *seed* (see §6)? Options: accept the collision, add a hyphen (*see-ed*), or change the allomorph rule.
+- **Q2.** How do we handle collisions such as *seed* (see §5)? Options: accept the collision, add a hyphen (*see-ed*), or change the allomorph rule.
 - **Q3.** Do we need a variant that keeps the sound of the base without changing its spelling? Example: a hyphen or a written mark between base and affix (*stop-ed*, *panic-ed*).
 - **Q4.** (Closed.) No separate result-noun affix. `-ment` covers the act and its result, and U4 handles cases where the difference is important.
 - **Q5.** Should `-or` cover both persons (*teachor*) and tools (*computeor*), or should tools use a separate affix?
-- **Q6.** Plural place names make awkward language names (*Netherlandsese*, *Philippinesese*). Do we need an `-ese` variant after *s*? (The demonym has no problem: *Netherlandsan*, *Philippinesan*.)
+- **Q6.** (Closed.) Plural place names made awkward language names (*Netherlandsese*). A plural place name now uses its singular form as the base (§3.4.2): *Netherlandese*, *Philippinese*.
+- **Q7.** Do modal verbs (*can*, *will*, *shall*, *may*) take `-ed` (*canned*, *willed*)? Their traditional past forms (*could*, *would*, *should*, *might*) often do not mean past time. Appendix D keeps *would* for now.
 
 ## Appendix A. Example translation
 
@@ -320,23 +354,24 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 
 **Consistentized Englandese**
 
-> Deconnect the machine completely from the power supply before you start. It is unpossible to examine the electric parts safely when the machine operates. The techniqueor who did the last inspectment finded that some bolts were looseized and two seals were breaked. These problems are not easyly seeable. Examine each joint carefully. If a seal is unuseable, replace it immediately. Only a trained operateor can do the replacement.
+> Before you begin, make sure the machine is completely deconnected from the power supply. It is unpossible to safely inspect the electric components while the unit is runing. The techniqueor who carryed out the last inspectment finded that several bolts had been looseized and two of the seals were breaked. These problems are not easyly seeable, so you should check each joint carefully. If a seal is unuseable, replace it immediately. The replacement must be doed by a qualifyed operateor.
 
 ### A.2 Changes
 
 | Standard | CE | Rule |
 |---|---|---|
-| *disconnected* | *deconnect* | `de-` is the only "reverse the action" prefix (§4.2) |
-| *impossible*, *unusable* | *unpossible*, *unuseable* | `un-` is the only "not" prefix (§4.2) |
-| *technician*, *operator* | *techniqueor*, *operateor* | one agent suffix, `-or`; base unchanged (§4.2, §5.2) |
-| *inspection*, *replacement* | *inspectment*, *replacement* | one process-noun suffix, `-ment` (§4.2) |
-| *found*, *broken* | *finded*, *breaked* | every past form uses `-ed` (§4.1) |
-| *loosened* | *looseized* | one "make X" suffix, `-ize` (§4.2) |
+| *disconnected* | *deconnected* | `de-` is the only "reverse the action" prefix (§3.2) |
+| *impossible*, *unusable* | *unpossible*, *unuseable* | `un-` is the only "not" prefix (§3.2) |
+| *technician*, *operator* | *techniqueor*, *operateor* | one agent suffix, `-or`; base unchanged (§3.2, §4.2) |
+| *inspection*, *replacement* | *inspectment*, *replacement* | one process-noun suffix, `-ment` (§3.2) |
+| *found*, *broken*, *done* | *finded*, *breaked*, *doed* | every past form uses `-ed` (§3.1) |
+| *loosened* | *looseized* | one "make X" suffix, `-ize` (§3.2) |
 | *visible* | *seeable* | affix goes on the plain base (P4) |
-| *easily* | *easyly* | the base never changes (§5) |
-| *carried out*, *make sure* | *did*, (removed) | no phrasal verbs (§3.1) |
-| *while … is running* | *when … operates* | simple tenses only (§3.2) |
-| *must be done by* | *can do* | active voice (§3.2) |
+| *easily*, *carried*, *qualified* | *easyly*, *carryed*, *qualifyed* | the base never changes: no *y* → *i* (§4) |
+| *running* | *runing* | the base never changes: no doubled consonant (§4) |
+| *electrical* | *electric* | *electric* is already the adjective; *-ical* is not a CE affix (§3.2) |
+
+Sentence structure does not change. *carried out* stays a phrasal verb, and *must be done* stays passive. CE changes only word forms.
 
 ### A.3 One base, all forms
 
@@ -358,7 +393,7 @@ To an ordinary English reader, CE forms such as *finded*, *easyly* and *techniqu
 
 ## Appendix B. Agglutination example
 
-This example shows how CE uses stacked affixes (§4.6) to make text shorter.
+This example shows how CE uses stacked affixes (§3.6) to make text shorter.
 
 ### B.1 Text
 
@@ -424,11 +459,128 @@ The country and the people in this text are not real.
 | *opposeors* | oppose + or + s | *the opposition* | |
 | *unpreseeable* | un + pre + see + able | *unforeseeable* | 3 derivational affixes, the limit in U2 |
 | *untrustabler* | un + trust + able + er | *less trusted* | |
-| *exfinance-minister* | ex + [finance-minister] | *former finance minister* | compound (§4.7) |
-| *governor* | govern + or | *government* | collision, see §6 |
+| *exfinance-minister* | ex + [finance-minister] | *former finance minister* | compound (§3.7) |
+| *governor* | govern + or | *government* | collision, see §5 |
 | *partys*, *protestors* | party + s, protest + or + s | *parties*, *protesters* | |
 | *Prime Minister*, *parliament* | — | no change | legally defined names (P6) |
 
 ### C.3 Comment
 
 The CE text is only 3% shorter. News text uses many nouns and names, and few relative clauses (*that cannot be …*), so agglutination saves less than in technical text (Appendix B). The benefit here is transparency: a reader can take apart each CE word to find its meaning.
+
+## Appendix D. Feature tour
+
+This passage is written to use as many CE rules as possible in ordinary prose. The people in it are not real. It uses only §3.1–§3.7. Appendix E translates it again with the biological affixes (§3.8).
+
+### D.1 Text
+
+**Standard English** (359 words)
+
+> Last week, a retired engineer and her former student visited a small bakery in London. The engineer, a Japanese woman, speaks fluent English and Dutch. She had arrived after a long flight across the ocean, and her student came by bicycle. The baker, a cheerful Welshwoman, was forewarned of their arrival. She told them that her oven had malfunctioned twice that month, that its thermometer was unreliable, and that the noise it made was frightening.
+>
+> The engineer examined the machinery more carefully than the government inspector had. The wires under the floor were interconnected, and the overhead lamp was dangerous. "Disconnect everything and unlock the cover," she told the employees, "and do not tighten the screws too much." She found that the eighth fuse was broken and that mice had chewed through the insulation. A skilled electrician would have seen it at once, but the inspector had not.
+>
+> They worked together to raise the oven, lay new cables on the floor and rebuild the heater. The student, a biologist, contradicted the baker: the damage was worse than her description. His repair, however, was better than his teacher's. The new oven cleans itself, starts automatically and bakes double the bread. It is waterproof and airtight, and it is more beautiful than the old one, although slightly noisier.
+>
+> The baker's daughter, who is about to graduate in pharmacy, was impressed but doubtful. "It is impossible to trust a machine fully," she said. The engineer smiled. "It is the safest oven in the kingdom, and the most reliable machine that I have ever built." She refused payment. In return, the baker gave them a basket of warm loaves and a reddish, heart-shaped cake. The children in the shop behaved childishly and outran each other toward the door.
+>
+> Since then, the ingredients that must be ordered daily are written on a whiteboard in the kitchen: 25 kilograms of flour, sodium bicarbonate and Chinese tea. The engineer, now a co-owner, has never been happier, and the new oven has empowered the baker. "Money-wise, a small bakery is better than a large factory," she says. Her husband, a former firefighter, agrees and does the deliveries.
+
+**Consistentized Englandese** (330 words)
+
+> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She haved arrived after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, was prewarned of their arrivement. She telled them that her oven haved misfunctioned twice that month, that its heatmeter was unrelyable, and that the noise it maked was frightsome.
+>
+> The engineoress examined the machinedom carefullyer than the governor's inspector haved. The subfloor wires were interconnected, and the superhead lamp was dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse was breaked and that mouses haved transchewed the insulatement. A skilled electricityor would have seed it at once, but the inspector haved not.
+>
+> They coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage was bader than her describement. His repair, however, was gooder than his teachoress's. The new oven selfcleans, autostarts and bakes twofold the bread. It is waterproof and airproof, and it is beautifuler than the old one, although slightly noisefuler.
+>
+> The bakeorlingess, a pharmacy graduateuress, was impressed but doubtful. "It is unpossible to trust a machine fully," she sayed. The engineoress smiled. "It is the safest oven in the kingdom, and the relyablest machine that I have ever builded." She refused payment. In return, the bakeoress gived them a basket of warm loafs and a reddish, heart-shaped cake. The childs in the shop behaved childlikely and outruned each other doorward.
+>
+> Since then, the orderands of each day are writed on a whiteboard in the cookery: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, haves never been happyer, and the new oven haves enpowered the bakeoress. "Moneywise, a bakerylet is gooder than a large makeery," she says. Her husband, an exfire-fightor, agrees and dos the deliverments.
+
+### D.2 Features shown
+
+| Feature | Standard → CE | Rule |
+|---|---|---|
+| Regular plural | *mice*, *children*, *loaves* → *mouses*, *childs*, *loafs* | `-s` (§3.1) |
+| Regular past and participle | *came*, *told*, *made*, *found*, *broken*, *seen*, *built*, *gave*, *written* → *comed*, *telled*, *maked*, *finded*, *breaked*, *seed*, *builded*, *gived*, *writed* | `-ed` (§3.1) |
+| Regular *have*, *do*, *say* | *had*, *has*, *does*, *said* → *haved*, *haves*, *dos*, *sayed* | `-ed`, `-s`; only *be* stays irregular (§3.1) |
+| Regular comparison | *worse*, *better* → *bader*, *gooder* | `-er` (§3.1) |
+| Comparison of long words | *more carefully*, *more beautiful*, *most reliable* → *carefullyer*, *beautifuler*, *relyablest* | no *more* / *most* for degree (§3.1) |
+| Not X | *impossible*, *unreliable* → *unpossible*, *unrelyable* | `un-` (§3.2) |
+| Reverse the action | *disconnect*, *unlock* → *deconnect*, *delock* | `de-` (§3.2) |
+| Again | *rebuild* | `re-` (§3.2) |
+| Agent noun | *engineer*, *baker*, *teacher*, *heater*, *biologist*, *electrician* → *engineor*, *bakeor*, *teachor*, *heator*, *lifeologyor*, *electricityor* | `-or` (§3.2) |
+| Patient noun | *employees* | `-ee`, already regular (§3.2) |
+| Gerundive | *ingredients that must be ordered* → *orderands* | `-and` (§3.2) |
+| Prospective | *who is about to graduate* → *graduateure* | `-ure` (§3.2) |
+| Can be X-ed | *reliable* → *relyable* | `-able`, base unchanged (§3.2, §4) |
+| Action noun | *arrival*, *insulation*, *description*, *deliveries* → *arrivement*, *insulatement*, *describement*, *deliverments* | `-ment` (§3.2) |
+| Having X | *dangerous*, *noisy* → *dangerful*, *noiseful* | `-ful` (§3.2) |
+| Manner adverb | *childishly* → *childlikely* | `-like` + `-ly` (§3.2, §3.4.2) |
+| Make X, causative | *tighten too much*, *raise*, *lay* → *overtightize*, *riseize*, *lieize* | `-ize` (§3.2) |
+| Prefixes | *malfunctioned*, *under the floor*, *overhead*, *forewarned*, *contradicted*, *across the ocean*, *worked together*, *former*, *cleans itself*, *starts automatically*, *outran*, *empowered*, *bicycle*, *co-owner* → *misfunctioned*, *subfloor*, *superhead*, *prewarned*, *counterspeaked*, *transocean*, *coworked*, *ex-*, *selfcleans*, *autostarts*, *outruned*, *enpowered*, *biwheel*, *coownor* | §3.4.1 |
+| On, through | *on the floor*, *chewed through* → *afloor*, *transchewed* | `a-`; `trans-` on a verb (§3.4.1) |
+| Suffixes | *small bakery*, *machinery*, *kitchen*, *factory*, *toward the door*, *money-wise*, *thermometer*, *airtight*, *double*, *frightening* → *bakerylet*, *machinedom*, *cookery*, *makeery*, *doorward*, *moneywise*, *heatmeter*, *airproof*, *twofold*, *frightsome* | §3.4.2 |
+| Child of X | *the baker's daughter* → *the bakeorlingess* | `-or` + `-ling` + `-ess`: 3 derivational affixes, the limit in U2 (§3.4.2) |
+| Unchanged regular forms | *reddish*, *waterproof*, *interconnected*, *kingdom*, *doubtful* | already CE |
+| Person, adjective, language | *Japanese woman*, *Welshwoman*, *English*, *Dutch*, *Chinese tea* → *Japanianess*, *Walesaness*, *Englandese*, *Netherlandese*, *Chinal tea* | `-an`, `-ese`, `-al` (§3.4.2) |
+| Female | *engineer*, *baker*, *teacher*, *co-owner*, *graduate* (all women) → *engineoress*, *bakeoress*, *teachoress*, *coownoress*, *graduateuress* | `-ess`; the unmarked noun is male (§3.4.2) |
+| Every X | *daily* → *of each day* | removed affix (§3.5) |
+| Compound | *former firefighter* → *exfire-fightor* | affixes on the ends (§3.7) |
+| Allomorphs | *Japanian* (`-ian` after *an*), *Chinal* (drop *a*), *arrived*, *retired* (drop *e*), *fully* (no triple *l*), *eighth* (`-h` after *t*) | §4 |
+| Base never changes | *happier* → *happyer* (no *y* → *i*); *outran* → *outruned* (no doubled *n*) | §4.3 |
+| Collisions | *seen* → *seed*; *government* → *governor* | §5 |
+| Exempt names | *25 kilograms*, *sodium bicarbonate*, *London* | P6, place names |
+| Modals | *would* → no change | Q7 |
+
+### D.3 Comment
+
+The CE text has 8% fewer words. The savings come from phrases that become one word (*orderands*, *graduateure*, *transocean*, *overtightize*, *doorward*). The cost is in narrative verbs: almost every sentence has at least one regularized past form, and some (*comed*, *dos*, *haved*) are the CE forms that look strangest to a native reader.
+
+Not shown: `-ness`, `anti-`, `intra-`, `semi-`, `uni-`, `tri-`, `multi-`, `post-`, `under-`, `-less`, `-ism`, `-ology` alone, `-worthy`, `-wise` on a non-money noun, `-th` on a regular number, and the `-es` plural.
+
+## Appendix E. Feature tour with biological affixes
+
+This is the passage from Appendix D, translated again with the biological affixes (§3.8). It also uses two existing affixes that Appendix D did not use.
+
+### E.1 Text
+
+**Consistentized Englandese with §3.8** (320 words)
+
+> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She haved arrived after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, was prewarned of their arrivement. She telled them that her oven haved bimisfunctioned that month, that its heatmeter was unrelyable, and that the noise it maked was frightsome.
+>
+> The engineoress examined the machinedom carefullyer than the governor's inspector haved. The subfloor wires were interconnected, and the superhead lamp was dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse was breaked and that mouses haved transchewed the insulatement. A skilled electricityor would have seed it at once, but the inspector haved not.
+>
+> They coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage was bader than her describement. His repair, however, was gooder than his teachoress's. The neooven selfcleans, autostarts and bakes twofold the bread. It is waterproof and airproof, and it is beautifuler than the old one, although slightly noisefuler.
+>
+> The bakeorlingess, a pharmacy graduateuress, was impressed but doubtful. "It is unpossible to trust a machine fully," she sayed. The engineoress smiled. "It is the safest oven in the kingdom, and the relyablest machine that I have ever builded." She refused payment. In return, the bakeoress gived them a basket of warm loafs and a reddish, heartform cake. The intrashop childs behaved childlikely and interoutruned doorward.
+>
+> Since then, the orderands of each day are writed on an intracookery whiteboard: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, haves never been happyer, and the neooven haves enpowered the bakeoress. "Moneywise, a bakerylet is gooder than a macromakeery," she says. Her husband, an exfire-fightor, agrees and dos the deliverments.
+
+### E.2 Changes from Appendix D
+
+| Appendix D | Appendix E | Affix |
+|---|---|---|
+| *haved misfunctioned twice* | *haved bimisfunctioned* | numeral prefix on a verb (§3.8.3) |
+| *The new oven*, *the new oven* | *The neooven*, *the neooven* | `neo-` (§3.8.1) |
+| *heart-shaped* | *heartform* | `-form` (§3.8.2) |
+| *a large makeery* | *a macromakeery* | `macro-` (§3.8.1) |
+| *The childs in the shop*, *a whiteboard in the cookery* | *The intrashop childs*, *an intracookery whiteboard* | `intra-` (§3.4.1), existing, not used in Appendix D |
+| *outruned each other* | *interoutruned* | reciprocal `inter-` (§3.4.1), existing, not used in Appendix D |
+
+### E.3 Size
+
+| Version | Words | Characters |
+|---|---|---|
+| Standard English (D.1) | 359 | 2158 |
+| CE (D.1) | 330 | 2138 |
+| CE with §3.8 (E.1) | 320 | 2119 |
+
+### E.4 Comment
+
+The §3.8 version has 3% fewer words and 1% fewer characters than Appendix D, and 11% fewer words than the standard English text.
+
+The biological affixes save less than expected on this passage. Most of them name things that a story about an oven does not talk about: eating, killing, disease, fear and love. The savings come from `neo-`, `macro-` and numeral prefixes on verbs. Of the 10 words saved, 4 come from §3.8 and 6 come from the existing `intra-` and reciprocal `inter-`. The native prefixes that replaced imported ones (`a-`, `trans-` on verbs) are in §3.4.1, so Appendix D uses them too: *afloor*, *transchewed*.
+
+Not used: `paleo-`, `peri-`, `-vore`, `-phile`, `-phobe`, `-cide`, `-gen`, `-itis`, `-ectomy`, `-scope`. `paleo-` makes the text longer here: *the paleooven* is longer than *the old one*.
