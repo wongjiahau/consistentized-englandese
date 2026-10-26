@@ -19,11 +19,12 @@ CE changes word forms only. It does not limit sentence length, voice, tense or s
   - chemical names from IUPAC nomenclature (*carbon dioxide*, *sulfate*, *ferric oxide*)
   - SI units and SI prefixes (*kilometer*, *milligram*, *microsecond*)
   - scientific names of species (*Homo sapiens*)
-  - legal, registered and trade names (*Ltd*, product names)
+  - registered and trade names (*Ltd*, product names)
   - part numbers, standard numbers and codes
-  - terms with a legal or regulatory definition, when the text depends on that definition (*flammable* and *combustible* on a safety label)
 
-  Reason: these names are already consistent systems with outside owners. A CE text must match the drawings, parts lists, data sheets and regulations it refers to.
+  Reason: these names are already consistent systems with outside owners. A CE text must match the drawings, parts lists and data sheets it refers to.
+
+  Terms with a legal or regulatory definition are not exempt. They follow the affix rules like any other word: *flammable* → *burnable*, also on a safety label.
 
 ## 3. Affix rules
 
@@ -71,6 +72,7 @@ Notes:
 - `-ment` starts with a consonant, so it never makes a vowel clash with a base that ends in *e*: *makement*, *replacement*.
 - *able* + *ize* + *ment* makes "the process of making X-able": *observeableizement* (*observe* + *able* + *ize* + *ment*; 3 derivational affixes, the limit in U2).
 - `-ize` on a verb is causative: "make (the object) do X". The object is the one that does X: *deboardize the crew* (make the crew deboard), *fallize the tree* (*fell*), *riseize the flag* (*raise*), *lieize the cable on the floor* (*lay*). Use it only on verbs that have no object. If the verb has its own object, write a phrase: *tell the operator to examine the valve*. Do not put `-ize` on a word that already ends in `-ize`.
+- A noun that ends in *-ics* uses the form without *-s* as the base for a suffix, like a plural place name (§3.4.2): *politics* → *political*, *economics* → *economical*. The noun alone keeps its *-s*. (A field of study uses `-ology`, §3.4.2.)
 - `-and` and `-ure` are a pair. `-and` is passive and means "must be X-ed" (*an addand* is a number that must be added). `-ure` is active and means "will soon X" (*an addure* is a person who will soon add). Neither one says that the action happens now. For that, use `-ing` (*the adding machine*).
 - Traditional words in *-ure* that name a process or result use `-ment`: *failment* (*failure*), *closement* (*closure*), *mixment* (*mixture*). *pressure*, *nature*, *culture* and *measure* are base words.
 
@@ -152,6 +154,7 @@ Notes:
 | Tool that measures X | `-meter` | instrument noun (*nomen instrumenti*) | noun | -ometer, gauge | *speedmeter* (*speedometer*), *heatmeter* (*thermometer*), *pressuremeter* (*pressure gauge*) |
 | Causes X (a feeling or state) in others | `-some` | — | noun | -ing (in this meaning), -y | *fearsome*, *painsome*, *worrysome* (*worrying*), *scaresome* (*scary*), *troublesome* |
 | Female X | `-ess` | feminine | noun | -ette, -trix, -ine, -woman, *female* + noun | *actoress* (*actress*), *heroess* (*heroine*), *Walesaness* (*Welshwoman*), *lioness*, *dogess* (*bitch*) |
+| In the lasting state of X-ing | `-ent` | stative adjective | verb | -ant, -ent (adjective), -ing (in this meaning) | *dependent*, *undependent* (*independent*), *different*, *existent*, *pleasent* (*pleasant*), *ignorent* (*ignorant*) |
 
 Notes:
 - By P1, a place gives three different words: the person (`-an`), the adjective (`-al`) and the language (`-ese`). Example: *a Chinan* speaks *Chinaese* and eats *Chinal food*. The people as a group is the plural: *the Chinans* (*the Chinese*).
@@ -172,6 +175,8 @@ Notes:
 - `-ling` never means "lesser person". Traditional words with that meaning are not CE forms. Write a phrase: *weakling* → *weak person*, *underling* → *junior worker*.
 - *-ish* and *-like* are different. *childish* (like a child) becomes *childlike*. *reddish* (somewhat red) does not change.
 - `-ess` is the only gender affix. There is no male affix: a noun without `-ess` means a male, or a person or animal whose sex is unknown or mixed (as in Esperanto). *an actor* is a male actor or an actor of unknown sex. *the actors* can be a mixed group. Use `-ess` for each known female: *the engineoress*, not *the engineor*, when the engineer is a woman.
+- `-ing`, `-ent` and `-able` are different. *the depending country* is depending now (an action in progress). *the dependent country* is in that state, and the state lasts. *the dependable country* can be depended on.
+- `-ent` is only an adjective. Nouns in *-ant* and *-ent* use `-or` (§3.2): *student* → *studyor*, *assistant* → *assistor*.
 - `-ess` goes after the other derivational suffixes: *teach* + *or* + *ess* → *teachoress*; *king* + *ling* + *ess* → *kinglingess* (*princess*).
 
 ### 3.5 Removed affixes
@@ -284,7 +289,7 @@ When the base ends in the letter that the affix starts with, and keeping both wo
 
 | Affix | Variant | Condition | Examples |
 |---|---|---|---|
-| Any suffix that starts with *e* (`-ed`, `-er`, `-est`, `-ee`, `-ery`, `-ese`, `-ess`, `-ectomy`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese*; *graduateure* → *graduateuress* |
+| Any suffix that starts with *e* (`-ed`, `-er`, `-est`, `-ee`, `-ent`, `-ery`, `-ese`, `-ess`, `-ectomy`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese*; *graduateure* → *graduateuress*; *please* → *pleasent* |
 | Any suffix that starts with *a* (`-al`, `-an`, `-able`, `-and`) | drop the *a* | Base ends in *a* | *China* → *Chinal*, *Chinan*; *Canada* → *Canadal*, *Canadan*; *Korea* → *Korean*; *formula* → *formulal* |
 | `-or` | no variant | Base ends in *e* | *make* → *makeor*, *operate* → *operateor* (the base never changes; *e* + *o* is not a doubled *e*) |
 | `-ure` | no variant | Base ends in *e* | *close* → *closeure*, *graduate* → *graduateure* |
@@ -462,7 +467,7 @@ The country and the people in this text are not real.
 | *exfinance-minister* | ex + [finance-minister] | *former finance minister* | compound (§3.7) |
 | *governor* | govern + or | *government* | collision, see §5 |
 | *partys*, *protestors* | party + s, protest + or + s | *parties*, *protesters* | |
-| *Prime Minister*, *parliament* | — | no change | legally defined names (P6) |
+| *Prime Minister*, *parliament* | — | no change | base words |
 
 ### C.3 Comment
 
@@ -584,3 +589,93 @@ The §3.8 version has 3% fewer words and 1% fewer characters than Appendix D, an
 The biological affixes save less than expected on this passage. Most of them name things that a story about an oven does not talk about: eating, killing, disease, fear and love. The savings come from `neo-`, `macro-` and numeral prefixes on verbs. Of the 10 words saved, 4 come from §3.8 and 6 come from the existing `intra-` and reciprocal `inter-`. The native prefixes that replaced imported ones (`a-`, `trans-` on verbs) are in §3.4.1, so Appendix D uses them too: *afloor*, *transchewed*.
 
 Not used: `paleo-`, `peri-`, `-vore`, `-phile`, `-phobe`, `-cide`, `-gen`, `-itis`, `-ectomy`, `-scope`. `paleo-` makes the text longer here: *the paleooven* is longer than *the old one*.
+
+## Appendix F. Baseline: Universal Declaration of Human Rights
+
+These translations use only the rules above. They are a baseline: when a new affix is added, translate these texts again and compare.
+
+### F.1 Article 1
+
+#### F.1.1 Text
+
+**Standard English** (30 words)
+
+> All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.
+
+**Consistentized Englandese** (25 words)
+
+> All human bements are beared free and equal in worthyness and rights. They are enreasoned and enconscienced and should interact in a spirit of brotherness.
+
+#### F.1.2 Word breakdown
+
+| CE | Parts | Standard | Note |
+|---|---|---|---|
+| *bements* | be + ment + s | *beings* | `-ing` is never a noun (§3.2), so the noun uses `-ment` |
+| *beared* | bear + ed | *born* | regular past participle (§3.1); collides with the noun *bear* (P1) |
+| *worthyness* | worthy + ness | *dignity* | `-ness` replaces `-ity` (§3.2); *dignity* has no plain English base (P4) |
+| *enreasoned*, *enconscienced* | en + reason + ed, en + conscience + ed | *endowed with reason and conscience* | `en-` means "give X" (§3.4.1) |
+| *interact* | inter + act | *act towards one another* | reciprocal `inter-` (§3.4.1) |
+| *brotherness* | brother + ness | *brotherhood* | `-ness` replaces `-hood` (§3.2) |
+| *should* | — | no change | modal (Q7) |
+
+#### F.1.3 Size
+
+| Version | Words | Characters |
+|---|---|---|
+| Standard English | 30 | 170 |
+| CE | 25 | 155 |
+
+#### F.1.4 Gaps
+
+- *bements* is a legal form, but it is strange. CE has no affix for "a thing that is X" or "a thing that exists".
+- *beared* breaks P1: *bear* is also an animal. This is a dictionary problem, not an affix problem.
+- *dignity* has no plain base, so *worthyness* changes the meaning a little.
+- *brother* has no `-ess`, so by §3.4.2 it means a male or a person of unknown sex. *brotherness* therefore includes sisters. *sister* becomes *brotheress*.
+
+### F.2 Article 2
+
+#### F.2.1 Text
+
+**Standard English** (78 words)
+
+> Everyone is entitled to all the rights and freedoms set forth in this Declaration, without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status. Furthermore, no distinction shall be made on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be independent, trust, non-self-governing or under any other limitation of sovereignty.
+
+**Consistentized Englandese** (78 words)
+
+> Everyone is entitled to all the rights and freenesses setted forth in this Declarement, without distinguishment of any kind, such as race, colour, sex, language, religion, political or other opinion, national or societyal origin, ownee, bearment or other status. Furthermore, no distinguishment shall be maked on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be undependent, trust, unselfgoverning or under any other limitment of sovereignness.
+
+#### F.2.2 Word breakdown
+
+| CE | Parts | Standard | Note |
+|---|---|---|---|
+| *entitled* | en + title + ed | *entitled* | already CE: `en-` means "give X" (§3.4.1) |
+| *freenesses* | free + ness + es | *freedoms* | a state, so `-ness`; `-dom` is only collective (§3.4.2) |
+| *setted* | set + ed | *set* | zero past participle replaced (§3.1) |
+| *distinguishment* | distinguish + ment | *distinction* | `-ment` replaces `-tion` (§3.2) |
+| *political* | politic + al | no change | *-ics* noun drops *-s* before a suffix (§3.2) |
+| *Declarement* | declare + ment | *Declaration* | `-ment` replaces `-tion` (§3.2); legal terms are not exempt (P6) |
+| *societyal* | society + al | *social* | affix goes on the plain base (P4) |
+| *national*, *international* | nation + al, inter + nation + al | no change | already CE |
+| *ownee* | own + ee | *property* | the thing that is owned (§3.2) |
+| *bearment* | bear + ment | *birth* | action noun; matches *beared* in Article 1 |
+| *maked* | make + ed | *made* | §3.1 |
+| *jurisdictional* | jurisdiction + al | no change | already CE; *jurisdiction* has no plain English base |
+| *undependent* | un + depend + ent | *independent* | `un-` replaces `in-` (§3.2); stative `-ent` (§3.4.2) |
+| *unselfgoverning* | un + self + govern + ing | *non-self-governing* | `un-` replaces `non-` (§3.2); 2 derivational affixes |
+| *limitment* | limit + ment | *limitation* | §3.2 |
+| *sovereignness* | sovereign + ness | *sovereignty* | `-ness` replaces `-ty` (§3.2) |
+| *trust*, *territory* | — | no change | base words |
+
+#### F.2.3 Size
+
+| Version | Words | Characters |
+|---|---|---|
+| Standard English | 78 | 516 |
+| CE | 78 | 531 |
+
+#### F.2.4 Gaps
+
+- (Closed.) CE had no affix for "in the state of X" (*independent*), so this translation used *undepending*. Stative `-ent` (§3.4.2) now fills this gap: *undependent*.
+- **No savings.** The text has the same number of words and 3% more characters. Legal text uses many abstract nouns, and `-ment` and `-ness` are often longer than `-tion` and `-ty`. It has few relative clauses that affixes can replace.
+- (Closed.) Legal terms were exempt under P6, so *Declaration* and *property* were treated differently. P6 no longer exempts legal terms: *Declarement*, *ownee*.
+- (Closed.) *politicsal* was awkward. A noun that ends in *-ics* now drops its *-s* before a suffix (§3.2): *political*.
