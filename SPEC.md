@@ -64,7 +64,7 @@ Notes:
 | The thing that X makes | `-ate` | result noun | -tion, -ing, -ure (in this meaning) | *connectate* (a connection that has been made), *paintate* (*painting*), *buildate* (*building*), *describeate* (*description*), *mixate* (*mixture*), *filtrate*, *condensate* |
 | State or quality of being X | `-ness` | quality noun (*nomen qualitatis*) | -ity, -th, -ance, -ence, -cy, -hood, -ship, -tude, -ery (state), -ism (quality or condition) | *unpossibleness*, *trueness*, *longness*, *safeness* |
 | Relating to X | `-al` | relational adjective | -ic, -ical, -ar, -ary (in this meaning); demonym adjectives (-ese, -ish, -ian, -an, -i) | *scienceal*, *historyal*, *personal*, *Englandal* (*English*: *Englandal food*), *Chinal* (*Chinese*) |
-| Full of / having X | `-ful` | possessive (proprietive) adjective | -ous, -y | *dangerful*, *fameful*, *rainful* |
+| Full of / having X | `-ful` | possessive (proprietive) adjective | -ous, -y (on nouns) | *dangerful*, *fameful*, *rainful* |
 | Without X | `-less` | privative | — | *powerless* |
 | In an X way (adverb) | `-ly` | manner adverb | irregular adverbs | *goodly* (*well*), *fastly* (*fast*) |
 | Make X / become X (verb) | `-ize` | factitive, inchoative; causative on verbs | -ify, -en, -ate | *widize*, *simpleize*, *activeize* |
@@ -175,10 +175,11 @@ Notes:
 | Not damaged or affected by X | `-proof` | — | noun | -tight, -resistant | *waterproof*, *heatproof*, *shockproof*, *tamperproof*, *airproof* (*airtight*) |
 | Good enough or safe enough for X | `-worthy` | — | noun | — | *airworthy*, *roadworthy*, *trustworthy*, *newsworthy* |
 | Tool that measures X | `-meter` | instrument noun (*nomen instrumenti*) | noun | -ometer, gauge | *speedmeter* (*speedometer*), *heatmeter* (*thermometer*), *pressuremeter* (*pressure gauge*) |
-| Causes X (a feeling or state) in others | `-some` | — | noun | -ing (in this meaning), -y | *fearsome*, *painsome*, *worrysome* (*worrying*), *scaresome* (*scary*), *troublesome* |
+| Causes X (a feeling or state) in others | `-some` | — | noun | -ing (in this meaning), -y (on nouns) | *fearsome*, *painsome*, *worrysome* (*worrying*), *scaresome* (*scary*), *troublesome* |
 | Female X | `-ess` | feminine | noun | -ette, -trix, -ine, -woman, *female* + noun | *actoress* (*actress*), *heroess* (*heroine*), *Walesaness* (*Welshwoman*), *lioness*, *dogess* (*bitch*) |
 | In the lasting state of X-ing | `-ent` | stative adjective | verb | -ant, -ent (adjective), -ing (in this meaning) | *dependent*, *undependent* (*independent*), *different*, *existent*, *pleasent* (*pleasant*), *ignorent* (*ignorant*) |
 | Can X | `-ive` | active potential | verb | -ive and -ile on Latin roots | *flyive* (can fly), *explodeive* (*explosive*), *createive* (*creative*), *destroyive* (*destructive*), *moveive* (*mobile*), *attractive*, *protective* |
+| Often X-s, tends to X | `-y` | habitual adjective | verb | -ative, -ful and -some (on verbs) | *talky* (*talkative*), *forgety* (*forgetful*), *quarrely* (*quarrelsome*), *leaky*, *clingy*, *pushy*, *jumpy* |
 
 Notes:
 - By P1, a place gives three different words: the person (`-an`), the adjective (`-al`) and the language (`-ese`). Example: *a Chinan* speaks *Chinaese* and eats *Chinal food*. The people as a group is the plural: *the Chinans* (*the Chinese*).
@@ -202,7 +203,12 @@ Notes:
 - `-ess` is the only gender affix. There is no male affix: a noun without `-ess` means a male, or a person or animal whose sex is unknown or mixed (as in Esperanto). *an actor* is a male actor or an actor of unknown sex. *the actors* can be a mixed group. Use `-ess` for each known female: *the engineoress*, not *the engineor*, when the engineer is a woman.
 - `-ing`, `-ent` and `-able` are different. *the depending country* is depending now (an action in progress). *the dependent country* is in that state, and the state lasts. *the dependable country* can be depended on.
 - `-able` and `-ive` are a pair. `-able` is passive: *a flyable plane* can be flown. `-ive` is active: *a flyive bird* can fly. A verb with no object has no passive, so it takes only `-ive`: *an arriveive train*.
-- `-ive` says only that the thing can X. It does not say how often the thing does X. For a habit, write a phrase: *a child who often talks* (*a talkative child*), not *a talkive child*.
+- `-ing`, `-ive`, `-y` and `-ent` are different:
+  - *a talking child* is talking now (`-ing`);
+  - *a talkive child* can talk (`-ive`);
+  - *a talky child* often talks (`-y`);
+  - *a dependent country* is in that state, and the state lasts (`-ent`).
+- `-y` goes only on verbs. On a noun, traditional `-y` uses `-ful` (*rainful*) or `-let` (*doglet*). A base that ends in *y* keeps both letters: *playy*, *cryy* (§4).
 - `-ent` and `-ive` are different. `-ent` is a state that is true now: *a dependent country*. `-ive` is a power that may not be used: *an explodeive gas* can explode, but it has not exploded.
 - `-dom` and `-age` are different. *kingdom* is the area that a king rules. *kingage* is all kings as a group.
 - `-ism` is only a belief. Other traditional *-ism* words use other affixes:
