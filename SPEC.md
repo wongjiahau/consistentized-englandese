@@ -60,8 +60,8 @@ Notes:
 | Person or thing that is to be X-ed (gerundive) | `-and` | gerundive (future passive participle) | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *beaffixand* |
 | Person or thing that is about to X (active, prospective) | `-ure` | future active participle (prospective) | *would-be* X-or, X-or *to be* | *electure* (a person about to vote), *departure* (*departing*: *the departure passengers*), *launchure* (a rocket about to launch), *graduateure* |
 | Can be X-ed | `-able` | passive potential adjective | -ible, -uble | *seeable*, *readable*, *solveable*, *flyable* (can be flown) |
-| The act of X | `-ment` | action noun (*nomen actionis*) | -tion, -sion, -ation, -ance, -ence, -al, -age, -ery (practice), -ism (practice), -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
-| The thing that X makes | `-ate` | result noun | -tion, -ing, -ure (in this meaning) | *connectate* (a connection that has been made), *paintate* (*painting*), *buildate* (*building*), *describeate* (*description*), *mixate* (*mixture*), *filtrate*, *condensate* |
+| The act of X | `-ment` | action noun (*nomen actionis*) | -tion, -sion, -ation (as an act), -ance, -ence, -al, -age, -ery (practice), -ism (practice), -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
+| The thing that X makes | `-ion` | result noun | -tion, -sion, -ation, -ing, -ure (in this meaning) | *connection* (a connection that has been made), *collection*, *confession*, *paintion* (*painting*), *buildion* (*building*), *describeion* (*description*), *mixion* (*mixture*) |
 | State or quality of being X | `-ness` | quality noun (*nomen qualitatis*) | -ity, -th, -ance, -ence, -cy, -hood, -ship, -tude, -ery (state), -ism (quality or condition) | *unpossibleness*, *trueness*, *longness*, *safeness* |
 | Relating to X | `-al` | relational adjective | -ic, -ical, -ar, -ary (in this meaning); demonym adjectives (-ese, -ish, -ian, -an, -i) | *scienceal*, *historyal*, *personal*, *Englandal* (*English*: *Englandal food*), *Chinal* (*Chinese*) |
 | Full of / having X | `-ful` | possessive (proprietive) adjective | -ous, -y (on nouns) | *dangerful*, *fameful*, *rainful* |
@@ -75,8 +75,9 @@ Notes:
 - *able* + *ize* + *ment* makes "the process of making X-able": *observeableizement* (*observe* + *able* + *ize* + *ment*; 3 derivational affixes, the limit in U2).
 - `-ize` on a verb is causative: "make (the object) do X". The object is the one that does X: *deboardize the crew* (make the crew deboard), *fallize the tree* (*fell*), *riseize the flag* (*raise*), *lieize the cable on the floor* (*lay*). Use it only on verbs that have no object. If the verb has its own object, write a phrase: *tell the operator to examine the valve*. Do not put `-ize` on a word that already ends in `-ize`.
 - A noun that ends in *-ics* uses the form without *-s* as the base for a suffix, like a plural place name (§3.4.2): *politics* → *political*, *economics* → *economical*. The noun alone keeps its *-s*. (A field of study uses `-ology`, §3.4.2.)
-- `-ment` and `-ate` are different. *the connectment took one hour* (the act). *the connectate is loose* (the thing that the act maked).
-- `-ate` and `-ee` are different. `-ate` is a thing that the action makes (*buildate*). `-ee` is a thing that the action is done to, and that existed before (*employee*).
+- `-ment` and `-ion` are different. *the connectment took one hour* (the act). *the connection is loose* (the thing that the act maked).
+- `-ion` has no variant. The base never changes, so after *e* it stays *-ion*: *describeion*, *quoteion*, like *makeor* and *createive*. After *t* and *s* it gives the standard form: *connection*, *confession*.
+- `-ion` and `-ee` are different. `-ion` is a thing that the action makes (*buildion*). `-ee` is a thing that the action is done to, and that existed before (*employee*).
 - `-or`, `-ee` and `-ary` are chosen by grammatical relation, not by thematic role:
   - `-or` is the subject: A, or S on a verb with no object.
   - `-ee` is the direct object (O).
@@ -93,7 +94,7 @@ Notes:
   | Indirect object | `-ary` (*giveary*) | — |
 
 - `-and` and `-ure` are a pair. `-and` is passive and means "must be X-ed" (*an addand* is a number that must be added). `-ure` is active and means "will soon X" (*an addure* is a person who will soon add). Neither one says that the action happens now. For that, use `-ing` (*the adding machine*).
-- Traditional words in *-ure* that name a process use `-ment`: *failment* (*failure*), *closement* (*closure*). Words that name a result use `-ate`: *mixate* (*mixture*). *pressure*, *nature*, *culture* and *measure* are base words.
+- Traditional words in *-ure* that name a process use `-ment`: *failment* (*failure*), *closement* (*closure*). Words that name a result use `-ion`: *mixion* (*mixture*). *pressure*, *nature*, *culture* and *measure* are base words.
 
 ### 3.3 Affix order
 
@@ -144,7 +145,7 @@ Notes:
 - `mis-` and `mal-` are different. *misread* means to read wrongly without knowing it; the reader acts in good faith. *malread* means to read in a twisted way on purpose. For poor skill, use the adverb: *reads badly*.
   - *"You are just malreading the scriptures!"* says that the other person twists the text on purpose. *"No, you are misreading it!"* says that the other person is honest but wrong.
   - More pairs: *misquote* / *malquote*, *misrepresent* / *malrepresent*, *misinform* / *malinform* (*disinform*).
-  - *That's a malquoteate!* names the twisted quote (the result, `-ate`). *That's malquotement!* names the act (`-ment`).
+  - *That's a malquoteion!* names the twisted quote (the result, `-ion`). *That's malquotement!* names the act (`-ment`).
 - *under-* and *over-* now have one meaning each (amount). Place and rank use *sub-* and *super-*.
 - *self-* and *auto-* are different. A *selfclean* oven cleans its own inside. An *autoclean* print head starts its cleaning cycle with no operator.
 - *inter-* and *intra-* are different. *intercompany* is between companies. *intracompany* is inside one company.
@@ -245,7 +246,7 @@ CE is agglutinative: each affix has one meaning, the base never changes, and aff
 - **U1. Prefer the affixed form.** If an affixed word replaces a phrase of two or more words, use the affixed word.
 - **U2. Limit the stack.** Use no more than three derivational affixes in one word. Inflectional affixes (§3.1) are not counted.
 - **U3. Use a phrase when U2 is broken.** If the affixed form needs more than three derivational affixes, write a phrase.
-- **U4. Prefer the verb for an action.** To name an action, prefer the verb to the `-ment` noun: *connect the wires*, not *do the connectment of the wires*. For a result, use `-ate` (*the connectate*) or a concrete base word (*the joint*).
+- **U4. Prefer the verb for an action.** To name an action, prefer the verb to the `-ment` noun: *connect the wires*, not *do the connectment of the wires*. For a result, use `-ion` (*the connection*) or a concrete base word (*the joint*).
 
 | Phrase | Affixed form | Derivational affixes | Use |
 |---|---|---|---|
@@ -337,7 +338,7 @@ When the base ends in the letter that the affix starts with, and keeping both wo
 | Affix | Variant | Condition | Examples |
 |---|---|---|---|
 | Any suffix that starts with *e* (`-ed`, `-er`, `-est`, `-ee`, `-ent`, `-ery`, `-ese`, `-ess`, `-ectomy`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese*; *graduateure* → *graduateuress*; *please* → *pleasent* |
-| Any suffix that starts with *a* (`-al`, `-an`, `-able`, `-and`, `-age`, `-ate`, `-ary`) | drop the *a* | Base ends in *a* | *China* → *Chinal*, *Chinan*; *Canada* → *Canadal*, *Canadan*; *Korea* → *Korean*; *formula* → *formulal*, *formulage* |
+| Any suffix that starts with *a* (`-al`, `-an`, `-able`, `-and`, `-age`, `-ary`) | drop the *a* | Base ends in *a* | *China* → *Chinal*, *Chinan*; *Canada* → *Canadal*, *Canadan*; *Korea* → *Korean*; *formula* → *formulal*, *formulage* |
 | `-or` | no variant | Base ends in *e* | *make* → *makeor*, *operate* → *operateor* (the base never changes; *e* + *o* is not a doubled *e*) |
 | `-ure` | no variant | Base ends in *e* | *close* → *closeure*, *graduate* → *graduateure* |
 | Any affix | drop its first letter | The result would have three of the same letter | *full* + `-ly` → *fully*; *skill* + `-less` → *skilless* |
@@ -391,7 +392,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q1.** Do we regularize *be* (*I be, he bes, he beed*)?
 - **Q2.** How do we handle collisions such as *seed* (see §5)? Options: accept the collision, add a hyphen (*see-ed*), or change the allomorph rule.
 - **Q3.** Do we need a variant that keeps the sound of the base without changing its spelling? Example: a hyphen or a written mark between base and affix (*stop-ed*, *panic-ed*).
-- **Q4.** (Closed.) `-ment` covered the act and its result. It now names only the act, and the result uses `-ate` (§3.2).
+- **Q4.** (Closed.) `-ment` covered the act and its result. It now names only the act, and the result uses `-ion` (§3.2).
 - **Q5.** (Closed.) `-or` covers persons (*teachor*) and tools (*computeor*). Both mean "the one that does X", which is one meaning. `-ee`, `-and` and `-ure` also cover persons and things. When the context does not show which one it is, use a compound: *wash-machine*.
 - **Q6.** (Closed.) Plural place names made awkward language names (*Netherlandsese*). A plural place name now uses its singular form as the base (§3.4.2): *Netherlandese*, *Philippinese*.
 - **Q7.** Do modal verbs (*can*, *will*, *shall*, *may*) take `-ed` (*canned*, *willed*)? Their traditional past forms (*could*, *would*, *should*, *might*) often do not mean past time. Appendix D keeps *would* for now.
@@ -545,7 +546,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 >
 > The engineoress examined the machineage carefullyer than the governor's inspector haved. The subfloor wires were interconnected, and the superhead lamp was dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse was breaked and that mouses haved transchewed the insulatement. A skilled electricityor would have seed it at once, but the inspector haved not.
 >
-> They coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage was bader than her describeate. His repair, however, was gooder than his teachoress's. The new oven selfcleans, autostarts and bakes twofold the bread. It is waterproof and airproof, and it is beautifuler than the old one, although slightly noisefuler.
+> They coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage was bader than her describeion. His repair, however, was gooder than his teachoress's. The new oven selfcleans, autostarts and bakes twofold the bread. It is waterproof and airproof, and it is beautifuler than the old one, although slightly noisefuler.
 >
 > The bakeorlingess, a pharmacy graduateuress, was impressed but doubtful. "It is unpossible to trust a machine fully," she sayed. The engineoress smiled. "It is the safest oven in the kingdom, and the relyablest machine that I have ever builded." She refused payment. In return, the bakeoress gived them a basket of warm loafs and a reddish, heart-shaped cake. The childs in the shop behaved childlikely and outruned each other doorward.
 >
@@ -569,7 +570,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 | Prospective | *who is about to graduate* → *graduateure* | `-ure` (§3.2) |
 | Can be X-ed | *reliable* → *relyable* | `-able`, base unchanged (§3.2, §4) |
 | Action noun | *arrival*, *insulation*, *deliveries* → *arrivement*, *insulatement*, *deliverments* | `-ment` (§3.2) |
-| Result noun | *description* → *describeate* | `-ate` (§3.2) |
+| Result noun | *description* → *describeion* | `-ion` (§3.2) |
 | Having X | *dangerous*, *noisy* → *dangerful*, *noiseful* | `-ful` (§3.2) |
 | Manner adverb | *childishly* → *childlikely* | `-like` + `-ly` (§3.2, §3.4.2) |
 | Make X, causative | *tighten too much*, *raise*, *lay* → *overtightize*, *riseize*, *lieize* | `-ize` (§3.2) |
@@ -606,7 +607,7 @@ This is the passage from Appendix D, translated again with the biological affixe
 >
 > The engineoress examined the machineage carefullyer than the governor's inspector haved. The subfloor wires were interconnected, and the superhead lamp was dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse was breaked and that mouses haved transchewed the insulatement. A skilled electricityor would have seed it at once, but the inspector haved not.
 >
-> They coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage was bader than her describeate. His repair, however, was gooder than his teachoress's. The neooven selfcleans, autostarts and bakes twofold the bread. It is waterproof and airproof, and it is beautifuler than the old one, although slightly noisefuler.
+> They coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage was bader than her describeion. His repair, however, was gooder than his teachoress's. The neooven selfcleans, autostarts and bakes twofold the bread. It is waterproof and airproof, and it is beautifuler than the old one, although slightly noisefuler.
 >
 > The bakeorlingess, a pharmacy graduateuress, was impressed but doubtful. "It is unpossible to trust a machine fully," she sayed. The engineoress smiled. "It is the safest oven in the kingdom, and the relyablest machine that I have ever builded." She refused payment. In return, the bakeoress gived them a basket of warm loafs and a reddish, heartform cake. The intrashop childs behaved childlikely and interoutruned doorward.
 >
@@ -628,8 +629,8 @@ This is the passage from Appendix D, translated again with the biological affixe
 | Version | Words | Characters |
 |---|---|---|
 | Standard English (D.1) | 359 | 2158 |
-| CE (D.1) | 330 | 2137 |
-| CE with §3.8 (E.1) | 320 | 2118 |
+| CE (D.1) | 330 | 2138 |
+| CE with §3.8 (E.1) | 320 | 2119 |
 
 ### E.4 Comment
 
@@ -691,7 +692,7 @@ These translations use only the rules above. They are a baseline: when a new aff
 
 **Consistentized Englandese** (78 words)
 
-> Everyone is betitled to all the rights and freenesses setted forth in this Declareate, without distinguishment of any kind, such as race, colour, sex, language, religion, political or other opinion, national or societyal origin, ownee, bearment or other status. Furthermore, no distinguishment shall be maked on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be undependent, trust, unselfgoverning or under any other limitment of sovereignness.
+> Everyone is betitled to all the rights and freenesses setted forth in this Declareion, without distinguishment of any kind, such as race, colour, sex, language, religion, political or other opinion, national or societyal origin, ownee, bearment or other status. Furthermore, no distinguishment shall be maked on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be undependent, trust, unselfgoverning or under any other limitment of sovereignness.
 
 #### F.2.2 Word breakdown
 
@@ -702,7 +703,7 @@ These translations use only the rules above. They are a baseline: when a new aff
 | *setted* | set + ed | *set* | zero past participle replaced (§3.1) |
 | *distinguishment* | distinguish + ment | *distinction* | `-ment` replaces `-tion` (§3.2) |
 | *political* | politic + al | no change | *-ics* noun drops *-s* before a suffix (§3.2) |
-| *Declareate* | declare + ate | *Declaration* | the document that declaring makes, so `-ate` (§3.2); legal terms are not exempt (P6) |
+| *Declareion* | declare + ion | *Declaration* | the document that declaring makes, so `-ion` (§3.2); legal terms are not exempt (P6) |
 | *societyal* | society + al | *social* | affix goes on the plain base (P4) |
 | *national*, *international* | nation + al, inter + nation + al | no change | already CE |
 | *ownee* | own + ee | *property* | the thing that is owned (§3.2) |
@@ -720,13 +721,13 @@ These translations use only the rules above. They are a baseline: when a new aff
 | Version | Words | Characters |
 |---|---|---|
 | Standard English | 78 | 516 |
-| CE | 78 | 530 |
+| CE | 78 | 531 |
 
 #### F.2.4 Gaps
 
 - (Closed.) CE had no affix for "in the state of X" (*independent*), so this translation used *undepending*. Stative `-ent` (§3.4.2) now fills this gap: *undependent*.
 - **No savings.** The text has the same number of words and 3% more characters. Legal text uses many abstract nouns, and `-ment` and `-ness` are often longer than `-tion` and `-ty`. It has few relative clauses that affixes can replace.
-- (Closed.) Legal terms were exempt under P6, so *Declaration* and *property* were treated differently. P6 no longer exempts legal terms: *Declareate*, *ownee*.
+- (Closed.) Legal terms were exempt under P6, so *Declaration* and *property* were treated differently. P6 no longer exempts legal terms: *Declareion*, *ownee*.
 - (Closed.) *politicsal* was awkward. A noun that ends in *-ics* now drops its *-s* before a suffix (§3.2): *political*.
 
 ### F.3 Article 3
