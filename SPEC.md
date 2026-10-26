@@ -58,11 +58,11 @@ Notes:
 | Person or thing that receives X (the action is done or in progress) | `-ee` | patient noun | — | *employee*, *payee*, *usee* |
 | Person or thing that is to be X-ed (gerundive) | `-and` | gerundive (future passive participle) | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *enaffixand* |
 | Person or thing that is about to X (active, prospective) | `-ure` | future active participle (prospective) | *would-be* X-or, X-or *to be* | *electure* (a person about to vote), *departure* (*departing*: *the departure passengers*), *launchure* (a rocket about to launch), *graduateure* |
-| Can be X-ed | `-able` | potential (abilitative) adjective | -ible, -uble | *seeable*, *readable*, *solveable* |
-| Noun of the verb X: the act of X, or what X makes | `-ment` | action noun (*nomen actionis*) | -tion, -sion, -ation, -ance, -ence, -al, -age, -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
-| State or quality of being X | `-ness` | quality noun (*nomen qualitatis*) | -ity, -th, -ance, -ence, -cy, -hood, -ship | *unpossibleness*, *trueness*, *longness*, *safeness* |
+| Can be X-ed | `-able` | passive potential adjective | -ible, -uble | *seeable*, *readable*, *solveable*, *flyable* (can be flown) |
+| Noun of the verb X: the act of X, or what X makes | `-ment` | action noun (*nomen actionis*) | -tion, -sion, -ation, -ance, -ence, -al, -age, -ery (practice), -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
+| State or quality of being X | `-ness` | quality noun (*nomen qualitatis*) | -ity, -th, -ance, -ence, -cy, -hood, -ship, -tude, -ery (state) | *unpossibleness*, *trueness*, *longness*, *safeness* |
 | Relating to X | `-al` | relational adjective | -ic, -ical, -ar, -ary; demonym adjectives (-ese, -ish, -ian, -an, -i) | *scienceal*, *historyal*, *personal*, *Englandal* (*English*: *Englandal food*), *Chinal* (*Chinese*) |
-| Full of / having X | `-ful` | possessive (proprietive) adjective | -ous, -y, -ive | *dangerful*, *fameful*, *rainful* |
+| Full of / having X | `-ful` | possessive (proprietive) adjective | -ous, -y | *dangerful*, *fameful*, *rainful* |
 | Without X | `-less` | privative | — | *powerless* |
 | In an X way (adverb) | `-ly` | manner adverb | irregular adverbs | *goodly* (*well*), *fastly* (*fast*) |
 | Make X / become X (verb) | `-ize` | factitive, inchoative; causative on verbs | -ify, -en, -ate | *widize*, *simpleize*, *activeize* |
@@ -140,7 +140,8 @@ Notes:
 | Like X, in the manner of X | `-like` | similative | noun | -ish (on nouns), -ly (on nouns), -esque, -oid | *childlike* (*childish*), *friendlike* (*friendly*), *humanlike* (*humanoid*) |
 | Somewhat X, almost X | `-ish` | approximative (attenuative) | adj, number | -y (on colors) | *reddish*, *coldish*, *tenish* |
 | Place where X is done or made | `-ery` | place noun (*nomen loci*) | verb, noun | -ory, -arium, -ary, -age, room words | *bakery*, *washery* (*laundry*), *readery* (*library*), *cookery* (*kitchen*), *fishery* |
-| All X as a group; area ruled by X | `-dom` | collective | noun | -ry, -ery (in this meaning), -age, -ware | *kingdom*, *machinedom* (*machinery*), *bagdom* (*baggage*), *kitchendom* (*kitchenware*) |
+| Area ruled by X | `-dom` | realm | noun | -ric, -ate (in this meaning) | *kingdom*, *dukedom*, *sultandom* (*sultanate*), *companydom* |
+| All X as a group | `-age` | collective | noun | -ry, -ery (in this meaning), -dom (in this meaning), -ware | *bagage* (*baggage*), *leafage* (*foliage*), *machineage* (*machinery*), *kitchenage* (*kitchenware*), *voteorage* (*electorate*) |
 | Toward X | `-ward` | directional (allative) | noun | -wards | *homeward*, *skyward*, *doorward* |
 | With respect to X | `-wise` | limitative | noun | — | *costwise*, *timewise* |
 | Belief or system of X | `-ism` | — | noun, adj | -cracy | *realism*, *peopleism* (*democracy*) |
@@ -155,6 +156,7 @@ Notes:
 | Causes X (a feeling or state) in others | `-some` | — | noun | -ing (in this meaning), -y | *fearsome*, *painsome*, *worrysome* (*worrying*), *scaresome* (*scary*), *troublesome* |
 | Female X | `-ess` | feminine | noun | -ette, -trix, -ine, -woman, *female* + noun | *actoress* (*actress*), *heroess* (*heroine*), *Walesaness* (*Welshwoman*), *lioness*, *dogess* (*bitch*) |
 | In the lasting state of X-ing | `-ent` | stative adjective | verb | -ant, -ent (adjective), -ing (in this meaning) | *dependent*, *undependent* (*independent*), *different*, *existent*, *pleasent* (*pleasant*), *ignorent* (*ignorant*) |
+| Can X, tends to X | `-ive` | active potential | verb | -ive and -ile on Latin roots | *flyive* (can fly), *explodeive* (*explosive*), *createive* (*creative*), *destroyive* (*destructive*), *moveive* (*mobile*), *attractive*, *protective* |
 
 Notes:
 - By P1, a place gives three different words: the person (`-an`), the adjective (`-al`) and the language (`-ese`). Example: *a Chinan* speaks *Chinaese* and eats *Chinal food*. The people as a group is the plural: *the Chinans* (*the Chinese*).
@@ -164,8 +166,9 @@ Notes:
 - Place names themselves do not change (*England*, *Malaysia*). Only the derived forms change.
 - A plural place name uses its singular form as the base for a suffix: *Netherlands* → *Netherlandan*, *Netherlandal*, *Netherlandese*; *Philippines* → *Philippinean*, *Philippinese*. The name alone keeps its *-s* (*the Netherlands*). *Wales* is not a plural, so it keeps its *s*: *Walesan*, *Walesese*.
 - *-like* and *-ly* are different. *-like* makes an adjective from a noun. *-ly* makes an adverb from an adjective. So *friendly* (adjective, "like a friend") becomes *friendlike*.
-- Four suffixes say what can or must happen to a thing. They are different:
-  - *flyable*: it can fly, or it can be flown.
+- Five suffixes say what can or must happen to a thing. They are different:
+  - *flyive*: it can fly.
+  - *flyable*: it can be flown.
   - *flyand*: it must be flown.
   - *airworthy*: it is safe enough to fly.
   - *airproof*: air does not go through it.
@@ -176,6 +179,9 @@ Notes:
 - *-ish* and *-like* are different. *childish* (like a child) becomes *childlike*. *reddish* (somewhat red) does not change.
 - `-ess` is the only gender affix. There is no male affix: a noun without `-ess` means a male, or a person or animal whose sex is unknown or mixed (as in Esperanto). *an actor* is a male actor or an actor of unknown sex. *the actors* can be a mixed group. Use `-ess` for each known female: *the engineoress*, not *the engineor*, when the engineer is a woman.
 - `-ing`, `-ent` and `-able` are different. *the depending country* is depending now (an action in progress). *the dependent country* is in that state, and the state lasts. *the dependable country* can be depended on.
+- `-able` and `-ive` are a pair. `-able` is passive: *a flyable plane* can be flown. `-ive` is active: *a flyive bird* can fly. A verb with no object has no passive, so it takes only `-ive`: *an arriveive train*.
+- `-ent` and `-ive` are different. `-ent` is a state that is true now: *a dependent country*. `-ive` is a power that may not be used: *an explodeive gas* can explode, but it has not exploded.
+- `-dom` and `-age` are different. *kingdom* is the area that a king rules. *kingage* is all kings as a group.
 - `-ent` is only an adjective. Nouns in *-ant* and *-ent* use `-or` (§3.2): *student* → *studyor*, *assistant* → *assistor*.
 - `-ess` goes after the other derivational suffixes: *teach* + *or* + *ess* → *teachoress*; *king* + *ling* + *ess* → *kinglingess* (*princess*).
 
@@ -290,7 +296,7 @@ When the base ends in the letter that the affix starts with, and keeping both wo
 | Affix | Variant | Condition | Examples |
 |---|---|---|---|
 | Any suffix that starts with *e* (`-ed`, `-er`, `-est`, `-ee`, `-ent`, `-ery`, `-ese`, `-ess`, `-ectomy`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese*; *graduateure* → *graduateuress*; *please* → *pleasent* |
-| Any suffix that starts with *a* (`-al`, `-an`, `-able`, `-and`) | drop the *a* | Base ends in *a* | *China* → *Chinal*, *Chinan*; *Canada* → *Canadal*, *Canadan*; *Korea* → *Korean*; *formula* → *formulal* |
+| Any suffix that starts with *a* (`-al`, `-an`, `-able`, `-and`, `-age`) | drop the *a* | Base ends in *a* | *China* → *Chinal*, *Chinan*; *Canada* → *Canadal*, *Canadan*; *Korea* → *Korean*; *formula* → *formulal*, *formulage* |
 | `-or` | no variant | Base ends in *e* | *make* → *makeor*, *operate* → *operateor* (the base never changes; *e* + *o* is not a doubled *e*) |
 | `-ure` | no variant | Base ends in *e* | *close* → *closeure*, *graduate* → *graduateure* |
 | Any affix | drop its first letter | The result would have three of the same letter | *full* + `-ly` → *fully*; *skill* + `-less` → *skilless* |
@@ -408,7 +414,7 @@ This example shows how CE uses stacked affixes (§3.6) to make text shorter.
 
 **Consistentized Englandese** (79 words)
 
-> Each autolock door in the testery is reopenable only by a trained operateor. Before each test, write the testands on the board. If a testand misfunctions, cowork with a robotologyor. Do not overtightize the bolts. Overtight bolts are unremoveable. Mark unreconnectable cables with red tape. The newer robotlets are faster, but they are also the overheatablest. Move hot robotlets doorward. On the threeth day, examine each joint for unseeable cracks. The testery's machinedom is the responsibleness of each operateor.
+> Each autolock door in the testery is reopenable only by a trained operateor. Before each test, write the testands on the board. If a testand misfunctions, cowork with a robotologyor. Do not overtightize the bolts. Overtight bolts are unremoveable. Mark unreconnectable cables with red tape. The newer robotlets are faster, but they are also the overheatablest. Move hot robotlets doorward. On the threeth day, examine each joint for unseeable cracks. The testery's machineage is the responsibleness of each operateor.
 
 The CE text has 33% fewer words and 22% fewer characters.
 
@@ -426,7 +432,7 @@ The CE text has 33% fewer words and 22% fewer characters.
 | *robotlet* | robot + let | *small robot* |
 | *doorward* | door + ward | *toward the door* |
 | *testery* | test + ery | *testing room* |
-| *machinedom* | machine + dom | *machinery* |
+| *machineage* | machine + age | *machinery* |
 | *autolock* | auto + lock | *that locks automatically* |
 | *cowork* | co + work | *work together* |
 | *misfunctions* | mis + function + s | *malfunctions* |
@@ -450,14 +456,14 @@ The country and the people in this text are not real.
 
 **Consistentized Englandese** (87 words)
 
-> Velmora's Prime Minister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electment. The opposeors, under exfinance-minister Tomas Bell, accused the governor of corruptment and of underfunding public hospitals. Reyes's popularness is now at its lowest since 2022. Reyes promised an anticorruptment law and said that the cogovernor will not increase taxes. Thousands of protestors met outside the parliament. Analyzeors said that the result is unpreseeable. Most of the voteordom is still undecided, and both electands are untrustabler than their partys.
+> Velmora's Prime Minister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electment. The opposeors, under exfinance-minister Tomas Bell, accused the governor of corruptment and of underfunding public hospitals. Reyes's popularness is now at its lowest since 2022. Reyes promised an anticorruptment law and said that the cogovernor will not increase taxes. Thousands of protestors met outside the parliament. Analyzeors said that the result is unpreseeable. Most of the voteorage is still undecided, and both electands are untrustabler than their partys.
 
 ### C.2 Word breakdown
 
 | CE | Parts | Standard | Note |
 |---|---|---|---|
 | *electand* | elect + and | *candidate* | one who is to be elected |
-| *voteordom* | vote + or + dom | *electorate* | all voters as a group |
+| *voteorage* | vote + or + age | *electorate* | all voters as a group |
 | *electment*, *corruptment* | elect + ment, corrupt + ment | *election*, *corruption* | process noun |
 | *underfunding* | under + fund + ing | *underfunding* | gerund with an object (*public hospitals*), so `-ing` stays |
 | *cogovernor* | co + govern + or | *coalition* | those who govern together |
@@ -495,7 +501,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 
 > Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She haved arrived after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, was prewarned of their arrivement. She telled them that her oven haved misfunctioned twice that month, that its heatmeter was unrelyable, and that the noise it maked was frightsome.
 >
-> The engineoress examined the machinedom carefullyer than the governor's inspector haved. The subfloor wires were interconnected, and the superhead lamp was dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse was breaked and that mouses haved transchewed the insulatement. A skilled electricityor would have seed it at once, but the inspector haved not.
+> The engineoress examined the machineage carefullyer than the governor's inspector haved. The subfloor wires were interconnected, and the superhead lamp was dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse was breaked and that mouses haved transchewed the insulatement. A skilled electricityor would have seed it at once, but the inspector haved not.
 >
 > They coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage was bader than her describement. His repair, however, was gooder than his teachoress's. The new oven selfcleans, autostarts and bakes twofold the bread. It is waterproof and airproof, and it is beautifuler than the old one, although slightly noisefuler.
 >
@@ -526,7 +532,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 | Make X, causative | *tighten too much*, *raise*, *lay* → *overtightize*, *riseize*, *lieize* | `-ize` (§3.2) |
 | Prefixes | *malfunctioned*, *under the floor*, *overhead*, *forewarned*, *contradicted*, *across the ocean*, *worked together*, *former*, *cleans itself*, *starts automatically*, *outran*, *empowered*, *bicycle*, *co-owner* → *misfunctioned*, *subfloor*, *superhead*, *prewarned*, *counterspeaked*, *transocean*, *coworked*, *ex-*, *selfcleans*, *autostarts*, *outruned*, *enpowered*, *biwheel*, *coownor* | §3.4.1 |
 | On, through | *on the floor*, *chewed through* → *afloor*, *transchewed* | `a-`; `trans-` on a verb (§3.4.1) |
-| Suffixes | *small bakery*, *machinery*, *kitchen*, *factory*, *toward the door*, *money-wise*, *thermometer*, *airtight*, *double*, *frightening* → *bakerylet*, *machinedom*, *cookery*, *makeery*, *doorward*, *moneywise*, *heatmeter*, *airproof*, *twofold*, *frightsome* | §3.4.2 |
+| Suffixes | *small bakery*, *machinery*, *kitchen*, *factory*, *toward the door*, *money-wise*, *thermometer*, *airtight*, *double*, *frightening* → *bakerylet*, *machineage*, *cookery*, *makeery*, *doorward*, *moneywise*, *heatmeter*, *airproof*, *twofold*, *frightsome* | §3.4.2 |
 | Child of X | *the baker's daughter* → *the bakeorlingess* | `-or` + `-ling` + `-ess`: 3 derivational affixes, the limit in U2 (§3.4.2) |
 | Unchanged regular forms | *reddish*, *waterproof*, *interconnected*, *kingdom*, *doubtful* | already CE |
 | Person, adjective, language | *Japanese woman*, *Welshwoman*, *English*, *Dutch*, *Chinese tea* → *Japanianess*, *Walesaness*, *Englandese*, *Netherlandese*, *Chinal tea* | `-an`, `-ese`, `-al` (§3.4.2) |
@@ -555,7 +561,7 @@ This is the passage from Appendix D, translated again with the biological affixe
 
 > Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She haved arrived after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, was prewarned of their arrivement. She telled them that her oven haved bimisfunctioned that month, that its heatmeter was unrelyable, and that the noise it maked was frightsome.
 >
-> The engineoress examined the machinedom carefullyer than the governor's inspector haved. The subfloor wires were interconnected, and the superhead lamp was dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse was breaked and that mouses haved transchewed the insulatement. A skilled electricityor would have seed it at once, but the inspector haved not.
+> The engineoress examined the machineage carefullyer than the governor's inspector haved. The subfloor wires were interconnected, and the superhead lamp was dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse was breaked and that mouses haved transchewed the insulatement. A skilled electricityor would have seed it at once, but the inspector haved not.
 >
 > They coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage was bader than her describement. His repair, however, was gooder than his teachoress's. The neooven selfcleans, autostarts and bakes twofold the bread. It is waterproof and airproof, and it is beautifuler than the old one, although slightly noisefuler.
 >
@@ -649,7 +655,7 @@ These translations use only the rules above. They are a baseline: when a new aff
 | CE | Parts | Standard | Note |
 |---|---|---|---|
 | *entitled* | en + title + ed | *entitled* | already CE: `en-` means "give X" (§3.4.1) |
-| *freenesses* | free + ness + es | *freedoms* | a state, so `-ness`; `-dom` is only collective (§3.4.2) |
+| *freenesses* | free + ness + es | *freedoms* | a state, so `-ness`; `-dom` is only a realm (§3.4.2) |
 | *setted* | set + ed | *set* | zero past participle replaced (§3.1) |
 | *distinguishment* | distinguish + ment | *distinction* | `-ment` replaces `-tion` (§3.2) |
 | *political* | politic + al | no change | *-ics* noun drops *-s* before a suffix (§3.2) |
@@ -679,3 +685,70 @@ These translations use only the rules above. They are a baseline: when a new aff
 - **No savings.** The text has the same number of words and 3% more characters. Legal text uses many abstract nouns, and `-ment` and `-ness` are often longer than `-tion` and `-ty`. It has few relative clauses that affixes can replace.
 - (Closed.) Legal terms were exempt under P6, so *Declaration* and *property* were treated differently. P6 no longer exempts legal terms: *Declarement*, *ownee*.
 - (Closed.) *politicsal* was awkward. A noun that ends in *-ics* now drops its *-s* before a suffix (§3.2): *political*.
+
+### F.3 Article 3
+
+#### F.3.1 Text
+
+**Standard English** (11 words)
+
+> Everyone has the right to life, liberty and security of person.
+
+**Consistentized Englandese** (11 words)
+
+> Everyone haves the right to life, freeness and secureness of person.
+
+#### F.3.2 Word breakdown
+
+| CE | Parts | Standard | Note |
+|---|---|---|---|
+| *haves* | have + s | *has* | regular third person (§3.1) |
+| *freeness* | free + ness | *liberty* | affix goes on the plain base (P4); `-ness` replaces `-ty` (§3.2) |
+| *secureness* | secure + ness | *security* | `-ness` replaces `-ity` (§3.2) |
+
+#### F.3.3 Size
+
+| Version | Words | Characters |
+|---|---|---|
+| Standard English | 11 | 63 |
+| CE | 11 | 68 |
+
+#### F.3.4 Gaps
+
+- *liberty* and *freedom* (Article 2) both become *freeness*. By P4 they have the same plain base, so CE loses the difference between them. In this text the two words mean the same thing, so nothing is lost here.
+- The text has no phrase that an affix can replace, so CE cannot make it shorter. `-ness` is longer than `-ty` and `-ity`.
+
+### F.4 Article 4
+
+#### F.4.1 Text
+
+**Standard English** (21 words)
+
+> No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms.
+
+**Consistentized Englandese** (20 words)
+
+> No one shall be holded in slaveness or serveorness; slaveizement and the slave-trade shall be prohibited in all their forms.
+
+#### F.4.2 Word breakdown
+
+| CE | Parts | Standard | Note |
+|---|---|---|---|
+| *holded* | hold + ed | *held* | regular past participle (§3.1) |
+| *slaveness* | slave + ness | *slavery* (the state) | *held in slavery* is a state, so `-ness` (§3.2); `-ery` is only a place (§3.4.2) |
+| *slaveizement* | slave + ize + ment | *slavery* (the practice) | the act of making people slaves (§3.2); 2 derivational affixes |
+| *serveorness* | serve + or + ness | *servitude* | the state of being one who serves; 2 derivational affixes |
+| *slave-trade* | [slave-trade] | *slave trade* | compound (§3.7) |
+| *prohibited* | prohibit + ed | no change | already CE |
+
+#### F.4.3 Size
+
+| Version | Words | Characters |
+|---|---|---|
+| Standard English | 21 | 113 |
+| CE | 20 | 124 |
+
+#### F.4.4 Gaps
+
+- (Closed.) *slavery* has two meanings in this text: a state (*held in slavery*) and a practice (*slavery … shall be prohibited*). Standard `-ery` also names both, but CE `-ery` is only a place. The `-ness` row now replaces `-ery` (state) and `-tude`, and the `-ment` row replaces `-ery` (practice).
+- *serveorness* needs two affixes, because the state belongs to the person (*serveor*), not to the verb (*serve*).
