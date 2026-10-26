@@ -42,39 +42,44 @@ CE changes word forms. It also replaces some auxiliary verbs with verb suffixes 
 
 ### 3.1 Inflection
 
-| Meaning | Affix | Term | Replaces | Examples |
-|---|---|---|---|---|
-| Plural noun | `-s` | plural | -en, -i, -a, vowel change, zero plural | *mouses*, *childs*, *mans*, *sheeps*, *datums*, *criterions* |
-| Third person singular present | `-s` | 3rd person singular agreement | — | *gos*, *haves* (*has*) |
-| Past tense | `-ed` | past tense | strong/irregular verbs | *goed*, *runned*, *taked*, *thinked* |
-| Past participle | `-ed` | past participle (adjective) | -en, vowel change | *taked*, *writed*, *goed*, *the choosed members* |
-| Progressive, gerund, present participle | `-ing` | progressive, gerund, present participle | — | *runing*, *connecting the wires is easy* |
-| Comparative | `-er` | comparative | *more* + adjective or adverb, irregular forms | *taller*, *gooder* (*better*), *bader* (*worse*), *beautifuler* (*more beautiful*), *larger*, *carefullyer* (*more carefully*), *goodlyer* (*better*, adverb) |
-| Superlative | `-est` | superlative | *most* + adjective or adverb, irregular forms | *tallest*, *goodest* (*best*), *badest* (*worst*), *beautifulest* (*most beautiful*), *largest* |
+| Meaning | Affix | IPA | Term | Replaces | Examples |
+|---|---|---|---|---|---|
+| Plural noun | `-s` | /s/, /z/, /ɪz/ | plural | -en, -i, -a, vowel change, zero plural | *mouses*, *childs*, *mans*, *sheeps*, *datums*, *criterions* |
+| Third person singular present | `-s` | /s/, /z/, /ɪz/ | 3rd person singular agreement | — | *gos*, *haves* (*has*) |
+| Past tense | `-ed` | /t/, /d/, /ɪd/ | past tense | strong/irregular verbs | *goed*, *runned*, *taked*, *thinked* |
+| Past participle | `-ed` | /t/, /d/, /ɪd/ | past participle (adjective) | -en, vowel change | *taked*, *writed*, *goed*, *the choosed members* |
+| Progressive, gerund, present participle | `-ing` | /ɪŋ/ | progressive (verb slot, §3.1.1), gerund, present participle | *be* + `-ing` | *runing*, *the people voteing*, *connecting the wires is easy* |
+| X and associates | `-'all` | /ɔːl/ | associative plural | *we*, *us*, plural *you*, *X and associates* | *I'all* (*we*), *me'all* (*us*), *you'all* (plural *you*), *Reyes'all* (Reyes and associates) |
+| Comparative | `-er` | /ə(r)/ | comparative | *more* + adjective or adverb, irregular forms | *taller*, *gooder* (*better*), *bader* (*worse*), *beautifuler* (*more beautiful*), *larger*, *carefullyer* (*more carefully*), *goodlyer* (*better*, adverb) |
+| Superlative | `-est` | /ɪst/ | superlative | *most* + adjective or adverb, irregular forms | *tallest*, *goodest* (*best*), *badest* (*worst*), *beautifulest* (*most beautiful*), *largest* |
 
 Notes:
 - Plural `-s` and third person `-s` have the same form. This is a known exception to P2. It is kept because the part of speech is always clear from context and from P1.
 - `-er` is only the comparative. The agent noun uses `-or` (§3.2). By P1 a base is an adjective or a verb, never both, so the two suffixes never attach to the same base.
 - Every adjective and every adverb takes `-er` / `-est`, also long ones (*beautifuler*, *carefullyest*). Do not use *more* / *most* for degree. Use *more* / *most* only for amount (*more water*, *most bolts*).
-- *be* is regular too: *I be*, *you be*, *it bes* (*is*), *they beed* (*were*), *being*. *am*, *is*, *are*, *was*, *were* and *been* are not used. CE has no irregular verbs.
-- The passive and the perfect do not use *be* or *have* + the past participle. They use verb slots (§3.1.1). The `-ed` participle stays as an adjective: *the choosed members*.
+- *be* is regular too: *I be*, *you be*, *it bes* (*is*), *thons beed* (*were*), *being*. *am*, *is*, *are*, *was*, *were* and *been* are not used. CE has no irregular verbs.
+- The passive, the perfect and the progressive do not use *be* or *have*. They use verb slots (§3.1.1). The `-ed` participle stays as an adjective: *the choosed members*.
+- *be* is only a main verb. It names an identity (*she bes an engineoress*) or a quality (*it bes cold*). It is never an auxiliary.
+- `-'all` means "X and the people with X". It is not a plural: *I'all* (*we*) is the speaker and others, not many speakers. A true plural takes `-s` (§3.9). `-'all` goes on the form of the pronoun for its place in the sentence: *I'all* (*we*), *me'all* (*us*), *my'all* (*our*), *myself'all* (*ourselves*), *your'all* (plural *your*). *we*, *us*, *our*, *ourselves* and plural *you* are not used (P5). `-'all` removes the irregular plural of *I* and replaces the phrase *X and associates* (P7).
+- `-'all` on a noun: *Reyes'all* (Reyes and associates), *the teachor'all* (the teacher and the teacher's group). It keeps a full vowel, /ɔːl/, so it does not merge with `-al` /əl/ (§4.4).
 
 #### 3.1.1 Verb slots
 
-Ten suffixes replace auxiliary verbs and question tags. Each slot is used once at most. `-end`, `-can` and `-may` share slot 2, so a verb takes only one of them.
+Eleven suffixes replace auxiliary verbs and question tags. Each slot is used once at most. `-end`, `-can` and `-may` share slot 2, so a verb takes only one of them.
 
-| Slot | Affix | Term | Replaces | Anchor word | Example |
-|---|---|---|---|---|---|
-| 1 | `-en` | passive voice | *be* + past participle | *chosen*, *taken* | *choosen* (is chosen) |
-| 2 | `-end` | deontic mood | *shall*, *must* | *reverend* | *choosend* (shall choose) |
-| 2 | `-can` | ability or permission | *can*, *be able to*, *may* (permission) | *cannot* | *choosecan* (can choose) |
-| 2 | `-may` | possibility | *may*, *might* | — | *choosemay* (may choose) |
-| 3 | `-'ve` | perfect aspect | *have* + past participle | *I've* | *choose've* (has chosen) |
-| 4 | `-'ll` | future tense | *will* | *he'll* | *choose'll* (will choose) |
-| 5 | `-ed` | past or hypothetical; stacks on slots 1–4 | *had*, *would*, *could*, *might* | *walked* | *choose'ved* (had chosen), *choose'lled* (would choose), *choosecaned* (could choose), *choosemayed* (might choose) |
-| 6 | `-not` | negation | *do not*, *not* | *cannot* | *choosenot* (does not choose) |
-| 7 | `-said` | reportive evidential | *reportedly*, *allegedly*, *is said to*, *it is said that* | *aforesaid* | *choosesaid* (reportedly chooses) |
-| 8 | `-eh` | confirmative tag | tag questions: *isn't it*, *don't you*, *won't they*, *right?* | Canadian *eh* | *chooseh* (chooses, doesn't he?) |
+| Slot | Affix | IPA | Term | Replaces | Anchor word | Example |
+|---|---|---|---|---|---|---|
+| 1 | `-en` | /ən/ | passive voice | *be* + past participle | *chosen*, *taken* | *choosen* (is chosen) |
+| 2 | `-end` | /ɛnd/ | deontic mood | *shall*, *must* | *reverend* | *choosend* (shall choose) |
+| 2 | `-can` | /kæn/ | ability or permission | *can*, *be able to*, *may* (permission) | *cannot* | *choosecan* (can choose) |
+| 2 | `-may` | /meɪ/ | possibility | *may*, *might* | — | *choosemay* (may choose) |
+| 3 | `-'ve` | /(ə)v/ | perfect aspect | *have* + past participle | *I've* | *choose've* (has chosen) |
+| 4 | `-ing` | /ɪŋ/ | progressive aspect | *be* + `-ing` | *running* | *chooseing* (is choosing) |
+| 5 | `-'ll` | /(ə)l/ | future tense | *will* | *he'll* | *choose'll* (will choose) |
+| 6 | `-ed` | /t/, /d/, /ɪd/ | past or hypothetical; stacks on slots 1–5 | *had*, *would*, *could*, *might* | *walked* | *choose'ved* (had chosen), *choose'lled* (would choose), *choosecaned* (could choose), *choosemayed* (might choose) |
+| 7 | `-not` | /nɒt/ | negation | *do not*, *not* | *cannot* | *choosenot* (does not choose) |
+| 8 | `-said` | /sɛd/ | reportive evidential | *reportedly*, *allegedly*, *is said to*, *it is said that* | *aforesaid* | *choosesaid* (reportedly chooses) |
+| 9 | `-eh` | /eɪ/ | confirmative tag | tag questions: *isn't it*, *don't you*, *won't they*, *right?* | Canadian *eh* | *chooseh* (chooses, doesn't he?) |
 
 | Form | Parts | Meaning |
 |---|---|---|
@@ -83,6 +88,11 @@ Ten suffixes replace auxiliary verbs and question tags. Each slot is used once a
 | *choosen'll* | choose + en + 'll | will be chosen |
 | *choose've'll* | choose + 've + 'll | will have chosen |
 | *choose've'lled* | choose + 've + 'll + ed | would have chosen |
+| *chooseinged* | choose + ing + ed | was choosing |
+| *chooseing'll* | choose + ing + 'll | will be choosing |
+| *choose'veing* | choose + 've + ing | has been choosing |
+| *choosening* | choose + en + ing | is being chosen |
+| *chooseingnot* | choose + ing + not | is not choosing |
 | *choosednot* | choose + ed + not | did not choose |
 | *choosenend'llnot* | choose + en + end + 'll + not | will not have to be chosen |
 | *choosecannot* | choose + can + not | cannot choose |
@@ -99,15 +109,17 @@ Ten suffixes replace auxiliary verbs and question tags. Each slot is used once a
 | *choosedsaideh* | choose + ed + said + eh | reportedly chose, didn't he? |
 
 Notes:
-- Stack in slot order: voice, then mood, aspect, tense, polarity, evidence, tag. The order is also the scope: each suffix covers everything before it. *choosednotsaid* is "it is said that he did not choose".
+- Stack in slot order: voice, then mood, perfect, progressive, tense, polarity, evidence, tag. The order is also the scope: each suffix covers everything before it. *choosednotsaid* is "it is said that he did not choose".
 - `-en` and `-end` drop their *e* after a base that ends in *e*: *choosen*, *choosend* (§4.2).
-- `-'ve` and `-'ll` keep the apostrophe, so that letters do not run together: *call'll*, not *callll*. They are the only affixes with an apostrophe. `-ed` after `-'ve` drops its *e* (§4.2): *choose'ved*.
+- `-'ve` and `-'ll` keep the apostrophe, so that letters do not run together: *call'll*, not *callll*. They and `-'all` (§3.1) are the only affixes with an apostrophe. `-ed` after `-'ve` drops its *e* (§4.2): *choose'ved*.
 - `-not` is used, not `-n't`, because *choosen't* (does not choose) and *choosend* (shall choose) are almost the same in speech.
 - A verb with a slot suffix takes no third person `-s`: *she choosenot* (she does not choose).
 - The slot suffixes are inflectional. They do not count for U2 (§3.6).
 - *shall* as a plain future (*I shall go*) uses `-'ll`, not `-end`.
 - `-en` replaces every *be* + past participle, also when the participle names a state: *the fuse breakened* (the fuse was broken). English has the same ambiguity. The `-ed` participle stays only next to a noun, with no *be*: *the choosed members*, *Members choosed every Year*.
-- *be* takes the slot suffixes like any other verb: *benot* (is not, are not), *be've* (has been), *be'll* (will be), *beend* (shall be). After *be*, `-ed` and `-end` keep their *e* (§4.2).
+- `-ing` replaces *be* + `-ing`: *the people voteing* (the people are voting), *voteinged* (was voting), *voteing'll* (will be voting), *vote'veing* (has been voting). The base never changes (§4.3): *voteing*, not *voting*. The place of `-ing` after `-'ve` is not final (Q9).
+- With no *be*, a clause and a noun phrase can look the same: *the people voteing* is "the people are voting" or "the people who are voting". CE accepts this on purpose, as with *Members choosed every Year*. Context decides.
+- *be* takes the slot suffixes like any other verb, also `-ing`: *being careful* (is being careful), *benot* (is not, are not), *be've* (has been), *be'll* (will be), *beend* (shall be). After *be*, `-ed` and `-end` keep their *e* (§4.2).
 - In an ellipsis, *do* carries the slots: *than the inspector do'ved* (than the inspector had), *but the inspector do'vednot* (but the inspector had not).
 - An imperative takes `-not` too: *overtightizenot the bolts* (do not tighten the bolts too much).
 - `-can` means ability or permission: *the operateor opencan the valve* (is able to, or is allowed to). `-can` + `-not` gives the English spelling *cannot*.
@@ -120,33 +132,33 @@ Notes:
 - `-said` means that the speaker heard the claim from others and does not vouch for it. It does not name the source. When the text names who said it, use *say*: *Reyes sayed that …*. CE has no word *said* (the past of *say* is *sayed*), so the suffix does not collide with a word.
 - `-said` after a base that ends in *s* loses its *s*, to prevent a triple letter (§4.2): *pass* → *passaid*.
 - A yes/no question keeps the statement order and ends with *?*: *You readcan Japanese?* (Can you read Japanese?). A wh-question puts the wh-word first and keeps the statement order after it: *What you choosed?* (What did you choose?). CE does not use *do* or inversion to make a question.
-- `-eh` asks the listener to agree. It is not a plain question: *You readcaneh Japanese?* expects "yes". It covers everything before it, so it is always last. It replaces all English tag questions, which copy the auxiliary and the pronoun and reverse the polarity: *It beeh cold?* (*It is cold, isn't it?*), *They come'llnoteh?* (*They won't come, will they?*), *I beeh late?* (*I'm late, aren't I?*).
+- `-eh` asks the listener to agree. It is not a plain question: *You readcaneh Japanese?* expects "yes". It covers everything before it, so it is always last. It replaces all English tag questions, which copy the auxiliary and the pronoun and reverse the polarity: *It beeh cold?* (*It is cold, isn't it?*), *Thons come'llnoteh?* (*They won't come, will they?*), *I beeh late?* (*I'm late, aren't I?*).
 - `-eh` follows §4.2 like any suffix that starts with *e*: *have* → *haveh*, *choose've* → *choose'veh*, but *beeh* after *be*.
 - `-end` and `-and` are different. `-end` makes a verb: *the operateor testend the valve* (shall test). `-and` makes a noun: *the testand* (the thing that is to be tested).
 
 ### 3.2 Derivation
 
-| Meaning | Affix | Term | Replaces | Examples |
-|---|---|---|---|---|
-| Not X (adjective, noun) | `un-` | negation | in-, im-, il-, ir-, non-, dis-, a- | *unpossible*, *unlegal*, *unregular*, *unhonest*, *unmoral* |
-| Reverse the action X (verb) | `de-` | reversative | un-, dis- (on verbs) | *detie*, *delock*, *deconnect* |
-| Against X | `anti-` | oppositive | counter-, contra- | *antiact*, *antisay* |
-| Again | `re-` | repetitive | — | *redo* |
-| Person or thing that does X (the subject of X) | `-or` | agent noun (*nomen agentis*), A or S | -er, -ar, -ist, -ian, -ant, -ent, -ee (on verbs with no object) | *actor*, *teachor* (*teacher*), *begor* (*beggar*), *scienceor* (*scientist*), *assistor* (*assistant*), *makeor* (*maker*), *escapeor* (*escapee*), *attendor* (*attendee*) |
-| Person or thing that is X-ed (the direct object of X; the action is done or in progress) | `-ee` | object noun, O | — | *employee*, *trainee*, *usee*, *givee* (the gift), *sendee* (the thing that is sent) |
-| Person or thing that gets something from X, or that X is done for (the indirect object of X) | `-ary` | recipient noun | -ee (in this meaning) | *giveary*, *sendary* (*addressee*), *payary* (the person who is payed), *teachary* (*student*), *grantary* (*grantee*), *leaseary* (*lessee*), *beneficiary* |
-| Thing that someone uses to X (the instrument of X) | `-el` | instrument noun (*nomen instrumenti*) | -er, -or (in this meaning) | *openel* (*opener*), *cutel* (*knife*), *screwel* (*screwdriver*), *writel* (*pen*), *shovel* (*shove* + *el*) |
-| Person or thing that is to be X-ed (gerundive) | `-and` | gerundive (future passive participle) | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *beaffixand* |
-| Person or thing that is about to X (active, prospective) | `-ure` | future active participle (prospective) | *would-be* X-or, X-or *to be* | *electure* (a person about to vote), *departure* (*departing*: *the departure passengers*), *launchure* (a rocket about to launch), *graduateure* |
-| Can be X-ed | `-able` | passive potential adjective | -ible, -uble | *seeable*, *readable*, *solveable*, *flyable* (can be flown) |
-| The act of X | `-ment` | action noun (*nomen actionis*) | -tion, -sion, -ation (as an act), -ance, -ence, -al, -age, -ice (act), -ery (practice), -ism (practice), -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
-| The thing that X makes | `-ion` | result noun | -tion, -sion, -ation, -ing, -ure (in this meaning) | *connection* (a connection that has been made), *collection*, *confession*, *paintion* (*painting*), *buildion* (*building*), *describeion* (*description*), *mixion* (*mixture*) |
-| State or quality of being X | `-ness` | quality noun (*nomen qualitatis*) | -ity, -th, -ance, -ence, -cy, -hood, -ship, -tude, -ice (quality), -ery (state), -ism (quality or condition) | *unpossibleness*, *trueness*, *longness*, *safeness* |
-| Relating to X | `-al` | relational adjective | -ic, -ical, -ar, -ary (in this meaning); demonym adjectives (-ese, -ish, -ian, -an, -i) | *scienceal*, *historyal*, *personal*, *Englandal* (*English*: *Englandal food*), *Chinal* (*Chinese*) |
-| Full of / having X | `-ful` | possessive (proprietive) adjective | -ous, -y (on nouns) | *dangerful*, *fameful*, *rainful* |
-| Without X | `-less` | privative | — | *powerless* |
-| In an X way (adverb) | `-ly` | manner adverb | irregular adverbs | *goodly* (*well*), *fastly* (*fast*) |
-| Bring into the state X, or come into it (verb) | `-ize` | factitive, inchoative; causative on verbs | -ify, -en, -ate | *widize*, *simpleize*, *activeize* |
+| Meaning | Affix | IPA | Term | Replaces | Examples |
+|---|---|---|---|---|---|
+| Not X (adjective, noun) | `un-` | /ʌn/ | negation | in-, im-, il-, ir-, non-, dis-, a- | *unpossible*, *unlegal*, *unregular*, *unhonest*, *unmoral* |
+| Reverse the action X (verb) | `de-` | /diː/ | reversative | un-, dis- (on verbs) | *detie*, *delock*, *deconnect* |
+| Against X | `anti-` | /ˈænti/ | oppositive | counter-, contra- | *antiact*, *antisay* |
+| Again | `re-` | /riː/ | repetitive | — | *redo* |
+| Person or thing that does X (the subject of X) | `-or` | /ə(r)/ | agent noun (*nomen agentis*), A or S | -er, -ar, -ist, -ian, -ant, -ent, -ee (on verbs with no object) | *actor*, *teachor* (*teacher*), *begor* (*beggar*), *scienceor* (*scientist*), *assistor* (*assistant*), *makeor* (*maker*), *escapeor* (*escapee*), *attendor* (*attendee*) |
+| Person or thing that is X-ed (the direct object of X; the action is done or in progress) | `-ee` | /iː/ | object noun, O | — | *employee*, *trainee*, *usee*, *givee* (the gift), *sendee* (the thing that is sent) |
+| Person or thing that gets something from X, or that X is done for (the indirect object of X) | `-ary` | /əri/ | recipient noun | -ee (in this meaning) | *giveary*, *sendary* (*addressee*), *payary* (the person who is payed), *teachary* (*student*), *grantary* (*grantee*), *leaseary* (*lessee*), *benefitary* (*beneficiary*) |
+| Thing that someone uses to X (the instrument of X) | `-el` | /əl/ | instrument noun (*nomen instrumenti*) | -er, -or (in this meaning) | *openel* (*opener*), *cutel* (*knife*), *screwel* (*screwdriver*), *writel* (*pen*), *shovel* (*shove* + *el*) |
+| Person or thing that is to be X-ed (gerundive) | `-and` | /ɑːnd/ | gerundive (future passive participle) | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *beaffixand* |
+| Person or thing that is about to X (active, prospective) | `-ure` | /ə(r)/ | future active participle (prospective) | *would-be* X-or, X-or *to be* | *electure* (a person about to vote), *departure* (*departing*: *the departure passengers*), *launchure* (a rocket about to launch), *graduateure* |
+| Can be X-ed | `-able` | /əbəl/ | passive potential adjective | -ible, -uble | *seeable*, *readable*, *solveable*, *flyable* (can be flown) |
+| The act of X | `-ment` | /mənt/ | action noun (*nomen actionis*) | -tion, -sion, -ation (as an act), -ance, -ence, -al, -age, -ice (act), -ery (practice), -ism (practice), -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
+| The thing that X makes | `-ion` | /jən/ | result noun | -tion, -sion, -ation, -ing, -ure (in this meaning) | *connection* (a connection that has been made), *collection*, *confession*, *paintion* (*painting*), *buildion* (*building*), *describeion* (*description*), *mixion* (*mixture*) |
+| State or quality of being X | `-ness` | /nəs/ | quality noun (*nomen qualitatis*) | -ity, -th, -ance, -ence, -cy, -hood, -ship, -tude, -ice (quality), -ery (state), -ism (quality or condition) | *unpossibleness*, *trueness*, *longness*, *safeness* |
+| Relating to X | `-al` | /əl/ | relational adjective | -ic, -ical, -ar, -ary (in this meaning); demonym adjectives (-ese, -ish, -ian, -an, -i) | *scienceal*, *historyal*, *personal*, *Englandal* (*English*: *Englandal food*), *Chinal* (*Chinese*) |
+| Full of / having X | `-ful` | /fəl/ | possessive (proprietive) adjective | -ous, -y (on nouns) | *dangerful*, *fameful*, *rainful* |
+| Without X | `-less` | /ləs/ | privative | — | *powerless* |
+| In an X way (adverb) | `-ly` | /li/ | manner adverb | irregular adverbs | *goodly* (*well*), *fastly* (*fast*) |
+| Bring into the state X, or come into it (verb) | `-ize` | /aɪz/ | factitive, inchoative; causative on verbs | -ify, -en, -ate | *widize*, *simpleize*, *activeize* |
 
 Notes:
 - `-ing` is only a verb form (§3.1). It is never a derived noun. Use `-ment` for the noun: *the connectment of the wires*, not *the connecting of the wires*. A gerund keeps its object without *of*: *connecting the wires is easy*.
@@ -193,34 +205,34 @@ In standard English, many affixes work only with some words. For example, *-hood
 
 #### 3.4.1 Prefixes
 
-| Meaning | Affix | Term | Attaches to | Replaces | Examples |
-|---|---|---|---|---|---|
-| Wrongly, by mistake | `mis-` | — | verb | mal- (in this meaning) | *misfunction* (*malfunction*), *misread*, *miscount*, *misopen*, *misset* |
-| On purpose, in bad faith | `mal-` | — | verb | mis- (in this meaning), *ab-* | *maltreat*, *malread* (read in a twisted way on purpose), *malbehave* (*misbehave*), *malgovern* (govern corruptly), *maluse* (*abuse*) |
-| Too much | `over-` | excessive | verb, adj | hyper-, ultra-, super- (in this meaning) | *overheat*, *overtight*, *overactive* (*hyperactive*) |
-| Too little | `under-` | deficient | verb, adj | hypo- | *undercook*, *underfill* |
-| Below | `sub-` | subessive | noun | under- (in this meaning), infra- | *subground* (*underground*), *subline* (*underline*), *subgroup* |
-| Above | `super-` | superessive | noun | over- (in this meaning), supra- | *superhead* (*overhead*), *superpass* (*overpass*) |
-| Before (time) | `pre-` | anterior | noun, verb | fore-, ante- | *prewarn* (*forewarn*), *preroom* (*anteroom*), *prewash* |
-| After (time) | `post-` | posterior | noun, verb | after- | *postshock* (*aftershock*), *postwash* |
-| Between; each other (reciprocal) | `inter-` | interessive; reciprocal | noun, verb | *each other*, *one another* | *intercity*, *interconnect* (connect to each other), *interhelp* (help each other) |
-| Inside one X | `intra-` | inessive | noun | endo-, *within* | *intracompany*, *intranet*, *intravein* (*intravenous*) |
-| Done in reply to X, to stop or balance it | `counter-` | — | noun, verb | contra- | *counterattack*, *countermeasure*, *counterweight*, *counterspeak* (*contradict*) |
-| Across (noun); through (verb) | `trans-` | perlative | noun, verb | dia-, per-, verb + *through* | *transsea*, *transcountry*; *transchew* (*chew through*), *transdrill*, *transpierce* |
-| Together, jointly | `co-` | comitative | noun, verb | con-, com-, syn-, sym- (in new forms) | *cowork*, *cowriteor* |
-| Former | `ex-` | — | noun | *former* | *exteachor*, *exhome* |
-| Done to itself (the doer is also the receiver) | `self-` | reflexive | verb, noun | auto- (in this meaning) | *selfclean*, *selfteach*, *selfdefend*, *selfbiography* (*autobiography*) |
-| Done without outside control, automatic | `auto-` | — | verb, noun | — | *autofocus*, *autolock*, *autopilot*, *automoveor* (*automobile*) |
-| Do better than (verb); outside (noun) | `out-` | surpassive; exessive | verb, noun | ecto-, exo-, extra-, *outside* + noun | *outrun*, *outsee*, *outbuild*; *outhouse*, *outdoor*, *outbody*, *outLondon* |
-| On, at the surface of | `a-` | superessive | noun | epi-, *on* + noun | *aboard*, *ashore*, *aground*, *atop*, *afloor* (*on the floor*), *awall*, *anoven* (*on the oven*) |
-| Fake, false | `mock-` | — | noun | pseudo-, *fake* / *false* + noun | *mockgold*, *mockdoctor*, *mockscience* (*pseudoscience*) |
-| Put in X | `en-` | illative | noun | em-, im- (in this meaning) | *encage*, *enbox*, *entomb*, *endanger*, *enprison* (*imprison*) |
-| Give X, provide with X | `be-` | ornative | noun | en-, em- (in this meaning), *endow with* | *bepower* (*empower*), *betitle* (*entitle*), *bereason*, *bejewel*, *befriend* |
-| Half, partly | `semi-` | — | noun, adj | hemi-, demi-, half- | *semisphere* (*hemisphere*), *semicircle* |
-| One | `uni-` | numeral prefix | noun, verb (§3.8.3) | mono-, single- | *uniwheel*, *unirail* (*monorail*) |
-| Two | `bi-` | numeral prefix | noun, verb (§3.8.3) | di-, twi-, double- | *biwheel*, *bilight* (*twilight*); not in chemical names (P6) |
-| Three | `tri-` | numeral prefix | noun, verb (§3.8.3) | — | *triwheel* (*tricycle*), *triangle* |
-| Many | `multi-` | — | noun, adj, verb (§3.8.3) | poly-, many- | *multicolor*, *multisided* (*polygonal*) |
+| Meaning | Affix | IPA | Term | Attaches to | Replaces | Examples |
+|---|---|---|---|---|---|---|
+| Wrongly, by mistake | `mis-` | /mɪs/ | — | verb | mal- (in this meaning) | *misfunction* (*malfunction*), *misread*, *miscount*, *misopen*, *misset* |
+| On purpose, in bad faith | `mal-` | /mæl/ | — | verb | mis- (in this meaning), *ab-* | *maltreat*, *malread* (read in a twisted way on purpose), *malbehave* (*misbehave*), *malgovern* (govern corruptly), *maluse* (*abuse*) |
+| Too much | `over-` | /ˈəʊvə(r)/ | excessive | verb, adj | hyper-, ultra-, super- (in this meaning) | *overheat*, *overtight*, *overactive* (*hyperactive*) |
+| Too little | `under-` | /ˈʌndə(r)/ | deficient | verb, adj | hypo- | *undercook*, *underfill* |
+| Below | `sub-` | /sʌb/ | subessive | noun | under- (in this meaning), infra- | *subground* (*underground*), *subline* (*underline*), *subgroup* |
+| Above | `super-` | /ˈsuːpə(r)/ | supraessive | noun | over- (in this meaning), supra- | *superhead* (*overhead*), *superpass* (*overpass*) |
+| Before (time) | `pre-` | /priː/ | anterior | noun, verb | fore-, ante- | *prewarn* (*forewarn*), *preroom* (*anteroom*), *prewash* |
+| After (time) | `post-` | /pəʊst/ | posterior | noun, verb | after- | *postshock* (*aftershock*), *postwash* |
+| Between; each other (reciprocal) | `inter-` | /ˈɪntə(r)/ | interessive; reciprocal | noun, verb | *each other*, *one another* | *intercity*, *interconnect* (connect to each other), *interhelp* (help each other) |
+| Inside one X | `intra-` | /ˈɪntrə/ | inessive | noun | endo-, *within* | *intracompany*, *intranet*, *intravein* (*intravenous*) |
+| Done in reply to X, to stop or balance it | `counter-` | /ˈkaʊntə(r)/ | — | noun, verb | contra- | *counterattack*, *countermeasure*, *counterweight*, *counterspeak* (*contradict*) |
+| Across (noun); through (verb) | `trans-` | /trænz/ | perlative | noun, verb | dia-, per-, verb + *through* | *transsea*, *transcountry*; *transchew* (*chew through*), *transdrill*, *transpierce* |
+| Together, jointly | `co-` | /kəʊ/ | comitative | noun, verb | con-, com-, syn-, sym- (in new forms) | *cowork*, *cowriteor* |
+| Former | `ex-` | /ɛks/ | — | noun | *former* | *exteachor*, *exhome* |
+| Done to itself (the doer is also the receiver) | `self-` | /sɛlf/ | reflexive | verb, noun | auto- (in this meaning) | *selfclean*, *selfteach*, *selfdefend*, *selfbiography* (*autobiography*) |
+| Done without outside control, automatic | `auto-` | /ˈɔːtəʊ/ | — | verb, noun | — | *autofocus*, *autolock*, *autopilot*, *automoveor* (*automobile*) |
+| Do better than (verb); outside (noun) | `out-` | /aʊt/ | surpassive; exessive | verb, noun | ecto-, exo-, extra-, *outside* + noun | *outrun*, *outsee*, *outbuild*; *outhouse*, *outdoor*, *outbody*, *outLondon* |
+| On, at the surface of | `a-` | /ə/ | superessive | noun | epi-, *on* + noun | *aboard*, *ashore*, *aground*, *atop*, *afloor* (*on the floor*), *awall*, *anoven* (*on the oven*) |
+| Fake, false | `mock-` | /mɒk/ | — | noun | pseudo-, *fake* / *false* + noun | *mockgold*, *mockdoctor*, *mockscience* (*pseudoscience*) |
+| Put in X | `en-` | /ɛn/ | illative | noun | em-, im- (in this meaning) | *encage*, *enbox*, *entomb*, *endanger*, *enprison* (*imprison*) |
+| Give X, provide with X | `be-` | /bɪ/ | ornative | noun | en-, em- (in this meaning), *endow with* | *bepower* (*empower*), *betitle* (*entitle*), *bereason*, *bejewel*, *befriend* |
+| Half, partly | `semi-` | /ˈsɛmi/ | — | noun, adj | hemi-, demi-, half- | *semisphere* (*hemisphere*), *semicircle* |
+| One | `uni-` | /ˈjuːni/ | numeral prefix | noun, verb (§3.8.3) | mono-, single- | *uniwheel*, *unirail* (*monorail*) |
+| Two | `bi-` | /baɪ/ | numeral prefix | noun, verb (§3.8.3) | di-, twi-, double- | *biwheel*, *bilight* (*twilight*); not in chemical names (P6) |
+| Three | `tri-` | /traɪ/ | numeral prefix | noun, verb (§3.8.3) | — | *triwheel* (*tricycle*), *triangle* |
+| Many | `multi-` | /ˈmʌlti/ | — | noun, adj, verb (§3.8.3) | poly-, many- | *multicolor*, *multisided* (*polygonal*) |
 
 Notes:
 - `mis-` and `mal-` are different. *misread* means to read wrongly without knowing it; the reader acts in good faith. *malread* means to read in a twisted way on purpose. For poor skill, use the adverb: *reads badly*.
@@ -242,32 +254,32 @@ Notes:
 
 #### 3.4.2 Suffixes
 
-| Meaning | Affix | Term | Attaches to | Replaces | Examples |
-|---|---|---|---|---|---|
-| Small X | `-let` | diminutive | noun | -ette, -kin, -ie, -y, mini- | *booklet*, *kitchenlet* (*kitchenette*), *doglet* (*doggy*), *carlet* |
-| Child of X | `-ling` | — | noun | *X's child*, *son* / *daughter of X*, irregular young-animal nouns | *duckling*, *catling* (*kitten*), *dogling* (*puppy*), *kingling* (*prince*), *bakeorling* (a baker's child) |
-| Like X, in the manner of X | `-like` | similative | noun | -ish (on nouns), -ly (on nouns), -esque, -oid | *childlike* (*childish*), *friendlike* (*friendly*), *humanlike* (*humanoid*) |
-| Somewhat X, almost X | `-ish` | approximative (attenuative) | adj, number | -y (on colors) | *reddish*, *coldish*, *tenish* |
-| Place where X is done or made | `-ery` | place noun (*nomen loci*) | verb, noun | -ory, -arium, -ary (in this meaning), -age, room words | *bakery*, *washery* (*laundry*), *readery* (*library*), *cookery* (*kitchen*), *fishery* |
-| Area ruled by X | `-dom` | realm | noun | -ric, -ate (in this meaning) | *kingdom*, *dukedom*, *sultandom* (*sultanate*), *companydom* |
-| All X as a group | `-age` | collective | noun | -ry, -ery (in this meaning), -dom (in this meaning), -ware | *bagage* (*baggage*), *leafage* (*foliage*), *machineage* (*machinery*), *kitchenage* (*kitchenware*), *voteorage* (*electorate*) |
-| Toward X | `-ward` | directional (allative) | noun | -wards | *homeward*, *skyward*, *doorward* |
-| With respect to X | `-wise` | limitative | noun | — | *costwise*, *timewise* |
-| Belief in X, or a movement for X | `-ism` | doctrine noun | noun, adj | — | *realism*, *peaceism* (*pacifism*), *peopleism* (the belief that the people should rule) |
-| A system in which X rules | `-cracy` | — | noun | -archy, -ism (in this meaning) | *peoplecracy* (*democracy*), *kingcracy* (*monarchy*), *moneycracy* (*plutocracy*), *techniquecracy* (*technocracy*) |
-| Study or science of X | `-ology` | — | noun | -ics, -logy, -nomy, -graphy | *earthology* (*geology*), *animalology* (*zoology*), *starology* (*astronomy*), *lifeology* (*biology*) |
-| Person from place X | `-an` | demonym | proper noun | -ian, -ish, -ese, -i, -er, -ite, -man | *Englandan* (*Englishman*), *Chinaan* → *Chinan* (*Chinese*), *Japanan* → *Japanian* (*Japanese*), *Spainan* (*Spaniard*), *Iraqan* (*Iraqi*), *Londonan* (*Londoner*) |
-| Language of place X | `-ese` | glottonym | proper noun | -ish, -ian, -an, -i, -ic | *Italyese* (*Italian*), *Englandese* (*English*), *Franceese* → *Francese* (*French*) |
-| Number X in order (ordinal) | `-th` | ordinal | number | irregular ordinals | *oneth* (*first*), *twoth* (*second*), *threeth* (*third*), *fiveth*, *eighth*, *twentyth* |
-| X times as many | `-fold` | multiplicative | number | -ple, -ble | *twofold* (*double*), *threefold* (*triple*) |
-| Not damaged or affected by X | `-proof` | — | noun | -tight, -resistant | *waterproof*, *heatproof*, *shockproof*, *tamperproof*, *airproof* (*airtight*) |
-| Good enough or safe enough for X | `-worthy` | — | noun | — | *airworthy*, *roadworthy*, *trustworthy*, *newsworthy* |
-| Tool that measures X | `-meter` | instrument noun (*nomen instrumenti*) | noun | -ometer, gauge | *speedmeter* (*speedometer*), *heatmeter* (*thermometer*), *pressuremeter* (*pressure gauge*) |
-| Causes X (a feeling or state) in others | `-some` | — | noun | -ing (in this meaning), -y (on nouns) | *fearsome*, *painsome*, *worrysome* (*worrying*), *scaresome* (*scary*), *troublesome* |
-| Female X | `-ess` | feminine | noun | -ette, -trix, -ine, -woman, *female* + noun | *actoress* (*actress*), *heroess* (*heroine*), *Walesaness* (*Welshwoman*), *lioness*, *dogess* (*bitch*) |
-| In the lasting state of X-ing | `-ent` | stative adjective | verb | -ant, -ent (adjective), -ing (in this meaning) | *dependent*, *undependent* (*independent*), *different*, *existent*, *pleasent* (*pleasant*), *ignorent* (*ignorant*) |
-| Can X | `-ive` | active potential | verb | -ive and -ile on Latin roots | *flyive* (can fly), *explodeive* (*explosive*), *createive* (*creative*), *destroyive* (*destructive*), *moveive* (*mobile*), *attractive*, *protective* |
-| Often X-s, tends to X | `-y` | habitual adjective | verb | -ative, -ful and -some (on verbs) | *talky* (*talkative*), *forgety* (*forgetful*), *quarrely* (*quarrelsome*), *leaky*, *clingy*, *pushy*, *jumpy* |
+| Meaning | Affix | IPA | Term | Attaches to | Replaces | Examples |
+|---|---|---|---|---|---|---|
+| Small X | `-let` | /lət/ | diminutive | noun | -ette, -kin, -ie, -y, mini- | *booklet*, *kitchenlet* (*kitchenette*), *doglet* (*doggy*), *carlet* |
+| Child of X | `-ling` | /lɪŋ/ | — | noun | *X's child*, *son* / *daughter of X*, irregular young-animal nouns | *duckling*, *catling* (*kitten*), *dogling* (*puppy*), *kingling* (*prince*), *bakeorling* (a baker's child) |
+| Like X, in the manner of X | `-like` | /laɪk/ | similative | noun | -ish (on nouns), -ly (on nouns), -esque, -oid | *childlike* (*childish*), *friendlike* (*friendly*), *humanlike* (*humanoid*) |
+| Somewhat X, almost X | `-ish` | /ɪʃ/ | approximative (attenuative) | adj, number | -y (on colors) | *reddish*, *coldish*, *tenish* |
+| Place where X is done or made | `-ery` | /əri/ | place noun (*nomen loci*) | verb, noun | -ory, -arium, -ary (in this meaning), -age, room words | *bakery*, *washery* (*laundry*), *readery* (*library*), *cookery* (*kitchen*), *fishery* |
+| Area ruled by X | `-dom` | /dəm/ | realm | noun | -ric, -ate (in this meaning) | *kingdom*, *dukedom*, *sultandom* (*sultanate*), *companydom* |
+| All X as a group | `-age` | /ɪdʒ/ | collective | noun | -ry, -ery (in this meaning), -dom (in this meaning), -ware | *bagage* (*baggage*), *leafage* (*foliage*), *machineage* (*machinery*), *kitchenage* (*kitchenware*), *voteorage* (*electorate*) |
+| Toward X | `-ward` | /wə(r)d/ | directional (allative) | noun | -wards | *homeward*, *skyward*, *doorward* |
+| With respect to X | `-wise` | /waɪz/ | limitative | noun | — | *costwise*, *timewise* |
+| Belief in X, or a movement for X | `-ism` | /ɪzəm/ | doctrine noun | noun, adj | — | *realism*, *peaceism* (*pacifism*), *peopleism* (the belief that the people should rule) |
+| A system in which X rules | `-cracy` | /krəsi/ | — | noun | -archy, -ism (in this meaning) | *peoplecracy* (*democracy*), *kingcracy* (*monarchy*), *moneycracy* (*plutocracy*), *techniquecracy* (*technocracy*) |
+| Study or science of X | `-ology` | /ˈɒlədʒi/ | — | noun | -ics, -logy, -nomy, -graphy | *earthology* (*geology*), *animalology* (*zoology*), *starology* (*astronomy*), *lifeology* (*biology*) |
+| Person from place X | `-an` | /ən/ | demonym | proper noun | -ian, -ish, -ese, -i, -er, -ite, -man | *Englandan* (*Englishman*), *Chinaan* → *Chinan* (*Chinese*), *Japanan* → *Japanian* (*Japanese*), *Spainan* (*Spaniard*), *Iraqan* (*Iraqi*), *Londonan* (*Londoner*) |
+| Language of place X | `-ese` | /iːz/ | glottonym | proper noun | -ish, -ian, -an, -i, -ic | *Italyese* (*Italian*), *Englandese* (*English*), *Franceese* → *Francese* (*French*) |
+| Number X in order (ordinal) | `-th` | /θ/ | ordinal | number | irregular ordinals | *oneth* (*first*), *twoth* (*second*), *threeth* (*third*), *fiveth*, *eighth*, *twentyth* |
+| X times as many | `-fold` | /fəʊld/ | multiplicative | number | -ple, -ble | *twofold* (*double*), *threefold* (*triple*) |
+| Not damaged or affected by X | `-proof` | /pruːf/ | — | noun | -tight, -resistant | *waterproof*, *heatproof*, *shockproof*, *tamperproof*, *airproof* (*airtight*) |
+| Good enough or safe enough for X | `-worthy` | /wɜː(r)ði/ | — | noun | — | *airworthy*, *roadworthy*, *trustworthy*, *newsworthy* |
+| Tool that measures X | `-meter` | /miːtə(r)/ | instrument noun (*nomen instrumenti*) | noun | -ometer, gauge | *speedmeter* (*speedometer*), *heatmeter* (*thermometer*), *pressuremeter* (*pressure gauge*) |
+| Causes X (a feeling or state) in others | `-some` | /səm/ | — | noun | -ing (in this meaning), -y (on nouns) | *fearsome*, *painsome*, *worrysome* (*worrying*), *scaresome* (*scary*), *troublesome* |
+| Female X | `-ess` | /ɛs/ | feminine | noun | -ette, -trix, -ine, -woman, *female* + noun | *actoress* (*actress*), *heroess* (*heroine*), *Walesaness* (*Welshwoman*), *lioness*, *dogess* (*bitch*) |
+| In the lasting state of X-ing | `-ent` | /ənt/ | stative adjective | verb | -ant, -ent (adjective), -ing (in this meaning) | *dependent*, *undependent* (*independent*), *different*, *existent*, *pleasent* (*pleasant*), *ignorent* (*ignorant*) |
+| Can X | `-ive` | /ɪv/ | active potential | verb | -ive and -ile on Latin roots | *flyive* (can fly), *explodeive* (*explosive*), *createive* (*creative*), *destroyive* (*destructive*), *moveive* (*mobile*), *attractive*, *protective* |
+| Often X-s, tends to X | `-y` | /i/ | habitual adjective | verb | -ative, -ful and -some (on verbs) | *talky* (*talkative*), *forgety* (*forgetful*), *quarrely* (*quarrelsome*), *leaky*, *clingy*, *pushy*, *jumpy* |
 
 Notes:
 - By P1, a place gives three different words: the person (`-an`), the adjective (`-al`) and the language (`-ese`). Example: *a Chinan* speaks *Chinaese* and eats *Chinal food*. The people as a group is the plural: *the Chinans* (*the Chinese*).
@@ -289,7 +301,7 @@ Notes:
 - `-ling` means a child of any age. *a bakeorling* can be an adult. *catling* (*kitten*) is a cat's child. `-ling` does not say that the child is young; for that, write *a young dog*.
 - `-ling` never means "lesser person". Traditional words with that meaning are not CE forms. Write a phrase: *weakling* → *weak person*, *underling* → *junior worker*.
 - *-ish* and *-like* are different. *childish* (like a child) becomes *childlike*. *reddish* (somewhat red) does not change.
-- `-ess` is the only gender affix. There is no male affix: a noun without `-ess` means a male, or a person or animal whose sex is unknown or mixed (as in Esperanto). *an actor* is a male actor or an actor of unknown sex. *the actors* can be a mixed group. Use `-ess` for each known female: *the engineoress*, not *the engineor*, when the engineer is a woman.
+- `-ess` is the only gender affix. There is no male affix: a noun without `-ess` means a male, or a person or animal whose sex is unknown or mixed (as in Esperanto). *an actor* is a male actor or an actor of unknown sex. *the actors* can be a mixed group. Use `-ess` for each known female: *the engineoress*, not *the engineor*, when the engineer is a woman. The pronoun is more exact than the noun: *he* is male only, so a noun without `-ess` whose sex is unknown takes *thon* (§3.9, Q15).
 - `-ing`, `-ent` and `-able` are different. *the depending country* is depending now (an action in progress). *the dependent country* is in that state, and the state lasts. *the dependable country* can be depended on.
 - `-able` and `-ive` are a pair. `-able` is passive: *a flyable plane* can be flown. `-ive` is active: *a flyive bird* can fly. A verb with no object has no passive, so it takes only `-ive`: *an arriveive train*.
 - `-ing`, `-ive`, `-y` and `-ent` are different:
@@ -362,26 +374,26 @@ CE imports common affixes from biology and medicine and makes them fully product
 
 #### 3.8.1 Prefixes
 
-| Meaning | Affix | Source | Attaches to | Replaces | Examples |
-|---|---|---|---|---|---|
-| New | `neo-` | *neocortex* | noun | *new* + noun | *neooven*, *neoversion* |
-| Old | `paleo-` | *paleontology* | noun | *old* + noun | *paleooven*, *paleoroad* |
-| Large | `macro-` | *macrophage* | noun | *large* / *big* + noun | *macromakeery* (*large factory*), *macrodog*; not *mega-*, which is an SI prefix (P6) |
-| Around | `peri-` | *pericardium* | noun | *around* + noun | *perihouse*, *perilake* |
+| Meaning | Affix | IPA | Source | Attaches to | Replaces | Examples |
+|---|---|---|---|---|---|---|
+| New | `neo-` | /ˈniːəʊ/ | *neocortex* | noun | *new* + noun | *neooven*, *neoversion* |
+| Old | `paleo-` | /ˈpæliəʊ/ | *paleontology* | noun | *old* + noun | *paleooven*, *paleoroad* |
+| Large | `macro-` | /ˈmækrəʊ/ | *macrophage* | noun | *large* / *big* + noun | *macromakeery* (*large factory*), *macrodog*; not *mega-*, which is an SI prefix (P6) |
+| Around | `peri-` | /ˈpɛri/ | *pericardium* | noun | *around* + noun | *perihouse*, *perilake* |
 
 #### 3.8.2 Suffixes
 
-| Meaning | Affix | Source | Attaches to | Replaces | Examples |
-|---|---|---|---|---|---|
-| Shaped like X | `-form` | *cruciform* | noun | *X-shaped* | *heartform*, *starform*, *bellform* |
-| Eats X | `-vore` | *herbivore* | noun | *-eater*, *-vorous* | *grassvore* (*herbivore*), *meatvore* (*carnivore*), *antvore* (*anteater*) |
-| Loves X | `-phile` | *hydrophile* | noun | *X-lover*, *-philic* | *bookphile*, *catphile* |
-| Fears X, avoids X | `-phobe` | *hydrophobe* | noun | *-phobic* | *waterphobe*, *crowdphobe* |
-| Kills X | `-cide` | *herbicide* | noun | *X-killer*, *-icide* | *weedcide* (*herbicide*), *bugcide* (*insecticide*) |
-| Produces X | `-gen` | *pathogen* | noun | *-genic*, *-ogen* | *diseasegen* (*pathogen*), *cancergen* (*carcinogen*) |
-| Swelling, inflammation of X | `-itis` | *arthritis* | noun | *-itis* on Greek roots | *jointitis* (*arthritis*), *skinitis* (*dermatitis*) |
-| Removal of X by cutting | `-ectomy` | *appendectomy* | noun | *-ectomy* on Greek roots | *tonsilectomy*, *wombectomy* (*hysterectomy*) |
-| Tool to look at X | `-scope` | *microscope* | noun | *-oscope* | *starscope* (*telescope*), *insidescope* (*endoscope*) |
+| Meaning | Affix | IPA | Source | Attaches to | Replaces | Examples |
+|---|---|---|---|---|---|---|
+| Shaped like X | `-form` | /fɔː(r)m/ | *cruciform* | noun | *X-shaped* | *heartform*, *starform*, *bellform* |
+| Eats X | `-vore` | /vɔː(r)/ | *herbivore* | noun | *-eater*, *-vorous* | *grassvore* (*herbivore*), *meatvore* (*carnivore*), *antvore* (*anteater*) |
+| Loves X | `-phile` | /faɪl/ | *hydrophile* | noun | *X-lover*, *-philic* | *bookphile*, *catphile* |
+| Fears X, avoids X | `-phobe` | /fəʊb/ | *hydrophobe* | noun | *-phobic* | *waterphobe*, *crowdphobe* |
+| Kills X | `-cide` | /saɪd/ | *herbicide* | noun | *X-killer*, *-icide* | *weedcide* (*herbicide*), *bugcide* (*insecticide*) |
+| Produces X | `-gen` | /dʒən/ | *pathogen* | noun | *-genic*, *-ogen* | *diseasegen* (*pathogen*), *cancergen* (*carcinogen*) |
+| Swelling, inflammation of X | `-itis` | /ˈaɪtɪs/ | *arthritis* | noun | *-itis* on Greek roots | *jointitis* (*arthritis*), *skinitis* (*dermatitis*) |
+| Removal of X by cutting | `-ectomy` | /ˈɛktəmi/ | *appendectomy* | noun | *-ectomy* on Greek roots | *tonsilectomy*, *wombectomy* (*hysterectomy*) |
+| Tool to look at X | `-scope` | /skəʊp/ | *microscope* | noun | *-oscope* | *starscope* (*telescope*), *insidescope* (*endoscope*) |
 
 #### 3.8.3 Numeral prefixes on verbs
 
@@ -393,6 +405,23 @@ Notes:
 - `-gen`, `-ful` and `-some` are different. *a diseasegen* produces disease. *a diseaseful town* has disease. *a fearsome dog* causes fear.
 - `-phobe` and `anti-` are different. *a waterphobe* avoids water. *antiwater* is opposed to water.
 - `-scope` and `-meter` are different. `-scope` shows X. `-meter` measures X.
+
+### 3.9 Pronouns
+
+| Meaning | Singular | Plural |
+|---|---|---|
+| Male | *he* | *hes* |
+| Female | *she* | *shes* |
+| Sex unknown or mixed | *thon*, *thon's*, *thonself* | *thons*, *thons'*, *thonselfs* |
+| Speaker and associates | — | *I'all*, *me'all*, *my'all*, *myself'all* (§3.1) |
+| Listener and associates | — | *you'all*, *your'all*, *yourself'all* (§3.1) |
+
+Notes:
+- *thon* /ðʌn/ (from *that one*) is the third person pronoun for a person whose sex is unknown or mixed. It is the subject and the object; *thon's* is the possessive and *thonself* the reflexive. It takes the third person `-s`: *thon votes*.
+- *he* means a male only, and *she* a female only. When the sex is unknown, use *thon*: *each Representor and thon's Dwellors*.
+- A true plural takes the plural `-s` (§3.1): *thons* (*they*, *them*), *hes* (a group of males), *shes* (a group of females). *they*, *them*, *their* and *themselves* are not used for persons.
+- The associative plural `-'all` (§3.1) is different: *I'all* (*we*) is the speaker and others.
+- Plural things keep *they* until Q16 is decided.
 
 ## 4. Allowed allomorphs
 
@@ -445,6 +474,25 @@ Because the base never changes, these traditional spelling changes are not used:
 | *panicked* | *paniced* | *c* → *ck* |
 
 Note: without doubling and *c* → *ck*, some spellings no longer show the sound of the base (*stoped* looks like it has a long *o*; *paniced* looks like it has an *s* sound). See Q3.
+
+### 4.4 Recommended pronunciation
+
+The IPA column in each affix table (§3.1–§3.8) gives a recommended pronunciation. It is recommended, not required. The notation uses the vowels of British Received Pronunciation; *(r)* is said only in rhotic accents. The pronoun *thon* is /ðʌn/ (§3.9).
+
+Some affixes sound the same in fast or reduced speech. These choices keep them apart:
+
+- `-en` /ən/, `-end` /ɛnd/, `-and` /ɑːnd/. The long /ɑː/ keeps `-and` apart from `-end`, also in accents that merge /ɛ/ and /æ/.
+- `-'all` /ɔːl/ always keeps its full vowel, so it does not merge with `-al` /əl/.
+
+These pairs still sound the same, or almost the same (Q14):
+
+| Affixes | IPA | Bases |
+|---|---|---|
+| `-ary`, `-ery` | /əri/ | both attach to verbs |
+| `-or`, `-er`, `-ure` | /ə(r)/ | verb, adjective, verb; the same sound in non-rhotic accents |
+| `-el`, `-al` | /əl/ | verb, noun |
+| `-en`, `-an` | /ən/ | verb, proper noun |
+| `-ee`, `-y` | /iː/, /i/ | both attach to verbs; a milder case |
 
 ## 5. Collisions with existing words
 
@@ -517,11 +565,14 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q6.** (Closed.) Plural place names made awkward language names (*Netherlandsese*). A plural place name now uses its singular form as the base (§3.4.2): *Netherlandese*, *Philippinese*.
 - **Q7.** (Partly closed.) *will*, *shall*, *must*, *would*, *had*, *can*, *could*, *may* and *might* are now verb slots (§3.1.1). Still open: *should* (weak obligation).
 - **Q8.** (Closed.) `-ee` covered three thematic roles: patient (*employee*), recipient (*payee*) and agent (*escapee*). `-ee` now means only the direct object. The recipient uses `-ary`, and the agent uses `-or` (§3.2).
-- **Q9.** How does the progressive (*be* + `-ing`) fit the verb slots?
+- **Q9.** (Partly closed.) The progressive (*be* + `-ing`) is now slot 4, `-ing` (§3.1.1): *voteinged* (was voting), *voteing'll* (will be voting). Still open: its order next to `-'ve`. The table puts it after (*vote'veing*, has been voting), but scope order ("each suffix covers everything before it") would put it before (*voteing've*).
 - **Q10.** Is a stack of four slot suffixes acceptable? Example: *passen've'lled* (would have been passed).
 - **Q11.** (Closed.) *be* + `-end` gave *bend* by §4.2. Now a suffix keeps its *e* after *be* (§4.2): *No Person beend a Representor* (G.4).
 - **Q12.** When two verbs share one set of auxiliaries, does each verb take the slots? Example: *shall not have attained … and been …* (G.4). Until this is decided, the text keeps the auxiliaries.
 - **Q13.** Does CE need an inferential evidential (*apparently*, *it seems*), next to the reportive `-said`?
+- **Q14.** Which pronunciation keeps other affixes apart in reduced speech (§4.4)? `-ary` and `-ery` are both /əri/ and both attach to verbs. `-or`, `-er` and `-ure` all become a schwa in non-rhotic accents. `-ee` and `-y` are a milder case. `-el` and `-al` (both /əl/) and `-en` and `-an` (both /ən/) also sound the same, but they attach to different parts of speech.
+- **Q15.** *he* now means a male only (§3.9), but a noun without `-ess` still means a male or a person of unknown or mixed sex (§3.4.2). Should nouns follow the pronouns?
+- **Q16.** Some plural pronoun forms are not decided (§3.9): the other case forms of *hes* and *shes* (*him*, *his*, *her*, *himself*, *herself*), and a plural of *it* for things (*its* is already the possessive).
 
 ## Appendix A. Example translation
 
@@ -533,7 +584,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 
 **Consistentized Englandese**
 
-> Before you begin, sureize the machine deconnecten completely from the power supply. It bes unpossible to safely inspect the electric components while the unit bes runing. The techniqueor who carryed out the last inspectment finded that several bolts looseizen'ved and two of the seals breakened. These problems benot easyly seeable, so you should check each joint carefully. If a seal bes unuseable, replace it immediately. The replacement doenend by a qualifyed operateor.
+> Before you begin, sureize the machine deconnecten completely from the power supply. It bes unpossible to safely inspect the electric components while the unit runing. The techniqueor who carryed out the last inspectment finded that several bolts looseizen'ved and two of the seals breakened. These problems benot easyly seeable, so you should check each joint carefully. If a seal bes unuseable, replace it immediately. The replacement doenend by a qualifyed operateor.
 
 ### A.2 Changes
 
@@ -551,10 +602,10 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 | *is*, *are not* | *bes*, *benot* | *be* is regular (§3.1); `-not` (§3.1.1) |
 | *visible* | *seeable* | affix goes on the plain base (P4) |
 | *easily*, *carried*, *qualified* | *easyly*, *carryed*, *qualifyed* | the base never changes: no *y* → *i* (§4) |
-| *running* | *runing* | the base never changes: no doubled consonant (§4) |
+| *is running* | *runing* | progressive slot `-ing`, with no *be* (§3.1.1); the base never changes: no doubled consonant (§4) |
 | *electrical components* | *electric components* | *electric* is a base noun (P4), so this is a noun compound (§3.7); the adjective would be *electrical* (electric + `-al`) |
 
-The auxiliary verbs become verb slots (§3.1.1): *must be done* becomes one word, *doenend*, and it stays passive. The rest of the sentence structure does not change: *carried out* stays a phrasal verb. Two forms stay open: the progressive *bes runing* (Q9) and the modal *should* (Q7).
+The auxiliary verbs become verb slots (§3.1.1): *must be done* becomes one word, *doenend*, and it stays passive. The rest of the sentence structure does not change: *carried out* stays a phrasal verb. One form stays open: the modal *should* (Q7).
 
 ### A.3 One base, all forms
 
@@ -633,7 +684,7 @@ The country and the people in this text are not real.
 
 **Consistentized Englandese** (84 words)
 
-> Velmora's Prime Minister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electment. The opposeors, under exfinance-minister Tomas Bell, accused the governorage of corruptment and of underfunding public hospitals. Reyes's popularness bes now at its lowest since 2022. Reyes promised an anticorruptment law and sayed that the cogovernorage increase'llednot taxes. Thousands of protestors meeted outside the parliament. Analyzeors sayed that the result bes unpreseeable. Most of the voteorage bes still undecided, and both electands be untrustabler than their partys.
+> Velmora's Prime Minister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electment. The opposeors, under exfinance-minister Tomas Bell, accused the governorage of corruptment and of underfunding public hospitals. Reyes's popularness bes now at its lowest since 2022. Reyes promised an anticorruptment law and sayed that the cogovernorage increase'llednot taxes. Thousands of protestors meeted outside the parliament. Analyzeors sayed that the result bes unpreseeable. Most of the voteorage bes still undecided, and both electands be untrustabler than thons' partys.
 
 ### C.2 Word breakdown
 
@@ -652,6 +703,7 @@ The country and the people in this text are not real.
 | *partys*, *protestors* | party + s, protest + or + s | *parties*, *protesters* | |
 | *sayed*, *meeted* | say + ed, meet + ed | *said*, *gathered* | regular past (§3.1) |
 | *increase'llednot* | increase + 'll + ed + not | *would not raise* | `-'ll` + `-ed` is *would* (§3.1.1) |
+| *thons'* | thon + s + ' | *their* | plural of *thon* (§3.9) |
 | *Prime Minister*, *parliament* | — | no change | base words |
 
 ### C.3 Comment
@@ -680,13 +732,13 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 
 **Consistentized Englandese** (315 words)
 
-> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She arrive'ved after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, prewarnened of their arrivement. She telled them that her oven misfunction'ved twice that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
+> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She arrive'ved after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, prewarnened of thons' arrivement. She telled thons that her oven misfunction'ved twice that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
 >
 > The engineoress examined the machineage carefullyer than the governorage's inspector do'ved. The subfloor wires interconnectened, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and overtightizenot the screws." She finded that the eighth fuse breakened and that mouses transchew'ved the insulatement. A skilled electricor see've'lled it at once, but the inspector do'vednot.
 >
-> They coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeion. His repair, however, beed gooder than his teachoress's. The new oven selfcleans, autostarts and bakes twofold the bread. It bes waterproof and airproof, and it bes beautifuler than the old one, although slightly noisefuler.
+> Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeion. His repair, however, beed gooder than his teachoress's. The new oven selfcleans, autostarts and bakes twofold the bread. It bes waterproof and airproof, and it bes beautifuler than the old one, although slightly noisefuler.
 >
-> The bakeorlingess, a pharmacy graduateuress, impressened but beed doubtful. "It bes unpossible to trust a machine fully," she sayed. The engineoress smiled. "It bes the safest oven in the kingdom, and the relyablest machine that I ever build've." She refused payment. In return, the bakeoress gived them a basket of warm loafs and a reddish, heart-shaped cake. The childs in the shop behaved childlikely and outruned each other doorward.
+> The bakeorlingess, a pharmacy graduateuress, impressened but beed doubtful. "It bes unpossible to trust a machine fully," she sayed. The engineoress smiled. "It bes the safest oven in the kingdom, and the relyablest machine that I ever build've." She refused payment. In return, the bakeoress gived thons a basket of warm loafs and a reddish, heart-shaped cake. The childs in the shop behaved childlikely and outruned each other doorward.
 >
 > Since then, the orderands of each day writen on a whiteboard in the cookery: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, never be've happyer, and the new oven bepower've the bakeoress. "Moneywise, a bakerylet bes gooder than a large makeery," she says. Her husband, an exfire-fightor, agrees and dos the deliverments.
 
@@ -724,6 +776,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 | Person, adjective, language | *Japanese woman*, *Welshwoman*, *English*, *Dutch*, *Chinese tea* → *Japanianess*, *Walesaness*, *Englandese*, *Netherlandese*, *Chinal tea* | `-an`, `-ese`, `-al` (§3.4.2) |
 | Female | *engineer*, *baker*, *teacher*, *co-owner*, *graduate* (all women) → *engineoress*, *bakeoress*, *teachoress*, *coownoress*, *graduateuress* | `-ess`; the unmarked noun is male (§3.4.2) |
 | Every X | *daily* → *of each day* | removed affix (§3.5) |
+| Pronouns | *their*, *them*, *They* → *thons'*, *thons*, *Thons* | plural of *thon*; the group is mixed (§3.9) |
 | Compound | *former firefighter* → *exfire-fightor* | affixes on the ends (§3.7) |
 | Allomorphs | *Japanian* (`-ian` after *an*), *Chinal* (drop *a*), *retired*, *arrive'ved*, *writen* (drop *e*), *fully* (no triple *l*), *eighth* (`-h` after *t*) | §4 |
 | Base never changes | *happier* → *happyer* (no *y* → *i*); *outran* → *outruned* (no doubled *n*) | §4.3 |
@@ -745,13 +798,13 @@ This is the passage from Appendix D, translated again with the biological affixe
 
 **Consistentized Englandese with §3.8** (305 words)
 
-> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She arrive'ved after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, prewarnened of their arrivement. She telled them that her oven bimisfunction'ved that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
+> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She arrive'ved after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, prewarnened of thons' arrivement. She telled thons that her oven bimisfunction'ved that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
 >
 > The engineoress examined the machineage carefullyer than the governorage's inspector do'ved. The subfloor wires interconnectened, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and overtightizenot the screws." She finded that the eighth fuse breakened and that mouses transchew'ved the insulatement. A skilled electricor see've'lled it at once, but the inspector do'vednot.
 >
-> They coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeion. His repair, however, beed gooder than his teachoress's. The neooven selfcleans, autostarts and bakes twofold the bread. It bes waterproof and airproof, and it bes beautifuler than the old one, although slightly noisefuler.
+> Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeion. His repair, however, beed gooder than his teachoress's. The neooven selfcleans, autostarts and bakes twofold the bread. It bes waterproof and airproof, and it bes beautifuler than the old one, although slightly noisefuler.
 >
-> The bakeorlingess, a pharmacy graduateuress, impressened but beed doubtful. "It bes unpossible to trust a machine fully," she sayed. The engineoress smiled. "It bes the safest oven in the kingdom, and the relyablest machine that I ever build've." She refused payment. In return, the bakeoress gived them a basket of warm loafs and a reddish, heartform cake. The intrashop childs behaved childlikely and interoutruned doorward.
+> The bakeorlingess, a pharmacy graduateuress, impressened but beed doubtful. "It bes unpossible to trust a machine fully," she sayed. The engineoress smiled. "It bes the safest oven in the kingdom, and the relyablest machine that I ever build've." She refused payment. In return, the bakeoress gived thons a basket of warm loafs and a reddish, heartform cake. The intrashop childs behaved childlikely and interoutruned doorward.
 >
 > Since then, the orderands of each day writen on an intracookery whiteboard: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, never be've happyer, and the neooven bepower've the bakeoress. "Moneywise, a bakerylet bes gooder than a macromakeery," she says. Her husband, an exfire-fightor, agrees and dos the deliverments.
 
@@ -771,8 +824,8 @@ This is the passage from Appendix D, translated again with the biological affixe
 | Version | Words | Characters |
 |---|---|---|
 | Standard English (D.1) | 359 | 2158 |
-| CE (D.1) | 315 | 2107 |
-| CE with §3.8 (E.1) | 305 | 2088 |
+| CE (D.1) | 315 | 2111 |
+| CE with §3.8 (E.1) | 305 | 2092 |
 
 ### E.4 Comment
 
@@ -796,7 +849,7 @@ These translations use only the rules above. They are a baseline: when a new aff
 
 **Consistentized Englandese** (23 words)
 
-> All human bements bearen free and equal in worthyness and rights. They bereasonen and beconsciencen and should interact in a spirit of brotherness.
+> All human bements bearen free and equal in worthyness and rights. Thons bereasonen and beconsciencen and should interact in a spirit of brotherness.
 
 #### F.1.2 Word breakdown
 
@@ -806,6 +859,7 @@ These translations use only the rules above. They are a baseline: when a new aff
 | *bearen* | bear + en | *are born* | passive (§3.1.1); collides with the noun *bear* (P1) |
 | *worthyness* | worthy + ness | *dignity* | `-ness` replaces `-ity` (§3.2); *dignity* has no plain English base (P4) |
 | *bereasonen*, *beconsciencen* | be + reason + en, be + conscience + en | *are endowed with reason and conscience* | `be-` means "give X" (§3.4.1); passive (§3.1.1); `-en` drops its *e* after *conscience* (§4.2) |
+| *Thons* | thon + s | *They* | plural of *thon* (§3.9) |
 | *interact* | inter + act | *act towards one another* | reciprocal `inter-` (§3.4.1) |
 | *brotherness* | brother + ness | *brotherhood* | `-ness` replaces `-hood` (§3.2) |
 | *should* | — | no change | modal (Q7) |
@@ -816,7 +870,7 @@ These translations use only the rules above. They are a baseline: when a new aff
 |---|---|---|
 | Standard English | 30 | 170 |
 | CE before §3.1.1 | 25 | 155 |
-| CE | 23 | 147 |
+| CE | 23 | 148 |
 
 #### F.1.4 Gaps
 
@@ -995,12 +1049,13 @@ These translations use only the rules above. The capital letters of the original
 
 **Consistentized Englandese** (51 words)
 
-> We the People of the United States, in Order to form a perfecter Uniteion, establish Justness, sureize homeal Tranquilness, provide for the common defendment, promote the general Welfare, and secure the Blessions of Freeness to ourselves and our Descendorage, do ordain and establish this Constituteion for the United States of America.
+> I'all the People of the United States, in Order to form a perfecter Uniteion, establish Justness, sureize homeal Tranquilness, provide for the common defendment, promote the general Welfare, and secure the Blessions of Freeness to myself'all and my'all Descendorage, do ordain and establish this Constituteion for the United States of America.
 
 #### G.1.2 Word breakdown
 
 | CE | Parts | Standard | Note |
 |---|---|---|---|
+| *I'all*, *myself'all*, *my'all* | I + 'all, myself + 'all, my + 'all | *We*, *ourselves*, *our* | associative plural (§3.1) |
 | *perfecter* | perfect + er | *more perfect* | no *more* for degree (§3.1) |
 | *Uniteion* | unite + ion | *Union* | the thing that uniting makes, so `-ion` (§3.2); plain base (P4) |
 | *Justness* | just + ness | *Justice* | `-ness` replaces `-ice` |
@@ -1020,7 +1075,7 @@ These translations use only the rules above. The capital letters of the original
 | Version | Words | Characters |
 |---|---|---|
 | Standard English | 52 | 327 |
-| CE | 51 | 336 |
+| CE | 51 | 343 |
 
 #### G.1.4 Gaps
 
@@ -1117,13 +1172,14 @@ These translations use only the rules above. The capital letters of the original
 
 **Consistentized Englandese** (41 words)
 
-> No Person beend a Representor who shall not have attained to the Age of twenty five Years, and beed seven Years a Citizen of the United States, and who, when elected, beendnot a Dwellor of that State in which he choosenend.
+> No Person beend a Representor who shall not have attained to the Age of twenty five Years, and beed seven Years a Citizen of the United States, and who, when elected, beendnot a Dwellor of that State in which thon choosenend.
 
 #### G.4.2 Word breakdown
 
 | CE | Parts | Standard | Note |
 |---|---|---|---|
 | *Representor* | represent + or | *Representative* | as in G.2 |
+| *thon* | — | *he* | the Person can be of any sex; *he* is male only (§3.9) |
 | *Dwellor* | dwell + or | *Inhabitant* | *habitare* means "dwell", so part swap (P4); *inhabit* is a false affix (§5.1); `-or` replaces `-ant` (§3.2) |
 | *choosenend* | choose + en + end | *shall be chosen* | passive, deontic (§3.1.1) |
 | *beend*, *beendnot* | be + end, be + end + not | *shall be*, *shall not … be* | deontic, negation (§3.1.1); `-end` keeps its *e* after *be* (§4.2) |
@@ -1138,7 +1194,7 @@ These translations use only the rules above. The capital letters of the original
 | Standard English | 46 | 242 |
 | CE before §3.1.1 | 46 | 236 |
 | CE before regular *be* | 44 | 230 |
-| CE | 41 | 223 |
+| CE | 41 | 225 |
 
 #### G.4.4 Gaps
 
@@ -1158,28 +1214,29 @@ The Fourteenth Amendment later changed this clause. The text is the original of 
 
 **Consistentized Englandese** (149 words)
 
-> Representors and direct Taxes partenend among the several States which includenmay within this Uniteion, according to their own Numbers, which countenend by adding to the whole Number of free Persons, including those binded to Servement for a Term of Years, and leaving out Indians not taxed, three fiveths of all other Persons. The actual Numberment makenend within three Years after the oneth Meetment of the Congress of the United States, and within every following Term of ten Years, in such Manner as they by Law directend. The Number of Representors outgoendnot one for every thirty Thousand, but each State havend at Least one Representor; and until such numberment makenend, the State of New Hampshire betitlenend to choose three, Massachusetts eight, Rhode-Island and Providence Plantations one, Connecticut five, New-York six, New Jersey four, Pennsylvania eight, Delaware one, Maryland six, Virginia ten, North Carolina five, South Carolina five, and Georgia three.
+> Representors and direct Taxes partenend among the several States which includenmay within this Uniteion, according to their own Numbers, which countenend by adding to the whole Number of free Persons, including those binded to Servement for a Term of Years, and leaving out Indians not taxed, three fiveths of all other Persons. The actual Numberment makenend within three Years after the oneth Meetment of the Congress of the United States, and within every following Term of ten Years, in such Manner as thons by Law directend. The Number of Representors outgoendnot one for every thirty Thousand, but each State havend at Least one Representor; and until such numberment makenend, the State of New Hampshire betitlenend to choose three, Massachusetts eight, Rhode-Island and Providence Plantations one, Connecticut five, New-York six, New Jersey four, Pennsylvania eight, Delaware one, Maryland six, Virginia ten, North Carolina five, South Carolina five, and Georgia three.
 
 #### G.5.2 Word breakdown
 
 | CE | Parts | Standard | Note |
 |---|---|---|---|
-| *parted* | part + ed | *apportioned* | *portio* means "part", so part swap (P4) |
+| *partenend* | part + en + end | *shall be apportioned* | *portio* means "part", so part swap (P4); passive, deontic (§3.1.1) |
 | *Uniteion* | unite + ion | *Union* | as in G.1 |
 | *own* | — | *respective* | synonym swap (P4); *respective* is a false affix (§5.1) |
-| *counted* | count + ed | *determined* | synonym swap (P4); *determine* is a false affix (§5.1) |
+| *countenend* | count + en + end | *shall be determined* | synonym swap (P4); *determine* is a false affix (§5.1); passive, deontic (§3.1.1) |
 | *binded* | bind + ed | *bound* | regular past participle (§3.1); next to a noun, so `-ed` (§3.1.1) |
 | *Servement* | serve + ment | *Service* | the act (§3.2); `-ment` replaces `-ice` (act) |
 | *leaving out* | — | *excluding* | synonym swap (P4); *exclude* is a false affix (§5.1); *including* stays, because CE has no `in-` |
 | *fiveths*, *oneth* | five + th + s, one + th | *fifths*, *first* | ordinal (§3.4.2) |
 | *Numberment*, *numberment* | number + ment | *Enumeration* | *numerus* means "number", so part swap (P4); the act of counting (§3.2) |
-| *partenend*, *countenend*, *makenend*, *betitlenend* | part + en + end, … | *shall be apportioned*, *shall be determined*, *shall be made*, *shall be entitled* | passive, deontic (§3.1.1) |
+| *makenend*, *betitlenend* | make + en + end, be + title + en + end | *shall be made*, *shall be entitled* | passive, deontic (§3.1.1) |
 | *directend*, *havend* | direct + end, have + end | *shall direct*, *shall have* | deontic (§3.1.1); *by Law* moves before the verb |
 | *outgoendnot* | out + go + end + not | *shall not exceed* | deontic, negation (§3.1.1) |
 | *includenmay* | include + en + may | *may be included* | passive, possibility (§3.1.1) |
 | *Meetment* | meet + ment | *Meeting* | `-ing` is never a noun; the act (§3.2) |
 | *following* | follow + ing | *subsequent* | *sequi* means "follow", so part swap (P4); *subsequent* is a false affix (§5.1) |
 | *outgo* | out + go | *exceed* | *ex-* "out" + *cedere* "go", so part swap (P4); `out-` on a verb means "do better than" (§3.4.1) |
+| *thons* | thon + s | *they* | plural of *thon* (§3.9) |
 | *choose* | — | *chuse* | modern spelling of the base |
 | *actual*, *direct*, *included* | — | no change | common and easy to guess (P4) |
 | place names, *Providence Plantations* | — | no change | names |
@@ -1190,7 +1247,7 @@ The Fourteenth Amendment later changed this clause. The text is the original of 
 |---|---|---|
 | Standard English | 164 | 1036 |
 | CE before §3.1.1 | 165 | 1021 |
-| CE | 149 | 976 |
+| CE | 149 | 977 |
 
 #### G.5.4 Gaps
 
@@ -1286,4 +1343,4 @@ This is an invented abstract in the style of a materials science paper. Research
 - The verb slots save 16 words. Every sentence has a passive or a modal verb, so this text gains more from §3.1.1 than any baseline text except G.5.
 - *detectencanednot* stacks four slot suffixes (Q10). Results sections often need forms this long.
 - *reduce*, *detect*, *explain* and *effect* are Latin loans, but they are common and easy to guess, so they stay (P4). *corrosion* and *permeability* are technical terms. CE rebuilds technical terms like any other word and does not keep the established form.
-- The text avoids *should* (Q7) and the progressive (Q9), which research writing often uses: *it should be noted*, *the samples are being tested*.
+- The text avoids *should* (Q7), which research writing often uses: *it should be noted*. The progressive is now a slot (§3.1.1): *the samples are being tested* would be *the samples testening*.

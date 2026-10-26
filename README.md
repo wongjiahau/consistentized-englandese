@@ -5,7 +5,7 @@
 Consistentized Englandese (CE) is a regularized form of English. It makes every affix regular and leaves sentence style alone:
 
 - **One meaning, one affix.** *impossible*, *illegal*, *irregular* → *unpossible*, *unlegal*, *unregular*.
-- **Every affix works on every word.** *see* → *seed*, *seer*, *seeable*, *unseeable*, *seeableness*.
+- **Every affix works on every word.** *see* → *seed*, *seeor*, *seeable*, *unseeable*, *seeableness*.
 - **The base word never changes.** *try* → *tryed*, *easy* → *easyly*.
 - **Standard names stay.** Chemical names, SI units, species names and part numbers are not changed.
 
