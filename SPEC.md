@@ -13,7 +13,12 @@ CE changes word forms only. It does not limit sentence length, voice, tense or s
 - **P1. One word, one meaning.** Each word in the CE dictionary has one meaning and one part of speech.
 - **P2. One meaning, one affix.** Each affix meaning has one affix. Different meanings use different affixes.
 - **P3. Conditioned allomorphy only.** An affix may have more than one written form (allomorph). An allomorph exists only to prevent awkward spelling or pronunciation: a forced consonant cluster, a vowel clash, a triple letter, or a change in the sound of the base. A fixed rule always chooses the form; the writer never chooses freely. All allowed allomorphs are listed in §4.
-- **P4. Plain base.** Derivations attach to the plain English base word. They do not attach to a Latin or Greek root. Example: *see* + *-able* → *seeable*, not *visible*.
+- **P4. Plain base.** Derivations attach to the plain English base word. They do not attach to a Latin or Greek root. Example: *see* + *-able* → *seeable*, not *visible*. The test is that a reader can guess the meaning from the parts. A loan word that a reader cannot guess is rebuilt in this order:
+  1. **Part swap.** Swap each Latin or Greek part for the plain English word with the same meaning: *legislative* (*legis*, "of law") → *lawizive*; *domestic* (*domus*, "home") → *homeal*.
+  2. **Synonym swap.** If no part swap works, derive from a plain word with the same meaning: *posterity* → *descendorage*; *liberty* → *freeness*.
+  3. **Keep.** Otherwise, the loan stays as one base word: *Congress*, *Senate*, *torture*.
+
+  Never coin a new root. A loan that is common and easy to guess stays as it is: *machine*, *tranquil*. When more than one form is possible, the dictionary (§6) chooses one.
 - **P5. Overwrite.** If a regular CE form exists, it replaces the traditional English form. Example: *impossible* → *unpossible*. This includes technical vocabulary: *cardiology* → *heartology*, *flammable* → *burnable*.
 - **P6. Codified names are exempt.** If an outside standard defines a name, CE keeps it. Otherwise, CE builds it. The exempt names are:
   - chemical names from IUPAC nomenclature (*carbon dioxide*, *sulfate*, *ferric oxide*)
@@ -344,8 +349,11 @@ When the base ends in the letter that the affix starts with, and keeping both wo
 | Any suffix that starts with *a* (`-al`, `-an`, `-able`, `-and`, `-age`, `-ary`) | drop the *a* | Base ends in *a* | *China* → *Chinal*, *Chinan*; *Canada* → *Canadal*, *Canadan*; *Korea* → *Korean*; *formula* → *formulal*, *formulage* |
 | `-or` | no variant | Base ends in *e* | *make* → *makeor*, *operate* → *operateor* (the base never changes; *e* + *o* is not a doubled *e*) |
 | `-ure` | no variant | Base ends in *e* | *close* → *closeure*, *graduate* → *graduateure* |
+| `-ize` | `-iz` | The next suffix starts with a vowel (*a, e, i, o, u*) | *lawize* → *lawizive*, *lawized*, *lawizing*, *lawizion*; *slaveize* → *slaveizor*; *looseize* → *unlooseizable*; but *slaveizement*, *lawizes* |
 | Any affix | drop its first letter | The result would have three of the same letter | *full* + `-ly` → *fully*; *skill* + `-less` → *skilless* |
 | `-th` | `-h` | Base ends in *t* | *eight* → *eighth* |
+
+The `-ize` row is the only case where an affix changes because of the affix that follows it. `-ize` is an affix, not a base, so the base before it never changes. Before `-ed`, `-er` and `-est`, the result is the same as the rule for suffixes that start with *e*: *Consistentized*.
 
 ### 4.3 Results of the rule
 
@@ -378,6 +386,23 @@ Some regular CE forms have the same spelling as an existing English word with a 
 
 (Open question Q2.)
 
+### 5.1 False affixes
+
+Some loan words start or end with letters that look like a CE affix, but the letters do not have the CE meaning. A reader must not take these words apart. If the word fails the test in P4, it is rebuilt. Otherwise it stays as one base word.
+
+| Word | Looks like | CE meaning of the affix | Real meaning | CE |
+|---|---|---|---|---|
+| *ensure*, *insure* | `en-` + *sure* | put in X | make sure | *sureize* |
+| *enslave* | `en-` + *slave* | put in X | make into a slave | *slaveize* (*slaveizor*: *enslaver*) |
+| *legislative* | *legislate* + `-ive` | can X | relating to lawmaking | *lawizive* |
+| *represent* | `re-` + *present* | again | act or speak for | one base word (*representor*) |
+| *receive* | `re-` + *ceive* | again | get | one base word |
+| *deliver* | `de-` + *liver* | reverse the action | bring | one base word |
+| *devote* | `de-` + *vote* | reverse the action | give to a purpose | one base word |
+| *detail* | `de-` + *tail* | reverse the action | small part | one base word |
+| *defend* | `de-` + *fend* | reverse the action | guard | one base word (*defendment*) |
+| *descend* | `de-` + *scend* | reverse the action | go down | one base word (*descendorage*) |
+
 ## 6. Dictionary
 
 The CE dictionary lists base words, so that each base has one part of speech (P1) and the affix rules can choose the right suffix. CE does not limit text to dictionary words. A word that is not in the dictionary follows the same affix rules. Each entry has:
@@ -387,6 +412,8 @@ The CE dictionary lists base words, so that each base has one part of speech (P1
 - its one meaning
 - one example sentence
 - the traditional words it replaces (optional)
+
+A base noun names one thing, not a group. A group of things uses `-age` (§3.4.2): *kin* (one relative) → *kinage*; *machine* → *machineage*; *voteor* → *voteorage*.
 
 The dictionary is to be done. Only base words go in the dictionary. Affixed forms are made by the rules in §3 and are not listed.
 
@@ -502,7 +529,7 @@ The country and the people in this text are not real.
 
 **Consistentized Englandese** (87 words)
 
-> Velmora's Prime Minister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electment. The opposeors, under exfinance-minister Tomas Bell, accused the governor of corruptment and of underfunding public hospitals. Reyes's popularness is now at its lowest since 2022. Reyes promised an anticorruptment law and said that the cogovernor will not increase taxes. Thousands of protestors met outside the parliament. Analyzeors said that the result is unpreseeable. Most of the voteorage is still undecided, and both electands are untrustabler than their partys.
+> Velmora's Prime Minister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electment. The opposeors, under exfinance-minister Tomas Bell, accused the governor of corruptment and of underfunding public hospitals. Reyes's popularness is now at its lowest since 2022. Reyes promised an anticorruptment law and sayed that the cogovernor will not increase taxes. Thousands of protestors meeted outside the parliament. Analyzeors sayed that the result is unpreseeable. Most of the voteorage is still undecided, and both electands are untrustabler than their partys.
 
 ### C.2 Word breakdown
 
@@ -519,6 +546,7 @@ The country and the people in this text are not real.
 | *exfinance-minister* | ex + [finance-minister] | *former finance minister* | compound (§3.7) |
 | *governor* | govern + or | *government* | collision, see §5 |
 | *partys*, *protestors* | party + s, protest + or + s | *parties*, *protesters* | |
+| *sayed*, *meeted* | say + ed, meet + ed | *said*, *gathered* | regular past (§3.1) |
 | *Prime Minister*, *parliament* | — | no change | base words |
 
 ### C.3 Comment
@@ -848,7 +876,7 @@ These translations use only the rules above. The capital letters of the original
 
 **Consistentized Englandese** (51 words)
 
-> We the People of the United States, in Order to form a perfecter Uniteion, establish Justness, insure homeal Tranquilness, provide for the common defendment, promote the general Welfare, and secure the Blessions of Freeness to ourselves and our Descendorage, do ordain and establish this Constituteion for the United States of America.
+> We the People of the United States, in Order to form a perfecter Uniteion, establish Justness, sureize homeal Tranquilness, provide for the common defendment, promote the general Welfare, and secure the Blessions of Freeness to ourselves and our Descendorage, do ordain and establish this Constituteion for the United States of America.
 
 #### G.1.2 Word breakdown
 
@@ -857,6 +885,7 @@ These translations use only the rules above. The capital letters of the original
 | *perfecter* | perfect + er | *more perfect* | no *more* for degree (§3.1) |
 | *Uniteion* | unite + ion | *Union* | the thing that uniting makes, so `-ion` (§3.2); plain base (P4) |
 | *Justness* | just + ness | *Justice* | `-ness` replaces `-ice` |
+| *sureize* | sure + ize | *insure* | bring into the state *sure* (§3.2); *insure* is a false affix (§5.1) |
 | *homeal* | home + al | *domestic* | plain base (P4); `-al` replaces `-ic` (§3.2) |
 | *Tranquilness* | tranquil + ness | *Tranquility* | `-ness` replaces `-ity` (§3.2) |
 | *defendment* | defend + ment | *defence* | the act (§3.2) |
@@ -872,10 +901,43 @@ These translations use only the rules above. The capital letters of the original
 | Version | Words | Characters |
 |---|---|---|
 | Standard English | 52 | 327 |
-| CE | 51 | 335 |
+| CE | 51 | 336 |
 
 #### G.1.4 Gaps
 
 - (Closed.) `-ice` was not in any Replaces column. It now goes to `-ness` for a quality (*justness*, *cowardness*) and to `-ment` for an act (*servement*). *Justness* keeps only the quality of *justice*, not the system of fair law.
 - *Uniteion* and *Constituteion* show the cost of `-ion` after *e* (§3.2). Both are among the most familiar words of the text.
 - *Descendorage* is clear but long. Standard English has many collective words for people (*posterity*, *ancestry*, *humanity*) that CE builds with `-or` + `-age`.
+
+### G.2 Article I, Section 1
+
+#### G.2.1 Text
+
+**Standard English** (25 words)
+
+> All legislative Powers herein granted shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representatives.
+
+**Consistentized Englandese** (25 words)
+
+> All lawizive Powers herein granted shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representors.
+
+#### G.2.2 Word breakdown
+
+| CE | Parts | Standard | Note |
+|---|---|---|---|
+| *lawizive* | law + ize + ive | *legislative* | powers that can make law: active potential (§3.4.2); *legis* means "of law", so part swap (P4); `-ize` is `-iz` before a vowel (§4.2) |
+| *Representors* | represent + or + s | *Representatives* | the ones who represent: agent noun (§3.2) |
+| *granted*, *vested* | grant + ed, vest + ed | no change | already CE |
+| *Congress*, *Senate* | — | no change | base words; no plain English base |
+
+#### G.2.3 Size
+
+| Version | Words | Characters |
+|---|---|---|
+| Standard English | 25 | 151 |
+| CE | 25 | 145 |
+
+#### G.2.4 Gaps
+
+- *Representatives* uses `-ive` as a noun for a person. In CE, `-ive` is only an adjective, so the person uses `-or`.
+- *legislate* is a Latin compound (*legis* "of law" + *latus* "carried"), so P4 rebuilds it from *law*. Before the `-iz` variant (§4.2), the form was *lawizeive*.
