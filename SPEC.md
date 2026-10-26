@@ -54,15 +54,16 @@ Notes:
 
 #### 3.1.1 Verb slots
 
-Six suffixes replace auxiliary verbs. Each slot is used once at most.
+Seven suffixes replace auxiliary verbs. Each slot is used once at most. `-end` and `-can` share slot 2, so a verb takes one or the other.
 
 | Slot | Affix | Term | Replaces | Anchor word | Example |
 |---|---|---|---|---|---|
 | 1 | `-en` | passive voice | *be* + past participle | *chosen*, *taken* | *choosen* (is chosen) |
 | 2 | `-end` | deontic mood | *shall*, *must* | *reverend* | *choosend* (shall choose) |
+| 2 | `-can` | ability mood | *can*, *be able to* | *cannot* | *choosecan* (can choose) |
 | 3 | `-'ve` | perfect aspect | *have* + past participle | *I've* | *choose've* (has chosen) |
 | 4 | `-'ll` | future tense | *will* | *he'll* | *choose'll* (will choose) |
-| 5 | `-ed` | past tense; stacks on slots 1–4 | *had*, *would* | *walked* | *choose'ved* (had chosen), *choose'lled* (would choose) |
+| 5 | `-ed` | past tense; stacks on slots 1–4 | *had*, *would*, *could* | *walked* | *choose'ved* (had chosen), *choose'lled* (would choose), *choosecaned* (could choose) |
 | 6 | `-not` | negation | *do not*, *not* | *cannot* | *choosenot* (does not choose) |
 
 | Form | Parts | Meaning |
@@ -74,6 +75,10 @@ Six suffixes replace auxiliary verbs. Each slot is used once at most.
 | *choose've'lled* | choose + 've + 'll + ed | would have chosen |
 | *choosednot* | choose + ed + not | did not choose |
 | *choosenend'llnot* | choose + en + end + 'll + not | will not have to be chosen |
+| *choosecannot* | choose + can + not | cannot choose |
+| *choosencaned* | choose + en + can + ed | could be chosen |
+| *choosecan'll* | choose + can + 'll | will be able to choose |
+| *choosecan'ved* | choose + can + 've + ed | could have chosen |
 
 Notes:
 - Stack in slot order: voice, then mood, aspect, tense, polarity.
@@ -87,6 +92,11 @@ Notes:
 - *be* keeps its irregular forms (§3.1). They take `-not`: *isnot*, *arenot*. *be* also takes `-'ve` and `-'ll`: *be've* (has been), *be'll* (will be). For `-end` on *be*, see Q11.
 - In an ellipsis, *do* carries the slots: *than the inspector do'ved* (than the inspector had), *but the inspector do'vednot* (but the inspector had not).
 - An imperative takes `-not` too: *overtightizenot the bolts* (do not tighten the bolts too much).
+- `-can` means ability only. For permission (*you can go*), see *may* (Q7). `-can` + `-not` gives the English spelling *cannot*.
+- `-can` starts with a consonant, so §4.2 never changes it: *makecan*, *seecan*.
+- `-can` can take `-'ll` and `-'ve`, which English *can* cannot: *choosecan'll* (will be able to choose). English uses *be able to* there.
+- *choosecan'ved* is ambiguous: "could have chosen" (counterfactual) or "had been able to choose" (past fact). Context decides.
+- `-able` and `-can` are different. `-able` makes an adjective: *seeable*. `-can` makes a verb: *these problems seencannot easyly*.
 - `-end` and `-and` are different. `-end` makes a verb: *the operateor testend the valve* (shall test). `-and` makes a noun: *the testand* (the thing that is to be tested).
 
 ### 3.2 Derivation
@@ -473,7 +483,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q4.** (Closed.) `-ment` covered the act and its result. It now names only the act, and the result uses `-ion` (§3.2).
 - **Q5.** (Closed.) `-or` covers persons (*teachor*) and tools (*computeor*). Both mean "the one that does X", which is one meaning. `-ee`, `-and` and `-ure` also cover persons and things. When the context does not show which one it is, use a compound: *wash-machine*.
 - **Q6.** (Closed.) Plural place names made awkward language names (*Netherlandsese*). A plural place name now uses its singular form as the base (§3.4.2): *Netherlandese*, *Philippinese*.
-- **Q7.** (Partly closed.) *will*, *shall*, *must*, *would* and *had* are now verb slots (§3.1.1). Still open: *can* (ability), *may* / *might*, and *should* (weak obligation).
+- **Q7.** (Partly closed.) *will*, *shall*, *must*, *would*, *had*, *can* and *could* are now verb slots (§3.1.1). Still open: *can* (permission), *may* / *might*, and *should* (weak obligation).
 - **Q8.** (Closed.) `-ee` covered three thematic roles: patient (*employee*), recipient (*payee*) and agent (*escapee*). `-ee` now means only the direct object. The recipient uses `-ary`, and the agent uses `-or` (§3.2).
 - **Q9.** How does the progressive (*be* + `-ing`) fit the verb slots?
 - **Q10.** Is a stack of four slot suffixes acceptable? Example: *passen've'lled* (would have been passed).
