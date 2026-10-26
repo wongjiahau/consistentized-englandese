@@ -60,9 +60,9 @@ Notes:
 | Person or thing that is to be X-ed (gerundive) | `-and` | gerundive (future passive participle) | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *enaffixand* |
 | Person or thing that is about to X (active, prospective) | `-ure` | future active participle (prospective) | *would-be* X-or, X-or *to be* | *electure* (a person about to vote), *departure* (*departing*: *the departure passengers*), *launchure* (a rocket about to launch), *graduateure* |
 | Can be X-ed | `-able` | passive potential adjective | -ible, -uble | *seeable*, *readable*, *solveable*, *flyable* (can be flown) |
-| The act of X | `-ment` | action noun (*nomen actionis*) | -tion, -sion, -ation, -ance, -ence, -al, -age, -ery (practice), -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
+| The act of X | `-ment` | action noun (*nomen actionis*) | -tion, -sion, -ation, -ance, -ence, -al, -age, -ery (practice), -ism (practice), -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
 | The thing that X makes | `-ate` | result noun | -tion, -ing, -ure (in this meaning) | *connectate* (a connection that has been made), *paintate* (*painting*), *buildate* (*building*), *describeate* (*description*), *mixate* (*mixture*), *filtrate*, *condensate* |
-| State or quality of being X | `-ness` | quality noun (*nomen qualitatis*) | -ity, -th, -ance, -ence, -cy, -hood, -ship, -tude, -ery (state) | *unpossibleness*, *trueness*, *longness*, *safeness* |
+| State or quality of being X | `-ness` | quality noun (*nomen qualitatis*) | -ity, -th, -ance, -ence, -cy, -hood, -ship, -tude, -ery (state), -ism (quality or condition) | *unpossibleness*, *trueness*, *longness*, *safeness* |
 | Relating to X | `-al` | relational adjective | -ic, -ical, -ar, -ary (in this meaning); demonym adjectives (-ese, -ish, -ian, -an, -i) | *scienceal*, *historyal*, *personal*, *Englandal* (*English*: *Englandal food*), *Chinal* (*Chinese*) |
 | Full of / having X | `-ful` | possessive (proprietive) adjective | -ous, -y | *dangerful*, *fameful*, *rainful* |
 | Without X | `-less` | privative | — | *powerless* |
@@ -163,7 +163,8 @@ Notes:
 | All X as a group | `-age` | collective | noun | -ry, -ery (in this meaning), -dom (in this meaning), -ware | *bagage* (*baggage*), *leafage* (*foliage*), *machineage* (*machinery*), *kitchenage* (*kitchenware*), *voteorage* (*electorate*) |
 | Toward X | `-ward` | directional (allative) | noun | -wards | *homeward*, *skyward*, *doorward* |
 | With respect to X | `-wise` | limitative | noun | — | *costwise*, *timewise* |
-| Belief or system of X | `-ism` | — | noun, adj | -cracy | *realism*, *peopleism* (*democracy*) |
+| Belief in X, or a movement for X | `-ism` | doctrine noun | noun, adj | — | *realism*, *peaceism* (*pacifism*), *peopleism* (the belief that the people should rule) |
+| A system in which X rules | `-cracy` | — | noun | -archy, -ism (in this meaning) | *peoplecracy* (*democracy*), *kingcracy* (*monarchy*), *moneycracy* (*plutocracy*), *techniquecracy* (*technocracy*) |
 | Study or science of X | `-ology` | — | noun | -ics, -logy, -nomy, -graphy | *earthology* (*geology*), *animalology* (*zoology*), *starology* (*astronomy*), *lifeology* (*biology*) |
 | Person from place X | `-an` | demonym | proper noun | -ian, -ish, -ese, -i, -er, -ite, -man | *Englandan* (*Englishman*), *Chinaan* → *Chinan* (*Chinese*), *Japanan* → *Japanian* (*Japanese*), *Spainan* (*Spaniard*), *Iraqan* (*Iraqi*), *Londonan* (*Londoner*) |
 | Language of place X | `-ese` | glottonym | proper noun | -ish, -ian, -an, -i, -ic | *Italyese* (*Italian*), *Englandese* (*English*), *Franceese* → *Francese* (*French*) |
@@ -201,6 +202,13 @@ Notes:
 - `-able` and `-ive` are a pair. `-able` is passive: *a flyable plane* can be flown. `-ive` is active: *a flyive bird* can fly. A verb with no object has no passive, so it takes only `-ive`: *an arriveive train*.
 - `-ent` and `-ive` are different. `-ent` is a state that is true now: *a dependent country*. `-ive` is a power that may not be used: *an explodeive gas* can explode, but it has not exploded.
 - `-dom` and `-age` are different. *kingdom* is the area that a king rules. *kingage* is all kings as a group.
+- `-ism` is only a belief. Other traditional *-ism* words use other affixes:
+  - a system of rule uses `-cracy`: *kingcracy* (*monarchy*);
+  - a practice uses `-ment`: *vandalizement* (*vandalism*), *terrorizement* (*terrorism*);
+  - a quality or condition uses `-ness`: *heroness* (*heroism*), *dwarfness* (*dwarfism*).
+- `-ism` and `-cracy` are different. *peopleism* is the belief that the people should rule. *peoplecracy* is a system in which they rule.
+- `-dom` and `-cracy` are different. *kingdom* is the land that a king rules. *kingcracy* is the system in which a king rules.
+- One who holds a belief uses `-or` (§3.2): *realismor* (*realist*), *peaceismor* (*pacifist*).
 - `-ent` is only an adjective. Nouns in *-ant* and *-ent* use `-or` (§3.2): *student* → *studyor*, *assistant* → *assistor*.
 - `-ess` goes after the other derivational suffixes: *teach* + *or* + *ess* → *teachoress*; *king* + *ling* + *ess* → *kinglingess* (*princess*).
 
