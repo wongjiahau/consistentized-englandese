@@ -113,7 +113,8 @@ In standard English, many affixes work only with some words. For example, *-hood
 
 | Meaning | Affix | Term | Attaches to | Replaces | Examples |
 |---|---|---|---|---|---|
-| Wrongly, badly | `mis-` | — | verb | mal-, mis- | *misfunction* (*malfunction*), *misopen*, *misset* |
+| Wrongly, by mistake | `mis-` | — | verb | mal- (in this meaning) | *misfunction* (*malfunction*), *misread*, *miscount*, *misopen*, *misset* |
+| On purpose, in bad faith | `mal-` | — | verb | mis- (in this meaning), *ab-* | *maltreat*, *malread* (read in a twisted way on purpose), *malbehave* (*misbehave*), *malgovern* (govern corruptly), *maluse* (*abuse*) |
 | Too much | `over-` | excessive | verb, adj | hyper-, ultra-, super- (in this meaning) | *overheat*, *overtight*, *overactive* (*hyperactive*) |
 | Too little | `under-` | deficient | verb, adj | hypo- | *undercook*, *underfill* |
 | Below (place or rank) | `sub-` | subessive | noun | under- (in this meaning), infra- | *subground* (*underground*), *subline* (*underline*), *subgroup* |
@@ -140,6 +141,10 @@ In standard English, many affixes work only with some words. For example, *-hood
 | Many | `multi-` | — | noun, adj, verb (§3.8.3) | poly-, many- | *multicolor*, *multisided* (*polygonal*) |
 
 Notes:
+- `mis-` and `mal-` are different. *misread* means to read wrongly without knowing it; the reader acts in good faith. *malread* means to read in a twisted way on purpose. For poor skill, use the adverb: *reads badly*.
+  - *"You are just malreading the scriptures!"* says that the other person twists the text on purpose. *"No, you are misreading it!"* says that the other person is honest but wrong.
+  - More pairs: *misquote* / *malquote*, *misrepresent* / *malrepresent*, *misinform* / *malinform* (*disinform*).
+  - *That's a malquoteate!* names the twisted quote (the result, `-ate`). *That's malquotement!* names the act (`-ment`).
 - *under-* and *over-* now have one meaning each (amount). Place and rank use *sub-* and *super-*.
 - *self-* and *auto-* are different. A *selfclean* oven cleans its own inside. An *autoclean* print head starts its cleaning cycle with no operator.
 - *inter-* and *intra-* are different. *intercompany* is between companies. *intracompany* is inside one company.
