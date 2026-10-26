@@ -54,16 +54,17 @@ Notes:
 
 #### 3.1.1 Verb slots
 
-Seven suffixes replace auxiliary verbs. Each slot is used once at most. `-end` and `-can` share slot 2, so a verb takes one or the other.
+Eight suffixes replace auxiliary verbs. Each slot is used once at most. `-end`, `-can` and `-may` share slot 2, so a verb takes only one of them.
 
 | Slot | Affix | Term | Replaces | Anchor word | Example |
 |---|---|---|---|---|---|
 | 1 | `-en` | passive voice | *be* + past participle | *chosen*, *taken* | *choosen* (is chosen) |
 | 2 | `-end` | deontic mood | *shall*, *must* | *reverend* | *choosend* (shall choose) |
-| 2 | `-can` | ability mood | *can*, *be able to* | *cannot* | *choosecan* (can choose) |
+| 2 | `-can` | ability or permission | *can*, *be able to*, *may* (permission) | *cannot* | *choosecan* (can choose) |
+| 2 | `-may` | possibility | *may*, *might* | — | *choosemay* (may choose) |
 | 3 | `-'ve` | perfect aspect | *have* + past participle | *I've* | *choose've* (has chosen) |
 | 4 | `-'ll` | future tense | *will* | *he'll* | *choose'll* (will choose) |
-| 5 | `-ed` | past tense; stacks on slots 1–4 | *had*, *would*, *could* | *walked* | *choose'ved* (had chosen), *choose'lled* (would choose), *choosecaned* (could choose) |
+| 5 | `-ed` | past or hypothetical; stacks on slots 1–4 | *had*, *would*, *could*, *might* | *walked* | *choose'ved* (had chosen), *choose'lled* (would choose), *choosecaned* (could choose), *choosemayed* (might choose) |
 | 6 | `-not` | negation | *do not*, *not* | *cannot* | *choosenot* (does not choose) |
 
 | Form | Parts | Meaning |
@@ -79,6 +80,8 @@ Seven suffixes replace auxiliary verbs. Each slot is used once at most. `-end` a
 | *choosencaned* | choose + en + can + ed | could be chosen |
 | *choosecan'll* | choose + can + 'll | will be able to choose |
 | *choosecan'ved* | choose + can + 've + ed | could have chosen |
+| *choosenmay* | choose + en + may | may be chosen |
+| *choosemay'ved* | choose + may + 've + ed | might have chosen |
 
 Notes:
 - Stack in slot order: voice, then mood, aspect, tense, polarity.
@@ -92,8 +95,10 @@ Notes:
 - *be* keeps its irregular forms (§3.1). They take `-not`: *isnot*, *arenot*. *be* also takes `-'ve` and `-'ll`: *be've* (has been), *be'll* (will be). For `-end` on *be*, see Q11.
 - In an ellipsis, *do* carries the slots: *than the inspector do'ved* (than the inspector had), *but the inspector do'vednot* (but the inspector had not).
 - An imperative takes `-not` too: *overtightizenot the bolts* (do not tighten the bolts too much).
-- `-can` means ability only. For permission (*you can go*), see *may* (Q7). `-can` + `-not` gives the English spelling *cannot*.
-- `-can` starts with a consonant, so §4.2 never changes it: *makecan*, *seecan*.
+- `-can` means ability or permission: *the operateor opencan the valve* (is able to, or is allowed to). `-can` + `-not` gives the English spelling *cannot*.
+- `-may` means possibility only: *it rainmay tomorrow*. It does not mean permission (*you may go* → *you gocan*).
+- `-ed` on `-'ll`, `-can` and `-may` is often hypothetical, not past: *choosemayed* (might choose) is a weaker possibility, not a past one.
+- `-can` and `-may` start with a consonant, so §4.2 never changes them: *makecan*, *seemay*.
 - `-can` can take `-'ll` and `-'ve`, which English *can* cannot: *choosecan'll* (will be able to choose). English uses *be able to* there.
 - *choosecan'ved* is ambiguous: "could have chosen" (counterfactual) or "had been able to choose" (past fact). Context decides.
 - `-able` and `-can` are different. `-able` makes an adjective: *seeable*. `-can` makes a verb: *these problems seencannot easyly*.
@@ -483,7 +488,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q4.** (Closed.) `-ment` covered the act and its result. It now names only the act, and the result uses `-ion` (§3.2).
 - **Q5.** (Closed.) `-or` covers persons (*teachor*) and tools (*computeor*). Both mean "the one that does X", which is one meaning. `-ee`, `-and` and `-ure` also cover persons and things. When the context does not show which one it is, use a compound: *wash-machine*.
 - **Q6.** (Closed.) Plural place names made awkward language names (*Netherlandsese*). A plural place name now uses its singular form as the base (§3.4.2): *Netherlandese*, *Philippinese*.
-- **Q7.** (Partly closed.) *will*, *shall*, *must*, *would*, *had*, *can* and *could* are now verb slots (§3.1.1). Still open: *can* (permission), *may* / *might*, and *should* (weak obligation).
+- **Q7.** (Partly closed.) *will*, *shall*, *must*, *would*, *had*, *can*, *could*, *may* and *might* are now verb slots (§3.1.1). Still open: *should* (weak obligation).
 - **Q8.** (Closed.) `-ee` covered three thematic roles: patient (*employee*), recipient (*payee*) and agent (*escapee*). `-ee` now means only the direct object. The recipient uses `-ary`, and the agent uses `-or` (§3.2).
 - **Q9.** How does the progressive (*be* + `-ing`) fit the verb slots?
 - **Q10.** Is a stack of four slot suffixes acceptable? Example: *passen've'lled* (would have been passed).
@@ -1118,9 +1123,9 @@ The Fourteenth Amendment later changed this clause. The text is the original of 
 
 > Representatives and direct Taxes shall be apportioned among the several States which may be included within this Union, according to their respective Numbers, which shall be determined by adding to the whole Number of free Persons, including those bound to Service for a Term of Years, and excluding Indians not taxed, three fifths of all other Persons. The actual Enumeration shall be made within three Years after the first Meeting of the Congress of the United States, and within every subsequent Term of ten Years, in such Manner as they shall by Law direct. The Number of Representatives shall not exceed one for every thirty Thousand, but each State shall have at Least one Representative; and until such enumeration shall be made, the State of New Hampshire shall be entitled to chuse three, Massachusetts eight, Rhode-Island and Providence Plantations one, Connecticut five, New-York six, New Jersey four, Pennsylvania eight, Delaware one, Maryland six, Virginia ten, North Carolina five, South Carolina five, and Georgia three.
 
-**Consistentized Englandese** (150 words)
+**Consistentized Englandese** (149 words)
 
-> Representors and direct Taxes partenend among the several States which may includen within this Uniteion, according to their own Numbers, which countenend by adding to the whole Number of free Persons, including those binded to Servement for a Term of Years, and leaving out Indians not taxed, three fiveths of all other Persons. The actual Numberment makenend within three Years after the oneth Meetment of the Congress of the United States, and within every following Term of ten Years, in such Manner as they by Law directend. The Number of Representors outgoendnot one for every thirty Thousand, but each State havend at Least one Representor; and until such numberment makenend, the State of New Hampshire betitlenend to choose three, Massachusetts eight, Rhode-Island and Providence Plantations one, Connecticut five, New-York six, New Jersey four, Pennsylvania eight, Delaware one, Maryland six, Virginia ten, North Carolina five, South Carolina five, and Georgia three.
+> Representors and direct Taxes partenend among the several States which includenmay within this Uniteion, according to their own Numbers, which countenend by adding to the whole Number of free Persons, including those binded to Servement for a Term of Years, and leaving out Indians not taxed, three fiveths of all other Persons. The actual Numberment makenend within three Years after the oneth Meetment of the Congress of the United States, and within every following Term of ten Years, in such Manner as they by Law directend. The Number of Representors outgoendnot one for every thirty Thousand, but each State havend at Least one Representor; and until such numberment makenend, the State of New Hampshire betitlenend to choose three, Massachusetts eight, Rhode-Island and Providence Plantations one, Connecticut five, New-York six, New Jersey four, Pennsylvania eight, Delaware one, Maryland six, Virginia ten, North Carolina five, South Carolina five, and Georgia three.
 
 #### G.5.2 Word breakdown
 
@@ -1138,7 +1143,7 @@ The Fourteenth Amendment later changed this clause. The text is the original of 
 | *partenend*, *countenend*, *makenend*, *betitlenend* | part + en + end, … | *shall be apportioned*, *shall be determined*, *shall be made*, *shall be entitled* | passive, deontic (§3.1.1) |
 | *directend*, *havend* | direct + end, have + end | *shall direct*, *shall have* | deontic (§3.1.1); *by Law* moves before the verb |
 | *outgoendnot* | out + go + end + not | *shall not exceed* | deontic, negation (§3.1.1) |
-| *includen* | include + en | *be included* (after *may*) | passive (§3.1.1); *may* stays (Q7) |
+| *includenmay* | include + en + may | *may be included* | passive, possibility (§3.1.1) |
 | *Meetment* | meet + ment | *Meeting* | `-ing` is never a noun; the act (§3.2) |
 | *following* | follow + ing | *subsequent* | *sequi* means "follow", so part swap (P4); *subsequent* is a false affix (§5.1) |
 | *outgo* | out + go | *exceed* | *ex-* "out" + *cedere* "go", so part swap (P4); `out-` on a verb means "do better than" (§3.4.1) |
@@ -1152,14 +1157,14 @@ The Fourteenth Amendment later changed this clause. The text is the original of 
 |---|---|---|
 | Standard English | 164 | 1036 |
 | CE before §3.1.1 | 165 | 1021 |
-| CE | 150 | 977 |
+| CE | 149 | 976 |
 
 #### G.5.4 Gaps
 
 - *Indians* collides with the CE demonym: *India* + `-an` is a person from India (§3.4.2), but here the word means the first peoples of America. The text keeps *Indians* as the name it was in 1787.
 - *own* is a little wider than *respective* ("each one's own").
 - *Servement* names the act of serving, but here *Service* is a duty to work for a master. CE has no word that shows that this duty is not free.
-- The verb slots save 15 words. This clause has nine uses of *shall*, more than any other baseline text.
+- The verb slots save 16 words. This clause has nine uses of *shall*, more than any other baseline text.
 - *as they by Law directend* moves *by Law* before the verb, because the slots join *shall* to the verb.
 
 ### G.6 First Amendment
