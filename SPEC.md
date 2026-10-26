@@ -6,7 +6,7 @@ Status: draft v0.1
 
 Consistentized Englandese (CE) is a regularized form of English. Each grammatical or derivational meaning has one affix. CE replaces irregular and competing forms with the regular form, including in existing English words.
 
-CE changes word forms only. It does not limit sentence length, voice, tense or style. Any text in English can be written in CE.
+CE changes word forms. It also replaces some auxiliary verbs with verb suffixes (§3.1.1). It does not limit sentence length, voice, tense or style. Any text in English can be written in CE.
 
 ## 2. Core principles
 
@@ -40,7 +40,7 @@ CE changes word forms only. It does not limit sentence length, voice, tense or s
 | Plural noun | `-s` | plural | -en, -i, -a, vowel change, zero plural | *mouses*, *childs*, *mans*, *sheeps*, *datums*, *criterions* |
 | Third person singular present | `-s` | 3rd person singular agreement | — | *gos*, *haves* (*has*) |
 | Past tense | `-ed` | past tense | strong/irregular verbs | *goed*, *runned*, *taked*, *thinked* |
-| Past participle | `-ed` | past (perfective/passive) participle | -en, vowel change | *taked*, *writed*, *goed* |
+| Past participle | `-ed` | past participle (adjective) | -en, vowel change | *taked*, *writed*, *goed*, *the choosed members* |
 | Progressive, gerund, present participle | `-ing` | progressive, gerund, present participle | — | *runing*, *connecting the wires is easy* |
 | Comparative | `-er` | comparative | *more* + adjective or adverb, irregular forms | *taller*, *gooder* (*better*), *bader* (*worse*), *beautifuler* (*more beautiful*), *larger*, *carefullyer* (*more carefully*), *goodlyer* (*better*, adverb) |
 | Superlative | `-est` | superlative | *most* + adjective or adverb, irregular forms | *tallest*, *goodest* (*best*), *badest* (*worst*), *beautifulest* (*most beautiful*), *largest* |
@@ -50,6 +50,44 @@ Notes:
 - `-er` is only the comparative. The agent noun uses `-or` (§3.2). By P1 a base is an adjective or a verb, never both, so the two suffixes never attach to the same base.
 - Every adjective and every adverb takes `-er` / `-est`, also long ones (*beautifuler*, *carefullyest*). Do not use *more* / *most* for degree. Use *more* / *most* only for amount (*more water*, *most bolts*).
 - *be* is the only irregular verb. Its forms are kept: *am, is, are, was, were, been*. (Open question Q1.)
+- The passive and the perfect do not use *be* or *have* + the past participle. They use verb slots (§3.1.1). The `-ed` participle stays as an adjective: *the choosed members*.
+
+#### 3.1.1 Verb slots
+
+Six suffixes replace auxiliary verbs. Each slot is used once at most.
+
+| Slot | Affix | Term | Replaces | Anchor word | Example |
+|---|---|---|---|---|---|
+| 1 | `-en` | passive voice | *be* + past participle | *chosen*, *taken* | *choosen* (is chosen) |
+| 2 | `-end` | deontic mood | *shall*, *must* | *reverend* | *choosend* (shall choose) |
+| 3 | `-'ve` | perfect aspect | *have* + past participle | *I've* | *choose've* (has chosen) |
+| 4 | `-'ll` | future tense | *will* | *he'll* | *choose'll* (will choose) |
+| 5 | `-ed` | past tense; stacks on slots 1–4 | *had*, *would* | *walked* | *choose'ved* (had chosen), *choose'lled* (would choose) |
+| 6 | `-not` | negation | *do not*, *not* | *cannot* | *choosenot* (does not choose) |
+
+| Form | Parts | Meaning |
+|---|---|---|
+| *choosened* | choose + en + ed | was chosen |
+| *choosen've* | choose + en + 've | has been chosen |
+| *choosen'll* | choose + en + 'll | will be chosen |
+| *choose've'll* | choose + 've + 'll | will have chosen |
+| *choose've'lled* | choose + 've + 'll + ed | would have chosen |
+| *choosednot* | choose + ed + not | did not choose |
+| *choosenend'llnot* | choose + en + end + 'll + not | will not have to be chosen |
+
+Notes:
+- Stack in slot order: voice, then mood, aspect, tense, polarity.
+- `-en` and `-end` drop their *e* after a base that ends in *e*: *choosen*, *choosend* (§4.2).
+- `-'ve` and `-'ll` keep the apostrophe, so that letters do not run together: *call'll*, not *callll*. They are the only affixes with an apostrophe. `-ed` after `-'ve` drops its *e* (§4.2): *choose'ved*.
+- `-not` is used, not `-n't`, because *choosen't* (does not choose) and *choosend* (shall choose) are almost the same in speech.
+- A verb with a slot suffix takes no third person `-s`: *she choosenot* (she does not choose).
+- The slot suffixes are inflectional. They do not count for U2 (§3.6).
+- *shall* as a plain future (*I shall go*) uses `-'ll`, not `-end`.
+- `-en` replaces every *be* + past participle, also when the participle names a state: *the fuse breakened* (the fuse was broken). English has the same ambiguity. The `-ed` participle stays only next to a noun, with no *be*: *the choosed members*, *Members choosed every Year*.
+- *be* keeps its irregular forms (§3.1). They take `-not`: *isnot*, *arenot*. *be* also takes `-'ve` and `-'ll`: *be've* (has been), *be'll* (will be). For `-end` on *be*, see Q11.
+- In an ellipsis, *do* carries the slots: *than the inspector do'ved* (than the inspector had), *but the inspector do'vednot* (but the inspector had not).
+- An imperative takes `-not` too: *overtightizenot the bolts* (do not tighten the bolts too much).
+- `-end` and `-and` are different. `-end` makes a verb: *the operateor testend the valve* (shall test). `-and` makes a noun: *the testand* (the thing that is to be tested).
 
 ### 3.2 Derivation
 
@@ -96,10 +134,10 @@ Notes:
   | Role | Any time | Not yet |
   |---|---|---|
   | Subject | `-or` (*testor*) | `-ure` (*testure*: about to test) |
-  | Direct object | `-ee` (*testee*: is or was tested) | `-and` (*testand*: must be tested) |
+  | Direct object | `-ee` (*testee*: is or was tested) | `-and` (*testand*: is to be tested) |
   | Indirect object | `-ary` (*giveary*) | — |
 
-- `-and` and `-ure` are a pair. `-and` is passive and means "must be X-ed" (*an addand* is a number that must be added). `-ure` is active and means "will soon X" (*an addure* is a person who will soon add). Neither one says that the action happens now. For that, use `-ing` (*the adding machine*).
+- `-and` and `-ure` are a pair. `-and` is passive and means "to be X-ed" (*an addand* is a number that is to be added). It does not say "must"; for that, use `-end` (§3.1.1). `-ure` is active and means "will soon X" (*an addure* is a person who will soon add). Neither one says that the action happens now. For that, use `-ing` (*the adding machine*).
 - Traditional words in *-ure* that name a process use `-ment`: *failment* (*failure*), *closement* (*closure*). Words that name a result use `-ion`: *mixion* (*mixture*). *pressure*, *nature*, *culture* and *measure* are base words.
 
 ### 3.3 Affix order
@@ -107,10 +145,10 @@ Notes:
 When more than one affix attaches to a word, use this order:
 
 ```
-prefix(es) + base + derivational suffix(es) + inflectional suffix
+prefix(es) + base + derivational suffix(es) + inflectional suffix(es)
 ```
 
-Examples: *un* + *read* + *able* + *ness* → *unreadableness*; *re* + *connect* + *ed* → *reconnected*.
+Examples: *un* + *read* + *able* + *ness* → *unreadableness*; *re* + *connect* + *ed* → *reconnected*. On a verb, the inflectional suffixes follow the slot order in §3.1.1: *re* + *connect* + *en* + *'ll* → *reconnecten'll* (will be connected again).
 
 ### 3.4 Extended affixes
 
@@ -202,10 +240,10 @@ Notes:
 - Place names themselves do not change (*England*, *Malaysia*). Only the derived forms change.
 - A plural place name uses its singular form as the base for a suffix: *Netherlands* → *Netherlandan*, *Netherlandal*, *Netherlandese*; *Philippines* → *Philippinean*, *Philippinese*. The name alone keeps its *-s* (*the Netherlands*). *Wales* is not a plural, so it keeps its *s*: *Walesan*, *Walesese*.
 - *-like* and *-ly* are different. *-like* makes an adjective from a noun. *-ly* makes an adverb from an adjective. So *friendly* (adjective, "like a friend") becomes *friendlike*.
-- Five suffixes say what can or must happen to a thing. They are different:
+- Five suffixes say what can happen, or is to happen, to a thing. They are different:
   - *flyive*: it can fly.
   - *flyable*: it can be flown.
-  - *flyand*: it must be flown.
+  - *flyand*: it is to be flown.
   - *airworthy*: it is safe enough to fly.
   - *airproof*: air does not go through it.
 - *-ful* and *-some* are different. *-ful* means the thing has X (*a fearful child* feels fear). *-some* means the thing causes X (*a fearsome dog* causes fear).
@@ -345,7 +383,7 @@ When the base ends in the letter that the affix starts with, and keeping both wo
 
 | Affix | Variant | Condition | Examples |
 |---|---|---|---|
-| Any suffix that starts with *e* (`-ed`, `-er`, `-est`, `-ee`, `-ent`, `-ery`, `-ese`, `-ess`, `-ectomy`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese*; *graduateure* → *graduateuress*; *please* → *pleasent* |
+| Any suffix that starts with *e* (`-ed`, `-en`, `-end`, `-er`, `-est`, `-ee`, `-ent`, `-ery`, `-ese`, `-ess`, `-ectomy`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *choose* → *choosen*, *choosend*; *choose've* → *choose'ved*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese*; *graduateure* → *graduateuress*; *please* → *pleasent* |
 | Any suffix that starts with *a* (`-al`, `-an`, `-able`, `-and`, `-age`, `-ary`) | drop the *a* | Base ends in *a* | *China* → *Chinal*, *Chinan*; *Canada* → *Canadal*, *Canadan*; *Korea* → *Korean*; *formula* → *formulal*, *formulage* |
 | `-or` | no variant | Base ends in *e* | *make* → *makeor*, *operate* → *operateor* (the base never changes; *e* + *o* is not a doubled *e*) |
 | `-ure` | no variant | Base ends in *e* | *close* → *closeure*, *graduate* → *graduateure* |
@@ -382,6 +420,8 @@ Some regular CE forms have the same spelling as an existing English word with a 
 | *pressure* | a person or thing that is about to press | force on a surface (if *pressure* is kept as a base word, the two meanings collide) |
 | *ahead* | on the head | in front |
 | *away* | on the way | at a distance |
+| *haven*, *liken*, *waken*, *leaven* | is had, is liked, is woken, is left (`-en`, §3.1.1) | a safe place; compare; wake; yeast |
+| *reverend*, *dividend*, *addend* | shall revere, shall divide, shall add (`-end`, §3.1.1) | a title of clergy; a share of profit (CE: *divideand*); a number to be added (CE: *addand*) |
 
 (Open question Q2.)
 
@@ -433,8 +473,12 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q4.** (Closed.) `-ment` covered the act and its result. It now names only the act, and the result uses `-ion` (§3.2).
 - **Q5.** (Closed.) `-or` covers persons (*teachor*) and tools (*computeor*). Both mean "the one that does X", which is one meaning. `-ee`, `-and` and `-ure` also cover persons and things. When the context does not show which one it is, use a compound: *wash-machine*.
 - **Q6.** (Closed.) Plural place names made awkward language names (*Netherlandsese*). A plural place name now uses its singular form as the base (§3.4.2): *Netherlandese*, *Philippinese*.
-- **Q7.** Do modal verbs (*can*, *will*, *shall*, *may*) take `-ed` (*canned*, *willed*)? Their traditional past forms (*could*, *would*, *should*, *might*) often do not mean past time. Appendix D keeps *would* for now.
+- **Q7.** (Partly closed.) *will*, *shall*, *must*, *would* and *had* are now verb slots (§3.1.1). Still open: *can* (ability), *may* / *might*, and *should* (weak obligation).
 - **Q8.** (Closed.) `-ee` covered three thematic roles: patient (*employee*), recipient (*payee*) and agent (*escapee*). `-ee` now means only the direct object. The recipient uses `-ary`, and the agent uses `-or` (§3.2).
+- **Q9.** How does the progressive (*be* + `-ing`) fit the verb slots?
+- **Q10.** Is a stack of four slot suffixes acceptable? Example: *passen've'lled* (would have been passed).
+- **Q11.** *be* + `-end` gives *bend* by §4.2, and *bend* is an existing verb. Until this is decided, *shall be* stays before a noun or an adjective: *No Person shall be a Representor* (G.4).
+- **Q12.** When two verbs share one set of auxiliaries, does each verb take the slots? Example: *shall not have attained … and been …* (G.4). Until this is decided, the text keeps the auxiliaries.
 
 ## Appendix A. Example translation
 
@@ -446,7 +490,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 
 **Consistentized Englandese**
 
-> Before you begin, make sure the machine is completely deconnected from the power supply. It is unpossible to safely inspect the electric components while the unit is runing. The techniqueor who carryed out the last inspectment finded that several bolts had been looseized and two of the seals were breaked. These problems are not easyly seeable, so you should check each joint carefully. If a seal is unuseable, replace it immediately. The replacement must be doed by a qualifyed operateor.
+> Before you begin, make sure the machine deconnecten completely from the power supply. It is unpossible to safely inspect the electric components while the unit is runing. The techniqueor who carryed out the last inspectment finded that several bolts looseizen'ved and two of the seals breakened. These problems arenot easyly seeable, so you should check each joint carefully. If a seal is unuseable, replace it immediately. The replacement doenend by a qualifyed operateor.
 
 ### A.2 Changes
 
@@ -456,14 +500,17 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 | *impossible*, *unusable* | *unpossible*, *unuseable* | `un-` is the only "not" prefix (§3.2) |
 | *technician*, *operator* | *techniqueor*, *operateor* | one agent suffix, `-or`; base unchanged (§3.2, §4.2) |
 | *inspection*, *replacement* | *inspectment*, *replacement* | one process-noun suffix, `-ment` (§3.2) |
-| *found*, *broken*, *done* | *finded*, *breaked*, *doed* | every past form uses `-ed` (§3.1) |
-| *loosened* | *looseized* | one "make X" suffix, `-ize` (§3.2) |
+| *found* | *finded* | every past form uses `-ed` (§3.1) |
+| *had been loosened* | *looseizen'ved* | one "make X" suffix, `-ize` (§3.2), as `-iz` before a vowel (§4.2); then passive `-en`, perfect `-'ve`, past `-ed` (§3.1.1) |
+| *is completely disconnected*, *were broken* | *deconnecten completely*, *breakened* | passive `-en` (§3.1.1) |
+| *must be done* | *doenend* | passive `-en`, deontic `-end` (§3.1.1) |
+| *are not* | *arenot* | `-not` on a form of *be* (§3.1.1) |
 | *visible* | *seeable* | affix goes on the plain base (P4) |
 | *easily*, *carried*, *qualified* | *easyly*, *carryed*, *qualifyed* | the base never changes: no *y* → *i* (§4) |
 | *running* | *runing* | the base never changes: no doubled consonant (§4) |
 | *electrical* | *electric* | *electric* is already the adjective; *-ical* is not a CE affix (§3.2) |
 
-Sentence structure does not change. *carried out* stays a phrasal verb, and *must be done* stays passive. CE changes only word forms.
+The auxiliary verbs become verb slots (§3.1.1): *must be done* becomes one word, *doenend*, and it stays passive. The rest of the sentence structure does not change: *carried out* stays a phrasal verb. Two forms stay open: the progressive *is runing* (Q9) and the modal *should* (Q7).
 
 ### A.3 One base, all forms
 
@@ -472,7 +519,12 @@ A learner who knows one base word and the affix rules can make every related for
 | Meaning | Standard English | CE |
 |---|---|---|
 | past | *saw* | *seed* (see Q2) |
-| past participle | *seen* | *seed* (see Q2) |
+| past participle (next to a noun) | *seen* | *seed* (see Q2) |
+| is seen | *is seen* | *seen* |
+| has seen | *has seen* | *see've* |
+| will see | *will see* | *see'll* |
+| shall see | *shall see* | *seend* |
+| does not see | *does not see* | *seenot* |
 | one who sees | *viewer* | *seeor* |
 | can be seen | *visible* | *seeable* |
 | cannot be seen | *invisible* | *unseeable* |
@@ -493,11 +545,11 @@ This example shows how CE uses stacked affixes (§3.6) to make text shorter.
 
 > Each door that locks automatically in the testing room can only be opened again by a trained operator. Before each test, write the items that are to be tested on the board. If an item that is to be tested malfunctions, work together with a robotics specialist. Do not tighten the bolts too much. Bolts that are too tight cannot be removed. Mark cables that cannot be connected again with red tape. The newer small robots are faster, but they are also the most easily overheated. Move hot small robots toward the door. On the third day, examine each joint for cracks that cannot be seen. The machinery in the testing room is the responsibility of every operator.
 
-**Consistentized Englandese** (79 words)
+**Consistentized Englandese** (77 words)
 
-> Each autolock door in the testery is reopenable only by a trained operateor. Before each test, write the testands on the board. If a testand misfunctions, cowork with a robotologyor. Do not overtightize the bolts. Overtight bolts are unremoveable. Mark unreconnectable cables with red tape. The newer robotlets are faster, but they are also the overheatablest. Move hot robotlets doorward. On the threeth day, examine each joint for unseeable cracks. The testery's machineage is the responsibleness of each operateor.
+> Each autolock door in the testery is reopenable only by a trained operateor. Before each test, write the testands on the board. If a testand misfunctions, cowork with a robotologyor. Overtightizenot the bolts. Overtight bolts are unremoveable. Mark unreconnectable cables with red tape. The newer robotlets are faster, but they are also the overheatablest. Move hot robotlets doorward. On the threeth day, examine each joint for unseeable cracks. The testery's machineage is the responsibleness of each operateor.
 
-The CE text has 33% fewer words and 22% fewer characters.
+The CE text has 35% fewer words and 22% fewer characters.
 
 ### B.2 Word breakdown
 
@@ -507,7 +559,7 @@ The CE text has 33% fewer words and 22% fewer characters.
 | *unreconnectable* | un + re + connect + able (3, the limit in U2) | *cannot be connected again* |
 | *testand* | test + and | *item that is to be tested* |
 | *robotologyor* | robot + ology + or | *robotics specialist* |
-| *overtightize* | over + tight + ize | *tighten too much* |
+| *overtightizenot* | over + tight + ize + not | *do not tighten too much* |
 | *unremoveable* | un + remove + able | *cannot be removed* |
 | *overheatablest* | over + heat + able + est | *most easily overheated* |
 | *robotlet* | robot + let | *small robot* |
@@ -535,9 +587,9 @@ The country and the people in this text are not real.
 
 > Velmora's Prime Minister Ana Reyes narrowly survived a no-confidence vote on Tuesday, two weeks before the general election. The opposition, led by former finance minister Tomas Bell, accused the government of corruption and of underfunding public hospitals. Reyes's popularity is now at its lowest level since 2022. Reyes promised an anti-corruption law and said that the coalition would not raise taxes. Thousands of protesters gathered outside parliament. Analysts said that the result is unforeseeable. Most of the electorate is still undecided, and both candidates are less trusted than their parties.
 
-**Consistentized Englandese** (87 words)
+**Consistentized Englandese** (84 words)
 
-> Velmora's Prime Minister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electment. The opposeors, under exfinance-minister Tomas Bell, accused the governorage of corruptment and of underfunding public hospitals. Reyes's popularness is now at its lowest since 2022. Reyes promised an anticorruptment law and sayed that the cogovernorage will not increase taxes. Thousands of protestors meeted outside the parliament. Analyzeors sayed that the result is unpreseeable. Most of the voteorage is still undecided, and both electands are untrustabler than their partys.
+> Velmora's Prime Minister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electment. The opposeors, under exfinance-minister Tomas Bell, accused the governorage of corruptment and of underfunding public hospitals. Reyes's popularness is now at its lowest since 2022. Reyes promised an anticorruptment law and sayed that the cogovernorage increase'llednot taxes. Thousands of protestors meeted outside the parliament. Analyzeors sayed that the result is unpreseeable. Most of the voteorage is still undecided, and both electands are untrustabler than their partys.
 
 ### C.2 Word breakdown
 
@@ -555,11 +607,12 @@ The country and the people in this text are not real.
 | *governorage* | govern + or + age | *government* | all who govern, as a group (§6) |
 | *partys*, *protestors* | party + s, protest + or + s | *parties*, *protesters* | |
 | *sayed*, *meeted* | say + ed, meet + ed | *said*, *gathered* | regular past (§3.1) |
+| *increase'llednot* | increase + 'll + ed + not | *would not raise* | `-'ll` + `-ed` is *would* (§3.1.1) |
 | *Prime Minister*, *parliament* | — | no change | base words |
 
 ### C.3 Comment
 
-The CE text is only 3% shorter. News text uses many nouns and names, and few relative clauses (*that cannot be …*), so agglutination saves less than in technical text (Appendix B). The benefit here is transparency: a reader can take apart each CE word to find its meaning.
+The CE text has only 7% fewer words, and 3 of the 6 words come from one verb (*would not raise* → *increase'llednot*). News text uses many nouns and names, and few relative clauses (*that cannot be …*), so agglutination saves less than in technical text (Appendix B). The benefit here is transparency: a reader can take apart each CE word to find its meaning.
 
 ## Appendix D. Feature tour
 
@@ -579,25 +632,29 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 >
 > Since then, the ingredients that must be ordered daily are written on a whiteboard in the kitchen: 25 kilograms of flour, sodium bicarbonate and Chinese tea. The engineer, now a co-owner, has never been happier, and the new oven has empowered the baker. "Money-wise, a small bakery is better than a large factory," she says. Her husband, a former firefighter, agrees and does the deliveries.
 
-**Consistentized Englandese** (330 words)
+**Consistentized Englandese** (315 words)
 
-> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She haved arrived after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, was prewarned of their arrivement. She telled them that her oven haved misfunctioned twice that month, that its heatmeter was unrelyable, and that the noise it maked was frightsome.
+> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She arrive'ved after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, prewarnened of their arrivement. She telled them that her oven misfunction'ved twice that month, that its heatmeter was unrelyable, and that the noise it maked was frightsome.
 >
-> The engineoress examined the machineage carefullyer than the governorage's inspector haved. The subfloor wires were interconnected, and the superhead lamp was dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse was breaked and that mouses haved transchewed the insulatement. A skilled electricityor would have seed it at once, but the inspector haved not.
+> The engineoress examined the machineage carefullyer than the governorage's inspector do'ved. The subfloor wires interconnectened, and the superhead lamp was dangerful. "Deconnect everything and delock the cover," she telled the employees, "and overtightizenot the screws." She finded that the eighth fuse breakened and that mouses transchew'ved the insulatement. A skilled electricityor see've'lled it at once, but the inspector do'vednot.
 >
 > They coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage was bader than her describeion. His repair, however, was gooder than his teachoress's. The new oven selfcleans, autostarts and bakes twofold the bread. It is waterproof and airproof, and it is beautifuler than the old one, although slightly noisefuler.
 >
-> The bakeorlingess, a pharmacy graduateuress, was impressed but doubtful. "It is unpossible to trust a machine fully," she sayed. The engineoress smiled. "It is the safest oven in the kingdom, and the relyablest machine that I have ever builded." She refused payment. In return, the bakeoress gived them a basket of warm loafs and a reddish, heart-shaped cake. The childs in the shop behaved childlikely and outruned each other doorward.
+> The bakeorlingess, a pharmacy graduateuress, impressened but was doubtful. "It is unpossible to trust a machine fully," she sayed. The engineoress smiled. "It is the safest oven in the kingdom, and the relyablest machine that I ever build've." She refused payment. In return, the bakeoress gived them a basket of warm loafs and a reddish, heart-shaped cake. The childs in the shop behaved childlikely and outruned each other doorward.
 >
-> Since then, the orderands of each day are writed on a whiteboard in the cookery: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, haves never been happyer, and the new oven haves bepowered the bakeoress. "Moneywise, a bakerylet is gooder than a large makeery," she says. Her husband, an exfire-fightor, agrees and dos the deliverments.
+> Since then, the orderands of each day writen on a whiteboard in the cookery: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, never be've happyer, and the new oven bepower've the bakeoress. "Moneywise, a bakerylet is gooder than a large makeery," she says. Her husband, an exfire-fightor, agrees and dos the deliverments.
 
 ### D.2 Features shown
 
 | Feature | Standard → CE | Rule |
 |---|---|---|
 | Regular plural | *mice*, *children*, *loaves* → *mouses*, *childs*, *loafs* | `-s` (§3.1) |
-| Regular past and participle | *came*, *told*, *made*, *found*, *broken*, *seen*, *built*, *gave*, *written* → *comed*, *telled*, *maked*, *finded*, *breaked*, *seed*, *builded*, *gived*, *writed* | `-ed` (§3.1) |
-| Regular *have*, *do*, *say* | *had*, *has*, *does*, *said* → *haved*, *haves*, *dos*, *sayed* | `-ed`, `-s`; only *be* stays irregular (§3.1) |
+| Regular past | *came*, *told*, *made*, *found*, *gave* → *comed*, *telled*, *maked*, *finded*, *gived* | `-ed` (§3.1) |
+| Regular *do*, *say* | *does*, *said* → *dos*, *sayed* | `-s`, `-ed`; only *be* stays irregular (§3.1) |
+| Verb slots | *had arrived*, *had malfunctioned*, *had chewed through*, *have ever built*, *has empowered* → *arrive'ved*, *misfunction'ved*, *transchew'ved*, *ever build've*, *bepower've* | perfect `-'ve`, past `-ed` (§3.1.1) |
+| Passive | *was forewarned*, *were interconnected*, *was broken*, *was impressed*, *are written* → *prewarnened*, *interconnectened*, *breakened*, *impressened*, *writen* | `-en` (§3.1.1) |
+| Stacked slots | *would have seen* → *see've'lled* | `-'ve` + `-'ll` + `-ed` (§3.1.1) |
+| Slots on *be* and *do* | *has never been*, *had* (ellipsis), *had not*, *do not tighten* → *never be've*, *do'ved*, *do'vednot*, *overtightizenot* | §3.1.1 |
 | Regular comparison | *worse*, *better* → *bader*, *gooder* | `-er` (§3.1) |
 | Comparison of long words | *more carefully*, *more beautiful*, *most reliable* → *carefullyer*, *beautifuler*, *relyablest* | no *more* / *most* for degree (§3.1) |
 | Not X | *impossible*, *unreliable* → *unpossible*, *unrelyable* | `un-` (§3.2) |
@@ -605,14 +662,14 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 | Again | *rebuild* | `re-` (§3.2) |
 | Agent noun | *engineer*, *baker*, *teacher*, *heater*, *biologist*, *electrician* → *engineor*, *bakeor*, *teachor*, *heator*, *lifeologyor*, *electricityor* | `-or` (§3.2) |
 | Patient noun | *employees* | `-ee`, already regular (§3.2) |
-| Gerundive | *ingredients that must be ordered* → *orderands* | `-and` (§3.2) |
+| Gerundive | *ingredients that must be ordered* → *orderands* (things that are to be ordered; *must* is left to context) | `-and` (§3.2) |
 | Prospective | *who is about to graduate* → *graduateure* | `-ure` (§3.2) |
 | Can be X-ed | *reliable* → *relyable* | `-able`, base unchanged (§3.2, §4) |
 | Action noun | *arrival*, *insulation*, *deliveries* → *arrivement*, *insulatement*, *deliverments* | `-ment` (§3.2) |
 | Result noun | *description* → *describeion* | `-ion` (§3.2) |
 | Having X | *dangerous*, *noisy* → *dangerful*, *noiseful* | `-ful` (§3.2) |
 | Manner adverb | *childishly* → *childlikely* | `-like` + `-ly` (§3.2, §3.4.2) |
-| Make X, causative | *tighten too much*, *raise*, *lay* → *overtightize*, *riseize*, *lieize* | `-ize` (§3.2) |
+| Make X, causative | *tighten too much*, *raise*, *lay* → *overtightize*/*overtightizenot*, *riseize*, *lieize* | `-ize` (§3.2) |
 | Prefixes | *malfunctioned*, *under the floor*, *overhead*, *forewarned*, *contradicted*, *across the ocean*, *worked together*, *former*, *cleans itself*, *starts automatically*, *outran*, *empowered*, *bicycle*, *co-owner* → *misfunctioned*, *subfloor*, *superhead*, *prewarned*, *counterspeaked*, *transocean*, *coworked*, *ex-*, *selfcleans*, *autostarts*, *outruned*, *bepowered*, *biwheel*, *coownor* | §3.4.1 |
 | On, through | *on the floor*, *chewed through* → *afloor*, *transchewed* | `a-`; `trans-` on a verb (§3.4.1) |
 | Suffixes | *small bakery*, *machinery*, *kitchen*, *factory*, *toward the door*, *money-wise*, *thermometer*, *airtight*, *double*, *frightening* → *bakerylet*, *machineage*, *cookery*, *makeery*, *doorward*, *moneywise*, *heatmeter*, *airproof*, *twofold*, *frightsome* | §3.4.2 |
@@ -622,15 +679,15 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 | Female | *engineer*, *baker*, *teacher*, *co-owner*, *graduate* (all women) → *engineoress*, *bakeoress*, *teachoress*, *coownoress*, *graduateuress* | `-ess`; the unmarked noun is male (§3.4.2) |
 | Every X | *daily* → *of each day* | removed affix (§3.5) |
 | Compound | *former firefighter* → *exfire-fightor* | affixes on the ends (§3.7) |
-| Allomorphs | *Japanian* (`-ian` after *an*), *Chinal* (drop *a*), *arrived*, *retired* (drop *e*), *fully* (no triple *l*), *eighth* (`-h` after *t*) | §4 |
+| Allomorphs | *Japanian* (`-ian` after *an*), *Chinal* (drop *a*), *retired*, *arrive'ved*, *writen* (drop *e*), *fully* (no triple *l*), *eighth* (`-h` after *t*) | §4 |
 | Base never changes | *happier* → *happyer* (no *y* → *i*); *outran* → *outruned* (no doubled *n*) | §4.3 |
-| Collisions | *seen* → *seed* | §5 |
 | Exempt names | *25 kilograms*, *sodium bicarbonate*, *London* | P6, place names |
-| Modals | *would* → no change | Q7 |
 
 ### D.3 Comment
 
-The CE text has 8% fewer words. The savings come from phrases that become one word (*orderands*, *graduateure*, *transocean*, *overtightize*, *doorward*). The cost is in narrative verbs: almost every sentence has at least one regularized past form, and some (*comed*, *dos*, *haved*) are the CE forms that look strangest to a native reader.
+The CE text has 12% fewer words. Before the verb slots (§3.1.1) it had 8% fewer (330 words). The savings come from phrases that become one word (*orderands*, *graduateure*, *transocean*, *overtightizenot*, *doorward*, *see've'lled*). The cost is in narrative verbs: almost every sentence has a regularized past form or a slot suffix. *comed*, *dos* and the stacked slots (*see've'lled*, *do'vednot*) are the CE forms that look strangest to a native reader.
+
+*impressened but was doubtful* splits one *was* into two: `-en` needs a participle, and *doubtful* is an adjective, so it keeps *was*.
 
 Not shown: `-ness`, `anti-`, `intra-`, `semi-`, `uni-`, `tri-`, `multi-`, `post-`, `under-`, `-less`, `-ism`, `-ology` alone, `-worthy`, `-wise` on a non-money noun, `-th` on a regular number, and the `-es` plural.
 
@@ -640,23 +697,23 @@ This is the passage from Appendix D, translated again with the biological affixe
 
 ### E.1 Text
 
-**Consistentized Englandese with §3.8** (320 words)
+**Consistentized Englandese with §3.8** (305 words)
 
-> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She haved arrived after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, was prewarned of their arrivement. She telled them that her oven haved bimisfunctioned that month, that its heatmeter was unrelyable, and that the noise it maked was frightsome.
+> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She arrive'ved after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, prewarnened of their arrivement. She telled them that her oven bimisfunction'ved that month, that its heatmeter was unrelyable, and that the noise it maked was frightsome.
 >
-> The engineoress examined the machineage carefullyer than the governorage's inspector haved. The subfloor wires were interconnected, and the superhead lamp was dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse was breaked and that mouses haved transchewed the insulatement. A skilled electricityor would have seed it at once, but the inspector haved not.
+> The engineoress examined the machineage carefullyer than the governorage's inspector do'ved. The subfloor wires interconnectened, and the superhead lamp was dangerful. "Deconnect everything and delock the cover," she telled the employees, "and overtightizenot the screws." She finded that the eighth fuse breakened and that mouses transchew'ved the insulatement. A skilled electricityor see've'lled it at once, but the inspector do'vednot.
 >
 > They coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage was bader than her describeion. His repair, however, was gooder than his teachoress's. The neooven selfcleans, autostarts and bakes twofold the bread. It is waterproof and airproof, and it is beautifuler than the old one, although slightly noisefuler.
 >
-> The bakeorlingess, a pharmacy graduateuress, was impressed but doubtful. "It is unpossible to trust a machine fully," she sayed. The engineoress smiled. "It is the safest oven in the kingdom, and the relyablest machine that I have ever builded." She refused payment. In return, the bakeoress gived them a basket of warm loafs and a reddish, heartform cake. The intrashop childs behaved childlikely and interoutruned doorward.
+> The bakeorlingess, a pharmacy graduateuress, impressened but was doubtful. "It is unpossible to trust a machine fully," she sayed. The engineoress smiled. "It is the safest oven in the kingdom, and the relyablest machine that I ever build've." She refused payment. In return, the bakeoress gived them a basket of warm loafs and a reddish, heartform cake. The intrashop childs behaved childlikely and interoutruned doorward.
 >
-> Since then, the orderands of each day are writed on an intracookery whiteboard: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, haves never been happyer, and the neooven haves bepowered the bakeoress. "Moneywise, a bakerylet is gooder than a macromakeery," she says. Her husband, an exfire-fightor, agrees and dos the deliverments.
+> Since then, the orderands of each day writen on an intracookery whiteboard: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, never be've happyer, and the neooven bepower've the bakeoress. "Moneywise, a bakerylet is gooder than a macromakeery," she says. Her husband, an exfire-fightor, agrees and dos the deliverments.
 
 ### E.2 Changes from Appendix D
 
 | Appendix D | Appendix E | Affix |
 |---|---|---|
-| *haved misfunctioned twice* | *haved bimisfunctioned* | numeral prefix on a verb (§3.8.3) |
+| *misfunction'ved twice* | *bimisfunction'ved* | numeral prefix on a verb (§3.8.3) |
 | *The new oven*, *the new oven* | *The neooven*, *the neooven* | `neo-` (§3.8.1) |
 | *heart-shaped* | *heartform* | `-form` (§3.8.2) |
 | *a large makeery* | *a macromakeery* | `macro-` (§3.8.1) |
@@ -668,12 +725,12 @@ This is the passage from Appendix D, translated again with the biological affixe
 | Version | Words | Characters |
 |---|---|---|
 | Standard English (D.1) | 359 | 2158 |
-| CE (D.1) | 330 | 2141 |
-| CE with §3.8 (E.1) | 320 | 2122 |
+| CE (D.1) | 315 | 2099 |
+| CE with §3.8 (E.1) | 305 | 2080 |
 
 ### E.4 Comment
 
-The §3.8 version has 3% fewer words and 1% fewer characters than Appendix D, and 11% fewer words than the standard English text.
+The §3.8 version has 3% fewer words and 1% fewer characters than Appendix D, and 15% fewer words than the standard English text.
 
 The biological affixes save less than expected on this passage. Most of them name things that a story about an oven does not talk about: eating, killing, disease, fear and love. The savings come from `neo-`, `macro-` and numeral prefixes on verbs. Of the 10 words saved, 4 come from §3.8 and 6 come from the existing `intra-` and reciprocal `inter-`. The native prefixes that replaced imported ones (`a-`, `trans-` on verbs) are in §3.4.1, so Appendix D uses them too: *afloor*, *transchewed*.
 
@@ -681,7 +738,7 @@ Not used: `paleo-`, `peri-`, `-vore`, `-phile`, `-phobe`, `-cide`, `-gen`, `-iti
 
 ## Appendix F. Baseline: Universal Declaration of Human Rights
 
-These translations use only the rules above. They are a baseline: when a new affix is added, translate these texts again and compare.
+These translations use only the rules above. They are a baseline: when a new affix is added, translate these texts again and compare. Each size table also shows the CE text before the verb slots (§3.1.1).
 
 ### F.1 Article 1
 
@@ -691,18 +748,18 @@ These translations use only the rules above. They are a baseline: when a new aff
 
 > All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.
 
-**Consistentized Englandese** (25 words)
+**Consistentized Englandese** (23 words)
 
-> All human bements are beared free and equal in worthyness and rights. They are bereasoned and beconscienced and should interact in a spirit of brotherness.
+> All human bements bearen free and equal in worthyness and rights. They bereasonen and beconsciencen and should interact in a spirit of brotherness.
 
 #### F.1.2 Word breakdown
 
 | CE | Parts | Standard | Note |
 |---|---|---|---|
 | *bements* | be + ment + s | *beings* | `-ing` is never a noun (§3.2), so the noun uses `-ment` |
-| *beared* | bear + ed | *born* | regular past participle (§3.1); collides with the noun *bear* (P1) |
+| *bearen* | bear + en | *are born* | passive (§3.1.1); collides with the noun *bear* (P1) |
 | *worthyness* | worthy + ness | *dignity* | `-ness` replaces `-ity` (§3.2); *dignity* has no plain English base (P4) |
-| *bereasoned*, *beconscienced* | be + reason + ed, be + conscience + ed | *endowed with reason and conscience* | `be-` means "give X" (§3.4.1) |
+| *bereasonen*, *beconsciencen* | be + reason + en, be + conscience + en | *are endowed with reason and conscience* | `be-` means "give X" (§3.4.1); passive (§3.1.1); `-en` drops its *e* after *conscience* (§4.2) |
 | *interact* | inter + act | *act towards one another* | reciprocal `inter-` (§3.4.1) |
 | *brotherness* | brother + ness | *brotherhood* | `-ness` replaces `-hood` (§3.2) |
 | *should* | — | no change | modal (Q7) |
@@ -712,14 +769,16 @@ These translations use only the rules above. They are a baseline: when a new aff
 | Version | Words | Characters |
 |---|---|---|
 | Standard English | 30 | 170 |
-| CE | 25 | 155 |
+| CE before §3.1.1 | 25 | 155 |
+| CE | 23 | 147 |
 
 #### F.1.4 Gaps
 
 - *bements* is a legal form, but it is strange. CE has no affix for "a thing that is X" or "a thing that exists".
-- *beared* breaks P1: *bear* is also an animal. This is a dictionary problem, not an affix problem.
+- *bearen* breaks P1: *bear* is also an animal. This is a dictionary problem, not an affix problem.
 - *dignity* has no plain base, so *worthyness* changes the meaning a little.
 - *brother* has no `-ess`, so by §3.4.2 it means a male or a person of unknown sex. *brotherness* therefore includes sisters. *sister* becomes *brotheress*.
+- The verb slots save 2 words: *are born* and *are endowed* each become one word. *should* stays (Q7).
 
 ### F.2 Article 2
 
@@ -729,25 +788,25 @@ These translations use only the rules above. They are a baseline: when a new aff
 
 > Everyone is entitled to all the rights and freedoms set forth in this Declaration, without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status. Furthermore, no distinction shall be made on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be independent, trust, non-self-governing or under any other limitation of sovereignty.
 
-**Consistentized Englandese** (78 words)
+**Consistentized Englandese** (75 words)
 
-> Everyone is betitled to all the rights and freenesses setted forth in this Declareion, without distinguishment of any kind, such as race, colour, sex, language, religion, political or other opinion, national or societyal origin, ownee, bearment or other status. Furthermore, no distinguishment shall be maked on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be undependent, trust, unselfgoverning or under any other limitment of sovereignness.
+> Everyone betitlen to all the rights and freenesses setted forth in this Declareion, without distinguishment of any kind, such as race, colour, sex, language, religion, political or other opinion, national or societyal origin, ownee, bearment or other status. Furthermore, no distinguishment makenend on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be undependent, trust, unselfgoverning or under any other limitment of sovereignness.
 
 #### F.2.2 Word breakdown
 
 | CE | Parts | Standard | Note |
 |---|---|---|---|
-| *betitled* | be + title + ed | *entitled* | `be-` means "give X"; `en-` is only "put in X" (§3.4.1) |
+| *betitlen* | be + title + en | *is entitled* | `be-` means "give X"; `en-` is only "put in X" (§3.4.1); passive (§3.1.1) |
 | *freenesses* | free + ness + es | *freedoms* | a state, so `-ness`; `-dom` is only a realm (§3.4.2) |
-| *setted* | set + ed | *set* | zero past participle replaced (§3.1) |
+| *setted* | set + ed | *set* | zero past participle replaced (§3.1); next to a noun, so `-ed` (§3.1.1) |
 | *distinguishment* | distinguish + ment | *distinction* | `-ment` replaces `-tion` (§3.2) |
 | *political* | politic + al | no change | *-ics* noun drops *-s* before a suffix (§3.2) |
 | *Declareion* | declare + ion | *Declaration* | the document that declaring makes, so `-ion` (§3.2); legal terms are not exempt (P6) |
 | *societyal* | society + al | *social* | affix goes on the plain base (P4) |
 | *national*, *international* | nation + al, inter + nation + al | no change | already CE |
 | *ownee* | own + ee | *property* | the thing that is owned (§3.2) |
-| *bearment* | bear + ment | *birth* | action noun; matches *beared* in Article 1 |
-| *maked* | make + ed | *made* | §3.1 |
+| *bearment* | bear + ment | *birth* | action noun; matches *bearen* in Article 1 |
+| *makenend* | make + en + end | *shall be made* | passive, deontic (§3.1.1); `-en` drops its *e* (§4.2) |
 | *jurisdictional* | jurisdiction + al | no change | already CE; *jurisdiction* has no plain English base |
 | *undependent* | un + depend + ent | *independent* | `un-` replaces `in-` (§3.2); stative `-ent` (§3.4.2) |
 | *unselfgoverning* | un + self + govern + ing | *non-self-governing* | `un-` replaces `non-` (§3.2); 2 derivational affixes |
@@ -760,12 +819,14 @@ These translations use only the rules above. They are a baseline: when a new aff
 | Version | Words | Characters |
 |---|---|---|
 | Standard English | 78 | 516 |
-| CE | 78 | 531 |
+| CE before §3.1.1 | 78 | 531 |
+| CE | 75 | 521 |
 
 #### F.2.4 Gaps
 
 - (Closed.) CE had no affix for "in the state of X" (*independent*), so this translation used *undepending*. Stative `-ent` (§3.4.2) now fills this gap: *undependent*.
-- **No savings.** The text has the same number of words and 3% more characters. Legal text uses many abstract nouns, and `-ment` and `-ness` are often longer than `-tion` and `-ty`. It has few relative clauses that affixes can replace.
+- (Partly closed.) **Few savings.** Before the verb slots, the text had the same number of words and 3% more characters. The slots save 3 words (*is entitled*, *shall be made*), and the text now has 1% more characters. Legal text uses many abstract nouns, and `-ment` and `-ness` are often longer than `-tion` and `-ty`. It has few relative clauses that affixes can replace.
+- *whether it be* is a subjunctive *be*, not an auxiliary, so it stays.
 - (Closed.) Legal terms were exempt under P6, so *Declaration* and *property* were treated differently. P6 no longer exempts legal terms: *Declareion*, *ownee*.
 - (Closed.) *politicsal* was awkward. A noun that ends in *-ics* now drops its *-s* before a suffix (§3.2): *political*.
 
@@ -800,6 +861,7 @@ These translations use only the rules above. They are a baseline: when a new aff
 
 - *liberty* and *freedom* (Article 2) both become *freeness*. By P4 they have the same plain base, so CE loses the difference between them. In this text the two words mean the same thing, so nothing is lost here.
 - The text has no phrase that an affix can replace, so CE cannot make it shorter. `-ness` is longer than `-ty` and `-ity`.
+- *haves* is the main verb, not an auxiliary, so the verb slots (§3.1.1) change nothing.
 
 ### F.4 Article 4
 
@@ -809,32 +871,34 @@ These translations use only the rules above. They are a baseline: when a new aff
 
 > No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms.
 
-**Consistentized Englandese** (20 words)
+**Consistentized Englandese** (16 words)
 
-> No one shall be holded in slaveness or serveorness; slaveizement and the slave-trade shall be prohibited in all their forms.
+> No one holdenend in slaveness or serveorness; slaveizement and the slave-trade prohibitenend in all their forms.
 
 #### F.4.2 Word breakdown
 
 | CE | Parts | Standard | Note |
 |---|---|---|---|
-| *holded* | hold + ed | *held* | regular past participle (§3.1) |
+| *holdenend* | hold + en + end | *shall be held* | passive, deontic (§3.1.1) |
 | *slaveness* | slave + ness | *slavery* (the state) | *held in slavery* is a state, so `-ness` (§3.2); `-ery` is only a place (§3.4.2) |
 | *slaveizement* | slave + ize + ment | *slavery* (the practice) | the act of making people slaves (§3.2); 2 derivational affixes |
 | *serveorness* | serve + or + ness | *servitude* | the state of being one who serves; 2 derivational affixes |
 | *slave-trade* | [slave-trade] | *slave trade* | compound (§3.7) |
-| *prohibited* | prohibit + ed | no change | already CE |
+| *prohibitenend* | prohibit + en + end | *shall be prohibited* | passive, deontic (§3.1.1) |
 
 #### F.4.3 Size
 
 | Version | Words | Characters |
 |---|---|---|
 | Standard English | 21 | 113 |
-| CE | 20 | 124 |
+| CE before §3.1.1 | 20 | 124 |
+| CE | 16 | 112 |
 
 #### F.4.4 Gaps
 
 - (Closed.) *slavery* has two meanings in this text: a state (*held in slavery*) and a practice (*slavery … shall be prohibited*). Standard `-ery` also names both, but CE `-ery` is only a place. The `-ness` row now replaces `-ery` (state) and `-tude`, and the `-ment` row replaces `-ery` (practice).
 - *serveorness* needs two affixes, because the state belongs to the person (*serveor*), not to the verb (*serve*).
+- The verb slots save 4 words, and the CE text is now shorter than the standard text in characters too. *shall be* + participle is the most common verb form in legal text, and each one becomes one word.
 
 ### F.5 Article 5
 
@@ -844,16 +908,16 @@ These translations use only the rules above. They are a baseline: when a new aff
 
 > No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment.
 
-**Consistentized Englandese** (16 words)
+**Consistentized Englandese** (14 words)
 
-> No one shall be subjected to torture or to cruel, unhuman or degrading treatment or punishment.
+> No one subjectenend to torture or to cruel, unhuman or degrading treatment or punishment.
 
 #### F.5.2 Word breakdown
 
 | CE | Parts | Standard | Note |
 |---|---|---|---|
 | *unhuman* | un + human | *inhuman* | `un-` replaces `in-` (§3.2) |
-| *subjected* | subject + ed | no change | already CE |
+| *subjectenend* | subject + en + end | *shall be subjected* | passive, deontic (§3.1.1) |
 | *treatment*, *punishment* | treat + ment, punish + ment | no change | already CE: the act (§3.2) |
 | *degrading* | degrade + ing | no change | present participle (§3.1): the treatment degrades when it happens |
 | *torture* | — | no change | base word, like *pressure* and *nature* (§3.2); it has no plain English base |
@@ -863,16 +927,17 @@ These translations use only the rules above. They are a baseline: when a new aff
 | Version | Words | Characters |
 |---|---|---|
 | Standard English | 16 | 95 |
-| CE | 16 | 95 |
+| CE before §3.1.1 | 16 | 95 |
+| CE | 14 | 89 |
 
 #### F.5.4 Gaps
 
-- Only one word changes. *treatment* and *punishment* already use the act suffix `-ment`.
+- Only two words change. *treatment* and *punishment* already use the act suffix `-ment`.
 - *degrading* could also take `-ive` (it can degrade) or `-some` (it causes shame). `-ing` is the closest: the treatment degrades the person each time it happens.
 
 ## Appendix G. Baseline: Constitution of the United States
 
-These translations use only the rules above. The capital letters of the original are kept.
+These translations use only the rules above. The capital letters of the original are kept. As in Appendix F, each size table also shows the CE text before the verb slots (§3.1.1).
 
 ### G.1 Preamble
 
@@ -915,6 +980,7 @@ These translations use only the rules above. The capital letters of the original
 
 - (Closed.) `-ice` was not in any Replaces column. It now goes to `-ness` for a quality (*justness*, *cowardness*) and to `-ment` for an act (*servement*). *Justness* keeps only the quality of *justice*, not the system of fair law.
 - *Uniteion* and *Constituteion* show the cost of `-ion` after *e* (§3.2). Both are among the most familiar words of the text.
+- *do ordain and establish* uses an emphatic *do*, not an auxiliary, so the verb slots (§3.1.1) change nothing in this text.
 - *Descendorage* is clear but long. Standard English has many collective words for people (*posterity*, *ancestry*, *humanity*) that CE builds with `-or` + `-age`.
 
 ### G.2 Article I, Section 1
@@ -925,9 +991,9 @@ These translations use only the rules above. The capital letters of the original
 
 > All legislative Powers herein granted shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representatives.
 
-**Consistentized Englandese** (25 words)
+**Consistentized Englandese** (22 words)
 
-> All lawizive Powers herein granted shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representors.
+> All lawizive Powers herein granted vestenend in a Congress of the United States, which consistend of a Senate and House of Representors.
 
 #### G.2.2 Word breakdown
 
@@ -935,7 +1001,9 @@ These translations use only the rules above. The capital letters of the original
 |---|---|---|---|
 | *lawizive* | law + ize + ive | *legislative* | powers that can make law: active potential (§3.4.2); *legis* means "of law", so part swap (P4); `-ize` is `-iz` before a vowel (§4.2) |
 | *Representors* | represent + or + s | *Representatives* | the ones who represent: agent noun (§3.2) |
-| *granted*, *vested* | grant + ed, vest + ed | no change | already CE |
+| *vestenend* | vest + en + end | *shall be vested* | passive, deontic (§3.1.1) |
+| *consistend* | consist + end | *shall consist* | deontic (§3.1.1) |
+| *granted* | grant + ed | no change | already CE; next to a noun, so `-ed` (§3.1.1) |
 | *Congress*, *Senate* | — | no change | base words; no plain English base |
 
 #### G.2.3 Size
@@ -943,12 +1011,14 @@ These translations use only the rules above. The capital letters of the original
 | Version | Words | Characters |
 |---|---|---|
 | Standard English | 25 | 151 |
-| CE | 25 | 145 |
+| CE before §3.1.1 | 25 | 145 |
+| CE | 22 | 136 |
 
 #### G.2.4 Gaps
 
 - *Representatives* uses `-ive` as a noun for a person. In CE, `-ive` is only an adjective, so the person uses `-or`.
 - *legislate* is a Latin compound (*legis* "of law" + *latus* "carried"), so P4 rebuilds it from *law*. Before the `-iz` variant (§4.2), the form was *lawizeive*.
+- *shall consist* is not an order. It describes what Congress is. `-end` still replaces it, because `-end` replaces every *shall* that is not a plain future (§3.1.1).
 
 ### G.3 Article I, Section 2, Clause 1
 
@@ -958,22 +1028,23 @@ These translations use only the rules above. The capital letters of the original
 
 > The House of Representatives shall be composed of Members chosen every second Year by the People of the several States, and the Electors in each State shall have the Qualifications requisite for Electors of the most numerous Branch of the State Legislature.
 
-**Consistentized Englandese** (41 words)
+**Consistentized Englandese** (38 words)
 
-> The House of Representors shall be composed of Members choosed every twoth Year by the People of the several States, and the Electors in each State shall have the Qualifyions needed for Electors of the numberfulest Branch of the State Lawizorage.
+> The House of Representors composenend of Members choosed every twoth Year by the People of the several States, and the Electors in each State havend the Qualifyions needed for Electors of the numberfulest Branch of the State Lawizorage.
 
 #### G.3.2 Word breakdown
 
 | CE | Parts | Standard | Note |
 |---|---|---|---|
-| *choosed* | choose + ed | *chosen* | regular past participle (§3.1) |
+| *choosed* | choose + ed | *chosen* | regular past participle (§3.1); next to a noun, so `-ed` (§3.1.1) |
 | *twoth* | two + th | *second* | ordinal (§3.4.2) |
 | *Qualifyions* | qualify + ion + s | *Qualifications* | the conditions that qualify a person: result noun (§3.2) |
 | *needed* | need + ed | *requisite* | synonym swap (P4); *requisite* is not guessable and starts with a false `re-` (§5.1) |
 | *numberfulest* | number + ful + est | *most numerous* | `-ful` replaces `-ous` (§3.2); no *most* for degree (§3.1) |
 | *Lawizorage* | law + iz + or + age | *Legislature* | all who make law, as a group (§6); part swap as in *lawizive* (G.2); `-ize` is `-iz` before a vowel (§4.2) |
 | *Electors* | elect + or + s | no change | already CE: the ones who elect |
-| *composed* | — | no change | common and easy to guess (P4) |
+| *composenend* | compose + en + end | *shall be composed* | passive, deontic (§3.1.1); *compose* is common and easy to guess (P4) |
+| *havend* | have + end | *shall have* | deontic (§3.1.1); `-end` drops its *e* (§4.2) |
 | *Members*, *Branch*, *Year* | — | no change | base words |
 
 #### G.3.3 Size
@@ -981,7 +1052,8 @@ These translations use only the rules above. The capital letters of the original
 | Version | Words | Characters |
 |---|---|---|
 | Standard English | 42 | 257 |
-| CE | 41 | 246 |
+| CE before §3.1.1 | 41 | 246 |
+| CE | 38 | 236 |
 
 #### G.3.4 Gaps
 
@@ -997,9 +1069,9 @@ These translations use only the rules above. The capital letters of the original
 
 > No Person shall be a Representative who shall not have attained to the Age of twenty five Years, and been seven Years a Citizen of the United States, and who shall not, when elected, be an Inhabitant of that State in which he shall be chosen.
 
-**Consistentized Englandese** (46 words)
+**Consistentized Englandese** (44 words)
 
-> No Person shall be a Representor who shall not have attained to the Age of twenty five Years, and been seven Years a Citizen of the United States, and who shall not, when elected, be a Dwellor of that State in which he shall be choosed.
+> No Person shall be a Representor who shall not have attained to the Age of twenty five Years, and been seven Years a Citizen of the United States, and who shall not, when elected, be a Dwellor of that State in which he choosenend.
 
 #### G.4.2 Word breakdown
 
@@ -1007,7 +1079,7 @@ These translations use only the rules above. The capital letters of the original
 |---|---|---|---|
 | *Representor* | represent + or | *Representative* | as in G.2 |
 | *Dwellor* | dwell + or | *Inhabitant* | *habitare* means "dwell", so part swap (P4); *inhabit* is a false affix (§5.1); `-or` replaces `-ant` (§3.2) |
-| *choosed* | choose + ed | *chosen* | regular past participle (§3.1) |
+| *choosenend* | choose + en + end | *shall be chosen* | passive, deontic (§3.1.1) |
 | *attained*, *elected* | attain + ed, elect + ed | no change | already CE; *attain* is common and easy to guess (P4) |
 | *Citizen*, *Person*, *Age* | — | no change | base words |
 
@@ -1016,12 +1088,14 @@ These translations use only the rules above. The capital letters of the original
 | Version | Words | Characters |
 |---|---|---|
 | Standard English | 46 | 242 |
-| CE | 46 | 236 |
+| CE before §3.1.1 | 46 | 236 |
+| CE | 44 | 230 |
 
 #### G.4.4 Gaps
 
 - This clause is short on derived words, so CE changes only three of them.
 - The part swap stops at *habitare* ("dwell"), not at its root *habere* ("have") (P4).
+- The verb slots change only *shall be chosen*. *shall be a Representor* and *shall not … be a Dwellor* need `-end` on *be* (Q11). *shall not have attained … and been* shares one set of auxiliaries between two verbs (Q12).
 
 ### G.5 Article I, Section 2, Clause 3
 
@@ -1033,9 +1107,9 @@ The Fourteenth Amendment later changed this clause. The text is the original of 
 
 > Representatives and direct Taxes shall be apportioned among the several States which may be included within this Union, according to their respective Numbers, which shall be determined by adding to the whole Number of free Persons, including those bound to Service for a Term of Years, and excluding Indians not taxed, three fifths of all other Persons. The actual Enumeration shall be made within three Years after the first Meeting of the Congress of the United States, and within every subsequent Term of ten Years, in such Manner as they shall by Law direct. The Number of Representatives shall not exceed one for every thirty Thousand, but each State shall have at Least one Representative; and until such enumeration shall be made, the State of New Hampshire shall be entitled to chuse three, Massachusetts eight, Rhode-Island and Providence Plantations one, Connecticut five, New-York six, New Jersey four, Pennsylvania eight, Delaware one, Maryland six, Virginia ten, North Carolina five, South Carolina five, and Georgia three.
 
-**Consistentized Englandese** (165 words)
+**Consistentized Englandese** (150 words)
 
-> Representors and direct Taxes shall be parted among the several States which may be included within this Uniteion, according to their own Numbers, which shall be counted by adding to the whole Number of free Persons, including those binded to Servement for a Term of Years, and leaving out Indians not taxed, three fiveths of all other Persons. The actual Numberment shall be maked within three Years after the oneth Meetment of the Congress of the United States, and within every following Term of ten Years, in such Manner as they shall by Law direct. The Number of Representors shall not outgo one for every thirty Thousand, but each State shall have at Least one Representor; and until such numberment shall be maked, the State of New Hampshire shall be betitled to choose three, Massachusetts eight, Rhode-Island and Providence Plantations one, Connecticut five, New-York six, New Jersey four, Pennsylvania eight, Delaware one, Maryland six, Virginia ten, North Carolina five, South Carolina five, and Georgia three.
+> Representors and direct Taxes partenend among the several States which may includen within this Uniteion, according to their own Numbers, which countenend by adding to the whole Number of free Persons, including those binded to Servement for a Term of Years, and leaving out Indians not taxed, three fiveths of all other Persons. The actual Numberment makenend within three Years after the oneth Meetment of the Congress of the United States, and within every following Term of ten Years, in such Manner as they by Law directend. The Number of Representors outgoendnot one for every thirty Thousand, but each State havend at Least one Representor; and until such numberment makenend, the State of New Hampshire betitlenend to choose three, Massachusetts eight, Rhode-Island and Providence Plantations one, Connecticut five, New-York six, New Jersey four, Pennsylvania eight, Delaware one, Maryland six, Virginia ten, North Carolina five, South Carolina five, and Georgia three.
 
 #### G.5.2 Word breakdown
 
@@ -1045,16 +1119,18 @@ The Fourteenth Amendment later changed this clause. The text is the original of 
 | *Uniteion* | unite + ion | *Union* | as in G.1 |
 | *own* | — | *respective* | synonym swap (P4); *respective* is a false affix (§5.1) |
 | *counted* | count + ed | *determined* | synonym swap (P4); *determine* is a false affix (§5.1) |
-| *binded* | bind + ed | *bound* | regular past participle (§3.1) |
+| *binded* | bind + ed | *bound* | regular past participle (§3.1); next to a noun, so `-ed` (§3.1.1) |
 | *Servement* | serve + ment | *Service* | the act (§3.2); `-ment` replaces `-ice` (act) |
 | *leaving out* | — | *excluding* | synonym swap (P4); *exclude* is a false affix (§5.1); *including* stays, because CE has no `in-` |
 | *fiveths*, *oneth* | five + th + s, one + th | *fifths*, *first* | ordinal (§3.4.2) |
 | *Numberment*, *numberment* | number + ment | *Enumeration* | *numerus* means "number", so part swap (P4); the act of counting (§3.2) |
-| *maked* | make + ed | *made* | regular past participle (§3.1) |
+| *partenend*, *countenend*, *makenend*, *betitlenend* | part + en + end, … | *shall be apportioned*, *shall be determined*, *shall be made*, *shall be entitled* | passive, deontic (§3.1.1) |
+| *directend*, *havend* | direct + end, have + end | *shall direct*, *shall have* | deontic (§3.1.1); *by Law* moves before the verb |
+| *outgoendnot* | out + go + end + not | *shall not exceed* | deontic, negation (§3.1.1) |
+| *includen* | include + en | *be included* (after *may*) | passive (§3.1.1); *may* stays (Q7) |
 | *Meetment* | meet + ment | *Meeting* | `-ing` is never a noun; the act (§3.2) |
 | *following* | follow + ing | *subsequent* | *sequi* means "follow", so part swap (P4); *subsequent* is a false affix (§5.1) |
 | *outgo* | out + go | *exceed* | *ex-* "out" + *cedere* "go", so part swap (P4); `out-` on a verb means "do better than" (§3.4.1) |
-| *betitled* | be + title + ed | *entitled* | `be-` (§3.4.1), as in F.2 |
 | *choose* | — | *chuse* | modern spelling of the base |
 | *actual*, *direct*, *included* | — | no change | common and easy to guess (P4) |
 | place names, *Providence Plantations* | — | no change | names |
@@ -1064,13 +1140,16 @@ The Fourteenth Amendment later changed this clause. The text is the original of 
 | Version | Words | Characters |
 |---|---|---|
 | Standard English | 164 | 1036 |
-| CE | 165 | 1021 |
+| CE before §3.1.1 | 165 | 1021 |
+| CE | 150 | 977 |
 
 #### G.5.4 Gaps
 
 - *Indians* collides with the CE demonym: *India* + `-an` is a person from India (§3.4.2), but here the word means the first peoples of America. The text keeps *Indians* as the name it was in 1787.
 - *own* is a little wider than *respective* ("each one's own").
 - *Servement* names the act of serving, but here *Service* is a duty to work for a master. CE has no word that shows that this duty is not free.
+- The verb slots save 15 words. This clause has nine uses of *shall*, more than any other baseline text.
+- *as they by Law directend* moves *by Law* before the verb, because the slots join *shall* to the verb.
 
 ### G.6 First Amendment
 
@@ -1080,14 +1159,15 @@ The Fourteenth Amendment later changed this clause. The text is the original of 
 
 > Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.
 
-**Consistentized Englandese** (45 words)
+**Consistentized Englandese** (44 words)
 
-> Congress shall make no law about an establishment of religion, or prohibiting the free exercise thereof; or shortizing the freeness of speakment, or of the press; or the right of the people peacefully to assemble, and to petition the Governorage for a rightizement of wrongs.
+> Congress makend no law about an establishment of religion, or prohibiting the free exercise thereof; or shortizing the freeness of speakment, or of the press; or the right of the people peacefully to assemble, and to petition the Governorage for a rightizement of wrongs.
 
 #### G.6.2 Word breakdown
 
 | CE | Parts | Standard | Note |
 |---|---|---|---|
+| *makend* | make + end | *shall make* | deontic (§3.1.1); `-end` drops its *e* (§4.2) |
 | *about* | — | *respecting* | synonym swap (P4); *respect* is a false affix (§5.1) |
 | *shortizing* | short + iz + ing | *abridging* | *abridge* comes from Latin *abbreviare*, *brevis* "short", so part swap (P4); *abridge* is a false affix (§5.1); `-ize` is `-iz` before a vowel (§4.2) |
 | *freeness* | free + ness | *freedom* | `-dom` is a realm only (§3.4.2), as in F.2 |
@@ -1104,7 +1184,8 @@ The Fourteenth Amendment later changed this clause. The text is the original of 
 | Version | Words | Characters |
 |---|---|---|
 | Standard English | 45 | 272 |
-| CE | 45 | 275 |
+| CE before §3.1.1 | 45 | 275 |
+| CE | 44 | 271 |
 
 #### G.6.4 Gaps
 
