@@ -32,6 +32,11 @@ CE changes word forms. It also replaces some auxiliary verbs with verb suffixes 
   Reason: these names are already consistent systems with outside owners. A CE text must match the drawings, parts lists and data sheets it refers to.
 
   Terms with a legal or regulatory definition are not exempt. They follow the affix rules like any other word: *flammable* → *burnable*, also on a safety label.
+- **P7. Admission.** A new affix or form enters CE only if it does one of these:
+  1. It removes an inconsistency: an irregular form or a competing form. Example: regular *be* (*bes*, *beed*).
+  2. It replaces a phrase of two or more words. Example: `-can` (*can open* → *opencan*), `-said`.
+
+  A change that does neither does not enter CE, even if it is regular. Shortness alone is not a test: *bes* is longer than *is*, but it removes an irregular form. Example of a rejected change: an accusative suffix `-m` on all objects (*the dogem*). It removes the case forms of pronouns, but it adds a case to all nouns, and English word order already marks the object.
 
 ## 3. Affix rules
 
@@ -56,7 +61,7 @@ Notes:
 
 #### 3.1.1 Verb slots
 
-Nine suffixes replace auxiliary verbs. Each slot is used once at most. `-end`, `-can` and `-may` share slot 2, so a verb takes only one of them.
+Ten suffixes replace auxiliary verbs and question tags. Each slot is used once at most. `-end`, `-can` and `-may` share slot 2, so a verb takes only one of them.
 
 | Slot | Affix | Term | Replaces | Anchor word | Example |
 |---|---|---|---|---|---|
@@ -69,6 +74,7 @@ Nine suffixes replace auxiliary verbs. Each slot is used once at most. `-end`, `
 | 5 | `-ed` | past or hypothetical; stacks on slots 1–4 | *had*, *would*, *could*, *might* | *walked* | *choose'ved* (had chosen), *choose'lled* (would choose), *choosecaned* (could choose), *choosemayed* (might choose) |
 | 6 | `-not` | negation | *do not*, *not* | *cannot* | *choosenot* (does not choose) |
 | 7 | `-said` | reportive evidential | *reportedly*, *allegedly*, *is said to*, *it is said that* | *aforesaid* | *choosesaid* (reportedly chooses) |
+| 8 | `-eh` | confirmative tag | tag questions: *isn't it*, *don't you*, *won't they*, *right?* | Canadian *eh* | *chooseh* (chooses, doesn't he?) |
 
 | Form | Parts | Meaning |
 |---|---|---|
@@ -88,9 +94,12 @@ Nine suffixes replace auxiliary verbs. Each slot is used once at most. `-end`, `
 | *choosedsaid* | choose + ed + said | reportedly chose |
 | *choosednotsaid* | choose + ed + not + said | reportedly did not choose |
 | *choosenedsaid* | choose + en + ed + said | was allegedly chosen |
+| *choosecaneh* | choose + can + eh | can choose, can't he? |
+| *choose'llnoteh* | choose + 'll + not + eh | will not choose, will he? |
+| *choosedsaideh* | choose + ed + said + eh | reportedly chose, didn't he? |
 
 Notes:
-- Stack in slot order: voice, then mood, aspect, tense, polarity, evidence. The order is also the scope: each suffix covers everything before it. *choosednotsaid* is "it is said that he did not choose".
+- Stack in slot order: voice, then mood, aspect, tense, polarity, evidence, tag. The order is also the scope: each suffix covers everything before it. *choosednotsaid* is "it is said that he did not choose".
 - `-en` and `-end` drop their *e* after a base that ends in *e*: *choosen*, *choosend* (§4.2).
 - `-'ve` and `-'ll` keep the apostrophe, so that letters do not run together: *call'll*, not *callll*. They are the only affixes with an apostrophe. `-ed` after `-'ve` drops its *e* (§4.2): *choose'ved*.
 - `-not` is used, not `-n't`, because *choosen't* (does not choose) and *choosend* (shall choose) are almost the same in speech.
@@ -110,6 +119,9 @@ Notes:
 - `-able` and `-can` are different. `-able` makes an adjective: *seeable*. `-can` makes a verb: *these problems seencannot easyly*.
 - `-said` means that the speaker heard the claim from others and does not vouch for it. It does not name the source. When the text names who said it, use *say*: *Reyes sayed that …*. CE has no word *said* (the past of *say* is *sayed*), so the suffix does not collide with a word.
 - `-said` after a base that ends in *s* loses its *s*, to prevent a triple letter (§4.2): *pass* → *passaid*.
+- A yes/no question keeps the statement order and ends with *?*: *You readcan Japanese?* (Can you read Japanese?). A wh-question puts the wh-word first and keeps the statement order after it: *What you choosed?* (What did you choose?). CE does not use *do* or inversion to make a question.
+- `-eh` asks the listener to agree. It is not a plain question: *You readcaneh Japanese?* expects "yes". It covers everything before it, so it is always last. It replaces all English tag questions, which copy the auxiliary and the pronoun and reverse the polarity: *It beeh cold?* (*It is cold, isn't it?*), *They come'llnoteh?* (*They won't come, will they?*), *I beeh late?* (*I'm late, aren't I?*).
+- `-eh` follows §4.2 like any suffix that starts with *e*: *have* → *haveh*, *choose've* → *choose'veh*, but *beeh* after *be*.
 - `-end` and `-and` are different. `-end` makes a verb: *the operateor testend the valve* (shall test). `-and` makes a noun: *the testand* (the thing that is to be tested).
 
 ### 3.2 Derivation
@@ -406,7 +418,7 @@ When the base ends in the letter that the affix starts with, and keeping both wo
 
 | Affix | Variant | Condition | Examples |
 |---|---|---|---|
-| Any suffix that starts with *e* (`-ed`, `-en`, `-end`, `-er`, `-est`, `-ee`, `-ent`, `-ery`, `-ese`, `-ess`, `-ectomy`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *choose* → *choosen*, *choosend*; *choose've* → *choose'ved*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese*; *graduateure* → *graduateuress*; *please* → *pleasent* |
+| Any suffix that starts with *e* (`-ed`, `-en`, `-end`, `-eh`, `-er`, `-est`, `-ee`, `-ent`, `-ery`, `-ese`, `-ess`, `-ectomy`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *choose* → *choosen*, *choosend*, *chooseh*; *choose've* → *choose'ved*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese*; *graduateure* → *graduateuress*; *please* → *pleasent* |
 | Any suffix that starts with *a* (`-al`, `-an`, `-able`, `-and`, `-age`, `-ary`) | drop the *a* | Base ends in *a* | *China* → *Chinal*, *Chinan*; *Canada* → *Canadal*, *Canadan*; *Korea* → *Korean*; *formula* → *formulal*, *formulage* |
 | `-or` | no variant | Base ends in *e* | *make* → *makeor*, *operate* → *operateor* (the base never changes; *e* + *o* is not a doubled *e*) |
 | `-ure` | no variant | Base ends in *e* | *close* → *closeure*, *graduate* → *graduateure* |
