@@ -18,7 +18,9 @@ CE changes word forms. It also replaces some auxiliary verbs with verb suffixes 
   2. **Synonym swap.** If no part swap works, derive from a plain word with the same meaning: *posterity* → *descendorage*; *liberty* → *freeness*.
   3. **Keep.** Otherwise, the loan stays as one base word: *Congress*, *Senate*, *torture*.
 
-  Never coin a new root. A loan that is common and easy to guess stays as it is: *machine*, *tranquil*. When more than one form is possible, the dictionary (§6) chooses one.
+  Never coin a new root. A loan that is common and easy to guess stays as it is: *machine*, *tranquil*.
+
+  A loan that English already treats as one base word keeps that base. Only its derived forms change: *corrode* → *corrodement* (*corrosion*), *corrodeive* (*corrosive*), *corrodeable* (*corrodible*). A part swap is used only when the parts can be traced and the result keeps the meaning: *permeate* (*per-* "through" + *meare* "go") → *transgo*, but not *corrode* (*rodere*, "gnaw") → *gnaw*, because *corrode* does not mean "gnaw". In the same way, *electric* is a base noun (the energy): *electricor* (*electrician*), *electrical* (electric + `-al`). Its *-ic*, and the *-ity* of *electricity*, are not CE affixes. When more than one form is possible, the dictionary (§6) chooses one.
 - **P5. Overwrite.** If a regular CE form exists, it replaces the traditional English form. Example: *impossible* → *unpossible*. This includes technical vocabulary: *cardiology* → *heartology*, *flammable* → *burnable*.
 - **P6. Codified names are exempt.** If an outside standard defines a name, CE keeps it. Otherwise, CE builds it. The exempt names are:
   - chemical names from IUPAC nomenclature (*carbon dioxide*, *sulfate*, *ferric oxide*)
@@ -49,7 +51,7 @@ Notes:
 - Plural `-s` and third person `-s` have the same form. This is a known exception to P2. It is kept because the part of speech is always clear from context and from P1.
 - `-er` is only the comparative. The agent noun uses `-or` (§3.2). By P1 a base is an adjective or a verb, never both, so the two suffixes never attach to the same base.
 - Every adjective and every adverb takes `-er` / `-est`, also long ones (*beautifuler*, *carefullyest*). Do not use *more* / *most* for degree. Use *more* / *most* only for amount (*more water*, *most bolts*).
-- *be* is the only irregular verb. Its forms are kept: *am, is, are, was, were, been*. (Open question Q1.)
+- *be* is regular too: *I be*, *you be*, *it bes* (*is*), *they beed* (*were*), *being*. *am*, *is*, *are*, *was*, *were* and *been* are not used. CE has no irregular verbs.
 - The passive and the perfect do not use *be* or *have* + the past participle. They use verb slots (§3.1.1). The `-ed` participle stays as an adjective: *the choosed members*.
 
 #### 3.1.1 Verb slots
@@ -92,7 +94,7 @@ Notes:
 - The slot suffixes are inflectional. They do not count for U2 (§3.6).
 - *shall* as a plain future (*I shall go*) uses `-'ll`, not `-end`.
 - `-en` replaces every *be* + past participle, also when the participle names a state: *the fuse breakened* (the fuse was broken). English has the same ambiguity. The `-ed` participle stays only next to a noun, with no *be*: *the choosed members*, *Members choosed every Year*.
-- *be* keeps its irregular forms (§3.1). They take `-not`: *isnot*, *arenot*. *be* also takes `-'ve` and `-'ll`: *be've* (has been), *be'll* (will be). For `-end` on *be*, see Q11.
+- *be* takes the slot suffixes like any other verb: *benot* (is not, are not), *be've* (has been), *be'll* (will be), *beend* (shall be). After *be*, `-ed` and `-end` keep their *e* (§4.2).
 - In an ellipsis, *do* carries the slots: *than the inspector do'ved* (than the inspector had), *but the inspector do'vednot* (but the inspector had not).
 - An imperative takes `-not` too: *overtightizenot the bolts* (do not tighten the bolts too much).
 - `-can` means ability or permission: *the operateor opencan the valve* (is able to, or is allowed to). `-can` + `-not` gives the English spelling *cannot*.
@@ -406,6 +408,8 @@ When the base ends in the letter that the affix starts with, and keeping both wo
 | Any affix | drop its first letter | The result would have three of the same letter | *full* + `-ly` → *fully*; *skill* + `-less` → *skilless* |
 | `-th` | `-h` | Base ends in *t* | *eight* → *eighth* |
 
+Exception: after the base *be*, a suffix keeps its *e*: *beed* (was), *beend* (shall be). In *be* the *e* is the only vowel and it is spoken, and dropping it would give the existing words *bed* and *bend*.
+
 The `-ize` row is the only case where an affix changes because of the affix that follows it. `-ize` is an affix, not a base, so the base before it never changes. Before `-ed`, `-er` and `-est`, the result is the same as the rule for suffixes that start with *e*: *Consistentized*.
 
 ### 4.3 Results of the rule
@@ -482,7 +486,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 
 ## 7. Open questions
 
-- **Q1.** Do we regularize *be* (*I be, he bes, he beed*)?
+- **Q1.** (Closed.) *be* is regular (§3.1): *I be*, *he bes*, *he beed*.
 - **Q2.** How do we handle collisions such as *seed* (see §5)? Options: accept the collision, add a hyphen (*see-ed*), or change the allomorph rule.
 - **Q3.** Do we need a variant that keeps the sound of the base without changing its spelling? Example: a hyphen or a written mark between base and affix (*stop-ed*, *panic-ed*).
 - **Q4.** (Closed.) `-ment` covered the act and its result. It now names only the act, and the result uses `-ion` (§3.2).
@@ -492,7 +496,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q8.** (Closed.) `-ee` covered three thematic roles: patient (*employee*), recipient (*payee*) and agent (*escapee*). `-ee` now means only the direct object. The recipient uses `-ary`, and the agent uses `-or` (§3.2).
 - **Q9.** How does the progressive (*be* + `-ing`) fit the verb slots?
 - **Q10.** Is a stack of four slot suffixes acceptable? Example: *passen've'lled* (would have been passed).
-- **Q11.** *be* + `-end` gives *bend* by §4.2, and *bend* is an existing verb. Until this is decided, *shall be* stays before a noun or an adjective: *No Person shall be a Representor* (G.4).
+- **Q11.** (Closed.) *be* + `-end` gave *bend* by §4.2. Now a suffix keeps its *e* after *be* (§4.2): *No Person beend a Representor* (G.4).
 - **Q12.** When two verbs share one set of auxiliaries, does each verb take the slots? Example: *shall not have attained … and been …* (G.4). Until this is decided, the text keeps the auxiliaries.
 
 ## Appendix A. Example translation
@@ -505,7 +509,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 
 **Consistentized Englandese**
 
-> Before you begin, sureize the machine deconnecten completely from the power supply. It is unpossible to safely inspect the electric components while the unit is runing. The techniqueor who carryed out the last inspectment finded that several bolts looseizen'ved and two of the seals breakened. These problems arenot easyly seeable, so you should check each joint carefully. If a seal is unuseable, replace it immediately. The replacement doenend by a qualifyed operateor.
+> Before you begin, sureize the machine deconnecten completely from the power supply. It bes unpossible to safely inspect the electric components while the unit bes runing. The techniqueor who carryed out the last inspectment finded that several bolts looseizen'ved and two of the seals breakened. These problems benot easyly seeable, so you should check each joint carefully. If a seal bes unuseable, replace it immediately. The replacement doenend by a qualifyed operateor.
 
 ### A.2 Changes
 
@@ -520,13 +524,13 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 | *had been loosened* | *looseizen'ved* | one "make X" suffix, `-ize` (§3.2), as `-iz` before a vowel (§4.2); then passive `-en`, perfect `-'ve`, past `-ed` (§3.1.1) |
 | *is completely disconnected*, *were broken* | *deconnecten completely*, *breakened* | passive `-en` (§3.1.1) |
 | *must be done* | *doenend* | passive `-en`, deontic `-end` (§3.1.1) |
-| *are not* | *arenot* | `-not` on a form of *be* (§3.1.1) |
+| *is*, *are not* | *bes*, *benot* | *be* is regular (§3.1); `-not` (§3.1.1) |
 | *visible* | *seeable* | affix goes on the plain base (P4) |
 | *easily*, *carried*, *qualified* | *easyly*, *carryed*, *qualifyed* | the base never changes: no *y* → *i* (§4) |
 | *running* | *runing* | the base never changes: no doubled consonant (§4) |
-| *electrical* | *electric* | *electric* is already the adjective; *-ical* is not a CE affix (§3.2) |
+| *electrical components* | *electric components* | *electric* is a base noun (P4), so this is a noun compound (§3.7); the adjective would be *electrical* (electric + `-al`) |
 
-The auxiliary verbs become verb slots (§3.1.1): *must be done* becomes one word, *doenend*, and it stays passive. The rest of the sentence structure does not change: *carried out* stays a phrasal verb. Two forms stay open: the progressive *is runing* (Q9) and the modal *should* (Q7).
+The auxiliary verbs become verb slots (§3.1.1): *must be done* becomes one word, *doenend*, and it stays passive. The rest of the sentence structure does not change: *carried out* stays a phrasal verb. Two forms stay open: the progressive *bes runing* (Q9) and the modal *should* (Q7).
 
 ### A.3 One base, all forms
 
@@ -563,7 +567,7 @@ This example shows how CE uses stacked affixes (§3.6) to make text shorter.
 
 **Consistentized Englandese** (77 words)
 
-> Each autolock door in the testery is reopenable only by a trained operateor. Before each test, write the testands on the board. If a testand misfunctions, cowork with a robotologyor. Overtightizenot the bolts. Overtight bolts are unremoveable. Mark unreconnectable cables with red tape. The newer robotlets are faster, but they are also the overheatablest. Move hot robotlets doorward. On the threeth day, examine each joint for unseeable cracks. The testery's machineage is the responsibleness of each operateor.
+> Each autolock door in the testery bes reopenable only by a trained operateor. Before each test, write the testands on the board. If a testand misfunctions, cowork with a robotologyor. Overtightizenot the bolts. Overtight bolts be unremoveable. Mark unreconnectable cables with red tape. The newer robotlets be faster, but they be also the overheatablest. Move hot robotlets doorward. On the threeth day, examine each joint for unseeable cracks. The testery's machineage bes the responsibleness of each operateor.
 
 The CE text has 35% fewer words and 22% fewer characters.
 
@@ -605,7 +609,7 @@ The country and the people in this text are not real.
 
 **Consistentized Englandese** (84 words)
 
-> Velmora's Prime Minister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electment. The opposeors, under exfinance-minister Tomas Bell, accused the governorage of corruptment and of underfunding public hospitals. Reyes's popularness is now at its lowest since 2022. Reyes promised an anticorruptment law and sayed that the cogovernorage increase'llednot taxes. Thousands of protestors meeted outside the parliament. Analyzeors sayed that the result is unpreseeable. Most of the voteorage is still undecided, and both electands are untrustabler than their partys.
+> Velmora's Prime Minister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electment. The opposeors, under exfinance-minister Tomas Bell, accused the governorage of corruptment and of underfunding public hospitals. Reyes's popularness bes now at its lowest since 2022. Reyes promised an anticorruptment law and sayed that the cogovernorage increase'llednot taxes. Thousands of protestors meeted outside the parliament. Analyzeors sayed that the result bes unpreseeable. Most of the voteorage bes still undecided, and both electands be untrustabler than their partys.
 
 ### C.2 Word breakdown
 
@@ -650,15 +654,15 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 
 **Consistentized Englandese** (315 words)
 
-> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She arrive'ved after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, prewarnened of their arrivement. She telled them that her oven misfunction'ved twice that month, that its heatmeter was unrelyable, and that the noise it maked was frightsome.
+> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She arrive'ved after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, prewarnened of their arrivement. She telled them that her oven misfunction'ved twice that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
 >
-> The engineoress examined the machineage carefullyer than the governorage's inspector do'ved. The subfloor wires interconnectened, and the superhead lamp was dangerful. "Deconnect everything and delock the cover," she telled the employees, "and overtightizenot the screws." She finded that the eighth fuse breakened and that mouses transchew'ved the insulatement. A skilled electricityor see've'lled it at once, but the inspector do'vednot.
+> The engineoress examined the machineage carefullyer than the governorage's inspector do'ved. The subfloor wires interconnectened, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and overtightizenot the screws." She finded that the eighth fuse breakened and that mouses transchew'ved the insulatement. A skilled electricor see've'lled it at once, but the inspector do'vednot.
 >
-> They coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage was bader than her describeion. His repair, however, was gooder than his teachoress's. The new oven selfcleans, autostarts and bakes twofold the bread. It is waterproof and airproof, and it is beautifuler than the old one, although slightly noisefuler.
+> They coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeion. His repair, however, beed gooder than his teachoress's. The new oven selfcleans, autostarts and bakes twofold the bread. It bes waterproof and airproof, and it bes beautifuler than the old one, although slightly noisefuler.
 >
-> The bakeorlingess, a pharmacy graduateuress, impressened but was doubtful. "It is unpossible to trust a machine fully," she sayed. The engineoress smiled. "It is the safest oven in the kingdom, and the relyablest machine that I ever build've." She refused payment. In return, the bakeoress gived them a basket of warm loafs and a reddish, heart-shaped cake. The childs in the shop behaved childlikely and outruned each other doorward.
+> The bakeorlingess, a pharmacy graduateuress, impressened but beed doubtful. "It bes unpossible to trust a machine fully," she sayed. The engineoress smiled. "It bes the safest oven in the kingdom, and the relyablest machine that I ever build've." She refused payment. In return, the bakeoress gived them a basket of warm loafs and a reddish, heart-shaped cake. The childs in the shop behaved childlikely and outruned each other doorward.
 >
-> Since then, the orderands of each day writen on a whiteboard in the cookery: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, never be've happyer, and the new oven bepower've the bakeoress. "Moneywise, a bakerylet is gooder than a large makeery," she says. Her husband, an exfire-fightor, agrees and dos the deliverments.
+> Since then, the orderands of each day writen on a whiteboard in the cookery: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, never be've happyer, and the new oven bepower've the bakeoress. "Moneywise, a bakerylet bes gooder than a large makeery," she says. Her husband, an exfire-fightor, agrees and dos the deliverments.
 
 ### D.2 Features shown
 
@@ -666,7 +670,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 |---|---|---|
 | Regular plural | *mice*, *children*, *loaves* → *mouses*, *childs*, *loafs* | `-s` (§3.1) |
 | Regular past | *came*, *told*, *made*, *found*, *gave* → *comed*, *telled*, *maked*, *finded*, *gived* | `-ed` (§3.1) |
-| Regular *do*, *say* | *does*, *said* → *dos*, *sayed* | `-s`, `-ed`; only *be* stays irregular (§3.1) |
+| Regular *do*, *say*, *be* | *does*, *said*, *is*, *was* → *dos*, *sayed*, *bes*, *beed* | `-s`, `-ed`; CE has no irregular verbs (§3.1) |
 | Verb slots | *had arrived*, *had malfunctioned*, *had chewed through*, *have ever built*, *has empowered* → *arrive'ved*, *misfunction'ved*, *transchew'ved*, *ever build've*, *bepower've* | perfect `-'ve`, past `-ed` (§3.1.1) |
 | Passive | *was forewarned*, *were interconnected*, *was broken*, *was impressed*, *are written* → *prewarnened*, *interconnectened*, *breakened*, *impressened*, *writen* | `-en` (§3.1.1) |
 | Stacked slots | *would have seen* → *see've'lled* | `-'ve` + `-'ll` + `-ed` (§3.1.1) |
@@ -676,7 +680,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 | Not X | *impossible*, *unreliable* → *unpossible*, *unrelyable* | `un-` (§3.2) |
 | Reverse the action | *disconnect*, *unlock* → *deconnect*, *delock* | `de-` (§3.2) |
 | Again | *rebuild* | `re-` (§3.2) |
-| Agent noun | *engineer*, *baker*, *teacher*, *heater*, *biologist*, *electrician* → *engineor*, *bakeor*, *teachor*, *heator*, *lifeologyor*, *electricityor* | `-or` (§3.2) |
+| Agent noun | *engineer*, *baker*, *teacher*, *heater*, *biologist*, *electrician* → *engineor*, *bakeor*, *teachor*, *heator*, *lifeologyor*, *electricor* (*electric* is a base noun, P4) | `-or` (§3.2) |
 | Patient noun | *employees* | `-ee`, already regular (§3.2) |
 | Gerundive | *ingredients that must be ordered* → *orderands* (things that are to be ordered; *must* is left to context) | `-and` (§3.2) |
 | Prospective | *who is about to graduate* → *graduateure* | `-ure` (§3.2) |
@@ -703,7 +707,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 
 The CE text has 12% fewer words. Before the verb slots (§3.1.1) it had 8% fewer (330 words). The savings come from phrases that become one word (*orderands*, *graduateure*, *transocean*, *overtightizenot*, *doorward*, *see've'lled*). The cost is in narrative verbs: almost every sentence has a regularized past form or a slot suffix. *comed*, *dos* and the stacked slots (*see've'lled*, *do'vednot*) are the CE forms that look strangest to a native reader.
 
-*impressened but was doubtful* splits one *was* into two: `-en` needs a participle, and *doubtful* is an adjective, so it keeps *was*.
+*impressened but beed doubtful* splits one *was* into two: `-en` needs a participle, and *doubtful* is an adjective, so it takes *beed*.
 
 Not shown: `-ness`, `anti-`, `intra-`, `semi-`, `uni-`, `tri-`, `multi-`, `post-`, `under-`, `-less`, `-ism`, `-ology` alone, `-worthy`, `-wise` on a non-money noun, `-th` on a regular number, and the `-es` plural.
 
@@ -715,15 +719,15 @@ This is the passage from Appendix D, translated again with the biological affixe
 
 **Consistentized Englandese with §3.8** (305 words)
 
-> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She arrive'ved after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, prewarnened of their arrivement. She telled them that her oven bimisfunction'ved that month, that its heatmeter was unrelyable, and that the noise it maked was frightsome.
+> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She arrive'ved after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, prewarnened of their arrivement. She telled them that her oven bimisfunction'ved that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
 >
-> The engineoress examined the machineage carefullyer than the governorage's inspector do'ved. The subfloor wires interconnectened, and the superhead lamp was dangerful. "Deconnect everything and delock the cover," she telled the employees, "and overtightizenot the screws." She finded that the eighth fuse breakened and that mouses transchew'ved the insulatement. A skilled electricityor see've'lled it at once, but the inspector do'vednot.
+> The engineoress examined the machineage carefullyer than the governorage's inspector do'ved. The subfloor wires interconnectened, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and overtightizenot the screws." She finded that the eighth fuse breakened and that mouses transchew'ved the insulatement. A skilled electricor see've'lled it at once, but the inspector do'vednot.
 >
-> They coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage was bader than her describeion. His repair, however, was gooder than his teachoress's. The neooven selfcleans, autostarts and bakes twofold the bread. It is waterproof and airproof, and it is beautifuler than the old one, although slightly noisefuler.
+> They coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeion. His repair, however, beed gooder than his teachoress's. The neooven selfcleans, autostarts and bakes twofold the bread. It bes waterproof and airproof, and it bes beautifuler than the old one, although slightly noisefuler.
 >
-> The bakeorlingess, a pharmacy graduateuress, impressened but was doubtful. "It is unpossible to trust a machine fully," she sayed. The engineoress smiled. "It is the safest oven in the kingdom, and the relyablest machine that I ever build've." She refused payment. In return, the bakeoress gived them a basket of warm loafs and a reddish, heartform cake. The intrashop childs behaved childlikely and interoutruned doorward.
+> The bakeorlingess, a pharmacy graduateuress, impressened but beed doubtful. "It bes unpossible to trust a machine fully," she sayed. The engineoress smiled. "It bes the safest oven in the kingdom, and the relyablest machine that I ever build've." She refused payment. In return, the bakeoress gived them a basket of warm loafs and a reddish, heartform cake. The intrashop childs behaved childlikely and interoutruned doorward.
 >
-> Since then, the orderands of each day writen on an intracookery whiteboard: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, never be've happyer, and the neooven bepower've the bakeoress. "Moneywise, a bakerylet is gooder than a macromakeery," she says. Her husband, an exfire-fightor, agrees and dos the deliverments.
+> Since then, the orderands of each day writen on an intracookery whiteboard: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, never be've happyer, and the neooven bepower've the bakeoress. "Moneywise, a bakerylet bes gooder than a macromakeery," she says. Her husband, an exfire-fightor, agrees and dos the deliverments.
 
 ### E.2 Changes from Appendix D
 
@@ -741,8 +745,8 @@ This is the passage from Appendix D, translated again with the biological affixe
 | Version | Words | Characters |
 |---|---|---|
 | Standard English (D.1) | 359 | 2158 |
-| CE (D.1) | 315 | 2099 |
-| CE with §3.8 (E.1) | 305 | 2080 |
+| CE (D.1) | 315 | 2107 |
+| CE with §3.8 (E.1) | 305 | 2088 |
 
 ### E.4 Comment
 
@@ -1085,9 +1089,9 @@ These translations use only the rules above. The capital letters of the original
 
 > No Person shall be a Representative who shall not have attained to the Age of twenty five Years, and been seven Years a Citizen of the United States, and who shall not, when elected, be an Inhabitant of that State in which he shall be chosen.
 
-**Consistentized Englandese** (44 words)
+**Consistentized Englandese** (41 words)
 
-> No Person shall be a Representor who shall not have attained to the Age of twenty five Years, and been seven Years a Citizen of the United States, and who shall not, when elected, be a Dwellor of that State in which he choosenend.
+> No Person beend a Representor who shall not have attained to the Age of twenty five Years, and beed seven Years a Citizen of the United States, and who, when elected, beendnot a Dwellor of that State in which he choosenend.
 
 #### G.4.2 Word breakdown
 
@@ -1096,6 +1100,8 @@ These translations use only the rules above. The capital letters of the original
 | *Representor* | represent + or | *Representative* | as in G.2 |
 | *Dwellor* | dwell + or | *Inhabitant* | *habitare* means "dwell", so part swap (P4); *inhabit* is a false affix (§5.1); `-or` replaces `-ant` (§3.2) |
 | *choosenend* | choose + en + end | *shall be chosen* | passive, deontic (§3.1.1) |
+| *beend*, *beendnot* | be + end, be + end + not | *shall be*, *shall not … be* | deontic, negation (§3.1.1); `-end` keeps its *e* after *be* (§4.2) |
+| *beed* | be + ed | *been* | regular past participle of *be* (§3.1) |
 | *attained*, *elected* | attain + ed, elect + ed | no change | already CE; *attain* is common and easy to guess (P4) |
 | *Citizen*, *Person*, *Age* | — | no change | base words |
 
@@ -1105,13 +1111,14 @@ These translations use only the rules above. The capital letters of the original
 |---|---|---|
 | Standard English | 46 | 242 |
 | CE before §3.1.1 | 46 | 236 |
-| CE | 44 | 230 |
+| CE before regular *be* | 44 | 230 |
+| CE | 41 | 223 |
 
 #### G.4.4 Gaps
 
 - This clause is short on derived words, so CE changes only three of them.
 - The part swap stops at *habitare* ("dwell"), not at its root *habere* ("have") (P4).
-- The verb slots change only *shall be chosen*. *shall be a Representor* and *shall not … be a Dwellor* need `-end` on *be* (Q11). *shall not have attained … and been* shares one set of auxiliaries between two verbs (Q12).
+- With a regular *be* (§3.1), *shall be a Representor* and *shall not … be a Dwellor* become *beend* and *beendnot*. *shall not have attained … and beed* still shares one set of auxiliaries between two verbs (Q12).
 
 ### G.5 Article I, Section 2, Clause 3
 
@@ -1207,3 +1214,50 @@ The Fourteenth Amendment later changed this clause. The text is the original of 
 
 - *about* is wider than *respecting*. In this text both mean "on the subject of".
 - *speakment* is the act of speaking. The right also covers what is said, which would be *speakion* (the result).
+
+## Appendix H. Baseline: research abstract
+
+This is an invented abstract in the style of a materials science paper. Research writing uses the passive and hedging modals (*may*, *can*, *could*) often, so it tests the verb slots (§3.1.1). Like Appendices F and G, it is a baseline: when a new affix is added, translate it again and compare.
+
+### H.1 Text
+
+**Standard English** (86 words)
+
+> Previous studies have shown that the coating can reduce corrosion. However, its long-term effect has not been measured. In this study, 40 steel samples were coated and stored in salt water for twelve months. The samples were weighed every week. Corrosion could not be detected in the coated samples, but it was clearly visible in the uncoated ones after three months. These results may be explained by the low permeability of the coating. Further tests will be needed before the coating can be used in ships.
+
+**Consistentized Englandese** (70 words)
+
+> Previous studys show've that the coating reducecan corrodement. However, its long-term effect measuren'venot. In this study, 40 steel samples coatened and storened in salt water for twelve months. The samples weighened every week. Corrodement detectencanednot in the coated samples, but it beed clearly seeable in the uncoated ones after three months. These results explainenmay by the low transgoableness of the coating. Further tests needen'll before the coating usencan in ships.
+
+### H.2 Word breakdown
+
+| CE | Parts | Standard | Note |
+|---|---|---|---|
+| *studys* | study + s | *studies* | the base never changes: no *y* → *i* (§4) |
+| *show've* | show + 've | *have shown* | perfect (§3.1.1); no `-s` with a slot suffix |
+| *reducecan* | reduce + can | *can reduce* | ability (§3.1.1) |
+| *corrodement* | corrode + ment | *corrosion* | act noun (§3.2); *corrode* is one base word, so it is kept (P4) |
+| *measuren'venot* | measure + en + 've + not | *has not been measured* | passive, perfect, negation (§3.1.1) |
+| *coatened*, *storened*, *weighened* | coat + en + ed, … | *were coated*, *were stored*, *were weighed* | passive, past (§3.1.1) |
+| *detectencanednot* | detect + en + can + ed + not | *could not be detected* | passive, ability, past, negation (§3.1.1) |
+| *coated*, *uncoated* | coat + ed, un + coat + ed | no change | next to a noun, so `-ed` (§3.1.1) |
+| *beed* | be + ed | *was* | *be* is regular (§3.1) |
+| *seeable* | see + able | *visible* | plain base (P4) |
+| *explainenmay* | explain + en + may | *may be explained* | passive, possibility (§3.1.1) |
+| *transgoableness* | trans + go + able + ness | *permeability* | *per-* "through" + *meare* "go", so part swap (P4); 3 derivational affixes, the U2 limit |
+| *needen'll* | need + en + 'll | *will be needed* | passive, future (§3.1.1) |
+| *usencan* | use + en + can | *can be used* | passive, ability (§3.1.1); `-en` drops its *e* (§4.2) |
+
+### H.3 Size
+
+| Version | Words | Characters |
+|---|---|---|
+| Standard English | 86 | 508 |
+| CE | 70 | 482 |
+
+### H.4 Gaps
+
+- The verb slots save 16 words. Every sentence has a passive or a modal verb, so this text gains more from §3.1.1 than any baseline text except G.5.
+- *detectencanednot* stacks four slot suffixes (Q10). Results sections often need forms this long.
+- *reduce*, *detect*, *explain* and *effect* are Latin loans, but they are common and easy to guess, so they stay (P4). *corrosion* and *permeability* are technical terms. CE rebuilds technical terms like any other word and does not keep the established form.
+- The text avoids *should* (Q7) and the progressive (Q9), which research writing often uses: *it should be noted*, *the samples are being tested*.
