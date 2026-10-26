@@ -82,7 +82,7 @@ Notes:
 | Can be X-ed | `-able` | potential (abilitative) adjective | -ible, -uble | *seeable*, *readable*, *solveable* |
 | Noun of the verb X: the act of X, or what X makes | `-ment` | action noun (*nomen actionis*) | -tion, -sion, -ation, -ance, -ence, -al, -age, -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
 | State or quality of being X | `-ness` | quality noun (*nomen qualitatis*) | -ity, -th, -ance, -ence, -cy, -hood, -ship | *unpossibleness*, *trueness*, *longness*, *safeness* |
-| Relating to X | `-al` | relational adjective | -ic, -ical, -ar, -ary | *scienceal*, *historyal*, *personal* |
+| Relating to X | `-al` | relational adjective | -ic, -ical, -ar, -ary; demonym adjectives (-ese, -ish, -ian, -an, -i) | *scienceal*, *historyal*, *personal*, *Englandal* (*English*: *Englandal food*), *Chinal* (*Chinese*) |
 | Full of / having X | `-ful` | possessive (proprietive) adjective | -ous, -y, -ive | *dangerful*, *fameful*, *rainful* |
 | Without X | `-less` | privative | — | *powerless* |
 | In an X way (adverb) | `-ly` | manner adverb | irregular adverbs | *goodly* (*well*), *fastly* (*fast*) |
@@ -158,7 +158,8 @@ Notes:
 | With respect to X | `-wise` | limitative | noun | — | *costwise*, *timewise* |
 | Belief or system of X | `-ism` | — | noun, adj | -cracy | *realism*, *peopleism* (*democracy*) |
 | Study or science of X | `-ology` | — | noun | -ics, -logy, -nomy, -graphy | *earthology* (*geology*), *animalology* (*zoology*), *starology* (*astronomy*), *lifeology* (*biology*) |
-| From place X; language of place X | `-ese` | demonym, glottonym | proper noun | -ian, -ish, -an, -i, -ic, -er | *Italyese*, *Englandese* (*English*), *Franceese* → *Francese* (*French*), *Iraqese* (*Iraqi*) |
+| Person from place X | `-an` | demonym | proper noun | -ian, -ish, -ese, -i, -er, -ite, -man | *Englandan* (*Englishman*), *Chinaan* → *Chinan* (*Chinese*), *Japanan* → *Japanian* (*Japanese*), *Spainan* (*Spaniard*), *Iraqan* (*Iraqi*), *Londonan* (*Londoner*) |
+| Language of place X | `-ese` | glottonym | proper noun | -ish, -ian, -an, -i, -ic | *Italyese* (*Italian*), *Englandese* (*English*), *Franceese* → *Francese* (*French*) |
 | Number X in order (ordinal) | `-th` | ordinal | number | irregular ordinals | *oneth* (*first*), *twoth* (*second*), *threeth* (*third*), *fiveth*, *eighth*, *twentyth* |
 | X times as many | `-fold` | multiplicative | number | -ple, -ble | *twofold* (*double*), *threefold* (*triple*) |
 | Not damaged or affected by X | `-proof` | — | noun | -tight, -resistant | *waterproof*, *heatproof*, *shockproof*, *tamperproof*, *airproof* (*airtight*) |
@@ -167,8 +168,10 @@ Notes:
 | Causes X (a feeling or state) in others | `-some` | — | noun | -ing (in this meaning), -y | *fearsome*, *painsome*, *worrysome* (*worrying*), *scaresome* (*scary*), *troublesome* |
 
 Notes:
-- `-ese` overwrites names of peoples and languages too (P5). The name of this language is *Consistentized Englandese*. More examples: *Chinaese* (*Chinese*), *Thailandese* (*Thai*), *Spainese* (*Spanish*, *Spaniard*), *Walesese* (*Welsh*), *Netherlandsese* (*Dutch*), *Japanese* (no change).
-- A people or language whose name is itself the base word does not take `-ese`. Examples: *Tamil*, *Yoruba*, *Basque*, *Latin*, *Esperanto*.
+- By P1, a place gives three different words: the person (`-an`), the adjective (`-al`) and the language (`-ese`). Example: *a Chinan* speaks *Chinaese* and eats *Chinal food*. The people as a group is the plural: *the Chinans* (*the Chinese*).
+- `-an` and `-ese` overwrite names of peoples and languages too (P5). The name of this language is *Consistentized Englandese*. More examples: *Thailandan*, *Thailandese* (*Thai*); *Walesan*, *Walesese* (*Welsh*); *Netherlandsan* (*Dutchman*), *Netherlandsese* (*Dutch*); *Canadan* (*Canadian*); *Francean* (*Frenchman*).
+- `-an` is also used for cities and regions: *Londonan*, *Texasan*.
+- A people or language whose name is itself the base word does not take `-an` or `-ese`. Examples: *a Tamil*, *the Yorubas*, *Basque*, *Latin*, *Esperanto*.
 - Place names themselves do not change (*England*, *Malaysia*). Only the derived forms change.
 - *-like* and *-ly* are different. *-like* makes an adjective from a noun. *-ly* makes an adverb from an adjective. So *friendly* (adjective, "like a friend") becomes *friendlike*.
 - Four suffixes say what can or must happen to a thing. They are different:
@@ -233,23 +236,25 @@ An affix may have a variant only to prevent awkward spelling or pronunciation (P
 
 These are the only allowed variants. A rule always chooses the form.
 
-### 5.1 Add a vowel to the affix (break a consonant cluster)
+### 5.1 Add a vowel to the affix (break a consonant cluster or a repeat)
 
 | Affix | Variant | Condition | Examples |
 |---|---|---|---|
 | `-s` | `-es` | Base ends in *s, x, z, ch, sh* | *box* → *boxes*, *wish* → *wishes* |
+| `-an` | `-ian` | Base ends in *an* (prevents *anan*) | *Japan* → *Japanian*, *Iran* → *Iranian*, *Pakistan* → *Pakistanian*, *Taiwan* → *Taiwanian* |
 
 ### 5.2 Remove the first letter of the affix (prevent an overlap)
 
 When the base ends in the letter that the affix starts with, and keeping both would be awkward, the affix loses its first letter. Awkward means one of these:
 
-- a doubled *e*
+- a doubled *e* or a doubled *a*
 - a triple letter
 - *tth*
 
 | Affix | Variant | Condition | Examples |
 |---|---|---|---|
 | Any suffix that starts with *e* (`-ed`, `-er`, `-est`, `-ee`, `-ery`, `-ese`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese* |
+| Any suffix that starts with *a* (`-al`, `-an`, `-able`, `-and`) | drop the *a* | Base ends in *a* | *China* → *Chinal*, *Chinan*; *Canada* → *Canadal*, *Canadan*; *Korea* → *Korean*; *formula* → *formulal* |
 | `-or` | no variant | Base ends in *e* | *make* → *makeor*, *operate* → *operateor* (the base never changes; *e* + *o* is not a doubled *e*) |
 | `-ure` | no variant | Base ends in *e* | *close* → *closeure*, *graduate* → *graduateure* |
 | Any affix | drop its first letter | The result would have three of the same letter | *full* + `-ly` → *fully*; *skill* + `-less` → *skilless* |
@@ -303,7 +308,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q3.** Do we need a variant that keeps the sound of the base without changing its spelling? Example: a hyphen or a written mark between base and affix (*stop-ed*, *panic-ed*).
 - **Q4.** (Closed.) No separate result-noun affix. `-ment` covers the act and its result, and U4 handles cases where the difference is important.
 - **Q5.** Should `-or` cover both persons (*teachor*) and tools (*computeor*), or should tools use a separate affix?
-- **Q6.** Plural place names make awkward forms (*Netherlandsese*, *Philippinesese*). Do we need an `-ese` variant after *s*?
+- **Q6.** Plural place names make awkward language names (*Netherlandsese*, *Philippinesese*). Do we need an `-ese` variant after *s*? (The demonym has no problem: *Netherlandsan*, *Philippinesan*.)
 
 ## Appendix A. Example translation
 
