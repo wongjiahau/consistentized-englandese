@@ -57,7 +57,7 @@ Notes:
 | Person or thing that does X (the subject of X) | `-or` | agent noun (*nomen agentis*), A or S | -er, -ar, -ist, -ian, -ant, -ent, -ee (on verbs with no object) | *actor*, *teachor* (*teacher*), *begor* (*beggar*), *scienceor* (*scientist*), *assistor* (*assistant*), *makeor* (*maker*), *escapeor* (*escapee*), *attendor* (*attendee*) |
 | Person or thing that is X-ed (the direct object of X; the action is done or in progress) | `-ee` | object noun, O | — | *employee*, *trainee*, *usee*, *givee* (the gift), *sendee* (the thing that is sent) |
 | Person or thing that gets something from X, or that X is done for (the indirect object of X) | `-ary` | recipient noun | -ee (in this meaning) | *giveary*, *sendary* (*addressee*), *payary* (the person who is payed), *teachary* (*student*), *grantary* (*grantee*), *leaseary* (*lessee*), *beneficiary* |
-| Person or thing that is to be X-ed (gerundive) | `-and` | gerundive (future passive participle) | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *enaffixand* |
+| Person or thing that is to be X-ed (gerundive) | `-and` | gerundive (future passive participle) | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *beaffixand* |
 | Person or thing that is about to X (active, prospective) | `-ure` | future active participle (prospective) | *would-be* X-or, X-or *to be* | *electure* (a person about to vote), *departure* (*departing*: *the departure passengers*), *launchure* (a rocket about to launch), *graduateure* |
 | Can be X-ed | `-able` | passive potential adjective | -ible, -uble | *seeable*, *readable*, *solveable*, *flyable* (can be flown) |
 | The act of X | `-ment` | action noun (*nomen actionis*) | -tion, -sion, -ation, -ance, -ence, -al, -age, -ery (practice), -ism (practice), -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
@@ -131,7 +131,8 @@ In standard English, many affixes work only with some words. For example, *-hood
 | Do better than (verb); outside (noun) | `out-` | surpassive; exessive | verb, noun | ecto-, exo-, extra-, *outside* + noun | *outrun*, *outsee*, *outbuild*; *outhouse*, *outdoor*, *outbody*, *outLondon* |
 | On, at the surface of | `a-` | superessive | noun | epi-, *on* + noun | *aboard*, *ashore*, *aground*, *atop*, *afloor* (*on the floor*), *awall*, *anoven* (*on the oven*) |
 | Fake, false | `mock-` | — | noun | pseudo-, *fake* / *false* + noun | *mockgold*, *mockdoctor*, *mockscience* (*pseudoscience*) |
-| Put in, give | `en-` | illative, ornative | noun | em-, be- | *encage*, *enpower* (*empower*), *enfriend* (*befriend*) |
+| Put in X | `en-` | illative | noun | em-, im- (in this meaning) | *encage*, *enbox*, *entomb*, *endanger*, *enprison* (*imprison*) |
+| Give X, provide with X | `be-` | ornative | noun | en-, em- (in this meaning), *endow with* | *bepower* (*empower*), *betitle* (*entitle*), *bereason*, *bejewel*, *befriend* |
 | Half, partly | `semi-` | — | noun, adj | hemi-, demi-, half- | *semisphere* (*hemisphere*), *semicircle* |
 | One | `uni-` | numeral prefix | noun, verb (§3.8.3) | mono-, single- | *uniwheel*, *unirail* (*monorail*) |
 | Two | `bi-` | numeral prefix | noun, verb (§3.8.3) | di-, twi-, double- | *biwheel*, *bilight* (*twilight*); not in chemical names (P6) |
@@ -148,7 +149,8 @@ Notes:
 - *a-* and *super-* are different. *awall* is on the wall and touches it. *superwall* is above the wall.
 - *mock-* and *ex-* are different. *a mockdoctor* is not a real doctor. *an exdoctor* was a real doctor before.
 - *anti-* and *counter-* are different. *anti-* means "opposed to X" (*antitheft*). *counter-* means "done in reply to X" (*counterattack*).
-- *en-* has no *em-* variant. *enpower* is easy to say (§4).
+- *en-* has no *em-* variant. *enprison* is easy to say (§4).
+- *en-* and *be-* are different. *enbox the cake* puts the cake in a box. *bebox the cake* gives the cake a box.
 
 #### 3.4.2 Suffixes
 
@@ -176,7 +178,7 @@ Notes:
 | Causes X (a feeling or state) in others | `-some` | — | noun | -ing (in this meaning), -y | *fearsome*, *painsome*, *worrysome* (*worrying*), *scaresome* (*scary*), *troublesome* |
 | Female X | `-ess` | feminine | noun | -ette, -trix, -ine, -woman, *female* + noun | *actoress* (*actress*), *heroess* (*heroine*), *Walesaness* (*Welshwoman*), *lioness*, *dogess* (*bitch*) |
 | In the lasting state of X-ing | `-ent` | stative adjective | verb | -ant, -ent (adjective), -ing (in this meaning) | *dependent*, *undependent* (*independent*), *different*, *existent*, *pleasent* (*pleasant*), *ignorent* (*ignorant*) |
-| Can X, tends to X | `-ive` | active potential | verb | -ive and -ile on Latin roots | *flyive* (can fly), *explodeive* (*explosive*), *createive* (*creative*), *destroyive* (*destructive*), *moveive* (*mobile*), *attractive*, *protective* |
+| Can X | `-ive` | active potential | verb | -ive and -ile on Latin roots | *flyive* (can fly), *explodeive* (*explosive*), *createive* (*creative*), *destroyive* (*destructive*), *moveive* (*mobile*), *attractive*, *protective* |
 
 Notes:
 - By P1, a place gives three different words: the person (`-an`), the adjective (`-al`) and the language (`-ese`). Example: *a Chinan* speaks *Chinaese* and eats *Chinal food*. The people as a group is the plural: *the Chinans* (*the Chinese*).
@@ -200,6 +202,7 @@ Notes:
 - `-ess` is the only gender affix. There is no male affix: a noun without `-ess` means a male, or a person or animal whose sex is unknown or mixed (as in Esperanto). *an actor* is a male actor or an actor of unknown sex. *the actors* can be a mixed group. Use `-ess` for each known female: *the engineoress*, not *the engineor*, when the engineer is a woman.
 - `-ing`, `-ent` and `-able` are different. *the depending country* is depending now (an action in progress). *the dependent country* is in that state, and the state lasts. *the dependable country* can be depended on.
 - `-able` and `-ive` are a pair. `-able` is passive: *a flyable plane* can be flown. `-ive` is active: *a flyive bird* can fly. A verb with no object has no passive, so it takes only `-ive`: *an arriveive train*.
+- `-ive` says only that the thing can X. It does not say how often the thing does X. For a habit, write a phrase: *a child who often talks* (*a talkative child*), not *a talkive child*.
 - `-ent` and `-ive` are different. `-ent` is a state that is true now: *a dependent country*. `-ive` is a power that may not be used: *an explodeive gas* can explode, but it has not exploded.
 - `-dom` and `-age` are different. *kingdom* is the area that a king rules. *kingage* is all kings as a group.
 - `-ism` is only a belief. Other traditional *-ism* words use other affixes:
@@ -236,7 +239,7 @@ CE is agglutinative: each affix has one meaning, the base never changes, and aff
 | Phrase | Affixed form | Derivational affixes | Use |
 |---|---|---|---|
 | *cannot be seen* | *unseeable* | 2 | affixed form (U1) |
-| *the word that is to be given an affix* | *enaffixand* | 2 | affixed form (U1) |
+| *the word that is to be given an affix* | *beaffixand* | 2 | affixed form (U1) |
 | *cleans itself* | *selfcleans* | 1 (*-s* not counted) | affixed form (U1) |
 | *the state of being unable to be connected again* | *unreconnectableness* | 4 | phrase (U3) |
 | *cannot be connected again* | *unreconnectable* | 3 | affixed form (U1) |
@@ -535,7 +538,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 >
 > The bakeorlingess, a pharmacy graduateuress, was impressed but doubtful. "It is unpossible to trust a machine fully," she sayed. The engineoress smiled. "It is the safest oven in the kingdom, and the relyablest machine that I have ever builded." She refused payment. In return, the bakeoress gived them a basket of warm loafs and a reddish, heart-shaped cake. The childs in the shop behaved childlikely and outruned each other doorward.
 >
-> Since then, the orderands of each day are writed on a whiteboard in the cookery: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, haves never been happyer, and the new oven haves enpowered the bakeoress. "Moneywise, a bakerylet is gooder than a large makeery," she says. Her husband, an exfire-fightor, agrees and dos the deliverments.
+> Since then, the orderands of each day are writed on a whiteboard in the cookery: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, haves never been happyer, and the new oven haves bepowered the bakeoress. "Moneywise, a bakerylet is gooder than a large makeery," she says. Her husband, an exfire-fightor, agrees and dos the deliverments.
 
 ### D.2 Features shown
 
@@ -559,7 +562,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 | Having X | *dangerous*, *noisy* → *dangerful*, *noiseful* | `-ful` (§3.2) |
 | Manner adverb | *childishly* → *childlikely* | `-like` + `-ly` (§3.2, §3.4.2) |
 | Make X, causative | *tighten too much*, *raise*, *lay* → *overtightize*, *riseize*, *lieize* | `-ize` (§3.2) |
-| Prefixes | *malfunctioned*, *under the floor*, *overhead*, *forewarned*, *contradicted*, *across the ocean*, *worked together*, *former*, *cleans itself*, *starts automatically*, *outran*, *empowered*, *bicycle*, *co-owner* → *misfunctioned*, *subfloor*, *superhead*, *prewarned*, *counterspeaked*, *transocean*, *coworked*, *ex-*, *selfcleans*, *autostarts*, *outruned*, *enpowered*, *biwheel*, *coownor* | §3.4.1 |
+| Prefixes | *malfunctioned*, *under the floor*, *overhead*, *forewarned*, *contradicted*, *across the ocean*, *worked together*, *former*, *cleans itself*, *starts automatically*, *outran*, *empowered*, *bicycle*, *co-owner* → *misfunctioned*, *subfloor*, *superhead*, *prewarned*, *counterspeaked*, *transocean*, *coworked*, *ex-*, *selfcleans*, *autostarts*, *outruned*, *bepowered*, *biwheel*, *coownor* | §3.4.1 |
 | On, through | *on the floor*, *chewed through* → *afloor*, *transchewed* | `a-`; `trans-` on a verb (§3.4.1) |
 | Suffixes | *small bakery*, *machinery*, *kitchen*, *factory*, *toward the door*, *money-wise*, *thermometer*, *airtight*, *double*, *frightening* → *bakerylet*, *machineage*, *cookery*, *makeery*, *doorward*, *moneywise*, *heatmeter*, *airproof*, *twofold*, *frightsome* | §3.4.2 |
 | Child of X | *the baker's daughter* → *the bakeorlingess* | `-or` + `-ling` + `-ess`: 3 derivational affixes, the limit in U2 (§3.4.2) |
@@ -596,7 +599,7 @@ This is the passage from Appendix D, translated again with the biological affixe
 >
 > The bakeorlingess, a pharmacy graduateuress, was impressed but doubtful. "It is unpossible to trust a machine fully," she sayed. The engineoress smiled. "It is the safest oven in the kingdom, and the relyablest machine that I have ever builded." She refused payment. In return, the bakeoress gived them a basket of warm loafs and a reddish, heartform cake. The intrashop childs behaved childlikely and interoutruned doorward.
 >
-> Since then, the orderands of each day are writed on an intracookery whiteboard: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, haves never been happyer, and the neooven haves enpowered the bakeoress. "Moneywise, a bakerylet is gooder than a macromakeery," she says. Her husband, an exfire-fightor, agrees and dos the deliverments.
+> Since then, the orderands of each day are writed on an intracookery whiteboard: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, haves never been happyer, and the neooven haves bepowered the bakeoress. "Moneywise, a bakerylet is gooder than a macromakeery," she says. Her husband, an exfire-fightor, agrees and dos the deliverments.
 
 ### E.2 Changes from Appendix D
 
@@ -639,7 +642,7 @@ These translations use only the rules above. They are a baseline: when a new aff
 
 **Consistentized Englandese** (25 words)
 
-> All human bements are beared free and equal in worthyness and rights. They are enreasoned and enconscienced and should interact in a spirit of brotherness.
+> All human bements are beared free and equal in worthyness and rights. They are bereasoned and beconscienced and should interact in a spirit of brotherness.
 
 #### F.1.2 Word breakdown
 
@@ -648,7 +651,7 @@ These translations use only the rules above. They are a baseline: when a new aff
 | *bements* | be + ment + s | *beings* | `-ing` is never a noun (§3.2), so the noun uses `-ment` |
 | *beared* | bear + ed | *born* | regular past participle (§3.1); collides with the noun *bear* (P1) |
 | *worthyness* | worthy + ness | *dignity* | `-ness` replaces `-ity` (§3.2); *dignity* has no plain English base (P4) |
-| *enreasoned*, *enconscienced* | en + reason + ed, en + conscience + ed | *endowed with reason and conscience* | `en-` means "give X" (§3.4.1) |
+| *bereasoned*, *beconscienced* | be + reason + ed, be + conscience + ed | *endowed with reason and conscience* | `be-` means "give X" (§3.4.1) |
 | *interact* | inter + act | *act towards one another* | reciprocal `inter-` (§3.4.1) |
 | *brotherness* | brother + ness | *brotherhood* | `-ness` replaces `-hood` (§3.2) |
 | *should* | — | no change | modal (Q7) |
@@ -677,13 +680,13 @@ These translations use only the rules above. They are a baseline: when a new aff
 
 **Consistentized Englandese** (78 words)
 
-> Everyone is entitled to all the rights and freenesses setted forth in this Declareate, without distinguishment of any kind, such as race, colour, sex, language, religion, political or other opinion, national or societyal origin, ownee, bearment or other status. Furthermore, no distinguishment shall be maked on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be undependent, trust, unselfgoverning or under any other limitment of sovereignness.
+> Everyone is betitled to all the rights and freenesses setted forth in this Declareate, without distinguishment of any kind, such as race, colour, sex, language, religion, political or other opinion, national or societyal origin, ownee, bearment or other status. Furthermore, no distinguishment shall be maked on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be undependent, trust, unselfgoverning or under any other limitment of sovereignness.
 
 #### F.2.2 Word breakdown
 
 | CE | Parts | Standard | Note |
 |---|---|---|---|
-| *entitled* | en + title + ed | *entitled* | already CE: `en-` means "give X" (§3.4.1) |
+| *betitled* | be + title + ed | *entitled* | `be-` means "give X"; `en-` is only "put in X" (§3.4.1) |
 | *freenesses* | free + ness + es | *freedoms* | a state, so `-ness`; `-dom` is only a realm (§3.4.2) |
 | *setted* | set + ed | *set* | zero past participle replaced (§3.1) |
 | *distinguishment* | distinguish + ment | *distinction* | `-ment` replaces `-tion` (§3.2) |
