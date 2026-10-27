@@ -37,6 +37,7 @@ CE changes word forms. It also replaces some auxiliary verbs with verb suffixes 
   2. It replaces a phrase of two or more words. Example: `-can` (*can open* → *opencan*), `-said`.
 
   A change that does neither does not enter CE, even if it is regular. Shortness alone is not a test: *beed* is longer than *was*, but it removes an irregular form. Example of a rejected change: an accusative suffix `-m` on all objects (*the dogem*). It removes the case forms of pronouns, but it adds a case to all nouns, and English word order already marks the object.
+- **P8. Composition, not shortcut.** A stack of affixes means what its parts mean, in scope order. CE does not copy an English form whose meaning does not come from its parts. English uses its past forms for unreal meaning (*could choose*, *would choose*) and *have* as a past after a modal (*should have chosen*, *must have left*). CE builds each meaning from its own parts: *choosecanif* (can + unreal), *choosedif* (past + unreal), *choosebested* (advice + past), *leavedsure* (past + strong inference). CE is not English with shorter auxiliaries.
 
 ## 3. Affix rules
 
@@ -64,7 +65,7 @@ Notes:
 
 #### 3.1.1 Verb slots
 
-Fifteen suffixes replace auxiliary verbs and question tags. Each slot is used once at most. `-end`, `-best` and `-can` share slot 2, `-ed` and `-if` share slot 6, and `-said`, `-may`, `-seem` and `-sure` share slot 8, so a verb takes only one suffix from each of these slots.
+Fifteen suffixes replace auxiliary verbs and question tags. Each slot is used once at most. `-end`, `-best` and `-can` share slot 2, and `-said`, `-may`, `-seem` and `-sure` share slot 9, so a verb takes only one suffix from each of these slots.
 
 | Slot | Affix | IPA | Term | Replaces | Anchor word | Example |
 |---|---|---|---|---|---|---|
@@ -76,13 +77,13 @@ Fifteen suffixes replace auxiliary verbs and question tags. Each slot is used on
 | 4 | `-ing` | /ɪŋ/ | progressive aspect | *be* + `-ing` | *running* | *chooseing* (is choosing) |
 | 5 | `-'ll` | /(ə)l/ | future tense | *will* | *he'll* | *choose'll* (will choose) |
 | 6 | `-ed` | /t/, /d/, /ɪd/ | past tense; stacks on slots 1–5 | *had*, *was able to*, *would* (past of *will*) | *walked* | *choose'ved* (had chosen), *choosecaned* (was able to choose), *choose'lled* (*he sayed he choose'lled*: he said he would choose) |
-| 6 | `-if` | /ɪf/ | conditional mood (irrealis) | *would*, *could*, *might* (imagined, not real) | *if* | *chooseif* (would choose), *choosecanif* (could choose) |
-| 7 | `-not` | /nɒt/ | negation | *do not*, *not* | *cannot* | *choosenot* (does not choose) |
-| 8 | `-said` | /sɛd/ | reportive evidential | *reportedly*, *allegedly*, *is said to*, *it is said that* | *aforesaid* | *choosesaid* (reportedly chooses) |
-| 8 | `-may` | /meɪ/ | epistemic possibility | *may*, *might*, *maybe*, *possibly* | — | *choosemay* (may choose), *choosedmay* (may have chosen) |
-| 8 | `-seem` | /siːm/ | inferential evidential, weak | *seem*, *apparently*, *it seems that*, *seemingly* | *methinks*, *meseems* | *chooseseem* (apparently chooses), *choosedseem* (seems to have chosen) |
-| 8 | `-sure` | /ʃʊə(r)/ | inferential evidential, strong | *must* (conclusion), *surely* | *surely* | *choosesure* (must choose, as a conclusion), *choosedsure* (must have chosen) |
-| 9 | `-eh` | /eɪ/ | confirmative tag | tag questions: *isn't it*, *don't you*, *won't they*, *right?* | Canadian *eh* | *chooseh* (chooses, doesn't he?) |
+| 7 | `-if` | /ɪf/ | conditional mood (irrealis) | *would*, *could*, *might* (imagined, not real) | *if* | *chooseif* (would choose), *choosecanif* (could choose), *choosedif* (would have chosen) |
+| 8 | `-not` | /nɒt/ | negation | *do not*, *not* | *cannot* | *choosenot* (does not choose) |
+| 9 | `-said` | /sɛd/ | reportive evidential | *reportedly*, *allegedly*, *is said to*, *it is said that* | *aforesaid* | *choosesaid* (reportedly chooses) |
+| 9 | `-may` | /meɪ/ | epistemic possibility | *may*, *might*, *maybe*, *possibly* | — | *choosemay* (may choose), *choosedmay* (may have chosen) |
+| 9 | `-seem` | /siːm/ | inferential evidential, weak | *seem*, *apparently*, *it seems that*, *seemingly* | *methinks*, *meseems* | *chooseseem* (apparently chooses), *choosedseem* (seems to have chosen) |
+| 9 | `-sure` | /ʃʊə(r)/ | inferential evidential, strong | *must* (conclusion), *surely* | *surely* | *choosesure* (must choose, as a conclusion), *choosedsure* (must have chosen) |
+| 10 | `-eh` | /eɪ/ | confirmative tag | tag questions: *isn't it*, *don't you*, *won't they*, *right?* | Canadian *eh* | *chooseh* (chooses, doesn't he?) |
 
 | Form | Parts | Meaning |
 |---|---|---|
@@ -90,7 +91,8 @@ Fifteen suffixes replace auxiliary verbs and question tags. Each slot is used on
 | *choosen've* | choose + en + 've | has been chosen |
 | *choosen'll* | choose + en + 'll | will be chosen |
 | *choose've'll* | choose + 've + 'll | will have chosen |
-| *choose'veif* | choose + 've + if | would have chosen |
+| *choosedif* | choose + ed + if | would have chosen |
+| *choosedifmay* | choose + ed + if + may | might have chosen (if …) |
 | *chooseinged* | choose + ing + ed | was choosing |
 | *chooseing'll* | choose + ing + 'll | will be choosing |
 | *choose'veing* | choose + 've + ing | has been choosing |
@@ -100,13 +102,13 @@ Fifteen suffixes replace auxiliary verbs and question tags. Each slot is used on
 | *choosenend'llnot* | choose + en + end + 'll + not | will not have to be chosen |
 | *choosebest* | choose + best | should choose |
 | *choosebestnot* | choose + best + not | should not choose |
-| *choosebest've* | choose + best + 've | should have chosen |
+| *choosebested* | choose + best + ed | should have chosen |
 | *choosecannot* | choose + can + not | cannot choose |
 | *choosencaned* | choose + en + can + ed | was able to be chosen |
 | *choosencanif* | choose + en + can + if | could be chosen |
 | *choosecan'll* | choose + can + 'll | will be able to choose |
 | *choosecan'ved* | choose + can + 've + ed | had been able to choose |
-| *choosecan'veif* | choose + can + 've + if | could have chosen |
+| *choosecanedif* | choose + can + ed + if | could have chosen |
 | *choosenmay* | choose + en + may | may be chosen |
 | *choosedmay* | choose + ed + may | may have chosen, might have chosen |
 | *choosenotmay* | choose + not + may | may not choose (perhaps does not choose) |
@@ -122,7 +124,7 @@ Fifteen suffixes replace auxiliary verbs and question tags. Each slot is used on
 | *choosedsaideh* | choose + ed + said + eh | reportedly chose, didn't he? |
 
 Notes:
-- Stack in slot order: voice, then mood (obligation, ability), perfect, progressive, tense, polarity, stance (evidence or possibility), tag. The order is also the scope: each suffix covers everything before it. *choosednotsaid* is "it is said that he did not choose". *choosednotmay* is "it is possible that he did not choose".
+- Stack in slot order: voice, then mood (obligation, ability), perfect, progressive, tense, conditional, polarity, stance (evidence or possibility), tag. The order is also the scope: each suffix covers everything before it. *choosednotsaid* is "it is said that he did not choose". *choosednotmay* is "it is possible that he did not choose".
 - `-en` and `-end` drop their *e* after a base that ends in *e*: *choosen*, *choosend* (§4.2).
 - `-'ve` and `-'ll` keep the apostrophe, so that letters do not run together: *call'll*, not *callll*. They and `-'all` (§3.1) are the only affixes with an apostrophe. `-ed` after `-'ve` drops its *e* (§4.2): *choose'ved*.
 - `-not` is used, not `-n't`, because *choosen't* (does not choose) and *choosend* (shall choose) are almost the same in speech.
@@ -135,11 +137,11 @@ Notes:
 - In an ellipsis, *do* carries the slots: *than the inspector do'ved* (than the inspector had), *but the inspector do'vednot* (but the inspector had not).
 - An imperative takes `-not` too: *overtightizenot the bolts* (do not tighten the bolts too much).
 - `-end` and `-best` are two steps of one scale: *testend* (shall test, is required to test) and *testbest* (should test, is advised to test). `-best` is not `-end` + `-ed`: *testended* means only "had to test" or "would have to test".
-- *should* as an expectation (*the train should come at five*) is an inference, so it uses `-seem` (slot 8): *the train comeseem at five*.
+- *should* as an expectation (*the train should come at five*) is an inference, so it uses `-seem` (slot 9): *the train comeseem at five*.
 - CE has no word *best* (the superlative of *good* is *goodest*, §3.1), so the suffix does not collide with a word.
 - `-can` means ability or permission: *the operateor opencan the valve* (is able to, or is allowed to). `-can` + `-not` gives the English spelling *cannot*.
 - `-may` means possibility only: *it rainmay tomorrow*. It does not mean permission (*you may go* → *you gocan*).
-- `-may` is the speaker's judgment about the whole claim, like `-said`, so it stands in slot 8, after tense and polarity. A past event is *choosedmay* (may have chosen), not *choose've* + *may*: English needs *have* only because *may* has no past form. A reported possibility and a possibility of one's own exclude each other.
+- `-may` is the speaker's judgment about the whole claim, like `-said`, so it stands in slot 9, after tense and polarity. A past event is *choosedmay* (may have chosen), not *choose've* + *may*: English needs *have* only because *may* has no past form. A reported possibility and a possibility of one's own exclude each other.
 - CE has one degree of possibility: *might* and *may* are both `-may`. *might* in a conditional is `-if` + `-may`: *if asked, she chooseifmay* (if asked, she might choose).
 - `-seem` and `-sure` mean that the speaker inferred the claim from evidence. They did not see it and did not hear it from others. `-seem` is weak (it looks so); `-sure` is strong (no other explanation fits): *the lights be off; thons go'veseem home* / *thons goedsure home*.
 - `-sure` replaces *must* only as a conclusion. *must* as an obligation uses `-end`. English *must* has both meanings, so CE uses neither *must* nor a suffix made from it.
@@ -147,7 +149,9 @@ Notes:
 - `-seem` and `-sure` after a base that ends in *s* lose their *s*, to prevent a triple letter (§4.2): *pass* → *passeem*, *passure*. *passure* collides with `-ure` (§5).
 - `-ed` is only the past. An imagined or unreal action uses `-if`: *if she have time, she chooseif* (she would choose), *she choosecanif* (she could choose). English uses its past forms for both meanings; CE does not.
 - `-'ll` + `-ed` is the real past of *will*, as in reported speech: *Reyes sayed that thons increase'llednot taxes* (that they would not raise taxes). A condition uses `-if`.
-- `-ed` and `-if` share slot 6, so they exclude each other. An unreal past uses `-'ve` + `-if`: *choose'veif* (would have chosen).
+- `-if` comes after `-ed`, so an unreal past is `-ed` + `-if`: *choosedif* (would have chosen), *choosecanedif* (could have chosen), *passenedif* (would have been passed).
+- `-'ve` is only the perfect aspect: the event comes before the reference time, and its result still holds at that time. *I lose've my keys* (they are still lost); *choose'ved* (had chosen: before a past time); *choose've'll* (will have chosen). `-'ve` never marks a plain past. A past after a mood suffix uses `-ed` (P8): *choosebested* (should have chosen), not *choosebest've*; *choosedif* (would have chosen), not *choose'veif*.
+- `-'ve` is optional where the result does not matter: *I losed my keys* is also correct. It is never required by another slot.
 - `-if` follows §4.2 like any suffix that starts with a vowel: *lawize* → *lawizif*. *if* stays a word (a conjunction), so the suffix shares its form with a word.
 - `-can` and `-may` start with a consonant, so §4.2 never changes them: *makecan*, *seemay*.
 - `-can` can take `-'ll` and `-'ve`, which English *can* cannot: *choosecan'll* (will be able to choose). English uses *be able to* there.
@@ -593,10 +597,10 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q7.** (Closed.) *will*, *shall*, *must*, *would*, *had*, *can*, *could*, *may* and *might* are now verb slots (§3.1.1). *should* is `-best` (advice) or `-seem` (expectation).
 - **Q8.** (Closed.) `-ee` covered three thematic roles: patient (*employee*), recipient (*payee*) and agent (*escapee*). `-ee` now means only the direct object. The recipient uses `-ary`, and the agent uses `-or` (§3.2).
 - **Q9.** (Partly closed.) The progressive (*be* + `-ing`) is now slot 4, `-ing` (§3.1.1): *voteinged* (was voting), *voteing'll* (will be voting). Still open: its order next to `-'ve`. The table puts it after (*vote'veing*, has been voting), but scope order ("each suffix covers everything before it") would put it before (*voteing've*).
-- **Q10.** Is a stack of four slot suffixes acceptable? Example: *passen'veifnot* (would not have been passed).
+- **Q10.** Is a stack of four slot suffixes acceptable? Example: *passenedifnot* (would not have been passed).
 - **Q11.** (Closed.) *be* + `-end` gave *bend* by §4.2. Now a suffix keeps its *e* after *be* (§4.2): *No Person beend a Representor* (G.4).
 - **Q12.** When two verbs share one set of auxiliaries, does each verb take the slots? Example: *shall not have attained … and been …* (G.4). Until this is decided, the text keeps the auxiliaries.
-- **Q13.** (Closed.) CE has two inferential evidentials next to the reportive `-said`: weak `-seem` and strong `-sure` (§3.1.1). Epistemic *must* uses `-sure`, and `-may` moved to slot 8 with them.
+- **Q13.** (Closed.) CE has two inferential evidentials next to the reportive `-said`: weak `-seem` and strong `-sure` (§3.1.1). Epistemic *must* uses `-sure`, and `-may` moved to slot 9 with them.
 - **Q14.** Which pronunciation keeps other affixes apart in reduced speech (§4.4)? `-ary` and `-ery` are both /əri/ and both attach to verbs. `-or`, `-er` and `-ure` all become a schwa in non-rhotic accents. `-ee` and `-y` are a milder case. `-el` and `-al` (both /əl/) and `-en` and `-an` (both /ən/) also sound the same, but they attach to different parts of speech.
 - **Q15.** *he* now means a male only (§3.9), but a noun without `-ess` still means a male or a person of unknown or mixed sex (§3.4.2). Should nouns follow the pronouns?
 - **Q16.** Some plural pronoun forms are not decided (§3.9): the other case forms of *hes* and *shes* (*him*, *his*, *her*, *himself*, *herself*), and a plural of *it* for things (*its* is already the possessive).
@@ -763,7 +767,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 
 > Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speak fluent Englandese and Netherlandese. She arrive'ved after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, prewarnened of thons' arrivement. She telled thons that her oven misfunction'ved twice that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
 >
-> The engineoress examined the machineage carefullyer than the governorage's inspector do'ved. The subfloor wires interconnectened, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and overtightizenot the screws." She finded that the eighth fuse breakened and that mouses transchew'ved the insulatement. A skilled electricor see'veif it at once, but the inspector do'vednot.
+> The engineoress examined the machineage carefullyer than the governorage's inspector do'ved. The subfloor wires interconnectened, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and overtightizenot the screws." She finded that the eighth fuse breakened and that mouses transchew'ved the insulatement. A skilled electricor seedif it at once, but the inspector do'vednot.
 >
 > Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeion. His repair, however, beed gooder than his teachoress's. The new oven selfclean, autostart and bake twofold the bread. It be waterproof and airproof, and it be beautifuler than the old one, although slightly noisefuler.
 >
@@ -780,7 +784,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 | Regular *do*, *say*, *be* | *does*, *said*, *is*, *was* → *do*, *sayed*, *be*, *beed* | `-ed`, no agreement; CE has no irregular verbs (§3.1) |
 | Verb slots | *had arrived*, *had malfunctioned*, *had chewed through*, *have ever built*, *has empowered* → *arrive'ved*, *misfunction'ved*, *transchew'ved*, *ever build've*, *bepower've* | perfect `-'ve`, past `-ed` (§3.1.1) |
 | Passive | *was forewarned*, *were interconnected*, *was broken*, *was impressed*, *are written* → *prewarnened*, *interconnectened*, *breakened*, *impressened*, *writen* | `-en` (§3.1.1) |
-| Stacked slots | *would have seen* → *see'veif* | `-'ve` + conditional `-if` (§3.1.1) |
+| Stacked slots | *would have seen* → *seedif* | past `-ed` + conditional `-if` (§3.1.1, P8) |
 | Slots on *be* and *do* | *has never been*, *had* (ellipsis), *had not*, *do not tighten* → *never be've*, *do'ved*, *do'vednot*, *overtightizenot* | §3.1.1 |
 | Regular comparison | *worse*, *better* → *bader*, *gooder* | `-er` (§3.1) |
 | Comparison of long words | *more carefully*, *more beautiful*, *most reliable* → *carefullyer*, *beautifuler*, *relyablest* | no *more* / *most* for degree (§3.1) |
@@ -814,7 +818,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 
 ### D.3 Comment
 
-The CE text has 12% fewer words. Before the verb slots (§3.1.1) it had 8% fewer (330 words). The savings come from phrases that become one word (*orderands*, *graduateure*, *transocean*, *overtightizenot*, *doorward*, *see'veif*). The cost is in narrative verbs: almost every sentence has a regularized past form or a slot suffix. *comed*, *she say* with no `-s`, and the stacked slots (*see'veif*, *do'vednot*) are the CE forms that look strangest to a native reader.
+The CE text has 12% fewer words. Before the verb slots (§3.1.1) it had 8% fewer (330 words). The savings come from phrases that become one word (*orderands*, *graduateure*, *transocean*, *overtightizenot*, *doorward*, *seedif*). The cost is in narrative verbs: almost every sentence has a regularized past form or a slot suffix. *comed*, *she say* with no `-s`, and the stacked slots (*seedif*, *do'vednot*) are the CE forms that look strangest to a native reader.
 
 *impressened but beed doubtful* splits one *was* into two: `-en` needs a participle, and *doubtful* is an adjective, so it takes *beed*.
 
@@ -830,7 +834,7 @@ This is the passage from Appendix D, translated again with the biological affixe
 
 > Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speak fluent Englandese and Netherlandese. She arrive'ved after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, prewarnened of thons' arrivement. She telled thons that her oven bimisfunction'ved that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
 >
-> The engineoress examined the machineage carefullyer than the governorage's inspector do'ved. The subfloor wires interconnectened, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and overtightizenot the screws." She finded that the eighth fuse breakened and that mouses transchew'ved the insulatement. A skilled electricor see'veif it at once, but the inspector do'vednot.
+> The engineoress examined the machineage carefullyer than the governorage's inspector do'ved. The subfloor wires interconnectened, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and overtightizenot the screws." She finded that the eighth fuse breakened and that mouses transchew'ved the insulatement. A skilled electricor seedif it at once, but the inspector do'vednot.
 >
 > Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeion. His repair, however, beed gooder than his teachoress's. The neooven selfclean, autostart and bake twofold the bread. It be waterproof and airproof, and it be beautifuler than the old one, although slightly noisefuler.
 >
@@ -854,8 +858,8 @@ This is the passage from Appendix D, translated again with the biological affixe
 | Version | Words | Characters |
 |---|---|---|
 | Standard English (D.1) | 359 | 2158 |
-| CE (D.1) | 315 | 2096 |
-| CE with §3.8 (E.1) | 305 | 2077 |
+| CE (D.1) | 315 | 2094 |
+| CE with §3.8 (E.1) | 305 | 2075 |
 
 ### E.4 Comment
 
