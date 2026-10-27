@@ -64,17 +64,19 @@ Notes:
 
 #### 3.1.1 Verb slots
 
-Thirteen suffixes replace auxiliary verbs and question tags. Each slot is used once at most. `-end` and `-can` share slot 2, and `-said`, `-may`, `-seem` and `-sure` share slot 8, so a verb takes only one suffix from each of these slots.
+Fifteen suffixes replace auxiliary verbs and question tags. Each slot is used once at most. `-end`, `-best` and `-can` share slot 2, `-ed` and `-if` share slot 6, and `-said`, `-may`, `-seem` and `-sure` share slot 8, so a verb takes only one suffix from each of these slots.
 
 | Slot | Affix | IPA | Term | Replaces | Anchor word | Example |
 |---|---|---|---|---|---|---|
 | 1 | `-en` | /ən/ | passive voice | *be* + past participle | *chosen*, *taken* | *choosen* (is chosen) |
 | 2 | `-end` | /ɛnd/ | deontic mood | *shall*, *must* | *reverend* | *choosend* (shall choose) |
+| 2 | `-best` | /bɛst/ | advisory mood (weak obligation) | *should* (advice), *ought to*, *had better* | *you'd best* | *choosebest* (should choose) |
 | 2 | `-can` | /kæn/ | ability or permission | *can*, *be able to*, *may* (permission) | *cannot* | *choosecan* (can choose) |
 | 3 | `-'ve` | /(ə)v/ | perfect aspect | *have* + past participle | *I've* | *choose've* (has chosen) |
 | 4 | `-ing` | /ɪŋ/ | progressive aspect | *be* + `-ing` | *running* | *chooseing* (is choosing) |
 | 5 | `-'ll` | /(ə)l/ | future tense | *will* | *he'll* | *choose'll* (will choose) |
-| 6 | `-ed` | /t/, /d/, /ɪd/ | past or hypothetical; stacks on slots 1–5 | *had*, *would*, *could* | *walked* | *choose'ved* (had chosen), *choose'lled* (would choose), *choosecaned* (could choose) |
+| 6 | `-ed` | /t/, /d/, /ɪd/ | past tense; stacks on slots 1–5 | *had*, *was able to*, *would* (past of *will*) | *walked* | *choose'ved* (had chosen), *choosecaned* (was able to choose), *choose'lled* (*he sayed he choose'lled*: he said he would choose) |
+| 6 | `-if` | /ɪf/ | conditional mood (irrealis) | *would*, *could*, *might* (imagined, not real) | *if* | *chooseif* (would choose), *choosecanif* (could choose) |
 | 7 | `-not` | /nɒt/ | negation | *do not*, *not* | *cannot* | *choosenot* (does not choose) |
 | 8 | `-said` | /sɛd/ | reportive evidential | *reportedly*, *allegedly*, *is said to*, *it is said that* | *aforesaid* | *choosesaid* (reportedly chooses) |
 | 8 | `-may` | /meɪ/ | epistemic possibility | *may*, *might*, *maybe*, *possibly* | — | *choosemay* (may choose), *choosedmay* (may have chosen) |
@@ -88,7 +90,7 @@ Thirteen suffixes replace auxiliary verbs and question tags. Each slot is used o
 | *choosen've* | choose + en + 've | has been chosen |
 | *choosen'll* | choose + en + 'll | will be chosen |
 | *choose've'll* | choose + 've + 'll | will have chosen |
-| *choose've'lled* | choose + 've + 'll + ed | would have chosen |
+| *choose'veif* | choose + 've + if | would have chosen |
 | *chooseinged* | choose + ing + ed | was choosing |
 | *chooseing'll* | choose + ing + 'll | will be choosing |
 | *choose'veing* | choose + 've + ing | has been choosing |
@@ -96,14 +98,19 @@ Thirteen suffixes replace auxiliary verbs and question tags. Each slot is used o
 | *chooseingnot* | choose + ing + not | is not choosing |
 | *choosednot* | choose + ed + not | did not choose |
 | *choosenend'llnot* | choose + en + end + 'll + not | will not have to be chosen |
+| *choosebest* | choose + best | should choose |
+| *choosebestnot* | choose + best + not | should not choose |
+| *choosebest've* | choose + best + 've | should have chosen |
 | *choosecannot* | choose + can + not | cannot choose |
-| *choosencaned* | choose + en + can + ed | could be chosen |
+| *choosencaned* | choose + en + can + ed | was able to be chosen |
+| *choosencanif* | choose + en + can + if | could be chosen |
 | *choosecan'll* | choose + can + 'll | will be able to choose |
-| *choosecan'ved* | choose + can + 've + ed | could have chosen |
+| *choosecan'ved* | choose + can + 've + ed | had been able to choose |
+| *choosecan'veif* | choose + can + 've + if | could have chosen |
 | *choosenmay* | choose + en + may | may be chosen |
 | *choosedmay* | choose + ed + may | may have chosen, might have chosen |
 | *choosenotmay* | choose + not + may | may not choose (perhaps does not choose) |
-| *choose'lledmay* | choose + 'll + ed + may | might choose (if …) |
+| *chooseifmay* | choose + if + may | might choose (if …) |
 | *choosedseem* | choose + ed + seem | seems to have chosen |
 | *choosedsure* | choose + ed + sure | must have chosen |
 | *choosednotsure* | choose + ed + not + sure | cannot have chosen |
@@ -127,18 +134,23 @@ Notes:
 - *be* takes the slot suffixes like any other verb, also `-ing`: *being careful* (is being careful), *benot* (is not, are not), *be've* (has been), *be'll* (will be), *beend* (shall be). After *be*, `-ed` and `-end` keep their *e* (§4.2).
 - In an ellipsis, *do* carries the slots: *than the inspector do'ved* (than the inspector had), *but the inspector do'vednot* (but the inspector had not).
 - An imperative takes `-not` too: *overtightizenot the bolts* (do not tighten the bolts too much).
+- `-end` and `-best` are two steps of one scale: *testend* (shall test, is required to test) and *testbest* (should test, is advised to test). `-best` is not `-end` + `-ed`: *testended* means only "had to test" or "would have to test".
+- *should* as an expectation (*the train should come at five*) is an inference, so it uses `-seem` (slot 8): *the train comeseem at five*.
+- CE has no word *best* (the superlative of *good* is *goodest*, §3.1), so the suffix does not collide with a word.
 - `-can` means ability or permission: *the operateor opencan the valve* (is able to, or is allowed to). `-can` + `-not` gives the English spelling *cannot*.
 - `-may` means possibility only: *it rainmay tomorrow*. It does not mean permission (*you may go* → *you gocan*).
 - `-may` is the speaker's judgment about the whole claim, like `-said`, so it stands in slot 8, after tense and polarity. A past event is *choosedmay* (may have chosen), not *choose've* + *may*: English needs *have* only because *may* has no past form. A reported possibility and a possibility of one's own exclude each other.
-- CE has one degree of possibility: *might* and *may* are both `-may`. *might* in a conditional is *would* + `-may`: *if asked, she choose'lledmay* (if asked, she might choose).
+- CE has one degree of possibility: *might* and *may* are both `-may`. *might* in a conditional is `-if` + `-may`: *if asked, she chooseifmay* (if asked, she might choose).
 - `-seem` and `-sure` mean that the speaker inferred the claim from evidence. They did not see it and did not hear it from others. `-seem` is weak (it looks so); `-sure` is strong (no other explanation fits): *the lights be off; thons go'veseem home* / *thons goedsure home*.
 - `-sure` replaces *must* only as a conclusion. *must* as an obligation uses `-end`. English *must* has both meanings, so CE uses neither *must* nor a suffix made from it.
 - The verb *seem* is not used. *be* + `-seem` replaces it: *she beseem tired* (she seems tired). *beseem* collides with an old English word (§5).
 - `-seem` and `-sure` after a base that ends in *s* lose their *s*, to prevent a triple letter (§4.2): *pass* → *passeem*, *passure*. *passure* collides with `-ure` (§5).
-- `-ed` on `-'ll` and `-can` is often hypothetical, not past: *choose'lled* (would choose), *choosecaned* (could choose).
+- `-ed` is only the past. An imagined or unreal action uses `-if`: *if she have time, she chooseif* (she would choose), *she choosecanif* (she could choose). English uses its past forms for both meanings; CE does not.
+- `-'ll` + `-ed` is the real past of *will*, as in reported speech: *Reyes sayed that thons increase'llednot taxes* (that they would not raise taxes). A condition uses `-if`.
+- `-ed` and `-if` share slot 6, so they exclude each other. An unreal past uses `-'ve` + `-if`: *choose'veif* (would have chosen).
+- `-if` follows §4.2 like any suffix that starts with a vowel: *lawize* → *lawizif*. *if* stays a word (a conjunction), so the suffix shares its form with a word.
 - `-can` and `-may` start with a consonant, so §4.2 never changes them: *makecan*, *seemay*.
 - `-can` can take `-'ll` and `-'ve`, which English *can* cannot: *choosecan'll* (will be able to choose). English uses *be able to* there.
-- *choosecan'ved* is ambiguous: "could have chosen" (counterfactual) or "had been able to choose" (past fact). Context decides.
 - `-able` and `-can` are different. `-able` makes an adjective: *seeable*. `-can` makes a verb: *these problems seencannot easyly*.
 - `-said` means that the speaker heard the claim from others and does not vouch for it. It does not name the source. When the text names who said it, use *say*: *Reyes sayed that …*. CE has no word *said* (the past of *say* is *sayed*), so the suffix does not collide with a word.
 - `-said` after a base that ends in *s* loses its *s*, to prevent a triple letter (§4.2): *pass* → *passaid*.
@@ -578,10 +590,10 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q4.** (Closed.) `-ment` covered the act and its result. It now names only the act, and the result uses `-ion` (§3.2).
 - **Q5.** (Closed.) `-or` covered agents and instruments. These are different thematic roles, so the instrument now uses `-el` (§3.2): *cutel*, *openel*. The line between them is the role, not the difference between persons and things: a thermostat is a *regulateor*. `-ee`, `-and` and `-ure` still cover persons and things.
 - **Q6.** (Closed.) Plural place names made awkward language names (*Netherlandsese*). A plural place name now uses its singular form as the base (§3.4.2): *Netherlandese*, *Philippinese*.
-- **Q7.** (Partly closed.) *will*, *shall*, *must*, *would*, *had*, *can*, *could*, *may* and *might* are now verb slots (§3.1.1). Still open: *should* (weak obligation).
+- **Q7.** (Closed.) *will*, *shall*, *must*, *would*, *had*, *can*, *could*, *may* and *might* are now verb slots (§3.1.1). *should* is `-best` (advice) or `-seem` (expectation).
 - **Q8.** (Closed.) `-ee` covered three thematic roles: patient (*employee*), recipient (*payee*) and agent (*escapee*). `-ee` now means only the direct object. The recipient uses `-ary`, and the agent uses `-or` (§3.2).
 - **Q9.** (Partly closed.) The progressive (*be* + `-ing`) is now slot 4, `-ing` (§3.1.1): *voteinged* (was voting), *voteing'll* (will be voting). Still open: its order next to `-'ve`. The table puts it after (*vote'veing*, has been voting), but scope order ("each suffix covers everything before it") would put it before (*voteing've*).
-- **Q10.** Is a stack of four slot suffixes acceptable? Example: *passen've'lled* (would have been passed).
+- **Q10.** Is a stack of four slot suffixes acceptable? Example: *passen'veifnot* (would not have been passed).
 - **Q11.** (Closed.) *be* + `-end` gave *bend* by §4.2. Now a suffix keeps its *e* after *be* (§4.2): *No Person beend a Representor* (G.4).
 - **Q12.** When two verbs share one set of auxiliaries, does each verb take the slots? Example: *shall not have attained … and been …* (G.4). Until this is decided, the text keeps the auxiliaries.
 - **Q13.** (Closed.) CE has two inferential evidentials next to the reportive `-said`: weak `-seem` and strong `-sure` (§3.1.1). Epistemic *must* uses `-sure`, and `-may` moved to slot 8 with them.
@@ -599,7 +611,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 
 **Consistentized Englandese**
 
-> Before you begin, sureize the machine deconnecten completely from the power supply. It be unpossible to safely inspect the electric components while the unit runing. The techniqueor who carryed out the last inspectment finded that several bolts looseizen'ved and two of the seals breakened. These problems benot easyly seeable, so you should check each joint carefully. If a seal be unuseable, replace it immediately. The replacement doenend by a qualifyed operateor.
+> Before you begin, sureize the machine deconnecten completely from the power supply. It be unpossible to safely inspect the electric components while the unit runing. The techniqueor who carryed out the last inspectment finded that several bolts looseizen'ved and two of the seals breakened. These problems benot easyly seeable, so you checkbest each joint carefully. If a seal be unuseable, replace it immediately. The replacement doenend by a qualifyed operateor.
 
 ### A.2 Changes
 
@@ -617,10 +629,11 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 | *is*, *are not* | *be*, *benot* | *be* is regular, and the verb does not agree (§3.1); `-not` (§3.1.1) |
 | *visible* | *seeable* | affix goes on the plain base (P4) |
 | *easily*, *carried*, *qualified* | *easyly*, *carryed*, *qualifyed* | the base never changes: no *y* → *i* (§4) |
+| *should check* | *checkbest* | advice `-best` (§3.1.1) |
 | *is running* | *runing* | progressive slot `-ing`, with no *be* (§3.1.1); the base never changes: no doubled consonant (§4) |
 | *electrical components* | *electric components* | *electric* is a base noun (P4), so this is a noun compound (§3.7); the adjective would be *electrical* (electric + `-al`) |
 
-The auxiliary verbs become verb slots (§3.1.1): *must be done* becomes one word, *doenend*, and it stays passive. The rest of the sentence structure does not change: *carried out* stays a phrasal verb. One form stays open: the modal *should* (Q7).
+The auxiliary verbs become verb slots (§3.1.1): *must be done* becomes one word, *doenend*, and it stays passive. The rest of the sentence structure does not change: *carried out* stays a phrasal verb. *should check* becomes *checkbest*.
 
 ### A.3 One base, all forms
 
@@ -717,7 +730,7 @@ The country and the people in this text are not real.
 | *governorage* | govern + or + age | *government* | all who govern, as a group (§6) |
 | *partys*, *protestors* | party + s, protest + or + s | *parties*, *protesters* | |
 | *sayed*, *meeted* | say + ed, meet + ed | *said*, *gathered* | regular past (§3.1) |
-| *increase'llednot* | increase + 'll + ed + not | *would not raise* | `-'ll` + `-ed` is *would* (§3.1.1) |
+| *increase'llednot* | increase + 'll + ed + not | *would not raise* | reported speech, so the real past of *will* (`-'ll` + `-ed`), not the conditional `-if` (§3.1.1) |
 | *thons'* | thon + s + ' | *their* | plural of *thon* (§3.9) |
 | *Archminister* | arch + minister | *Prime Minister* | the chief minister (§3.4.1); a title is not exempt (P6) |
 | *parliament* | — | no change | base word |
@@ -750,7 +763,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 
 > Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speak fluent Englandese and Netherlandese. She arrive'ved after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, prewarnened of thons' arrivement. She telled thons that her oven misfunction'ved twice that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
 >
-> The engineoress examined the machineage carefullyer than the governorage's inspector do'ved. The subfloor wires interconnectened, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and overtightizenot the screws." She finded that the eighth fuse breakened and that mouses transchew'ved the insulatement. A skilled electricor see've'lled it at once, but the inspector do'vednot.
+> The engineoress examined the machineage carefullyer than the governorage's inspector do'ved. The subfloor wires interconnectened, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and overtightizenot the screws." She finded that the eighth fuse breakened and that mouses transchew'ved the insulatement. A skilled electricor see'veif it at once, but the inspector do'vednot.
 >
 > Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeion. His repair, however, beed gooder than his teachoress's. The new oven selfclean, autostart and bake twofold the bread. It be waterproof and airproof, and it be beautifuler than the old one, although slightly noisefuler.
 >
@@ -767,7 +780,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 | Regular *do*, *say*, *be* | *does*, *said*, *is*, *was* → *do*, *sayed*, *be*, *beed* | `-ed`, no agreement; CE has no irregular verbs (§3.1) |
 | Verb slots | *had arrived*, *had malfunctioned*, *had chewed through*, *have ever built*, *has empowered* → *arrive'ved*, *misfunction'ved*, *transchew'ved*, *ever build've*, *bepower've* | perfect `-'ve`, past `-ed` (§3.1.1) |
 | Passive | *was forewarned*, *were interconnected*, *was broken*, *was impressed*, *are written* → *prewarnened*, *interconnectened*, *breakened*, *impressened*, *writen* | `-en` (§3.1.1) |
-| Stacked slots | *would have seen* → *see've'lled* | `-'ve` + `-'ll` + `-ed` (§3.1.1) |
+| Stacked slots | *would have seen* → *see'veif* | `-'ve` + conditional `-if` (§3.1.1) |
 | Slots on *be* and *do* | *has never been*, *had* (ellipsis), *had not*, *do not tighten* → *never be've*, *do'ved*, *do'vednot*, *overtightizenot* | §3.1.1 |
 | Regular comparison | *worse*, *better* → *bader*, *gooder* | `-er` (§3.1) |
 | Comparison of long words | *more carefully*, *more beautiful*, *most reliable* → *carefullyer*, *beautifuler*, *relyablest* | no *more* / *most* for degree (§3.1) |
@@ -801,7 +814,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 
 ### D.3 Comment
 
-The CE text has 12% fewer words. Before the verb slots (§3.1.1) it had 8% fewer (330 words). The savings come from phrases that become one word (*orderands*, *graduateure*, *transocean*, *overtightizenot*, *doorward*, *see've'lled*). The cost is in narrative verbs: almost every sentence has a regularized past form or a slot suffix. *comed*, *she say* with no `-s`, and the stacked slots (*see've'lled*, *do'vednot*) are the CE forms that look strangest to a native reader.
+The CE text has 12% fewer words. Before the verb slots (§3.1.1) it had 8% fewer (330 words). The savings come from phrases that become one word (*orderands*, *graduateure*, *transocean*, *overtightizenot*, *doorward*, *see'veif*). The cost is in narrative verbs: almost every sentence has a regularized past form or a slot suffix. *comed*, *she say* with no `-s`, and the stacked slots (*see'veif*, *do'vednot*) are the CE forms that look strangest to a native reader.
 
 *impressened but beed doubtful* splits one *was* into two: `-en` needs a participle, and *doubtful* is an adjective, so it takes *beed*.
 
@@ -817,7 +830,7 @@ This is the passage from Appendix D, translated again with the biological affixe
 
 > Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speak fluent Englandese and Netherlandese. She arrive'ved after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, prewarnened of thons' arrivement. She telled thons that her oven bimisfunction'ved that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
 >
-> The engineoress examined the machineage carefullyer than the governorage's inspector do'ved. The subfloor wires interconnectened, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and overtightizenot the screws." She finded that the eighth fuse breakened and that mouses transchew'ved the insulatement. A skilled electricor see've'lled it at once, but the inspector do'vednot.
+> The engineoress examined the machineage carefullyer than the governorage's inspector do'ved. The subfloor wires interconnectened, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and overtightizenot the screws." She finded that the eighth fuse breakened and that mouses transchew'ved the insulatement. A skilled electricor see'veif it at once, but the inspector do'vednot.
 >
 > Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeion. His repair, however, beed gooder than his teachoress's. The neooven selfclean, autostart and bake twofold the bread. It be waterproof and airproof, and it be beautifuler than the old one, although slightly noisefuler.
 >
@@ -841,8 +854,8 @@ This is the passage from Appendix D, translated again with the biological affixe
 | Version | Words | Characters |
 |---|---|---|
 | Standard English (D.1) | 359 | 2158 |
-| CE (D.1) | 315 | 2099 |
-| CE with §3.8 (E.1) | 305 | 2080 |
+| CE (D.1) | 315 | 2096 |
+| CE with §3.8 (E.1) | 305 | 2077 |
 
 ### E.4 Comment
 
@@ -864,9 +877,9 @@ These translations use only the rules above. They are a baseline: when a new aff
 
 > All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.
 
-**Consistentized Englandese** (23 words)
+**Consistentized Englandese** (22 words)
 
-> All human bements bearen free and equal in worthyness and rights. Thons bereasonen and beconsciencen and should interact in a spirit of brotherness.
+> All human bements bearen free and equal in worthyness and rights. Thons bereasonen and beconsciencen and interactbest in a spirit of brotherness.
 
 #### F.1.2 Word breakdown
 
@@ -877,9 +890,8 @@ These translations use only the rules above. They are a baseline: when a new aff
 | *worthyness* | worthy + ness | *dignity* | `-ness` replaces `-ity` (§3.2); *dignity* has no plain English base (P4) |
 | *bereasonen*, *beconsciencen* | be + reason + en, be + conscience + en | *are endowed with reason and conscience* | `be-` means "give X" (§3.4.1); passive (§3.1.1); `-en` drops its *e* after *conscience* (§4.2) |
 | *Thons* | thon + s | *They* | plural of *thon* (§3.9) |
-| *interact* | inter + act | *act towards one another* | reciprocal `inter-` (§3.4.1) |
 | *brotherness* | brother + ness | *brotherhood* | `-ness` replaces `-hood` (§3.2) |
-| *should* | — | no change | modal (Q7) |
+| *interactbest* | inter + act + best | *should act towards one another* | reciprocal `inter-` (§3.4.1); advice `-best` (§3.1.1) |
 
 #### F.1.3 Size
 
@@ -887,7 +899,7 @@ These translations use only the rules above. They are a baseline: when a new aff
 |---|---|---|
 | Standard English | 30 | 170 |
 | CE before §3.1.1 | 25 | 155 |
-| CE | 23 | 148 |
+| CE | 22 | 145 |
 
 #### F.1.4 Gaps
 
@@ -895,7 +907,7 @@ These translations use only the rules above. They are a baseline: when a new aff
 - *bearen* breaks P1: *bear* is also an animal. This is a dictionary problem, not an affix problem.
 - *dignity* has no plain base, so *worthyness* changes the meaning a little.
 - *brother* has no `-ess`, so by §3.4.2 it means a male or a person of unknown sex. *brotherness* therefore includes sisters. *sister* becomes *brotheress*.
-- The verb slots save 2 words: *are born* and *are endowed* each become one word. *should* stays (Q7).
+- The verb slots save 3 words: *are born* and *are endowed* each become one word, and *should act* becomes *interactbest*.
 
 ### F.2 Article 2
 
@@ -1360,4 +1372,4 @@ This is an invented abstract in the style of a materials science paper. Research
 - The verb slots save 16 words. Every sentence has a passive or a modal verb, so this text gains more from §3.1.1 than any baseline text except G.5.
 - *detectencanednot* stacks four slot suffixes (Q10). Results sections often need forms this long.
 - *reduce*, *detect*, *explain* and *effect* are Latin loans, but they are common and easy to guess, so they stay (P4). *corrosion* and *permeability* are technical terms. CE rebuilds technical terms like any other word and does not keep the established form.
-- The text avoids *should* (Q7), which research writing often uses: *it should be noted*. The progressive is now a slot (§3.1.1): *the samples are being tested* would be *the samples testening*.
+- The text avoids *should*, which research writing often uses: *it should be noted* would be *notenbest*. The progressive is now a slot (§3.1.1): *the samples are being tested* would be *the samples testening*.
