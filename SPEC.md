@@ -213,7 +213,7 @@ In standard English, many affixes work only with some words. For example, *-hood
 | Too little | `under-` | /ˈʌndə(r)/ | deficient | verb, adj | hypo- | *undercook*, *underfill* |
 | Below | `sub-` | /sʌb/ | subessive | noun | under- (in this meaning), infra- | *subground* (*underground*), *subline* (*underline*), *subgroup* |
 | Above | `super-` | /ˈsuːpə(r)/ | supraessive | noun | over- (in this meaning), supra- | *superhead* (*overhead*), *superpass* (*overpass*) |
-| Chief, main (the first or highest of its kind) | `arch-` | /ɑː(r)tʃ/ | — | noun | *chief* / *main* / *head* + noun | *archbishop*, *archenemy* (main enemy), *archelectand* (main candidate), *archteachor* (head teacher), *archroad* (main road) |
+| Chief, main (the first or highest of its kind) | `arch-` | /ɑː(r)tʃ/ | — | noun | *chief* / *main* / *head* / *prime* + noun | *archbishop*, *Archminister* (*Prime Minister*), *archenemy* (main enemy), *archelectand* (main candidate), *archteachor* (head teacher), *archroad* (main road) |
 | Before (time) | `pre-` | /priː/ | anterior | noun, verb | fore-, ante- | *prewarn* (*forewarn*), *preroom* (*anteroom*), *prewash* |
 | After (time) | `post-` | /pəʊst/ | posterior | noun, verb | after- | *postshock* (*aftershock*), *postwash* |
 | Between; each other (reciprocal) | `inter-` | /ˈɪntə(r)/ | interessive; reciprocal | noun, verb | *each other*, *one another* | *intercity*, *interconnect* (connect to each other), *interhelp* (help each other) |
@@ -684,9 +684,9 @@ The country and the people in this text are not real.
 
 > Velmora's Prime Minister Ana Reyes narrowly survived a no-confidence vote on Tuesday, two weeks before the general election. The opposition, led by former finance minister Tomas Bell, accused the government of corruption and of underfunding public hospitals. Reyes's popularity is now at its lowest level since 2022. Reyes promised an anti-corruption law and said that the coalition would not raise taxes. Thousands of protesters gathered outside parliament. Analysts said that the result is unforeseeable. Most of the electorate is still undecided, and both candidates are less trusted than their parties.
 
-**Consistentized Englandese** (84 words)
+**Consistentized Englandese** (83 words)
 
-> Velmora's Prime Minister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electment. The opposeors, under exfinance-minister Tomas Bell, accused the governorage of corruptment and of underfunding public hospitals. Reyes's popularness bes now at its lowest since 2022. Reyes promised an anticorruptment law and sayed that the cogovernorage increase'llednot taxes. Thousands of protestors meeted outside the parliament. Analyzeors sayed that the result bes unpreseeable. Most of the voteorage bes still undecided, and both electands be untrustabler than thons' partys.
+> Velmora's Archminister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electment. The opposeors, under exfinance-minister Tomas Bell, accused the governorage of corruptment and of underfunding public hospitals. Reyes's popularness bes now at its lowest since 2022. Reyes promised an anticorruptment law and sayed that the cogovernorage increase'llednot taxes. Thousands of protestors meeted outside the parliament. Analyzeors sayed that the result bes unpreseeable. Most of the voteorage bes still undecided, and both electands be untrustabler than thons' partys.
 
 ### C.2 Word breakdown
 
@@ -706,11 +706,12 @@ The country and the people in this text are not real.
 | *sayed*, *meeted* | say + ed, meet + ed | *said*, *gathered* | regular past (§3.1) |
 | *increase'llednot* | increase + 'll + ed + not | *would not raise* | `-'ll` + `-ed` is *would* (§3.1.1) |
 | *thons'* | thon + s + ' | *their* | plural of *thon* (§3.9) |
-| *Prime Minister*, *parliament* | — | no change | base words |
+| *Archminister* | arch + minister | *Prime Minister* | the chief minister (§3.4.1); a title is not exempt (P6) |
+| *parliament* | — | no change | base word |
 
 ### C.3 Comment
 
-The CE text has only 7% fewer words, and 3 of the 6 words come from one verb (*would not raise* → *increase'llednot*). News text uses many nouns and names, and few relative clauses (*that cannot be …*), so agglutination saves less than in technical text (Appendix B). The benefit here is transparency: a reader can take apart each CE word to find its meaning.
+The CE text has only 8% fewer words, and 3 of the 7 words come from one verb (*would not raise* → *increase'llednot*). News text uses many nouns and names, and few relative clauses (*that cannot be …*), so agglutination saves less than in technical text (Appendix B). The benefit here is transparency: a reader can take apart each CE word to find its meaning.
 
 The text names each speaker (*Reyes sayed*, *Analyzeors sayed*), so it does not use the evidential `-said` (§3.1.1). A news text with an unnamed source would: *The minister takedsaid bribes* (the minister reportedly took bribes).
 
