@@ -73,8 +73,8 @@ Fifteen suffixes replace auxiliary verbs and question tags. Each slot is used on
 | 2 | `-end` | /ɛnd/ | deontic mood | *shall*, *must* | *reverend* | *choosend* (shall choose) |
 | 2 | `-best` | /bɛst/ | advisory mood (weak obligation) | *should* (advice), *ought to*, *had better* | *you'd best* | *choosebest* (should choose) |
 | 2 | `-can` | /kæn/ | ability or permission | *can*, *be able to*, *may* (permission) | *cannot* | *choosecan* (can choose) |
-| 3 | `-'ve` | /(ə)v/ | perfect aspect | *have* + past participle | *I've* | *choose've* (has chosen) |
-| 4 | `-ing` | /ɪŋ/ | progressive aspect | *be* + `-ing` | *running* | *chooseing* (is choosing) |
+| 3 | `-ing` | /ɪŋ/ | progressive aspect | *be* + `-ing` | *running* | *chooseing* (is choosing) |
+| 4 | `-'ve` | /(ə)v/ | perfect aspect | *have* + past participle | *I've* | *choose've* (has chosen) |
 | 5 | `-'ll` | /(ə)l/ | future tense | *will* | *he'll* | *choose'll* (will choose) |
 | 6 | `-ed` | /t/, /d/, /ɪd/ | past tense; stacks on slots 1–5 | *had*, *was able to*, *would* (past of *will*) | *walked* | *choose'ved* (had chosen), *choosecaned* (was able to choose), *choose'lled* (*he sayed he choose'lled*: he said he would choose) |
 | 7 | `-if` | /ɪf/ | conditional mood (irrealis) | *would*, *could*, *might* (imagined, not real) | *if* | *chooseif* (would choose), *choosecanif* (could choose), *choosedif* (would have chosen) |
@@ -95,7 +95,8 @@ Fifteen suffixes replace auxiliary verbs and question tags. Each slot is used on
 | *choosedifmay* | choose + ed + if + may | might have chosen (if …) |
 | *chooseinged* | choose + ing + ed | was choosing |
 | *chooseing'll* | choose + ing + 'll | will be choosing |
-| *choose'veing* | choose + 've + ing | has been choosing |
+| *chooseing've* | choose + ing + 've | has been choosing |
+| *chooseing'ved* | choose + ing + 've + ed | had been choosing |
 | *choosening* | choose + en + ing | is being chosen |
 | *chooseingnot* | choose + ing + not | is not choosing |
 | *choosednot* | choose + ed + not | did not choose |
@@ -124,14 +125,15 @@ Fifteen suffixes replace auxiliary verbs and question tags. Each slot is used on
 | *choosedsaideh* | choose + ed + said + eh | reportedly chose, didn't he? |
 
 Notes:
-- Stack in slot order: voice, then mood (obligation, ability), perfect, progressive, tense, conditional, polarity, stance (evidence or possibility), tag. The order is also the scope: each suffix covers everything before it. *choosednotsaid* is "it is said that he did not choose". *choosednotmay* is "it is possible that he did not choose".
+- Stack in slot order: voice, then mood (obligation, ability), progressive, perfect, tense, conditional, polarity, stance (evidence or possibility), tag. The order is also the scope: each suffix covers everything before it. *choosednotsaid* is "it is said that he did not choose". *choosednotmay* is "it is possible that he did not choose".
 - `-en` and `-end` drop their *e* after a base that ends in *e*: *choosen*, *choosend* (§4.2).
 - `-'ve` and `-'ll` keep the apostrophe, so that letters do not run together: *call'll*, not *callll*. They and `-'all` (§3.1) are the only affixes with an apostrophe. `-ed` after `-'ve` drops its *e* (§4.2): *choose'ved*.
 - `-not` is used, not `-n't`, because *choosen't* (does not choose) and *choosend* (shall choose) are almost the same in speech.
 - The slot suffixes are inflectional. They do not count for U2 (§3.6).
 - *shall* as a plain future (*I shall go*) uses `-'ll`, not `-end`.
 - `-en` replaces every *be* + past participle, also when the participle names a state: *the fuse breakened* (the fuse was broken). English has the same ambiguity. The `-ed` participle stays only next to a noun, with no *be*: *the choosed members*, *Members choosed every Year*.
-- `-ing` replaces *be* + `-ing`: *the people voteing* (the people are voting), *voteinged* (was voting), *voteing'll* (will be voting), *vote'veing* (has been voting). The base never changes (§4.3): *voteing*, not *voting*. The place of `-ing` after `-'ve` is not final (Q9).
+- `-ing` replaces *be* + `-ing`: *the people voteing* (the people are voting), *voteinged* (was voting), *voteing'll* (will be voting), *voteing've* (has been voting). The base never changes (§4.3): *voteing*, not *voting*.
+- `-ing` comes before `-'ve` because of scope (P8): *has been voting* is the perfect of a progressive ("a voting that started before now and still goes on"), so `-'ve` covers `-ing`: *voteing've*. *vote'veing* is not a CE form.
 - With no *be*, a clause and a noun phrase can look the same: *the people voteing* is "the people are voting" or "the people who are voting". CE accepts this on purpose, as with *Members choosed every Year*. Context decides.
 - *be* takes the slot suffixes like any other verb, also `-ing`: *being careful* (is being careful), *benot* (is not, are not), *be've* (has been), *be'll* (will be), *beend* (shall be). After *be*, `-ed` and `-end` keep their *e* (§4.2).
 - In an ellipsis, *do* carries the slots: *than the inspector do'ved* (than the inspector had), *but the inspector do'vednot* (but the inspector had not).
@@ -596,7 +598,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q6.** (Closed.) Plural place names made awkward language names (*Netherlandsese*). A plural place name now uses its singular form as the base (§3.4.2): *Netherlandese*, *Philippinese*.
 - **Q7.** (Closed.) *will*, *shall*, *must*, *would*, *had*, *can*, *could*, *may* and *might* are now verb slots (§3.1.1). *should* is `-best` (advice) or `-seem` (expectation).
 - **Q8.** (Closed.) `-ee` covered three thematic roles: patient (*employee*), recipient (*payee*) and agent (*escapee*). `-ee` now means only the direct object. The recipient uses `-ary`, and the agent uses `-or` (§3.2).
-- **Q9.** (Partly closed.) The progressive (*be* + `-ing`) is now slot 4, `-ing` (§3.1.1): *voteinged* (was voting), *voteing'll* (will be voting). Still open: its order next to `-'ve`. The table puts it after (*vote'veing*, has been voting), but scope order ("each suffix covers everything before it") would put it before (*voteing've*).
+- **Q9.** (Closed.) The progressive (*be* + `-ing`) is slot 3, `-ing` (§3.1.1): *voteinged* (was voting), *voteing'll* (will be voting). It comes before the perfect `-'ve` (slot 4), by scope order (P8): *voteing've* (has been voting).
 - **Q10.** Is a stack of four slot suffixes acceptable? Example: *passenedifnot* (would not have been passed).
 - **Q11.** (Closed.) *be* + `-end` gave *bend* by §4.2. Now a suffix keeps its *e* after *be* (§4.2): *No Person beend a Representor* (G.4).
 - **Q12.** When two verbs share one set of auxiliaries, does each verb take the slots? Example: *shall not have attained … and been …* (G.4). Until this is decided, the text keeps the auxiliaries.
