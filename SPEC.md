@@ -65,16 +65,16 @@ Notes:
 
 #### 3.1.1 Verb slots
 
-Fifteen suffixes replace auxiliary verbs and question tags. Each slot is used once at most. `-end`, `-best` and `-can` share slot 2, and `-said`, `-may`, `-seem` and `-sure` share slot 9, so a verb takes only one suffix from each of these slots.
+Fifteen suffixes replace auxiliary verbs and question tags. Each slot is used once at most. `-end`, `-best` and `-can` share slot 4, and `-said`, `-may`, `-seem` and `-sure` share slot 9, so a verb takes only one suffix from each of these slots.
 
 | Slot | Affix | IPA | Term | Replaces | Anchor word | Example |
 |---|---|---|---|---|---|---|
 | 1 | `-en` | /ən/ | passive voice | *be* + past participle | *chosen*, *taken* | *choosen* (is chosen) |
-| 2 | `-end` | /ɛnd/ | deontic mood | *shall*, *must* | *reverend* | *choosend* (shall choose) |
-| 2 | `-best` | /bɛst/ | advisory mood (weak obligation) | *should* (advice), *ought to*, *had better* | *you'd best* | *choosebest* (should choose) |
-| 2 | `-can` | /kæn/ | ability or permission | *can*, *be able to*, *may* (permission) | *cannot* | *choosecan* (can choose) |
-| 3 | `-ing` | /ɪŋ/ | progressive aspect | *be* + `-ing` | *running* | *chooseing* (is choosing) |
-| 4 | `-'ve` | /(ə)v/ | perfect aspect | *have* + past participle | *I've* | *choose've* (has chosen) |
+| 2 | `-ing` | /ɪŋ/ | progressive aspect | *be* + `-ing` | *running* | *chooseing* (is choosing) |
+| 3 | `-'ve` | /(ə)v/ | perfect aspect | *have* + past participle | *I've* | *choose've* (has chosen) |
+| 4 | `-end` | /ɛnd/ | deontic mood | *shall*, *must* | *reverend* | *choosend* (shall choose) |
+| 4 | `-best` | /bɛst/ | advisory mood (weak obligation) | *should* (advice), *ought to*, *had better* | *you'd best* | *choosebest* (should choose) |
+| 4 | `-can` | /kæn/ | ability or permission | *can*, *be able to*, *may* (permission) | *cannot* | *choosecan* (can choose) |
 | 5 | `-'ll` | /(ə)l/ | future tense | *will* | *he'll* | *choose'll* (will choose) |
 | 6 | `-ed` | /t/, /d/, /ɪd/ | past tense; stacks on slots 1–5 | *had*, *was able to*, *would* (past of *will*) | *walked* | *choose'ved* (had chosen), *choosecaned* (was able to choose), *choose'lled* (*he sayed he choose'lled*: he said he would choose) |
 | 7 | `-if` | /ɪf/ | conditional mood (irrealis) | *would*, *could*, *might* (imagined, not real) | *if* | *chooseif* (would choose), *choosecanif* (could choose), *choosedif* (would have chosen) |
@@ -104,11 +104,13 @@ Fifteen suffixes replace auxiliary verbs and question tags. Each slot is used on
 | *choosebest* | choose + best | should choose |
 | *choosebestnot* | choose + best + not | should not choose |
 | *choosebested* | choose + best + ed | should have chosen |
+| *chooseingend* | choose + ing + end | must be choosing (duty) |
+| *choose'vebest* | choose + 've + best | should have chosen by now |
+| *chooseingcan* | choose + ing + can | can be choosing |
 | *choosecannot* | choose + can + not | cannot choose |
 | *choosencaned* | choose + en + can + ed | was able to be chosen |
 | *choosencanif* | choose + en + can + if | could be chosen |
 | *choosecan'll* | choose + can + 'll | will be able to choose |
-| *choosecan'ved* | choose + can + 've + ed | had been able to choose |
 | *choosecanedif* | choose + can + ed + if | could have chosen |
 | *choosenmay* | choose + en + may | may be chosen |
 | *choosedmay* | choose + ed + may | may have chosen, might have chosen |
@@ -125,7 +127,7 @@ Fifteen suffixes replace auxiliary verbs and question tags. Each slot is used on
 | *choosedsaideh* | choose + ed + said + eh | reportedly chose, didn't he? |
 
 Notes:
-- Stack in slot order: voice, then mood (obligation, ability), progressive, perfect, tense, conditional, polarity, stance (evidence or possibility), tag. The order is also the scope: each suffix covers everything before it. *choosednotsaid* is "it is said that he did not choose". *choosednotmay* is "it is possible that he did not choose".
+- Stack in slot order: voice, then progressive, perfect, mood (obligation, advice, ability), tense, conditional, polarity, stance (evidence or possibility), tag. The order is also the scope: each suffix covers everything before it. *choosednotsaid* is "it is said that he did not choose". *choosednotmay* is "it is possible that he did not choose".
 - `-en` and `-end` drop their *e* after a base that ends in *e*: *choosen*, *choosend* (§4.2).
 - `-'ve` and `-'ll` keep the apostrophe, so that letters do not run together: *call'll*, not *callll*. They and `-'all` (§3.1) are the only affixes with an apostrophe. `-ed` after `-'ve` drops its *e* (§4.2): *choose'ved*.
 - `-not` is used, not `-n't`, because *choosen't* (does not choose) and *choosend* (shall choose) are almost the same in speech.
@@ -152,11 +154,12 @@ Notes:
 - `-ed` is only the past. An imagined or unreal action uses `-if`: *if she have time, she chooseif* (she would choose), *she choosecanif* (she could choose). English uses its past forms for both meanings; CE does not.
 - `-'ll` + `-ed` is the real past of *will*, as in reported speech: *Reyes sayed that thons increase'llednot taxes* (that they would not raise taxes). A condition uses `-if`.
 - `-if` comes after `-ed`, so an unreal past is `-ed` + `-if`: *choosedif* (would have chosen), *choosecanedif* (could have chosen), *passenedif* (would have been passed).
-- `-'ve` is only the perfect aspect: the event comes before the reference time, and its result still holds at that time. *I lose've my keys* (they are still lost); *choose'ved* (had chosen: before a past time); *choose've'll* (will have chosen). `-'ve` never marks a plain past. A past after a mood suffix uses `-ed` (P8): *choosebested* (should have chosen), not *choosebest've*; *choosedif* (would have chosen), not *choose'veif*.
+- `-'ve` is only the perfect aspect: the event comes before the reference time, and its result still holds at that time. *I lose've my keys* (they are still lost); *choose'ved* (had chosen: before a past time); *choose've'll* (will have chosen). `-'ve` never marks a plain past. A past after a mood suffix uses `-ed` (P8): *choosebested* (should have chosen, at a past time); *choose'vebest* is the perfect under the mood (should have chosen by now); *choosedif* (would have chosen), not *choose'veif*.
 - `-'ve` is optional where the result does not matter: *I losed my keys* is also correct. It is never required by another slot.
 - `-if` follows §4.2 like any suffix that starts with a vowel: *lawize* → *lawizif*. *if* stays a word (a conjunction), so the suffix shares its form with a word.
 - `-can` and `-may` start with a consonant, so §4.2 never changes them: *makecan*, *seemay*.
-- `-can` can take `-'ll` and `-'ve`, which English *can* cannot: *choosecan'll* (will be able to choose). English uses *be able to* there.
+- `-can` can take `-'ll`, which English *can* cannot: *choosecan'll* (will be able to choose). English uses *be able to* there.
+- Mood (slot 4) comes after the aspects, so a mood covers a progressive or a perfect (P8): *workingend* (must be working, as a duty), *finish'vebest* (should have finished by now), *waitingcan* (can be waiting). A must-be-working that is a conclusion uses `-sure`: *workingsure*. A perfect cannot cover a mood, so *has been able to* has no one-word form; use the plain mood with a time phrase: *I swimcan since I be five* (I have been able to swim since I was five).
 - `-able` and `-can` are different. `-able` makes an adjective: *seeable*. `-can` makes a verb: *these problems seencannot easyly*.
 - `-said` means that the speaker heard the claim from others and does not vouch for it. It does not name the source. When the text names who said it, use *say*: *Reyes sayed that …*. CE has no word *said* (the past of *say* is *sayed*), so the suffix does not collide with a word.
 - `-said` after a base that ends in *s* loses its *s*, to prevent a triple letter (§4.2): *pass* → *passaid*.
@@ -598,7 +601,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q6.** (Closed.) Plural place names made awkward language names (*Netherlandsese*). A plural place name now uses its singular form as the base (§3.4.2): *Netherlandese*, *Philippinese*.
 - **Q7.** (Closed.) *will*, *shall*, *must*, *would*, *had*, *can*, *could*, *may* and *might* are now verb slots (§3.1.1). *should* is `-best` (advice) or `-seem` (expectation).
 - **Q8.** (Closed.) `-ee` covered three thematic roles: patient (*employee*), recipient (*payee*) and agent (*escapee*). `-ee` now means only the direct object. The recipient uses `-ary`, and the agent uses `-or` (§3.2).
-- **Q9.** (Closed.) The progressive (*be* + `-ing`) is slot 3, `-ing` (§3.1.1): *voteinged* (was voting), *voteing'll* (will be voting). It comes before the perfect `-'ve` (slot 4), by scope order (P8): *voteing've* (has been voting).
+- **Q9.** (Closed.) The progressive (*be* + `-ing`) is slot 2, `-ing` (§3.1.1): *voteinged* (was voting), *voteing'll* (will be voting). It comes before the perfect `-'ve` (slot 3), by scope order (P8): *voteing've* (has been voting).
 - **Q10.** Is a stack of four slot suffixes acceptable? Example: *passenedifnot* (would not have been passed).
 - **Q11.** (Closed.) *be* + `-end` gave *bend* by §4.2. Now a suffix keeps its *e* after *be* (§4.2): *No Person beend a Representor* (G.4).
 - **Q12.** When two verbs share one set of auxiliaries, does each verb take the slots? Example: *shall not have attained … and been …* (G.4). Until this is decided, the text keeps the auxiliaries.
