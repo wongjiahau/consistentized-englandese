@@ -65,7 +65,7 @@ Notes:
 
 #### 3.1.1 Verb slots
 
-Fifteen suffixes replace auxiliary verbs and question tags. Each slot is used once at most. `-end`, `-best` and `-can` share slot 4, and `-said`, `-may`, `-seem` and `-sure` share slot 9, so a verb takes only one suffix from each of these slots.
+Sixteen suffixes replace auxiliary verbs and question tags. Each slot is used once at most. `-end`, `-best`, `-ok` and `-can` share slot 4, and `-said`, `-may`, `-seem` and `-sure` share slot 9, so a verb takes only one suffix from each of these slots.
 
 | Slot | Affix | IPA | Term | Replaces | Anchor word | Example |
 |---|---|---|---|---|---|---|
@@ -74,7 +74,8 @@ Fifteen suffixes replace auxiliary verbs and question tags. Each slot is used on
 | 3 | `-'ve` | /(ə)v/ | perfect aspect | *have* + past participle | *I've* | *choose've* (has chosen) |
 | 4 | `-end` | /ɛnd/ | deontic mood | *shall*, *must* | *reverend* | *choosend* (shall choose) |
 | 4 | `-best` | /bɛst/ | advisory mood (weak obligation) | *should* (advice), *ought to*, *had better* | *you'd best* | *choosebest* (should choose) |
-| 4 | `-can` | /kæn/ | ability or permission | *can*, *be able to*, *may* (permission) | *cannot* | *choosecan* (can choose) |
+| 4 | `-ok` | /əʊk/ | permission | *may* (permission), *be allowed to*, *can* (permission) | *OK* | *chooseok* (may choose), *chooseoknot* (may not choose: a ban) |
+| 4 | `-can` | /kæn/ | ability | *can*, *be able to* | *cannot* | *choosecan* (can choose) |
 | 5 | `-'ll` | /(ə)l/ | future tense | *will* | *he'll* | *choose'll* (will choose) |
 | 6 | `-ed` | /t/, /d/, /ɪd/ | past tense; stacks on slots 1–5 | *had*, *was able to*, *would* (past of *will*) | *walked* | *choose'ved* (had chosen), *choosecaned* (was able to choose), *choose'lled* (*he sayed he choose'lled*: he said he would choose) |
 | 7 | `-if` | /ɪf/ | conditional mood (irrealis) | *would*, *could*, *might* (imagined, not real) | *if* | *chooseif* (would choose), *choosecanif* (could choose), *choosedif* (would have chosen) |
@@ -104,6 +105,10 @@ Fifteen suffixes replace auxiliary verbs and question tags. Each slot is used on
 | *choosebest* | choose + best | should choose |
 | *choosebestnot* | choose + best + not | should not choose |
 | *choosebested* | choose + best + ed | should have chosen |
+| *chooseok* | choose + ok | may choose, is allowed to choose |
+| *chooseoknot* | choose + ok + not | may not choose, shall not choose (a ban) |
+| *choosendnot* | choose + end + not | need not choose, is not required to choose |
+| *choosenoknot* | choose + en + ok + not | shall not be chosen |
 | *chooseingend* | choose + ing + end | must be choosing (duty) |
 | *choose'vebest* | choose + 've + best | should have chosen by now |
 | *chooseingcan* | choose + ing + can | can be choosing |
@@ -127,9 +132,9 @@ Fifteen suffixes replace auxiliary verbs and question tags. Each slot is used on
 | *choosedsaideh* | choose + ed + said + eh | reportedly chose, didn't he? |
 
 Notes:
-- Stack in slot order: voice, then progressive, perfect, mood (obligation, advice, ability), tense, conditional, polarity, stance (evidence or possibility), tag. The order is also the scope: each suffix covers everything before it. *choosednotsaid* is "it is said that he did not choose". *choosednotmay* is "it is possible that he did not choose".
+- Stack in slot order: voice, then progressive, perfect, mood (obligation, advice, permission, ability), tense, conditional, polarity, stance (evidence or possibility), tag. The order is also the scope: each suffix covers everything before it. *choosednotsaid* is "it is said that he did not choose". *choosednotmay* is "it is possible that he did not choose".
 - `-en` and `-end` drop their *e* after a base that ends in *e*: *choosen*, *choosend* (§4.2).
-- `-'ve` and `-'ll` keep the apostrophe, so that letters do not run together: *call'll*, not *callll*. They and `-'all` (§3.1) are the only affixes with an apostrophe. `-ed` after `-'ve` drops its *e* (§4.2): *choose'ved*.
+- `-'ve` and `-'ll` keep the apostrophe, so that letters do not run together: *call'll*, not *callll*. They, `-'all` (§3.1) and `-'ok` after *o* (§4.1) are the only affixes with an apostrophe. `-ed` after `-'ve` drops its *e* (§4.2): *choose'ved*.
 - `-not` is used, not `-n't`, because *choosen't* (does not choose) and *choosend* (shall choose) are almost the same in speech.
 - The slot suffixes are inflectional. They do not count for U2 (§3.6).
 - *shall* as a plain future (*I shall go*) uses `-'ll`, not `-end`.
@@ -141,10 +146,14 @@ Notes:
 - In an ellipsis, *do* carries the slots: *than the inspector do'ved* (than the inspector had), *but the inspector do'vednot* (but the inspector had not).
 - An imperative takes `-not` too: *overtightizenot the bolts* (do not tighten the bolts too much).
 - `-end` and `-best` are two steps of one scale: *testend* (shall test, is required to test) and *testbest* (should test, is advised to test). `-best` is not `-end` + `-ed`: *testended* means only "had to test" or "would have to test".
+- `-ok` means permission: *the Leaseor refuseok consent* (may refuse). `-ok` + `-not` is a ban: *the Leaseary subletoknot the premises* (shall not sublet). "Not allowed to" and "required not to" are one meaning, so CE has no separate ban suffix (P2). English *may not* (ban), *must not* and *shall not* all use `-ok` + `-not`.
+- A ban is not `-end` + `-not`. By scope (P8), `-not` covers `-end`, so *subletendnot* means "is not required to sublet".
+- A mood covers the whole clause, also its subject. A negative subject is inside the mood: *No one holdenend in slaveness* (it is required that no one be held). It does not need `-oknot`.
+- `-ok` after a base that ends in *o* is `-'ok` (§4.1): *go'ok*, *veto'ok*. *gook* would look like it has /uː/, and it is an English slur.
 - *should* as an expectation (*the train should come at five*) is an inference, so it uses `-seem` (slot 9): *the train comeseem at five*.
 - CE has no word *best* (the superlative of *good* is *goodest*, §3.1), so the suffix does not collide with a word.
-- `-can` means ability or permission: *the operateor opencan the valve* (is able to, or is allowed to). `-can` + `-not` gives the English spelling *cannot*.
-- `-may` means possibility only: *it rainmay tomorrow*. It does not mean permission (*you may go* → *you gocan*).
+- `-can` means ability only: *the operateor opencan the valve* (is able to). Permission uses `-ok`: *the operateor openok the valve* (is allowed to). `-can` + `-not` gives the English spelling *cannot*.
+- `-may` means possibility only: *it rainmay tomorrow*. It does not mean permission (*you may go* → *you go'ok*).
 - `-may` is the speaker's judgment about the whole claim, like `-said`, so it stands in slot 9, after tense and polarity. A past event is *choosedmay* (may have chosen), not *choose've* + *may*: English needs *have* only because *may* has no past form. A reported possibility and a possibility of one's own exclude each other.
 - CE has one degree of possibility: *might* and *may* are both `-may`. *might* in a conditional is `-if` + `-may`: *if asked, she chooseifmay* (if asked, she might choose).
 - `-seem` and `-sure` mean that the speaker inferred the claim from evidence. They did not see it and did not hear it from others. `-seem` is weak (it looks so); `-sure` is strong (no other explanation fits): *the lights be off; thons go'veseem home* / *thons goedsure home*.
@@ -470,6 +479,7 @@ These are the only allowed variants. A rule always chooses the form.
 | Affix | Variant | Condition | Examples |
 |---|---|---|---|
 | `-s` | `-es` | Base ends in *s, x, z, ch, sh* | *box* → *boxes*, *wish* → *wishes* |
+| `-ok` | `-'ok` | Base ends in *o* (prevents *oo*, which reads as /uː/) | *go* → *go'ok*, *go'oknot*; *outgo* → *outgo'oknot* |
 | `a-` | `an-` | Base starts with a vowel, as with the article *a* / *an* | *anoven* (*on the oven*), *anice* (*on the ice*) |
 | `-an` | `-ian` | Base ends in *an* (prevents *anan*) | *Japan* → *Japanian*, *Iran* → *Iranian*, *Pakistan* → *Pakistanian*, *Taiwan* → *Taiwanian* |
 
@@ -609,6 +619,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q14.** Which pronunciation keeps other affixes apart in reduced speech (§4.4)? `-ary` and `-ery` are both /əri/ and both attach to verbs. `-or`, `-er` and `-ure` all become a schwa in non-rhotic accents. `-ee` and `-y` are a milder case. `-el` and `-al` (both /əl/) and `-en` and `-an` (both /ən/) also sound the same, but they attach to different parts of speech.
 - **Q15.** *he* now means a male only (§3.9), but a noun without `-ess` still means a male or a person of unknown or mixed sex (§3.4.2). Should nouns follow the pronouns?
 - **Q16.** Some plural pronoun forms are not decided (§3.9): the other case forms of *hes* and *shes* (*him*, *his*, *her*, *himself*, *herself*), and a plural of *it* for things (*its* is already the possessive).
+- **Q17.** (Closed.) `-can` meaned ability or permission, so *the Leaseor endcan this lease* (Appendix I) was "is able to end" or "is allowed to end". Permission now has `-ok`, and a ban is `-ok` + `-not` (§3.1.1). The short-lived ban suffix `-ban` was dropped, because it meaned the same as `-oknot` (P2).
 
 ## Appendix A. Example translation
 
@@ -1210,7 +1221,7 @@ These translations use only the rules above. The capital letters of the original
 
 **Consistentized Englandese** (41 words)
 
-> No Person beend a Representor who shall not have attained to the Age of twenty five Years, and beed seven Years a Citizen of the United States, and who, when elected, beendnot a Dwellor of that State in which thon choosenend.
+> No Person beend a Representor who shall not have attained to the Age of twenty five Years, and beed seven Years a Citizen of the United States, and who, when elected, benot a Dwellor of that State in which thon choosen'll.
 
 #### G.4.2 Word breakdown
 
@@ -1219,8 +1230,9 @@ These translations use only the rules above. The capital letters of the original
 | *Representor* | represent + or | *Representative* | as in G.2 |
 | *thon* | — | *he* | the Person can be of any sex; *he* is male only (§3.9) |
 | *Dwellor* | dwell + or | *Inhabitant* | *habitare* means "dwell", so part swap (P4); *inhabit* is a false affix (§5.1); `-or` replaces `-ant` (§3.2) |
-| *choosenend* | choose + en + end | *shall be chosen* | passive, deontic (§3.1.1) |
-| *beend*, *beendnot* | be + end, be + end + not | *shall be*, *shall not … be* | deontic, negation (§3.1.1); `-end` keeps its *e* after *be* (§4.2) |
+| *choosen'll* | choose + en + 'll | *shall be chosen* | passive, future (§3.1.1); this *shall* is a plain future, not a duty |
+| *beend* | be + end | *shall be* | deontic (§3.1.1); `-end` keeps its *e* after *be* (§4.2) |
+| *benot* | be + not | *shall not … be* | negation (§3.1.1); this *shall* states a condition, not a duty, so it has no mood suffix |
 | *beed* | be + ed | *been* | regular past participle of *be* (§3.1) |
 | *attained*, *elected* | attain + ed, elect + ed | no change | already CE; *attain* is common and easy to guess (P4) |
 | *Citizen*, *Person*, *Age* | — | no change | base words |
@@ -1232,13 +1244,14 @@ These translations use only the rules above. The capital letters of the original
 | Standard English | 46 | 242 |
 | CE before §3.1.1 | 46 | 236 |
 | CE before regular *be* | 44 | 230 |
-| CE | 41 | 225 |
+| CE before the scope fix (§3.1.1) | 41 | 225 |
+| CE | 41 | 222 |
 
 #### G.4.4 Gaps
 
 - This clause is short on derived words, so CE changes only three of them.
 - The part swap stops at *habitare* ("dwell"), not at its root *habere* ("have") (P4).
-- With a regular *be* (§3.1), *shall be a Representor* and *shall not … be a Dwellor* become *beend* and *beendnot*. *shall not have attained … and beed* still shares one set of auxiliaries between two verbs (Q12).
+- With a regular *be* (§3.1), *shall be a Representor* becomes *beend*. The two other *shall*s are not duties. *who shall not, when elected, be a Dwellor* is a condition, so it is *benot*; *beendnot* would mean "is not required to be". *in which he shall be chosen* is a plain future, so it is *choosen'll*. *shall not have attained … and beed* still shares one set of auxiliaries between two verbs (Q12).
 
 ### G.5 Article I, Section 2, Clause 3
 
@@ -1252,7 +1265,7 @@ The Fourteenth Amendment later changed this clause. The text is the original of 
 
 **Consistentized Englandese** (149 words)
 
-> Representors and direct Taxes partenend among the several States which includenmay within this Uniteion, according to their own Numbers, which countenend by adding to the whole Number of free Persons, including those binded to Servement for a Term of Years, and leaving out Indians not taxed, three fiveths of all other Persons. The actual Numberment makenend within three Years after the oneth Meetment of the Congress of the United States, and within every following Term of ten Years, in such Manner as thons by Law directend. The Number of Representors outgoendnot one for every thirty Thousand, but each State havend at Least one Representor; and until such numberment makenend, the State of New Hampshire betitlenend to choose three, Massachusetts eight, Rhode-Island and Providence Plantations one, Connecticut five, New-York six, New Jersey four, Pennsylvania eight, Delaware one, Maryland six, Virginia ten, North Carolina five, South Carolina five, and Georgia three.
+> Representors and direct Taxes partenend among the several States which includenmay within this Uniteion, according to their own Numbers, which countenend by adding to the whole Number of free Persons, including those binded to Servement for a Term of Years, and leaving out Indians not taxed, three fiveths of all other Persons. The actual Numberment makenend within three Years after the oneth Meetment of the Congress of the United States, and within every following Term of ten Years, in such Manner as thons by Law directend. The Number of Representors outgo'oknot one for every thirty Thousand, but each State havend at Least one Representor; and until such numberment makenend, the State of New Hampshire betitlenend to choose three, Massachusetts eight, Rhode-Island and Providence Plantations one, Connecticut five, New-York six, New Jersey four, Pennsylvania eight, Delaware one, Maryland six, Virginia ten, North Carolina five, South Carolina five, and Georgia three.
 
 #### G.5.2 Word breakdown
 
@@ -1269,7 +1282,7 @@ The Fourteenth Amendment later changed this clause. The text is the original of 
 | *Numberment*, *numberment* | number + ment | *Enumeration* | *numerus* means "number", so part swap (P4); the act of counting (§3.2) |
 | *makenend*, *betitlenend* | make + en + end, be + title + en + end | *shall be made*, *shall be entitled* | passive, deontic (§3.1.1) |
 | *directend*, *havend* | direct + end, have + end | *shall direct*, *shall have* | deontic (§3.1.1); *by Law* moves before the verb |
-| *outgoendnot* | out + go + end + not | *shall not exceed* | deontic, negation (§3.1.1) |
+| *outgo'oknot* | out + go + ok + not | *shall not exceed* | permission, negation: a ban (§3.1.1); `-'ok` after *o* (§4.1); *outgoendnot* would mean "need not exceed" |
 | *includenmay* | include + en + may | *may be included* | passive, possibility (§3.1.1) |
 | *Meetment* | meet + ment | *Meeting* | `-ing` is never a noun; the act (§3.2) |
 | *following* | follow + ing | *subsequent* | *sequi* means "follow", so part swap (P4); *subsequent* is a false affix (§5.1) |
@@ -1382,3 +1395,76 @@ This is an invented abstract in the style of a materials science paper. Research
 - *detectencanednot* stacks four slot suffixes (Q10). Results sections often need forms this long.
 - *reduce*, *detect*, *explain* and *effect* are Latin loans, but they are common and easy to guess, so they stay (P4). *corrosion* and *permeability* are technical terms. CE rebuilds technical terms like any other word and does not keep the established form.
 - The text avoids *should*, which research writing often uses: *it should be noted* would be *notenbest*. The progressive is now a slot (§3.1.1): *the samples are being tested* would be *the samples testening*.
+
+## Appendix I. Legal example
+
+This lease is invented. Legal text states duties, permissions and bans in almost every sentence, so it tests the mood slot (§3.1.1). The clause numbers are not counted.
+
+### I.1 Text
+
+**Standard English** (113 words)
+
+> 1. The Lessee shall pay the rent to the Lessor on the first day of each month.
+>
+> 2. The Lessee shall not sublet the premises without the written consent of the Lessor. The Lessor may refuse consent only on reasonable grounds.
+>
+> 3. The Lessee is not required to repaint the premises at the end of the term.
+>
+> 4. If the rent is not paid within fourteen days, the Lessor may terminate this lease by written notice.
+>
+> 5. The Lessee should inspect the smoke alarms each month.
+>
+> 6. Any repairs that have been carried out by the Lessee shall be reported to the Lessor.
+>
+> 7. The deposit will be returned to the Lessee within thirty days after the lease has ended.
+
+**Consistentized Englandese** (93 words)
+
+> 1. The Leaseary payend the rent to the Leaseor on the oneth day of each month.
+>
+> 2. The Leaseary subletoknot the premises without the writed consent of the Leaseor. The Leaseor refuseok consent only on fair grounds.
+>
+> 3. The Leaseary repaintendnot the premises at the end of the term.
+>
+> 4. If the rent payennot within fourteen days, the Leaseor endok this lease by writed notice.
+>
+> 5. The Leaseary inspectbest the smoke-alarms each month.
+>
+> 6. Any repairs that carryen've out by the Leaseary reportenend to the Leaseor.
+>
+> 7. The deposit returnen'll to the Leaseary within thirty days after the lease end've.
+
+### I.2 Word breakdown
+
+| CE | Parts | Standard | Note |
+|---|---|---|---|
+| *Leaseary*, *Leaseor* | lease + ary, lease + or | *Lessee*, *Lessor* | recipient and agent (§3.2); the two no longer look alike |
+| *payend* | pay + end | *shall pay* | deontic (§3.1.1) |
+| *subletoknot* | sublet + ok + not | *shall not sublet* | permission, negation: a ban (§3.1.1) |
+| *repaintendnot* | repaint + end + not | *is not required to repaint* | deontic, negation (§3.1.1); `-not` covers `-end` |
+| *refuseok*, *endok* | refuse + ok, end + ok | *may refuse*, *may terminate* | permission (§3.1.1); not `-can`, which is ability only |
+| *end* | — | *terminate* | *terminus* means "end", so part swap (P4) |
+| *payennot* | pay + en + not | *is not paid* | passive, negation (§3.1.1); a real condition, so no `-if` |
+| *inspectbest* | inspect + best | *should inspect* | advisory (§3.1.1) |
+| *carryen've* | carry + en + 've | *have been carried* | passive, perfect (§3.1.1) |
+| *reportenend* | report + en + end | *shall be reported* | passive, deontic (§3.1.1) |
+| *returnen'll* | return + en + 'll | *will be returned* | passive, future (§3.1.1) |
+| *end've* | end + 've | *has ended* | perfect (§3.1.1) |
+| *oneth* | one + th | *first* | ordinal (§3.4.2) |
+| *writed* | write + ed | *written* | next to a noun, so `-ed` (§3.1.1) |
+| *fair* | — | *reasonable* | synonym swap; CE *reasonable* would mean "can be reasoned" (§3.4.2) |
+| *smoke-alarms* | [smoke-alarm] + s | *smoke alarms* | compound (§3.7) |
+| *premises*, *consent*, *deposit* | — | no change | base words |
+
+### I.3 Size
+
+| Version | Words | Characters |
+|---|---|---|
+| Standard English | 113 | 623 |
+| CE | 93 | 574 |
+
+### I.4 Comment
+
+- Clauses 2 and 3 are the main contrast. *subletoknot* (not allowed to sublet) and *repaintendnot* (not required to repaint) mean what their parts mean. Clause 2 cannot be *subletendnot*, which means "is not required to sublet": the opposite of the English.
+- `-end` is a duty in every clause. The future in clause 7 uses `-'ll`. English *shall* in clause 6 can be read as a duty or as a future; CE *reportenend* is only a duty.
+- Clause 4 is a permission, so it is *endok*. With `-can` it would be "is able to end", which is a different claim (Q17).
