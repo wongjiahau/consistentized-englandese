@@ -213,6 +213,7 @@ In standard English, many affixes work only with some words. For example, *-hood
 | Too little | `under-` | /ˈʌndə(r)/ | deficient | verb, adj | hypo- | *undercook*, *underfill* |
 | Below | `sub-` | /sʌb/ | subessive | noun | under- (in this meaning), infra- | *subground* (*underground*), *subline* (*underline*), *subgroup* |
 | Above | `super-` | /ˈsuːpə(r)/ | supraessive | noun | over- (in this meaning), supra- | *superhead* (*overhead*), *superpass* (*overpass*) |
+| Chief, main (the first or highest of its kind) | `arch-` | /ɑː(r)tʃ/ | — | noun | *chief* / *main* / *head* + noun | *archbishop*, *archenemy* (main enemy), *archelectand* (main candidate), *archteachor* (head teacher), *archroad* (main road) |
 | Before (time) | `pre-` | /priː/ | anterior | noun, verb | fore-, ante- | *prewarn* (*forewarn*), *preroom* (*anteroom*), *prewash* |
 | After (time) | `post-` | /pəʊst/ | posterior | noun, verb | after- | *postshock* (*aftershock*), *postwash* |
 | Between; each other (reciprocal) | `inter-` | /ˈɪntə(r)/ | interessive; reciprocal | noun, verb | *each other*, *one another* | *intercity*, *interconnect* (connect to each other), *interhelp* (help each other) |
@@ -247,6 +248,7 @@ Notes:
 - *inter-*, *trans-* and *out-* have one meaning on a noun and a related meaning on a verb. The part of speech of the base (P1) always shows which meaning it is.
 - *a-* makes an adverb or an adjective that comes after a verb: *lieize the cables afloor*, *the crew is aboard*. Do not put it before a noun: write *the cables afloor*, not *the afloor cables*. Before a vowel it is *an-* (§4.1).
 - *a-* and *super-* are different. *awall* is on the wall and touches it. *superwall* is above the wall.
+- *super-* and *arch-* are different. *a superbishop* is above another bishop. *an archbishop* is the highest one. *arch-* has one meaning, "chief": *archenemy* is the main enemy. It goes only on nouns, so the English sense "extreme" on adjectives (*arch-conservative*) is not used; write *conservativest*. The sense "ruler" (*-arch*, *-archy*) uses `-or` and `-cracy` (§3.4.2).
 - *mock-* and *ex-* are different. *a mockdoctor* is not a real doctor. *an exdoctor* was a real doctor before.
 - *anti-* and *counter-* are different. *anti-* means "opposed to X" (*antitheft*). *counter-* means "done in reply to X, to stop or balance it" (*counterattack*, *counterweight*).
 - *en-* has no *em-* variant. *enprison* is easy to say (§4).
