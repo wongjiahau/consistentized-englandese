@@ -33,10 +33,10 @@ CE changes word forms. It also replaces some auxiliary verbs with verb suffixes 
 
   Terms with a legal or regulatory definition are not exempt. They follow the affix rules like any other word: *flammable* → *burnable*, also on a safety label.
 - **P7. Admission.** A new affix or form enters CE only if it does one of these:
-  1. It removes an inconsistency: an irregular form or a competing form. Example: regular *be* (*bes*, *beed*).
+  1. It removes an inconsistency: an irregular form or a competing form. Example: regular *be* (*beed*, not *was*).
   2. It replaces a phrase of two or more words. Example: `-can` (*can open* → *opencan*), `-said`.
 
-  A change that does neither does not enter CE, even if it is regular. Shortness alone is not a test: *bes* is longer than *is*, but it removes an irregular form. Example of a rejected change: an accusative suffix `-m` on all objects (*the dogem*). It removes the case forms of pronouns, but it adds a case to all nouns, and English word order already marks the object.
+  A change that does neither does not enter CE, even if it is regular. Shortness alone is not a test: *beed* is longer than *was*, but it removes an irregular form. Example of a rejected change: an accusative suffix `-m` on all objects (*the dogem*). It removes the case forms of pronouns, but it adds a case to all nouns, and English word order already marks the object.
 
 ## 3. Affix rules
 
@@ -45,7 +45,6 @@ CE changes word forms. It also replaces some auxiliary verbs with verb suffixes 
 | Meaning | Affix | IPA | Term | Replaces | Examples |
 |---|---|---|---|---|---|
 | Plural noun | `-s` | /s/, /z/, /ɪz/ | plural | -en, -i, -a, vowel change, zero plural | *mouses*, *childs*, *mans*, *sheeps*, *datums*, *criterions* |
-| Third person singular present | `-s` | /s/, /z/, /ɪz/ | 3rd person singular agreement | — | *gos*, *haves* (*has*) |
 | Past tense | `-ed` | /t/, /d/, /ɪd/ | past tense | strong/irregular verbs | *goed*, *runned*, *taked*, *thinked* |
 | Past participle | `-ed` | /t/, /d/, /ɪd/ | past participle (adjective) | -en, vowel change | *taked*, *writed*, *goed*, *the choosed members* |
 | Progressive, gerund, present participle | `-ing` | /ɪŋ/ | progressive (verb slot, §3.1.1), gerund, present participle | *be* + `-ing` | *runing*, *the people voteing*, *connecting the wires is easy* |
@@ -54,31 +53,33 @@ CE changes word forms. It also replaces some auxiliary verbs with verb suffixes 
 | Superlative | `-est` | /ɪst/ | superlative | *most* + adjective or adverb, irregular forms | *tallest*, *goodest* (*best*), *badest* (*worst*), *beautifulest* (*most beautiful*), *largest* |
 
 Notes:
-- Plural `-s` and third person `-s` have the same form. This is a known exception to P2. It is kept because the part of speech is always clear from context and from P1.
+- CE has no agreement. The verb does not agree with its subject in person or number: *I work*, *she work*, *it be cold*. English third person `-s` is not used: *she go* (*she goes*), *it have* (*it has*). The subject already shows person and number, so the `-s` was redundant. `-s` is now only the plural, so it has no second meaning (P2). Ido dropped adjective agreement from Esperanto for the same reason.
 - `-er` is only the comparative. The agent noun uses `-or` (§3.2). By P1 a base is an adjective or a verb, never both, so the two suffixes never attach to the same base.
 - Every adjective and every adverb takes `-er` / `-est`, also long ones (*beautifuler*, *carefullyest*). Do not use *more* / *most* for degree. Use *more* / *most* only for amount (*more water*, *most bolts*).
-- *be* is regular too: *I be*, *you be*, *it bes* (*is*), *thons beed* (*were*), *being*. *am*, *is*, *are*, *was*, *were* and *been* are not used. CE has no irregular verbs.
+- *be* is regular too: *I be*, *you be*, *it be* (*is*), *thons beed* (*were*), *being*. *am*, *is*, *are*, *was*, *were* and *been* are not used. CE has no irregular verbs.
 - The passive, the perfect and the progressive do not use *be* or *have*. They use verb slots (§3.1.1). The `-ed` participle stays as an adjective: *the choosed members*.
-- *be* is only a main verb. It names an identity (*she bes an engineoress*) or a quality (*it bes cold*). It is never an auxiliary.
+- *be* is only a main verb. It names an identity (*she be an engineoress*) or a quality (*it be cold*). It is never an auxiliary.
 - `-'all` means "X and the people with X". It is not a plural: *I'all* (*we*) is the speaker and others, not many speakers. A true plural takes `-s` (§3.9). `-'all` goes on the form of the pronoun for its place in the sentence: *I'all* (*we*), *me'all* (*us*), *my'all* (*our*), *myself'all* (*ourselves*), *your'all* (plural *your*). *we*, *us*, *our*, *ourselves* and plural *you* are not used (P5). `-'all` removes the irregular plural of *I* and replaces the phrase *X and associates* (P7).
 - `-'all` on a noun: *Reyes'all* (Reyes and associates), *the teachor'all* (the teacher and the teacher's group). It keeps a full vowel, /ɔːl/, so it does not merge with `-al` /əl/ (§4.4).
 
 #### 3.1.1 Verb slots
 
-Eleven suffixes replace auxiliary verbs and question tags. Each slot is used once at most. `-end`, `-can` and `-may` share slot 2, so a verb takes only one of them.
+Thirteen suffixes replace auxiliary verbs and question tags. Each slot is used once at most. `-end` and `-can` share slot 2, and `-said`, `-may`, `-seem` and `-sure` share slot 8, so a verb takes only one suffix from each of these slots.
 
 | Slot | Affix | IPA | Term | Replaces | Anchor word | Example |
 |---|---|---|---|---|---|---|
 | 1 | `-en` | /ən/ | passive voice | *be* + past participle | *chosen*, *taken* | *choosen* (is chosen) |
 | 2 | `-end` | /ɛnd/ | deontic mood | *shall*, *must* | *reverend* | *choosend* (shall choose) |
 | 2 | `-can` | /kæn/ | ability or permission | *can*, *be able to*, *may* (permission) | *cannot* | *choosecan* (can choose) |
-| 2 | `-may` | /meɪ/ | possibility | *may*, *might* | — | *choosemay* (may choose) |
 | 3 | `-'ve` | /(ə)v/ | perfect aspect | *have* + past participle | *I've* | *choose've* (has chosen) |
 | 4 | `-ing` | /ɪŋ/ | progressive aspect | *be* + `-ing` | *running* | *chooseing* (is choosing) |
 | 5 | `-'ll` | /(ə)l/ | future tense | *will* | *he'll* | *choose'll* (will choose) |
-| 6 | `-ed` | /t/, /d/, /ɪd/ | past or hypothetical; stacks on slots 1–5 | *had*, *would*, *could*, *might* | *walked* | *choose'ved* (had chosen), *choose'lled* (would choose), *choosecaned* (could choose), *choosemayed* (might choose) |
+| 6 | `-ed` | /t/, /d/, /ɪd/ | past or hypothetical; stacks on slots 1–5 | *had*, *would*, *could* | *walked* | *choose'ved* (had chosen), *choose'lled* (would choose), *choosecaned* (could choose) |
 | 7 | `-not` | /nɒt/ | negation | *do not*, *not* | *cannot* | *choosenot* (does not choose) |
 | 8 | `-said` | /sɛd/ | reportive evidential | *reportedly*, *allegedly*, *is said to*, *it is said that* | *aforesaid* | *choosesaid* (reportedly chooses) |
+| 8 | `-may` | /meɪ/ | epistemic possibility | *may*, *might*, *maybe*, *possibly* | — | *choosemay* (may choose), *choosedmay* (may have chosen) |
+| 8 | `-seem` | /siːm/ | inferential evidential, weak | *seem*, *apparently*, *it seems that*, *seemingly* | *methinks*, *meseems* | *chooseseem* (apparently chooses), *choosedseem* (seems to have chosen) |
+| 8 | `-sure` | /ʃʊə(r)/ | inferential evidential, strong | *must* (conclusion), *surely* | *surely* | *choosesure* (must choose, as a conclusion), *choosedsure* (must have chosen) |
 | 9 | `-eh` | /eɪ/ | confirmative tag | tag questions: *isn't it*, *don't you*, *won't they*, *right?* | Canadian *eh* | *chooseh* (chooses, doesn't he?) |
 
 | Form | Parts | Meaning |
@@ -100,7 +101,12 @@ Eleven suffixes replace auxiliary verbs and question tags. Each slot is used onc
 | *choosecan'll* | choose + can + 'll | will be able to choose |
 | *choosecan'ved* | choose + can + 've + ed | could have chosen |
 | *choosenmay* | choose + en + may | may be chosen |
-| *choosemay'ved* | choose + may + 've + ed | might have chosen |
+| *choosedmay* | choose + ed + may | may have chosen, might have chosen |
+| *choosenotmay* | choose + not + may | may not choose (perhaps does not choose) |
+| *choose'lledmay* | choose + 'll + ed + may | might choose (if …) |
+| *choosedseem* | choose + ed + seem | seems to have chosen |
+| *choosedsure* | choose + ed + sure | must have chosen |
+| *choosednotsure* | choose + ed + not + sure | cannot have chosen |
 | *choosedsaid* | choose + ed + said | reportedly chose |
 | *choosednotsaid* | choose + ed + not + said | reportedly did not choose |
 | *choosenedsaid* | choose + en + ed + said | was allegedly chosen |
@@ -109,11 +115,10 @@ Eleven suffixes replace auxiliary verbs and question tags. Each slot is used onc
 | *choosedsaideh* | choose + ed + said + eh | reportedly chose, didn't he? |
 
 Notes:
-- Stack in slot order: voice, then mood, perfect, progressive, tense, polarity, evidence, tag. The order is also the scope: each suffix covers everything before it. *choosednotsaid* is "it is said that he did not choose".
+- Stack in slot order: voice, then mood (obligation, ability), perfect, progressive, tense, polarity, stance (evidence or possibility), tag. The order is also the scope: each suffix covers everything before it. *choosednotsaid* is "it is said that he did not choose". *choosednotmay* is "it is possible that he did not choose".
 - `-en` and `-end` drop their *e* after a base that ends in *e*: *choosen*, *choosend* (§4.2).
 - `-'ve` and `-'ll` keep the apostrophe, so that letters do not run together: *call'll*, not *callll*. They and `-'all` (§3.1) are the only affixes with an apostrophe. `-ed` after `-'ve` drops its *e* (§4.2): *choose'ved*.
 - `-not` is used, not `-n't`, because *choosen't* (does not choose) and *choosend* (shall choose) are almost the same in speech.
-- A verb with a slot suffix takes no third person `-s`: *she choosenot* (she does not choose).
 - The slot suffixes are inflectional. They do not count for U2 (§3.6).
 - *shall* as a plain future (*I shall go*) uses `-'ll`, not `-end`.
 - `-en` replaces every *be* + past participle, also when the participle names a state: *the fuse breakened* (the fuse was broken). English has the same ambiguity. The `-ed` participle stays only next to a noun, with no *be*: *the choosed members*, *Members choosed every Year*.
@@ -124,7 +129,13 @@ Notes:
 - An imperative takes `-not` too: *overtightizenot the bolts* (do not tighten the bolts too much).
 - `-can` means ability or permission: *the operateor opencan the valve* (is able to, or is allowed to). `-can` + `-not` gives the English spelling *cannot*.
 - `-may` means possibility only: *it rainmay tomorrow*. It does not mean permission (*you may go* → *you gocan*).
-- `-ed` on `-'ll`, `-can` and `-may` is often hypothetical, not past: *choosemayed* (might choose) is a weaker possibility, not a past one.
+- `-may` is the speaker's judgment about the whole claim, like `-said`, so it stands in slot 8, after tense and polarity. A past event is *choosedmay* (may have chosen), not *choose've* + *may*: English needs *have* only because *may* has no past form. A reported possibility and a possibility of one's own exclude each other.
+- CE has one degree of possibility: *might* and *may* are both `-may`. *might* in a conditional is *would* + `-may`: *if asked, she choose'lledmay* (if asked, she might choose).
+- `-seem` and `-sure` mean that the speaker inferred the claim from evidence. They did not see it and did not hear it from others. `-seem` is weak (it looks so); `-sure` is strong (no other explanation fits): *the lights be off; thons go'veseem home* / *thons goedsure home*.
+- `-sure` replaces *must* only as a conclusion. *must* as an obligation uses `-end`. English *must* has both meanings, so CE uses neither *must* nor a suffix made from it.
+- The verb *seem* is not used. *be* + `-seem` replaces it: *she beseem tired* (she seems tired). *beseem* collides with an old English word (§5).
+- `-seem` and `-sure` after a base that ends in *s* lose their *s*, to prevent a triple letter (§4.2): *pass* → *passeem*, *passure*. *passure* collides with `-ure` (§5).
+- `-ed` on `-'ll` and `-can` is often hypothetical, not past: *choose'lled* (would choose), *choosecaned* (could choose).
 - `-can` and `-may` start with a consonant, so §4.2 never changes them: *makecan*, *seemay*.
 - `-can` can take `-'ll` and `-'ve`, which English *can* cannot: *choosecan'll* (will be able to choose). English uses *be able to* there.
 - *choosecan'ved* is ambiguous: "could have chosen" (counterfactual) or "had been able to choose" (past fact). Context decides.
@@ -164,7 +175,7 @@ Notes:
 - `-ing` is only a verb form (§3.1). It is never a derived noun. Use `-ment` for the noun: *the connectment of the wires*, not *the connecting of the wires*. A gerund keeps its object without *of*: *connecting the wires is easy*.
 - `-ment` starts with a consonant, so it never makes a vowel clash with a base that ends in *e*: *makement*, *replacement*.
 - *able* + *ize* + *ment* makes "the process of making X-able": *observeableizement* (*observe* + *able* + *ize* + *ment*; 3 derivational affixes, the limit in U2).
-- `-ize` has one meaning: a change into the state X. With an object, it means "make" (*widize the road*). With no object, it means "become" (*the road widizes*). This is like *open* in *open the door* and *the door opens*.
+- `-ize` has one meaning: a change into the state X. With an object, it means "make" (*widize the road*). With no object, it means "become" (*the road widize*). This is like *open* in *open the door* and *the door opens*.
 - `-ize` on a verb is causative: "make (the object) do X". The object is the one that does X: *deboardize the crew* (make the crew deboard), *fallize the tree* (*fell*), *riseize the flag* (*raise*), *lieize the cable on the floor* (*lay*). Use it only on verbs that have no object. If the verb has its own object, write a phrase: *tell the operator to examine the valve*. Do not put `-ize` on a word that already ends in `-ize`.
 - A noun that ends in *-ics* uses the form without *-s* as the base for a suffix, like a plural place name (§3.4.2): *politics* → *political*, *economics* → *economical*. The noun alone keeps its *-s*. (A field of study uses `-ology`, §3.4.2.)
 - `-ment` and `-ion` are different. *the connectment took one hour* (the act). *the connection is loose* (the thing that the act maked).
@@ -349,7 +360,7 @@ CE is agglutinative: each affix has one meaning, the base never changes, and aff
 |---|---|---|---|
 | *cannot be seen* | *unseeable* | 2 | affixed form (U1) |
 | *the word that is to be given an affix* | *beaffixand* | 2 | affixed form (U1) |
-| *cleans itself* | *selfcleans* | 1 (*-s* not counted) | affixed form (U1) |
+| *cleans itself* | *selfclean* | 1 | affixed form (U1) |
 | *the state of being unable to be connected again* | *unreconnectableness* | 4 | phrase (U3) |
 | *cannot be connected again* | *unreconnectable* | 3 | affixed form (U1) |
 
@@ -419,7 +430,7 @@ Notes:
 | Listener and associates | — | *you'all*, *your'all*, *yourself'all* (§3.1) |
 
 Notes:
-- *thon* /ðʌn/ (from *that one*) is the third person pronoun for a person whose sex is unknown or mixed. It is the subject and the object; *thon's* is the possessive and *thonself* the reflexive. It takes the third person `-s`: *thon votes*.
+- *thon* /ðʌn/ (from *that one*) is the third person pronoun for a person whose sex is unknown or mixed. It is the subject and the object; *thon's* is the possessive and *thonself* the reflexive. Like every verb, its verb takes no `-s` (§3.1): *thon vote*.
 - *he* means a male only, and *she* a female only. When the sex is unknown, use *thon*: *each Representor and thon's Dwellors*.
 - A true plural takes the plural `-s` (§3.1): *thons* (*they*, *them*), *hes* (a group of males), *shes* (a group of females). *they*, *them*, *their* and *themselves* are not used for persons.
 - The associative plural `-'all` (§3.1) is different: *I'all* (*we*) is the speaker and others.
@@ -455,7 +466,7 @@ When the base ends in the letter that the affix starts with, and keeping both wo
 | Any suffix that starts with *a* (`-al`, `-an`, `-able`, `-and`, `-age`, `-ary`) | drop the *a* | Base ends in *a* | *China* → *Chinal*, *Chinan*; *Canada* → *Canadal*, *Canadan*; *Korea* → *Korean*; *formula* → *formulal*, *formulage* |
 | `-or` | no variant | Base ends in *e* | *make* → *makeor*, *operate* → *operateor* (the base never changes; *e* + *o* is not a doubled *e*) |
 | `-ure` | no variant | Base ends in *e* | *close* → *closeure*, *graduate* → *graduateure* |
-| `-ize` | `-iz` | The next suffix starts with a vowel (*a, e, i, o, u*) | *lawize* → *lawizive*, *lawized*, *lawizing*, *lawizion*; *slaveize* → *slaveizor*; *looseize* → *unlooseizable*; but *slaveizement*, *lawizes* |
+| `-ize` | `-iz` | The next suffix starts with a vowel (*a, e, i, o, u*) | *lawize* → *lawizive*, *lawized*, *lawizing*, *lawizion*; *slaveize* → *slaveizor*; *looseize* → *unlooseizable*; but *slaveizement*, *lawizecan* |
 | Any affix | drop its first letter | The result would have three of the same letter | *full* + `-ly` → *fully*; *skill* + `-less` → *skilless* |
 | `-th` | `-h` | Base ends in *t* | *eight* → *eighth* |
 
@@ -513,6 +524,8 @@ Some regular CE forms have the same spelling as an existing English word with a 
 | *ahead* | on the head | in front |
 | *away* | on the way | at a distance |
 | *haven*, *liken*, *waken*, *leaven* | is had, is liked, is woken, is left (`-en`, §3.1.1) | a safe place; compare; wake; yeast |
+| *beseem* | seems (*be* + `-seem`, §3.1.1) | to befit (archaic) |
+| *passure* | must pass, as a conclusion (*pass* + `-sure`, §3.1.1) | a person about to pass (*pass* + `-ure`, §3.2) |
 | *reverend*, *dividend*, *addend* | shall revere, shall divide, shall add (`-end`, §3.1.1) | a title of clergy; a share of profit (CE: *divideand*); a number to be added (CE: *addand*) |
 
 (Open question Q2.)
@@ -559,7 +572,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 
 ## 7. Open questions
 
-- **Q1.** (Closed.) *be* is regular (§3.1): *I be*, *he bes*, *he beed*.
+- **Q1.** (Closed.) *be* is regular (§3.1): *I be*, *he be*, *he beed*.
 - **Q2.** How do we handle collisions such as *seed* (see §5)? Options: accept the collision, add a hyphen (*see-ed*), or change the allomorph rule.
 - **Q3.** Do we need a variant that keeps the sound of the base without changing its spelling? Example: a hyphen or a written mark between base and affix (*stop-ed*, *panic-ed*).
 - **Q4.** (Closed.) `-ment` covered the act and its result. It now names only the act, and the result uses `-ion` (§3.2).
@@ -571,7 +584,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q10.** Is a stack of four slot suffixes acceptable? Example: *passen've'lled* (would have been passed).
 - **Q11.** (Closed.) *be* + `-end` gave *bend* by §4.2. Now a suffix keeps its *e* after *be* (§4.2): *No Person beend a Representor* (G.4).
 - **Q12.** When two verbs share one set of auxiliaries, does each verb take the slots? Example: *shall not have attained … and been …* (G.4). Until this is decided, the text keeps the auxiliaries.
-- **Q13.** Does CE need an inferential evidential (*apparently*, *it seems*), next to the reportive `-said`?
+- **Q13.** (Closed.) CE has two inferential evidentials next to the reportive `-said`: weak `-seem` and strong `-sure` (§3.1.1). Epistemic *must* uses `-sure`, and `-may` moved to slot 8 with them.
 - **Q14.** Which pronunciation keeps other affixes apart in reduced speech (§4.4)? `-ary` and `-ery` are both /əri/ and both attach to verbs. `-or`, `-er` and `-ure` all become a schwa in non-rhotic accents. `-ee` and `-y` are a milder case. `-el` and `-al` (both /əl/) and `-en` and `-an` (both /ən/) also sound the same, but they attach to different parts of speech.
 - **Q15.** *he* now means a male only (§3.9), but a noun without `-ess` still means a male or a person of unknown or mixed sex (§3.4.2). Should nouns follow the pronouns?
 - **Q16.** Some plural pronoun forms are not decided (§3.9): the other case forms of *hes* and *shes* (*him*, *his*, *her*, *himself*, *herself*), and a plural of *it* for things (*its* is already the possessive).
@@ -586,7 +599,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 
 **Consistentized Englandese**
 
-> Before you begin, sureize the machine deconnecten completely from the power supply. It bes unpossible to safely inspect the electric components while the unit runing. The techniqueor who carryed out the last inspectment finded that several bolts looseizen'ved and two of the seals breakened. These problems benot easyly seeable, so you should check each joint carefully. If a seal bes unuseable, replace it immediately. The replacement doenend by a qualifyed operateor.
+> Before you begin, sureize the machine deconnecten completely from the power supply. It be unpossible to safely inspect the electric components while the unit runing. The techniqueor who carryed out the last inspectment finded that several bolts looseizen'ved and two of the seals breakened. These problems benot easyly seeable, so you should check each joint carefully. If a seal be unuseable, replace it immediately. The replacement doenend by a qualifyed operateor.
 
 ### A.2 Changes
 
@@ -601,7 +614,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 | *had been loosened* | *looseizen'ved* | one "make X" suffix, `-ize` (§3.2), as `-iz` before a vowel (§4.2); then passive `-en`, perfect `-'ve`, past `-ed` (§3.1.1) |
 | *is completely disconnected*, *were broken* | *deconnecten completely*, *breakened* | passive `-en` (§3.1.1) |
 | *must be done* | *doenend* | passive `-en`, deontic `-end` (§3.1.1) |
-| *is*, *are not* | *bes*, *benot* | *be* is regular (§3.1); `-not` (§3.1.1) |
+| *is*, *are not* | *be*, *benot* | *be* is regular, and the verb does not agree (§3.1); `-not` (§3.1.1) |
 | *visible* | *seeable* | affix goes on the plain base (P4) |
 | *easily*, *carried*, *qualified* | *easyly*, *carryed*, *qualifyed* | the base never changes: no *y* → *i* (§4) |
 | *is running* | *runing* | progressive slot `-ing`, with no *be* (§3.1.1); the base never changes: no doubled consonant (§4) |
@@ -644,9 +657,9 @@ This example shows how CE uses stacked affixes (§3.6) to make text shorter.
 
 **Consistentized Englandese** (77 words)
 
-> Each autolock door in the testery bes reopenable only by a trained operateor. Before each test, write the testands on the board. If a testand misfunctions, cowork with a robotologyor. Overtightizenot the bolts. Overtight bolts be unremoveable. Mark unreconnectable cables with red tape. The newer robotlets be faster, but they be also the overheatablest. Move hot robotlets doorward. On the threeth day, examine each joint for unseeable cracks. The testery's machineage bes the responsibleness of each operateor.
+> Each autolock door in the testery be reopenable only by a trained operateor. Before each test, write the testands on the board. If a testand misfunction, cowork with a robotologyor. Overtightizenot the bolts. Overtight bolts be unremoveable. Mark unreconnectable cables with red tape. The newer robotlets be faster, but they be also the overheatablest. Move hot robotlets doorward. On the threeth day, examine each joint for unseeable cracks. The testery's machineage be the responsibleness of each operateor.
 
-The CE text has 35% fewer words and 22% fewer characters.
+The CE text has 35% fewer words and 23% fewer characters.
 
 ### B.2 Word breakdown
 
@@ -665,7 +678,7 @@ The CE text has 35% fewer words and 22% fewer characters.
 | *machineage* | machine + age | *machinery* |
 | *autolock* | auto + lock | *that locks automatically* |
 | *cowork* | co + work | *work together* |
-| *misfunctions* | mis + function + s | *malfunctions* |
+| *misfunction* | mis + function | *malfunctions* | no agreement (§3.1) |
 | *unseeable* | un + see + able | *that cannot be seen* |
 | *operateor* | operate + or | *operator* |
 | *threeth* | three + th | *third* |
@@ -686,7 +699,7 @@ The country and the people in this text are not real.
 
 **Consistentized Englandese** (83 words)
 
-> Velmora's Archminister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electment. The opposeors, under exfinance-minister Tomas Bell, accused the governorage of corruptment and of underfunding public hospitals. Reyes's popularness bes now at its lowest since 2022. Reyes promised an anticorruptment law and sayed that the cogovernorage increase'llednot taxes. Thousands of protestors meeted outside the parliament. Analyzeors sayed that the result bes unpreseeable. Most of the voteorage bes still undecided, and both electands be untrustabler than thons' partys.
+> Velmora's Archminister Ana Reyes narrowly survived an unconfidence vote on Tuesday, two weeks before the general electment. The opposeors, under exfinance-minister Tomas Bell, accused the governorage of corruptment and of underfunding public hospitals. Reyes's popularness be now at its lowest since 2022. Reyes promised an anticorruptment law and sayed that the cogovernorage increase'llednot taxes. Thousands of protestors meeted outside the parliament. Analyzeors sayed that the result be unpreseeable. Most of the voteorage be still undecided, and both electands be untrustabler than thons' partys.
 
 ### C.2 Word breakdown
 
@@ -735,15 +748,15 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 
 **Consistentized Englandese** (315 words)
 
-> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She arrive'ved after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, prewarnened of thons' arrivement. She telled thons that her oven misfunction'ved twice that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
+> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speak fluent Englandese and Netherlandese. She arrive'ved after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, prewarnened of thons' arrivement. She telled thons that her oven misfunction'ved twice that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
 >
 > The engineoress examined the machineage carefullyer than the governorage's inspector do'ved. The subfloor wires interconnectened, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and overtightizenot the screws." She finded that the eighth fuse breakened and that mouses transchew'ved the insulatement. A skilled electricor see've'lled it at once, but the inspector do'vednot.
 >
-> Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeion. His repair, however, beed gooder than his teachoress's. The new oven selfcleans, autostarts and bakes twofold the bread. It bes waterproof and airproof, and it bes beautifuler than the old one, although slightly noisefuler.
+> Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeion. His repair, however, beed gooder than his teachoress's. The new oven selfclean, autostart and bake twofold the bread. It be waterproof and airproof, and it be beautifuler than the old one, although slightly noisefuler.
 >
-> The bakeorlingess, a pharmacy graduateuress, impressened but beed doubtful. "It bes unpossible to trust a machine fully," she sayed. The engineoress smiled. "It bes the safest oven in the kingdom, and the relyablest machine that I ever build've." She refused payment. In return, the bakeoress gived thons a basket of warm loafs and a reddish, heart-shaped cake. The childs in the shop behaved childlikely and outruned each other doorward.
+> The bakeorlingess, a pharmacy graduateuress, impressened but beed doubtful. "It be unpossible to trust a machine fully," she sayed. The engineoress smiled. "It be the safest oven in the kingdom, and the relyablest machine that I ever build've." She refused payment. In return, the bakeoress gived thons a basket of warm loafs and a reddish, heart-shaped cake. The childs in the shop behaved childlikely and outruned each other doorward.
 >
-> Since then, the orderands of each day writen on a whiteboard in the cookery: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, never be've happyer, and the new oven bepower've the bakeoress. "Moneywise, a bakerylet bes gooder than a large makeery," she says. Her husband, an exfire-fightor, agrees and dos the deliverments.
+> Since then, the orderands of each day writen on a whiteboard in the cookery: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, never be've happyer, and the new oven bepower've the bakeoress. "Moneywise, a bakerylet be gooder than a large makeery," she say. Her husband, an exfire-fightor, agree and do the deliverments.
 
 ### D.2 Features shown
 
@@ -751,7 +764,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 |---|---|---|
 | Regular plural | *mice*, *children*, *loaves* → *mouses*, *childs*, *loafs* | `-s` (§3.1) |
 | Regular past | *came*, *told*, *made*, *found*, *gave* → *comed*, *telled*, *maked*, *finded*, *gived* | `-ed` (§3.1) |
-| Regular *do*, *say*, *be* | *does*, *said*, *is*, *was* → *dos*, *sayed*, *bes*, *beed* | `-s`, `-ed`; CE has no irregular verbs (§3.1) |
+| Regular *do*, *say*, *be* | *does*, *said*, *is*, *was* → *do*, *sayed*, *be*, *beed* | `-ed`, no agreement; CE has no irregular verbs (§3.1) |
 | Verb slots | *had arrived*, *had malfunctioned*, *had chewed through*, *have ever built*, *has empowered* → *arrive'ved*, *misfunction'ved*, *transchew'ved*, *ever build've*, *bepower've* | perfect `-'ve`, past `-ed` (§3.1.1) |
 | Passive | *was forewarned*, *were interconnected*, *was broken*, *was impressed*, *are written* → *prewarnened*, *interconnectened*, *breakened*, *impressened*, *writen* | `-en` (§3.1.1) |
 | Stacked slots | *would have seen* → *see've'lled* | `-'ve` + `-'ll` + `-ed` (§3.1.1) |
@@ -761,6 +774,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 | Not X | *impossible*, *unreliable* → *unpossible*, *unrelyable* | `un-` (§3.2) |
 | Reverse the action | *disconnect*, *unlock* → *deconnect*, *delock* | `de-` (§3.2) |
 | Again | *rebuild* | `re-` (§3.2) |
+| No agreement | *speaks*, *cleans itself*, *starts automatically*, *bakes*, *says*, *agrees* → *speak*, *selfclean*, *autostart*, *bake*, *say*, *agree* | the verb takes no `-s` (§3.1) |
 | Agent noun | *engineer*, *baker*, *teacher*, *heater*, *biologist*, *electrician* → *engineor*, *bakeor*, *teachor*, *heator*, *lifeologyor*, *electricor* (*electric* is a base noun, P4) | `-or` (§3.2) |
 | Patient noun | *employees* | `-ee`, already regular (§3.2) |
 | Gerundive | *ingredients that must be ordered* → *orderands* (things that are to be ordered; *must* is left to context) | `-and` (§3.2) |
@@ -771,7 +785,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 | Having X | *dangerous*, *noisy* → *dangerful*, *noiseful* | `-ful` (§3.2) |
 | Manner adverb | *childishly* → *childlikely* | `-like` + `-ly` (§3.2, §3.4.2) |
 | Make X, causative | *tighten too much*, *raise*, *lay* → *overtightize*/*overtightizenot*, *riseize*, *lieize* | `-ize` (§3.2) |
-| Prefixes | *malfunctioned*, *under the floor*, *overhead*, *forewarned*, *contradicted*, *across the ocean*, *worked together*, *former*, *cleans itself*, *starts automatically*, *outran*, *empowered*, *bicycle*, *co-owner* → *misfunctioned*, *subfloor*, *superhead*, *prewarned*, *counterspeaked*, *transocean*, *coworked*, *ex-*, *selfcleans*, *autostarts*, *outruned*, *bepowered*, *biwheel*, *coownor* | §3.4.1 |
+| Prefixes | *malfunctioned*, *under the floor*, *overhead*, *forewarned*, *contradicted*, *across the ocean*, *worked together*, *former*, *cleans itself*, *starts automatically*, *outran*, *empowered*, *bicycle*, *co-owner* → *misfunctioned*, *subfloor*, *superhead*, *prewarned*, *counterspeaked*, *transocean*, *coworked*, *ex-*, *selfclean*, *autostart*, *outruned*, *bepowered*, *biwheel*, *coownor* | §3.4.1 |
 | On, through | *on the floor*, *chewed through* → *afloor*, *transchewed* | `a-`; `trans-` on a verb (§3.4.1) |
 | Suffixes | *small bakery*, *machinery*, *kitchen*, *factory*, *toward the door*, *money-wise*, *thermometer*, *airtight*, *double*, *frightening* → *bakerylet*, *machineage*, *cookery*, *makeery*, *doorward*, *moneywise*, *heatmeter*, *airproof*, *twofold*, *frightsome* | §3.4.2 |
 | Child of X | *the baker's daughter* → *the bakeorlingess* | `-or` + `-ling` + `-ess`: 3 derivational affixes, the limit in U2 (§3.4.2) |
@@ -787,7 +801,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 
 ### D.3 Comment
 
-The CE text has 12% fewer words. Before the verb slots (§3.1.1) it had 8% fewer (330 words). The savings come from phrases that become one word (*orderands*, *graduateure*, *transocean*, *overtightizenot*, *doorward*, *see've'lled*). The cost is in narrative verbs: almost every sentence has a regularized past form or a slot suffix. *comed*, *dos* and the stacked slots (*see've'lled*, *do'vednot*) are the CE forms that look strangest to a native reader.
+The CE text has 12% fewer words. Before the verb slots (§3.1.1) it had 8% fewer (330 words). The savings come from phrases that become one word (*orderands*, *graduateure*, *transocean*, *overtightizenot*, *doorward*, *see've'lled*). The cost is in narrative verbs: almost every sentence has a regularized past form or a slot suffix. *comed*, *she say* with no `-s`, and the stacked slots (*see've'lled*, *do'vednot*) are the CE forms that look strangest to a native reader.
 
 *impressened but beed doubtful* splits one *was* into two: `-en` needs a participle, and *doubtful* is an adjective, so it takes *beed*.
 
@@ -801,15 +815,15 @@ This is the passage from Appendix D, translated again with the biological affixe
 
 **Consistentized Englandese with §3.8** (305 words)
 
-> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speaks fluent Englandese and Netherlandese. She arrive'ved after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, prewarnened of thons' arrivement. She telled thons that her oven bimisfunction'ved that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
+> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speak fluent Englandese and Netherlandese. She arrive'ved after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, prewarnened of thons' arrivement. She telled thons that her oven bimisfunction'ved that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
 >
 > The engineoress examined the machineage carefullyer than the governorage's inspector do'ved. The subfloor wires interconnectened, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and overtightizenot the screws." She finded that the eighth fuse breakened and that mouses transchew'ved the insulatement. A skilled electricor see've'lled it at once, but the inspector do'vednot.
 >
-> Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeion. His repair, however, beed gooder than his teachoress's. The neooven selfcleans, autostarts and bakes twofold the bread. It bes waterproof and airproof, and it bes beautifuler than the old one, although slightly noisefuler.
+> Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeion. His repair, however, beed gooder than his teachoress's. The neooven selfclean, autostart and bake twofold the bread. It be waterproof and airproof, and it be beautifuler than the old one, although slightly noisefuler.
 >
-> The bakeorlingess, a pharmacy graduateuress, impressened but beed doubtful. "It bes unpossible to trust a machine fully," she sayed. The engineoress smiled. "It bes the safest oven in the kingdom, and the relyablest machine that I ever build've." She refused payment. In return, the bakeoress gived thons a basket of warm loafs and a reddish, heartform cake. The intrashop childs behaved childlikely and interoutruned doorward.
+> The bakeorlingess, a pharmacy graduateuress, impressened but beed doubtful. "It be unpossible to trust a machine fully," she sayed. The engineoress smiled. "It be the safest oven in the kingdom, and the relyablest machine that I ever build've." She refused payment. In return, the bakeoress gived thons a basket of warm loafs and a reddish, heartform cake. The intrashop childs behaved childlikely and interoutruned doorward.
 >
-> Since then, the orderands of each day writen on an intracookery whiteboard: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, never be've happyer, and the neooven bepower've the bakeoress. "Moneywise, a bakerylet bes gooder than a macromakeery," she says. Her husband, an exfire-fightor, agrees and dos the deliverments.
+> Since then, the orderands of each day writen on an intracookery whiteboard: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, never be've happyer, and the neooven bepower've the bakeoress. "Moneywise, a bakerylet be gooder than a macromakeery," she say. Her husband, an exfire-fightor, agree and do the deliverments.
 
 ### E.2 Changes from Appendix D
 
@@ -827,8 +841,8 @@ This is the passage from Appendix D, translated again with the biological affixe
 | Version | Words | Characters |
 |---|---|---|
 | Standard English (D.1) | 359 | 2158 |
-| CE (D.1) | 315 | 2111 |
-| CE with §3.8 (E.1) | 305 | 2092 |
+| CE (D.1) | 315 | 2099 |
+| CE with §3.8 (E.1) | 305 | 2080 |
 
 ### E.4 Comment
 
@@ -893,7 +907,7 @@ These translations use only the rules above. They are a baseline: when a new aff
 
 **Consistentized Englandese** (75 words)
 
-> Everyone betitlen to all the rights and freenesses setted forth in this Declareion, without distinguishment of any kind, such as race, colour, sex, language, religion, political or other opinion, national or societyal origin, ownee, bearment or other status. Furthermore, no distinguishment makenend on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be undependent, trust, unselfgoverning or under any other limitment of sovereignness.
+> Everyone betitlen to all the rights and freenesses setted forth in this Declareion, without distinguishment of any kind, such as race, colour, sex, language, religion, political or other opinion, national or societyal origin, ownee, bearment or other status. Furthermore, no distinguishment makenend on the basis of the political, jurisdictional or international status of the country or territory to which a person belong, whether it be undependent, trust, unselfgoverning or under any other limitment of sovereignness.
 
 #### F.2.2 Word breakdown
 
@@ -923,7 +937,7 @@ These translations use only the rules above. They are a baseline: when a new aff
 |---|---|---|
 | Standard English | 78 | 516 |
 | CE before §3.1.1 | 78 | 531 |
-| CE | 75 | 521 |
+| CE | 75 | 520 |
 
 #### F.2.4 Gaps
 
@@ -943,13 +957,13 @@ These translations use only the rules above. They are a baseline: when a new aff
 
 **Consistentized Englandese** (11 words)
 
-> Everyone haves the right to life, freeness and secureness of person.
+> Everyone have the right to life, freeness and secureness of person.
 
 #### F.3.2 Word breakdown
 
 | CE | Parts | Standard | Note |
 |---|---|---|---|
-| *haves* | have + s | *has* | regular third person (§3.1) |
+| *have* | — | *has* | no agreement (§3.1) |
 | *freeness* | free + ness | *liberty* | affix goes on the plain base (P4); `-ness` replaces `-ty` (§3.2) |
 | *secureness* | secure + ness | *security* | `-ness` replaces `-ity` (§3.2) |
 
@@ -958,13 +972,13 @@ These translations use only the rules above. They are a baseline: when a new aff
 | Version | Words | Characters |
 |---|---|---|
 | Standard English | 11 | 63 |
-| CE | 11 | 68 |
+| CE | 11 | 67 |
 
 #### F.3.4 Gaps
 
 - *liberty* and *freedom* (Article 2) both become *freeness*. By P4 they have the same plain base, so CE loses the difference between them. In this text the two words mean the same thing, so nothing is lost here.
 - The text has no phrase that an affix can replace, so CE cannot make it shorter. `-ness` is longer than `-ty` and `-ity`.
-- *haves* is the main verb, not an auxiliary, so the verb slots (§3.1.1) change nothing.
+- *have* is the main verb, not an auxiliary, so the verb slots (§3.1.1) change nothing.
 
 ### F.4 Article 4
 
