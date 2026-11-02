@@ -18,7 +18,11 @@ CE replaces irregular and competing forms with one regular form, including in ex
   P0 wins over every other principle.
 - **P1. One word, one meaning.** Each word in the CE dictionary has one meaning and one part of speech.
 - **P2. One meaning, one affix.** Each affix meaning has one affix. Different meanings use different affixes.
-- **P3. Conditioned allomorphy only.** An affix may have more than one written form (allomorph). An allomorph exists only to prevent awkward spelling or pronunciation: a forced consonant cluster, a vowel clash, a triple letter, or a change in the sound of the base. A fixed rule always chooses the form; the writer never chooses freely. All allowed allomorphs are listed in §4.
+- **P3. Conditioned allomorphy only.** An affix may have more than one written form (allomorph). An allomorph solves one of two problems:
+  - **A sound problem:** a consonant cluster, two of the same consonant, two vowels meeting, a repeated syllable, or a spelling that shows the wrong sound of the base (*stoped*, *paniced*). The last sound of the base chooses the form. For a prefix, the first sound of the base chooses it.
+  - **A spelling problem:** a doubled *e* or *a*, a triple letter, or *tth*. The last letters of the base choose the form.
+
+  Sound is the main test. Spelling decides only when the problem is in the letters themselves. A fixed rule always chooses the form; the writer never chooses freely. Familiarity is never a reason for a variant. All allowed allomorphs are listed in §4.
 - **P4. Plain base.** Derivations attach to the plain English base word. They do not attach to a Latin or Greek root. Example: *see* + *-able* → *seeable*, not *visible*. The test is that a reader can guess the meaning from the parts. A loan word that a reader cannot guess is rebuilt in this order:
   1. **Part swap.** Swap each Latin or Greek part for the plain English word with the same meaning: *legislative* (*legis*, "of law") → *lawizive*; *domestic* (*domus*, "home") → *homeal*. Stop at the first level that has a plain English word with the same meaning: *inhabit* (*habitare*, "dwell") → *dwell*, not a form of *have* (*habere*).
   2. **Synonym swap.** If no part swap works, derive from a plain word with the same meaning: *posterity* → *descendorage*; *liberty* → *freeness*.
@@ -53,9 +57,9 @@ CE replaces irregular and competing forms with one regular form, including in ex
 | Plural noun | `-s` | /s/, /z/, /ɪz/ | plural | -en, -i, -a, vowel change, zero plural | *mouses*, *childs*, *mans*, *sheeps*, *datums*, *criterions* |
 | Past tense | `-ed` | /t/, /d/, /ɪd/ | past tense | strong/irregular verbs | *goed*, *runned*, *taked*, *thinked* |
 | Past participle | `-ed` | /t/, /d/, /ɪd/ | past participle (passive, perfect, adjective) | -en, vowel change | *taked*, *writed*, *goed*, *be choosed*, *have choosed*, *the choosed members* |
-| Progressive, gerund, present participle | `-ing` | /ɪŋ/ | progressive (after *be*), gerund, present participle | — | *be runing*, *the people voteing*, *connecting the wires be easy* |
-| Comparative | `-er` | /ə(r)/ | comparative | *more* + adjective or adverb, irregular forms | *taller*, *gooder* (*better*), *bader* (*worse*), *beautifuler* (*more beautiful*), *larger*, *carefullyer* (*more carefully*), *goodlyer* (*better*, adverb) |
-| Superlative | `-est` | /ɪst/ | superlative | *most* + adjective or adverb, irregular forms | *tallest*, *goodest* (*best*), *badest* (*worst*), *beautifulest* (*most beautiful*), *largest* |
+| Progressive, gerund, present participle | `-ing` | /ɪŋ/ | progressive (after *be*), gerund, present participle | — | *be running*, *the people voteing*, *connecting the wires be easy* |
+| Comparative | `-er` | /ə(r)/ | comparative | *more* + adjective or adverb, irregular forms | *taller*, *gooder* (*better*), *badder* (*worse*), *beautifuler* (*more beautiful*), *larger*, *carefullyer* (*more carefully*), *goodlyer* (*better*, adverb) |
+| Superlative | `-est` | /ɪst/ | superlative | *most* + adjective or adverb, irregular forms | *tallest*, *goodest* (*best*), *baddest* (*worst*), *beautifulest* (*most beautiful*), *largest* |
 
 Notes:
 - CE has no agreement. The verb does not agree with its subject in person or number: *I work*, *she work*, *it be cold*. English third person `-s` is not used: *she go* (*she goes*), *it have* (*it has*). The subject already shows person and number, so the `-s` was redundant. `-s` is now only the plural, so it has no second meaning (P2). Ido dropped adjective agreement from Esperanto for the same reason.
@@ -91,10 +95,10 @@ Notes:
 | Reverse the action X (verb) | `de-` | /diː/ | reversative | un-, dis- (on verbs) | *detie*, *delock*, *deconnect* |
 | Against X | `anti-` | /ˈænti/ | oppositive | counter-, contra- | *antiact*, *antisay* |
 | Again | `re-` | /riː/ | repetitive | — | *redo* |
-| Person or thing that does X (the subject of X) | `-or` | /ə(r)/ | agent noun (*nomen agentis*), A or S | -er, -ar, -ist, -ian, -ant, -ent, -ee (on verbs with no object), -ure (about to X) | *actor*, *teachor* (*teacher*), *begor* (*beggar*), *scienceor* (*scientist*), *assistor* (*assistant*), *makeor* (*maker*), *escapeor* (*escapee*), *attendor* (*attendee*) |
+| Person or thing that does X (the subject of X) | `-or` | /ə(r)/ | agent noun (*nomen agentis*), A or S | -er, -ar, -ist, -ian, -ant, -ent, -ee (on verbs with no object), -ure (about to X) | *actor*, *teachor* (*teacher*), *beggor* (*beggar*), *scienceor* (*scientist*), *assistor* (*assistant*), *makeor* (*maker*), *escapeor* (*escapee*), *attendor* (*attendee*) |
 | Person or thing that is X-ed (the direct object of X; the action is done or in progress) | `-ee` | /iː/ | object noun, O | — | *employee*, *trainee*, *usee*, *givee* (the gift), *sendee* (the thing that is sent) |
 | Person or thing that gets something from X, or that X is done for (the indirect object of X) | `-ary` | /əri/ | recipient noun | -ee (in this meaning) | *giveary*, *sendary* (*addressee*), *payary* (the person who is payed), *teachary* (*student*), *grantary* (*grantee*), *leaseary* (*lessee*), *benefitary* (*beneficiary*) |
-| Thing that someone uses to X (the instrument of X) | `-el` | /əl/ | instrument noun (*nomen instrumenti*) | -er, -or (in this meaning) | *openel* (*opener*), *cutel* (*knife*), *screwel* (*screwdriver*), *writel* (*pen*), *shovel* (*shove* + *el*) |
+| Thing that someone uses to X (the instrument of X) | `-el` | /əl/ | instrument noun (*nomen instrumenti*) | -er, -or (in this meaning) | *openel* (*opener*), *cuttel* (*knife*), *screwel* (*screwdriver*), *writel* (*pen*), *shovel* (*shove* + *el*) |
 | Person or thing that is to be X-ed (gerundive) | `-and` | /ɑːnd/ | gerundive (future passive participle) | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *beaffixand* |
 | Can be X-ed | `-able` | /əbəl/ | passive potential adjective | -ible, -uble | *seeable*, *readable*, *solveable*, *flyable* (can be flown) |
 | The act of X | `-ment` | /mənt/ | action noun (*nomen actionis*) | -tion, -sion, -ation (as an act), -ance, -ence, -al, -age, -ice (act), -ery (practice), -ism (practice), -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
@@ -114,7 +118,7 @@ Notes:
 - `-ize` on a verb is causative: "make (the object) do X". The object is the one that does X: *deboardize the crew* (make the crew deboard), *fallize the tree* (*fell*), *riseize the flag* (*raise*), *lieize the cable on the floor* (*lay*). Use it only on verbs that have no object. If the verb has its own object, write a phrase: *tell the operator to examine the valve*. Do not put `-ize` on a word that already ends in `-ize`.
 - A noun that ends in *-ics* uses the form without *-s* as the base for a suffix, like a plural place name (§3.4.2): *politics* → *political*, *economics* → *economical*. The noun alone keeps its *-s*. (A field of study uses `-ology`, §3.4.2.)
 - `-ment` and `-ture` are different. *the connectment took one hour* (the act). *the connecture is loose* (the thing that the act maked).
-- `-ture` has three forms. The last sound of the base chooses the form (§4.1, §4.2):
+- `-ture` has three forms. The last sound of the base chooses the form (§4.1):
 
   | Last sound of the base | Form | Examples |
   |---|---|---|
@@ -122,11 +126,7 @@ Notes:
   | /t/ | `-ure` /ə(r)/; with the *t*, /tʃə(r)/ | *connecture*, *painture*, *sculpture*, *createure*, *quoteure*, *writeure* |
   | any other consonant | `-ature` /ətʃə(r)/ | *signature*, *buildature*, *mixature*, *describeature*, *makeature*, *offerature* |
 
-  To find the last sound, say the base as it is said before a vowel:
-  - Silent letters do not count. *describe* ends in /b/, *create* in /t/, *weigh* in /eɪ/. The silent *e* stays in the spelling, as in *makeor* and *makeable*.
-  - Only a written *r* counts as /r/. *offer* ends in /r/ in every accent, because the *r* is said before a vowel (linking *r*). *draw* ends in a vowel, also in accents that add an *r* there (intrusive *r*).
-  - Final *y* and *w* are vowels: *try*, *play*, *draw*, *show*.
-  - If the pronunciation is unclear, the dictionary decides (§6).
+  To find the last sound, see §4: *describe* ends in /b/, *create* in /t/, *weigh* in /eɪ/, *offer* in /r/ and *draw* in a vowel.
 - `-ize` ends in /z/, so it takes `-ature`, and `-ize` becomes `-iz` before the vowel (§4.2): *lawize* → *lawizature*.
 - `-ture` and `-ee` are different. `-ture` is a thing that the action makes (*buildature*). `-ee` is a thing that the action is done to, and that existed before (*employee*).
 - `-ture` is the Latin result suffix *-ūra* on a plain base. Many English *-ture* words began as result nouns of a Latin verb: *creature* (a created thing), *picture* (a painted thing), *scripture* (a written thing), *structure* (a built thing). In CE these are base words (§5.1).
@@ -144,7 +144,7 @@ Notes:
   | Subject | `-or` (*testor*) | `-or`, with the time from context |
   | Direct object | `-ee` (*testee*: is or was tested) | `-and` (*testand*: is to be tested) |
   | Indirect object | `-ary` (*giveary*) | — |
-- `-or` and `-el` are different. `-or` is whoever or whatever does X by itself: *teachor*, *regulateor* (a thermostat), *computeor*. `-el` is a thing that someone uses to do X; it does nothing alone: *cutel*, *openel*. The line is the role, not the difference between persons and things. When a case is unclear (a washing machine), the dictionary decides (§6).
+- `-or` and `-el` are different. `-or` is whoever or whatever does X by itself: *teachor*, *regulateor* (a thermostat), *computeor*. `-el` is a thing that someone uses to do X; it does nothing alone: *cuttel*, *openel*. The line is the role, not the difference between persons and things. When a case is unclear (a washing machine), the dictionary decides (§6).
 
 - `-and` means "to be X-ed" (*an addand* is a number that is to be added). It does not say "must"; for that, use *must* (§3.1.1). It does not say that the action happens now. For that, use `-ing` (*the adding machine*).
 - `-or` has no time, so it also covers a subject that is about to act: *the departors board at noon*, *the electors vote on Tuesday*. Context gives the time, as in English (*voters*, *passengers*). `-ee` is different: it means "is or was X-ed", so it cannot also mean "not yet". The object therefore keeps `-and`, and the subject has no "not yet" suffix (Q22).
@@ -222,16 +222,16 @@ Notes:
 | Small X | `-let` | /lət/ | diminutive | noun | -ette, -kin, -ie, -y, mini- | *booklet*, *kitchenlet* (*kitchenette*), *doglet* (*doggy*), *carlet* |
 | Child of X | `-ling` | /lɪŋ/ | — | noun | *X's child*, *son* / *daughter of X*, irregular young-animal nouns | *duckling*, *catling* (*kitten*), *dogling* (*puppy*), *kingling* (*prince*), *bakeorling* (a baker's child) |
 | Like X, in the manner of X | `-like` | /laɪk/ | similative | noun | -ish (on nouns), -ly (on nouns), -esque, -oid | *childlike* (*childish*), *friendlike* (*friendly*), *humanlike* (*humanoid*) |
-| Somewhat X, almost X | `-ish` | /ɪʃ/ | approximative (attenuative) | adj, number | -y (on colors) | *reddish*, *coldish*, *tenish* |
+| Somewhat X, almost X | `-ish` | /ɪʃ/ | approximative (attenuative) | adj, number | -y (on colors) | *reddish*, *coldish*, *tennish* |
 | Place where X is done or made | `-ery` | /əri/ | place noun (*nomen loci*) | verb, noun | -ory, -arium, -ary (in this meaning), -age, room words | *bakery*, *washery* (*laundry*), *readery* (*library*), *cookery* (*kitchen*), *fishery* |
 | Area ruled by X | `-dom` | /dəm/ | realm | noun | -ric, -ate (in this meaning) | *kingdom*, *dukedom*, *sultandom* (*sultanate*), *companydom* |
-| All X as a group | `-age` | /ɪdʒ/ | collective | noun | -ry, -ery (in this meaning), -dom (in this meaning), -ware | *bagage* (*baggage*), *leafage* (*foliage*), *machineage* (*machinery*), *kitchenage* (*kitchenware*), *voteorage* (*electorate*) |
+| All X as a group | `-age` | /ɪdʒ/ | collective | noun | -ry, -ery (in this meaning), -dom (in this meaning), -ware | *baggage*, *leafage* (*foliage*), *machineage* (*machinery*), *kitchenage* (*kitchenware*), *voteorage* (*electorate*) |
 | Toward X | `-ward` | /wə(r)d/ | directional (allative) | noun | -wards | *homeward*, *skyward*, *doorward* |
 | With respect to X | `-wise` | /waɪz/ | limitative | noun | — | *costwise*, *timewise* |
 | Belief in X, or a movement for X | `-ism` | /ɪzəm/ | doctrine noun | noun, adj | — | *realism*, *peaceism* (*pacifism*), *peopleism* (the belief that the people should rule) |
 | A system in which X rules | `-cracy` | /krəsi/ | — | noun | -archy, -ism (in this meaning) | *peoplecracy* (*democracy*), *kingcracy* (*monarchy*), *moneycracy* (*plutocracy*), *techniquecracy* (*technocracy*) |
-| Study or science of X | `-ology` | /ˈɒlədʒi/ | — | noun | -ics, -logy, -nomy, -graphy | *earthology* (*geology*), *animalology* (*zoology*), *starology* (*astronomy*), *lifeology* (*biology*) |
-| Person from place X | `-an` | /ən/ | demonym | proper noun | -ian, -ish, -ese, -i, -er, -ite, -man | *Englandan* (*Englishman*), *Chinaan* → *Chinan* (*Chinese*), *Japanan* → *Japanian* (*Japanese*), *Spainan* (*Spaniard*), *Iraqan* (*Iraqi*), *Londonan* (*Londoner*) |
+| Study or science of X | `-ology` | /ˈɒlədʒi/ | — | noun | -ics, -logy, -nomy, -graphy | *earthology* (*geology*), *animalology* (*zoology*), *starrology* (*astronomy*), *lifeology* (*biology*) |
+| Person from place X | `-an` | /ən/ | demonym | proper noun | -ian, -ish, -ese, -i, -er, -ite, -man | *Englandan* (*Englishman*), *Chinaan* → *Chinan* (*Chinese*), *Japanan* → *Japannian* (*Japanese*), *Spainan* → *Spainian* (*Spaniard*), *Iraqan* (*Iraqi*), *Londonan* → *Londonian* (*Londoner*) |
 | Language of place X | `-ese` | /iːz/ | glottonym | proper noun | -ish, -ian, -an, -i, -ic | *Italyese* (*Italian*), *Englandese* (*English*), *Franceese* → *Francese* (*French*) |
 | Number X in order (ordinal) | `-th` | /θ/ | ordinal | number | irregular ordinals | *oneth* (*first*), *twoth* (*second*), *threeth* (*third*), *fiveth*, *eighth*, *twentyth* |
 | X times as many | `-fold` | /fəʊld/ | multiplicative | number | -ple, -ble | *twofold* (*double*), *threefold* (*triple*) |
@@ -239,18 +239,18 @@ Notes:
 | Good enough or safe enough for X | `-worthy` | /wɜː(r)ði/ | — | noun | — | *airworthy*, *roadworthy*, *trustworthy*, *newsworthy* |
 | Tool that measures X | `-meter` | /miːtə(r)/ | instrument noun (*nomen instrumenti*) | noun | -ometer, gauge | *speedmeter* (*speedometer*), *heatmeter* (*thermometer*), *pressuremeter* (*pressure gauge*) |
 | Causes X (a feeling or state) in others | `-some` | /səm/ | — | noun | -ing (in this meaning), -y (on nouns) | *fearsome*, *painsome*, *worrysome* (*worrying*), *scaresome* (*scary*), *troublesome* |
-| Female X | `-ess` | /ɛs/ | feminine | noun | -ette, -trix, -ine, -woman, *female* + noun | *actoress* (*actress*), *heroess* (*heroine*), *Walesaness* (*Welshwoman*), *lioness*, *dogess* (*bitch*) |
+| Female X | `-ess` | /ɛs/ | feminine | noun | -ette, -trix, -ine, -woman, *female* + noun | *actoress* (*actress*), *heroess* (*heroine*), *Walesaness* (*Welshwoman*), *lioness*, *doggess* (*bitch*) |
 | In the lasting state of X-ing | `-ent` | /ənt/ | stative adjective | verb | -ant, -ent (adjective), -ing (in this meaning) | *dependent*, *undependent* (*independent*), *different*, *existent*, *pleasent* (*pleasant*), *ignorent* (*ignorant*) |
 | Can X | `-ive` | /ɪv/ | active potential | verb | -ive and -ile on Latin roots | *flyive* (can fly), *explodeive* (*explosive*), *createive* (*creative*), *destroyive* (*destructive*), *moveive* (*mobile*), *attractive*, *protective* |
-| Often X-s, tends to X | `-y` | /i/ | habitual adjective | verb | -ative, -ful and -some (on verbs) | *talky* (*talkative*), *forgety* (*forgetful*), *quarrely* (*quarrelsome*), *leaky*, *clingy*, *pushy*, *jumpy* |
+| Often X-s, tends to X | `-y` | /i/ | habitual adjective | verb | -ative, -ful and -some (on verbs) | *talky* (*talkative*), *forgetty* (*forgetful*), *quarrely* (*quarrelsome*), *leaky*, *clingy*, *pushy*, *jumpy* |
 
 Notes:
 - By P1, a place gives three different words: the person (`-an`), the adjective (`-al`) and the language (`-ese`). Example: *a Chinan* speaks *Chinaese* and eats *Chinal food*. The people as a group is the plural: *the Chinans* (*the Chinese*).
 - `-an` and `-ese` overwrite names of peoples and languages too (P5). The name of this language is *Consistentized Englandese*. More examples: *Thailandan*, *Thailandese* (*Thai*); *Walesan*, *Walesese* (*Welsh*); *Netherlandan* (*Dutchman*), *Netherlandese* (*Dutch*); *Canadan* (*Canadian*); *Francean* (*Frenchman*).
-- `-an` is also used for cities and regions: *Londonan*, *Texasan*.
+- `-an` is also used for cities and regions: *Londonian*, *Texasan*.
 - A people or language whose name is itself the base word does not take `-an` or `-ese`. Examples: *a Tamil*, *the Yorubas*, *Basque*, *Latin*, *Esperanto*.
 - Place names themselves do not change (*England*, *Malaysia*). Only the derived forms change.
-- A plural place name uses its singular form as the base for a suffix: *Netherlands* → *Netherlandan*, *Netherlandal*, *Netherlandese*; *Philippines* → *Philippinean*, *Philippinese*. The name alone keeps its *-s* (*the Netherlands*). *Wales* is not a plural, so it keeps its *s*: *Walesan*, *Walesese*.
+- A plural place name uses its singular form as the base for a suffix: *Netherlands* → *Netherlandan*, *Netherlandal*, *Netherlandese*; *Philippines* → *Philippineian*, *Philippinese*. The name alone keeps its *-s* (*the Netherlands*). *Wales* is not a plural, so it keeps its *s*: *Walesan*, *Walesese*.
 - *-like* and *-ly* are different. *-like* makes an adjective from a noun. *-ly* makes an adverb from an adjective. So *friendly* (adjective, "like a friend") becomes *friendlike*.
 - Five suffixes say what can happen, or is to happen, to a thing. They are different:
   - *flyive*: it can fly.
@@ -354,7 +354,7 @@ CE imports common affixes from biology and medicine and makes them fully product
 | Fears X, avoids X | `-phobe` | /fəʊb/ | *hydrophobe* | noun | *-phobic* | *waterphobe*, *crowdphobe* |
 | Kills X | `-cide` | /saɪd/ | *herbicide* | noun | *X-killer*, *-icide* | *weedcide* (*herbicide*), *bugcide* (*insecticide*) |
 | Produces X | `-gen` | /dʒən/ | *pathogen* | noun | *-genic*, *-ogen* | *diseasegen* (*pathogen*), *cancergen* (*carcinogen*) |
-| Swelling, inflammation of X | `-itis` | /ˈaɪtɪs/ | *arthritis* | noun | *-itis* on Greek roots | *jointitis* (*arthritis*), *skinitis* (*dermatitis*) |
+| Swelling, inflammation of X | `-itis` | /ˈaɪtɪs/ | *arthritis* | noun | *-itis* on Greek roots | *jointitis* (*arthritis*), *skinnitis* (*dermatitis*) |
 | Removal of X by cutting | `-ectomy` | /ˈɛktəmi/ | *appendectomy* | noun | *-ectomy* on Greek roots | *tonsilectomy*, *wombectomy* (*hysterectomy*) |
 | Tool to look at X | `-scope` | /skəʊp/ | *microscope* | noun | *-oscope* | *starscope* (*telescope*), *insidescope* (*endoscope*) |
 
@@ -390,22 +390,78 @@ Notes:
 
 **Rule: the base word never changes.** An affix never adds, removes or changes a letter of the base. All variation is in the affix.
 
-An affix may have a variant only to prevent awkward spelling or pronunciation (P3). It is not enough that the traditional form is more familiar. So *un-* has no *im-*, *il-* or *ir-* variant: *unpossible* and *unlegal* are easy to say.
+An affix has a variant only to solve a sound problem or a spelling problem (P3). Familiarity is never a reason. So *un-* has no *im-*, *il-* or *ir-* variant: *unpossible* and *unlegal* are easy to say.
 
-These are the only allowed variants. A rule always chooses the form.
+**How to find the last sound.** Say the base as it is said before a vowel.
 
-### 4.1 Add a letter to the affix (break a consonant cluster, a vowel clash or a repeat)
+- Silent letters do not count. *describe* ends in /b/, *create* in /t/, *weigh* in /eɪ/. The silent *e* stays in the spelling, as in *makeor* and *makeable*.
+- Only a written *r* counts as /r/. *offer* ends in /r/ in every accent, because the *r* is said before a vowel (linking *r*). *draw* ends in a vowel, also in accents that add an *r* there (intrusive *r*).
+- Final *y* and *w* are vowels: *try*, *play*, *draw*, *show*.
+- If the pronunciation is unclear, the dictionary decides (§6).
 
-| Affix | Variant | Condition | Examples |
-|---|---|---|---|
-| `-s` | `-es` | Base ends in *s, x, z, ch, sh* | *box* → *boxes*, *wish* → *wishes* |
-| `a-` | `an-` | Base starts with a vowel, as with the article *a* / *an* | *anoven* (*on the oven*), *anice* (*on the ice*) |
-| `-an` | `-ian` | Base ends in *an* (prevents *anan*) | *Japan* → *Japanian*, *Iran* → *Iranian*, *Pakistan* → *Pakistanian*, *Taiwan* → *Taiwanian* |
-| `-ture` | `-ature` | The last sound of the base is a consonant other than /t/ (§3.2) | *sign* → *signature*, *build* → *buildature*, *mix* → *mixature*, *describe* → *describeature*, *offer* → *offerature* |
+A prefix looks at the first sound of the base in the same way: *oven* and *hour* start with a vowel.
 
-### 4.2 Remove the first letter of the affix (prevent an overlap)
+**Kinds of variant.**
 
-When the base ends in the letter that the affix starts with, and keeping both would be awkward, the affix loses its first letter. Awkward means one of these:
+| Kind | Chosen by | Variants |
+|---|---|---|
+| Add a vowel | the last sound of the base | `-s` → `-es`, `-an` → `-ian`, `-ture` → `-ature` (§4.1) |
+| Add a consonant | the first sound of the base | `a-` → `an-` (§4.1) |
+| Drop a sound | the last sound of the base | `-ture` → `-ure` (§4.1) |
+| Gemination | the sound and the letters of the base | a copy of the last consonant (§4.1.1) |
+| Drop a letter | the last letters of the base | drop *e*, drop *a*, no triple letter, `-th` → `-h`, `-ize` → `-iz` (§4.2) |
+
+**Order.** First the sound chooses the form (§4.1, then §4.1.1). Then the spelling rules fix the letters (§4.2). Example: *horse* ends in /s/, so `-s` becomes `-es` (§4.1). *horse* + *es* has a doubled *e*, so the *e* drops (§4.2): *horses*.
+
+**Only the listed variants exist.** A problem with no variant in this section stays: *seeor* (two vowels meet), *makeable* (the silent *e* stays before a vowel).
+
+### 4.1 Sound-conditioned variants
+
+The last sound of the base chooses the form. For a prefix, the first sound chooses it.
+
+| Affix | Variant | Problem | Condition | Examples |
+|---|---|---|---|---|
+| `-s` | `-es` | two sibilants meet | The last sound of the base is a sibilant: /s/, /z/, /ʃ/, /ʒ/, /tʃ/ or /dʒ/ | *box* → *boxes*, *wish* → *wishes*, *church* → *churches*, *quiz* → *quizzes* (§4.1.1); *horse* → *horses*, *judge* → *judges* (§4.2); but *stomach* → *stomachs*, *monarch* → *monarchs* |
+| `a-` | `an-` | two vowels meet | The first sound of the base is a vowel, as with the article *a* / *an* | *anoven* (*on the oven*), *anice* (*on the ice*); but *awall* |
+| `-an` | `-ian` | a repeated syllable | The last sound of the base is /n/ (prevents *Japanan*, *Londonan*) | *Japan* → *Japannian* (§4.1.1), *Iran* → *Iranian*, *Pakistan* → *Pakistanian*, *Taiwan* → *Taiwanian*, *London* → *Londonian*, *Spain* → *Spainian* |
+| `-ture` | `-ure` | two /t/ sounds meet | The last sound of the base is /t/ (§3.2) | *connect* → *connecture*, *paint* → *painture*, *sculpt* → *sculpture*, *create* → *createure* |
+| `-ture` | `-ature` | a consonant cluster | The last sound of the base is any other consonant (§3.2) | *sign* → *signature*, *build* → *buildature*, *mix* → *mixature*, *describe* → *describeature*, *offer* → *offerature* |
+
+#### 4.1.1 Gemination
+
+A suffix that starts with a vowel adds a copy of the last consonant of the base at its start. This happens when all of these are true:
+
+- The base ends in one vowel letter and one consonant letter.
+- The last syllable of the base is stressed.
+- Its vowel is short: the vowel of *cat*, *bed*, *sit*, *hot*, *cup* or *put*, or a vowel before *r* (*star*, *refer*, *occur*).
+
+The copy belongs to the suffix, so the base does not change: *stop* + *ped* → *stopped*. Without the copy, the spelling would show the wrong sound of the base (*stoped* looks like it has a long *o*).
+
+| Base | Suffix | Result |
+|---|---|---|
+| *stop*, *refer* | `-ed` | *stopped*, *referred* |
+| *run* | `-ing` | *running* |
+| *bad* | `-er`, `-est` | *badder*, *baddest* |
+| *beg*, *cut* | `-or`, `-el` | *beggor*, *cuttel* |
+| *bag*, *dog* | `-age`, `-ess` | *baggage*, *doggess* |
+| *red* | `-ish` | *reddish* |
+
+No copy:
+
+- The last syllable is not stressed: *visit* → *visited*, *open* → *openel*, *offer* → *offered*.
+- Two vowel letters or two consonant letters: *meet* → *meeted*, *help* → *helped*.
+- *x*, *w* and *y* are never copied: *fix* → *fixed*, *show* → *showed*, *play* → *played*.
+- A suffix is not stressed, so a word that already ends in a suffix takes no copy: *actoress*, *Walesaness*.
+
+*qu* counts as one consonant: *quiz* → *quizzes*, *quit* → *quitting*.
+
+**The *k* copy.** A final *c* that is said /k/ is copied as *k* before a suffix that starts with *e*, *i* or *y*: *panic* → *panicked*, *picnic* → *picnicking*, *traffic* → *trafficking*. This happens also when the last syllable is not stressed, because *c* before *e*, *i* or *y* would be read /s/. Before *a*, *o* or *u* there is no copy: *electrical*, *electricor*. *c* is never copied in any other way.
+
+Gemination uses the form that §4.1 chose: *Japan* → `-ian` → *Japannian*; *cut* → `-ure` → *cutture*.
+
+### 4.2 Spelling-conditioned variants
+
+The last letters of the base choose the form. These variants change only the letters; the sound stays the same. When the base ends in the letter that the affix starts with, and keeping both would make one of these, the affix loses its first letter:
 
 - a doubled *e* or a doubled *a*
 - a triple letter
@@ -413,17 +469,16 @@ When the base ends in the letter that the affix starts with, and keeping both wo
 
 | Affix | Variant | Condition | Examples |
 |---|---|---|---|
-| Any suffix that starts with *e* (`-ed`, `-el`, `-er`, `-est`, `-ee`, `-ent`, `-ery`, `-ese`, `-ess`, `-ectomy`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *shove* → *shovel*, *write* → *writel*; *choose* → *choosed*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese*; *please* → *pleasent* |
+| Any suffix that starts with *e* (`-ed`, `-el`, `-er`, `-est`, `-ee`, `-ent`, `-ery`, `-ese`, `-ess`, `-es`, `-ectomy`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *shove* → *shovel*, *write* → *writel*; *choose* → *choosed*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese*; *please* → *pleasent*; *horse* → *horses* |
 | Any suffix that starts with *a* (`-al`, `-an`, `-able`, `-and`, `-age`, `-ary`) | drop the *a* | Base ends in *a* | *China* → *Chinal*, *Chinan*; *Canada* → *Canadal*, *Canadan*; *Korea* → *Korean*; *formula* → *formulal*, *formulage* |
 | `-or` | no variant | Base ends in *e* | *make* → *makeor*, *operate* → *operateor* (the base never changes; *e* + *o* is not a doubled *e*) |
-| `-ize` | `-iz` | The next suffix starts with a vowel (*a, e, i, o, u*) | *lawize* → *lawizive*, *lawized*, *lawizing*, *lawizature*; *slaveize* → *slaveizor*; *looseize* → *unlooseizable*; but *slaveizement*, *lawizeful* |
 | Any affix | drop its first letter | The result would have three of the same letter | *full* + `-ly` → *fully*; *skill* + `-less` → *skilless* |
-| `-th` | `-h` | Base ends in *t* | *eight* → *eighth* |
-| `-ture` | `-ure` | The last sound of the base is /t/ (§3.2) | *connect* → *connecture*, *paint* → *painture*, *sculpt* → *sculpture*, *create* → *createure* |
+| `-th` | `-h` | Base ends in *t* | *eight* → *eighth* (said the same either way; the problem is only *tth*) |
+| `-ize` | `-iz` | The next suffix starts with a vowel (*a, e, i, o, u*) | *lawize* → *lawizive*, *lawized*, *lawizing*, *lawizature*; *slaveize* → *slaveizor*; *looseize* → *unlooseizable*; but *slaveizement*, *lawizeful* |
 
 Exception: after the base *be*, a suffix keeps its *e*: *beed* (was, been). In *be* the *e* is the only vowel and it is spoken, and dropping it would give the existing word *bed*.
 
-The `-ize` row is the only case where an affix changes because of the affix that follows it. `-ize` is an affix, not a base, so the base before it never changes. Before `-ed`, `-er` and `-est`, the result is the same as the rule for suffixes that start with *e*: *Consistentized*.
+The `-ize` row is the only case where an affix changes because of the affix that follows it. `-ize` is an affix, not a base, so the base before it never changes. Before `-ed`, `-er` and `-est`, the result is the same as the rule for suffixes that start with *e*: *Consistentized*. Before other vowels, `-iz` solves neither a sound problem nor a spelling problem in P3 (Q25).
 
 ### 4.3 Results of the rule
 
@@ -432,12 +487,10 @@ Because the base never changes, these traditional spelling changes are not used:
 | Traditional | CE | Rule removed |
 |---|---|---|
 | *tried*, *happiness* | *tryed*, *happyness* | *y* → *i* |
-| *stopped*, *running* | *stoped*, *runing* | double the final consonant |
 | *making*, *usable* | *makeing*, *useable* | drop the final *e* |
 | *simply* | *simplely* | *-le* → *-ly* |
-| *panicked* | *paniced* | *c* → *ck* |
 
-Note: without doubling and *c* → *ck*, some spellings no longer show the sound of the base (*stoped* looks like it has a long *o*; *paniced* looks like it has an *s* sound). See Q3.
+Doubling (*stopped*, *running*) and *c* → *ck* (*panicked*) give the same spelling as in English, but in CE they are a form of the suffix, not a change to the base (§4.1.1, Q3).
 
 ### 4.4 Recommended pronunciation
 
@@ -508,7 +561,7 @@ The CE dictionary lists base words, so that each base has one part of speech (P1
 - one example sentence
 - the traditional words it replaces (optional)
 
-A base noun names one thing, not a group. A group of things uses `-age` (§3.4.2): *kin* (one relative) → *kinage*; *machine* → *machineage*; *voteor* → *voteorage*; *governor* → *governorage* (*government*).
+A base noun names one thing, not a group. A group of things uses `-age` (§3.4.2): *kin* (one relative) → *kinnage*; *machine* → *machineage*; *voteor* → *voteorage*; *governor* → *governorage* (*government*).
 
 The dictionary is to be done. Only base words go in the dictionary. Affixed forms are made by the rules in §3 and are not listed.
 
@@ -516,9 +569,9 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 
 - **Q1.** (Closed.) *be* is regular (§3.1): *I be*, *he be*, *he beed*.
 - **Q2.** How do we handle collisions such as *seed* (see §5)? Options: accept the collision, add a hyphen (*see-ed*), or change the allomorph rule.
-- **Q3.** Do we need a variant that keeps the sound of the base without changing its spelling? Example: a hyphen or a written mark between base and affix (*stop-ed*, *panic-ed*).
+- **Q3.** (Closed.) Without doubling and *c* → *ck*, some spellings did not show the sound of the base (*stoped*, *paniced*). A hyphen or a written mark (*stop-ed*, *panic-ed*) was not needed. Gemination and the *k* copy are now forms of the suffix (§4.1.1, Q24): *stopped*, *panicked*. The base still never changes.
 - **Q4.** (Closed.) `-ment` covered the act and its result. It now names only the act, and the result uses `-ture` (§3.2, Q23).
-- **Q5.** (Closed.) `-or` covered agents and instruments. These are different thematic roles, so the instrument now uses `-el` (§3.2): *cutel*, *openel*. The line between them is the role, not the difference between persons and things: a thermostat is a *regulateor*. `-ee` and `-and` still cover persons and things.
+- **Q5.** (Closed.) `-or` covered agents and instruments. These are different thematic roles, so the instrument now uses `-el` (§3.2): *cuttel*, *openel*. The line between them is the role, not the difference between persons and things: a thermostat is a *regulateor*. `-ee` and `-and` still cover persons and things.
 - **Q6.** (Closed.) Plural place names made awkward language names (*Netherlandsese*). A plural place name now uses its singular form as the base (§3.4.2): *Netherlandese*, *Philippinese*.
 - **Q7.** (Closed, superseded by Q19.) The modals were verb slots for a time. They are words again (§3.1.1).
 - **Q8.** (Closed.) `-ee` covered three thematic roles: patient (*employee*), recipient (*payee*) and agent (*escapee*). `-ee` now means only the direct object. The recipient uses `-ary`, and the agent uses `-or` (§3.2).
@@ -536,7 +589,16 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q20.** Some English modals have two meanings: *may* (permission or possibility), *must* (duty or conclusion), *should* (advice or expectation), *shall* (duty or future). This breaks P1. Do we accept it under P0, or choose one meaning for each modal and use a phrase for the other (*be allowed to*, *it is possible that*)?
 - **Q21.** Do contractions stay, and in which form? English *isn't*, *wasn't*, *don't*, *doesn't*, *won't* and *can't* follow the irregular forms that CE removed. Options: no contractions; regular contractions (*ben't*, *beedn't*, *doedn't*, *willn't*); or English contractions as fixed words.
 - **Q22.** (Closed.) `-ure` (about to X) was dropped (P0). `-or` has no time, so context gives "about to", as in English. `-ure` also moved common words to new meanings (*departure*, *pressure*) and was not guessable (*electure*). `-and` stays, because `-ee` means "is or was X-ed" and cannot also mean "not yet" (§3.2). The letters *-ure* came back later as a form of the result suffix `-ture`, with a different meaning (Q23).
-- **Q23.** (Closed.) The result noun (*nomen acti*) used `-ion`. Many common English *-tion* words mainly name the act (*inspection*, *operation*, *construction*), so CE `-ion` made false friends. It also gave hard-to-read forms after *e* (*describeion*, *Uniteion*). English has no suffix that names only the result, so CE took `-ture`, the Latin result suffix *-ūra* (*creature*, *picture*, *mixture*). Its three forms are chosen by the last sound of the base: `-ture` after a vowel, `-ure` after /t/, `-ature` after any other consonant (§3.2). This is the first allomorph rule that looks at sound, not letters. It is the model for a later review of all allomorphs in §4.
+- **Q23.** (Closed.) The result noun (*nomen acti*) used `-ion`. Many common English *-tion* words mainly name the act (*inspection*, *operation*, *construction*), so CE `-ion` made false friends. It also gave hard-to-read forms after *e* (*describeion*, *Uniteion*). English has no suffix that names only the result, so CE took `-ture`, the Latin result suffix *-ūra* (*creature*, *picture*, *mixture*). Its three forms are chosen by the last sound of the base: `-ture` after a vowel, `-ure` after /t/, `-ature` after any other consonant (§3.2). This is the first allomorph rule that looks at sound, not letters. It became the model for all allomorphs in §4 (Q24).
+- **Q24.** (Closed.) All allomorphs now follow the model of `-ture` (Q23). The base never changes, and all variation is in the affix. An allomorph solves a sound problem or a spelling problem (P3). The last sound of the base decides a sound problem; the last letters decide a spelling problem. Sound is the main test. The changes:
+  - `-es` follows a sibilant sound, not a list of letters: *stomachs*, not *stomaches*.
+  - `-ian` follows any base that ends in /n/, to prevent a repeated syllable: *Londonian*, *Spainian*.
+  - Gemination is a form of the suffix: *stopped*, *running*, *referred*, *badder*, *beggor*. *x*, *w* and *y* are never copied.
+  - A final *c* is copied as *k* before *e*, *i* or *y*, also after a syllable that is not stressed: *panicked*, *picnicking*.
+  - `-ature` still follows every consonant except /t/. A rule for real clusters only would need a definition of a hard cluster, and it would change many forms (*signature*, *makeature*).
+  - `-th` → `-h` stays a spelling rule. *eighth* sounds the same either way, so the problem is only in the letters.
+  - Drop *e*, drop *a*, the triple-letter rule and `-ize` → `-iz` stay spelling rules.
+- **Q25.** `-ize` → `-iz` before a vowel (§4.2) solves neither a sound problem nor a spelling problem in P3. *makeable* and *makeor* keep their silent *e*. Should `-iz` go (*lawizeable*, *slaveizeor*, *lawizeature*), or should P3 allow it?
 
 ## Appendix A. Example translation
 
@@ -548,7 +610,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 
 **Consistentized Englandese**
 
-> Before you begin, sureize the machine be completely deconnected from the power supply. It be unpossible to safely inspect the electric components while the unit be runing. The techniqueor who carryed out the last inspectment finded that several bolts haved beed looseized and two of the seals beed breaked. These problems be not easyly seeable, so you should check each joint carefully. If a seal be unuseable, replace it immediately. The replacement must be doed by a qualifyed operateor.
+> Before you begin, sureize the machine be completely deconnected from the power supply. It be unpossible to safely inspect the electric components while the unit be running. The techniqueor who carryed out the last inspectment finded that several bolts haved beed looseized and two of the seals beed breaked. These problems be not easyly seeable, so you should check each joint carefully. If a seal be unuseable, replace it immediately. The replacement must be doed by a qualifyed operateor.
 
 ### A.2 Changes
 
@@ -565,7 +627,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 | *is*, *are not* | *be*, *be not* | *be* is regular, and the verb does not agree (§3.1) |
 | *visible* | *seeable* | affix goes on the plain base (P4) |
 | *easily*, *carried*, *qualified* | *easyly*, *carryed*, *qualifyed* | the base never changes: no *y* → *i* (§4) |
-| *is running* | *be runing* | the base never changes: no doubled consonant (§4) |
+| *is running* | *be running* | the copied *n* belongs to `-ing`, so the base does not change (§4.1.1) |
 | *electrical components* | *electric components* | *electric* is a base noun (P4), so this is a noun compound (§3.7); the adjective would be *electrical* (electric + `-al`) |
 
 The auxiliary verbs stay as words (§3.1.1). Only their forms are regular: *haved beed looseized*, *must be doed*. The rest of the sentence structure does not change: *carried out* stays a phrasal verb, and *should check* stays.
@@ -691,13 +753,13 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 
 **Consistentized Englandese** (330 words)
 
-> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speak fluent Englandese and Netherlandese. She haved arrived after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, beed prewarned of thons' arrivement. She telled thons that her oven haved misfunctioned twice that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
+> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japannianess, speak fluent Englandese and Netherlandese. She haved arrived after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, beed prewarned of thons' arrivement. She telled thons that her oven haved misfunctioned twice that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
 >
 > The engineoress examined the machineage carefullyer than the governorage's inspector haved. The subfloor wires beed interconnected, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse beed breaked and that mouses haved transchewed the insulatement. A skilled electricor would have seed it at once, but the inspector haved not.
 >
-> Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeature. His repair, however, beed gooder than his teachoress's. The new oven selfclean, autostart and bake twofold the bread. It be waterproof and airproof, and it be beautifuler than the old one, although slightly noisefuler.
+> Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed badder than her describeature. His repair, however, beed gooder than his teachoress's. The new oven selfclean, autostart and bake twofold the bread. It be waterproof and airproof, and it be beautifuler than the old one, although slightly noisefuler.
 >
-> The bakeorlingess, a pharmacy graduateoress, beed impressed but doubtful. "It be unpossible to trust a machine fully," she sayed. The engineoress smiled. "It be the safest oven in the kingdom, and the relyablest machine that I have ever builded." She refused payment. In return, the bakeoress gived thons a basket of warm loafs and a reddish, heart-shaped cake. The childs in the shop behaved childlikely and outruned each other doorward.
+> The bakeorlingess, a pharmacy graduateoress, beed impressed but doubtful. "It be unpossible to trust a machine fully," she sayed. The engineoress smiled. "It be the safest oven in the kingdom, and the relyablest machine that I have ever builded." She refused payment. In return, the bakeoress gived thons a basket of warm loafs and a reddish, heart-shaped cake. The childs in the shop behaved childlikely and outrunned each other doorward.
 >
 > Since then, the orderands of each day be writed on a whiteboard in the cookery: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, have never beed happyer, and the new oven have bepowered the bakeoress. "Moneywise, a bakerylet be gooder than a large makeery," she say. Her husband, an exfire-fightor, agree and do the deliverments.
 
@@ -710,7 +772,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 | Regular past participle | *broken*, *written*, *seen*, *built* → *breaked*, *writed*, *seed*, *builded* | `-ed` (§3.1) |
 | Regular *do*, *say*, *be*, *have* | *does*, *said*, *is*, *was*, *been*, *has*, *had* → *do*, *sayed*, *be*, *beed*, *beed*, *have*, *haved* | `-ed`, no agreement; CE has no irregular verbs (§3.1) |
 | Auxiliaries | *had arrived*, *has empowered*, *was broken*, *are written*, *would have seen*, *had not* (ellipsis), *do not tighten* → *haved arrived*, *have bepowered*, *beed breaked*, *be writed*, *would have seed*, *haved not*, *do not overtightize* | English auxiliaries with regular forms (§3.1.1) |
-| Regular comparison | *worse*, *better* → *bader*, *gooder* | `-er` (§3.1) |
+| Regular comparison | *worse*, *better* → *badder*, *gooder* | `-er` (§3.1) |
 | Comparison of long words | *more carefully*, *more beautiful*, *most reliable* → *carefullyer*, *beautifuler*, *relyablest* | no *more* / *most* for degree (§3.1) |
 | Not X | *impossible*, *unreliable* → *unpossible*, *unrelyable* | `un-` (§3.2) |
 | Reverse the action | *disconnect*, *unlock* → *deconnect*, *delock* | `de-` (§3.2) |
@@ -725,18 +787,18 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 | Having X | *dangerous*, *noisy* → *dangerful*, *noiseful* | `-ful` (§3.2) |
 | Manner adverb | *childishly* → *childlikely* | `-like` + `-ly` (§3.2, §3.4.2) |
 | Make X, causative | *tighten too much*, *raise*, *lay* → *overtightize*, *riseize*, *lieize* | `-ize` (§3.2) |
-| Prefixes | *malfunctioned*, *under the floor*, *overhead*, *forewarned*, *contradicted*, *across the ocean*, *worked together*, *former*, *cleans itself*, *starts automatically*, *outran*, *empowered*, *bicycle*, *co-owner* → *misfunctioned*, *subfloor*, *superhead*, *prewarned*, *counterspeaked*, *transocean*, *coworked*, *ex-*, *selfclean*, *autostart*, *outruned*, *bepowered*, *biwheel*, *coownor* | §3.4.1 |
+| Prefixes | *malfunctioned*, *under the floor*, *overhead*, *forewarned*, *contradicted*, *across the ocean*, *worked together*, *former*, *cleans itself*, *starts automatically*, *outran*, *empowered*, *bicycle*, *co-owner* → *misfunctioned*, *subfloor*, *superhead*, *prewarned*, *counterspeaked*, *transocean*, *coworked*, *ex-*, *selfclean*, *autostart*, *outrunned*, *bepowered*, *biwheel*, *coownor* | §3.4.1 |
 | On, through | *on the floor*, *chewed through* → *afloor*, *transchewed* | `a-`; `trans-` on a verb (§3.4.1) |
 | Suffixes | *small bakery*, *machinery*, *kitchen*, *factory*, *toward the door*, *money-wise*, *thermometer*, *airtight*, *double*, *frightening* → *bakerylet*, *machineage*, *cookery*, *makeery*, *doorward*, *moneywise*, *heatmeter*, *airproof*, *twofold*, *frightsome* | §3.4.2 |
 | Child of X | *the baker's daughter* → *the bakeorlingess* | `-or` + `-ling` + `-ess`: 3 derivational affixes, the limit in U2 (§3.4.2) |
 | Unchanged regular forms | *reddish*, *waterproof*, *interconnected*, *kingdom*, *doubtful* | already CE |
-| Person, adjective, language | *Japanese woman*, *Welshwoman*, *English*, *Dutch*, *Chinese tea* → *Japanianess*, *Walesaness*, *Englandese*, *Netherlandese*, *Chinal tea* | `-an`, `-ese`, `-al` (§3.4.2) |
+| Person, adjective, language | *Japanese woman*, *Welshwoman*, *English*, *Dutch*, *Chinese tea* → *Japannianess*, *Walesaness*, *Englandese*, *Netherlandese*, *Chinal tea* | `-an`, `-ese`, `-al` (§3.4.2) |
 | Female | *engineer*, *baker*, *teacher*, *co-owner*, *graduate* (all women) → *engineoress*, *bakeoress*, *teachoress*, *coownoress*, *graduateoress* | `-ess`; the unmarked noun is male (§3.4.2) |
 | Every X | *daily* → *of each day* | removed affix (§3.5) |
 | Pronouns | *their*, *them*, *They* → *thons'*, *thons*, *Thons* | plural of *thon*; the group is mixed (§3.9) |
 | Compound | *former firefighter* → *exfire-fightor* | affixes on the ends (§3.7) |
-| Allomorphs | *Japanian* (`-ian` after *an*), *Chinal* (drop *a*), *retired*, *arrived*, *writed* (drop *e*), *fully* (no triple *l*), *eighth* (`-h` after *t*) | §4 |
-| Base never changes | *happier* → *happyer* (no *y* → *i*); *outran* → *outruned* (no doubled *n*) | §4.3 |
+| Allomorphs | *Japannian* (`-ian` after /n/, then gemination), *badder*, *outrunned* (gemination), *Chinal* (drop *a*), *retired*, *arrived*, *writed* (drop *e*), *fully* (no triple *l*), *eighth* (`-h` after *t*) | §4 |
+| Base never changes | *happier* → *happyer* (no *y* → *i*) | §4.3 |
 | Exempt names | *25 kilograms*, *sodium bicarbonate*, *London* | P6, place names |
 
 ### D.3 Comment
@@ -753,13 +815,13 @@ This is the passage from Appendix D, translated again with the biological affixe
 
 **Consistentized Englandese with §3.8** (320 words)
 
-> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speak fluent Englandese and Netherlandese. She haved arrived after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, beed prewarned of thons' arrivement. She telled thons that her oven haved bimisfunctioned that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
+> Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japannianess, speak fluent Englandese and Netherlandese. She haved arrived after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, beed prewarned of thons' arrivement. She telled thons that her oven haved bimisfunctioned that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
 >
 > The engineoress examined the machineage carefullyer than the governorage's inspector haved. The subfloor wires beed interconnected, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse beed breaked and that mouses haved transchewed the insulatement. A skilled electricor would have seed it at once, but the inspector haved not.
 >
-> Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeature. His repair, however, beed gooder than his teachoress's. The neooven selfclean, autostart and bake twofold the bread. It be waterproof and airproof, and it be beautifuler than the old one, although slightly noisefuler.
+> Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed badder than her describeature. His repair, however, beed gooder than his teachoress's. The neooven selfclean, autostart and bake twofold the bread. It be waterproof and airproof, and it be beautifuler than the old one, although slightly noisefuler.
 >
-> The bakeorlingess, a pharmacy graduateoress, beed impressed but doubtful. "It be unpossible to trust a machine fully," she sayed. The engineoress smiled. "It be the safest oven in the kingdom, and the relyablest machine that I have ever builded." She refused payment. In return, the bakeoress gived thons a basket of warm loafs and a reddish, heartform cake. The intrashop childs behaved childlikely and interoutruned doorward.
+> The bakeorlingess, a pharmacy graduateoress, beed impressed but doubtful. "It be unpossible to trust a machine fully," she sayed. The engineoress smiled. "It be the safest oven in the kingdom, and the relyablest machine that I have ever builded." She refused payment. In return, the bakeoress gived thons a basket of warm loafs and a reddish, heartform cake. The intrashop childs behaved childlikely and interoutrunned doorward.
 >
 > Since then, the orderands of each day be writed on an intracookery whiteboard: 25 kilograms of flour, sodium bicarbonate and Chinal tea. The engineoress, now a coownoress, have never beed happyer, and the neooven have bepowered the bakeoress. "Moneywise, a bakerylet be gooder than a macromakeery," she say. Her husband, an exfire-fightor, agree and do the deliverments.
 
@@ -772,15 +834,15 @@ This is the passage from Appendix D, translated again with the biological affixe
 | *heart-shaped* | *heartform* | `-form` (§3.8.2) |
 | *a large makeery* | *a macromakeery* | `macro-` (§3.8.1) |
 | *The childs in the shop*, *a whiteboard in the cookery* | *The intrashop childs*, *an intracookery whiteboard* | `intra-` (§3.4.1), existing, not used in Appendix D |
-| *outruned each other* | *interoutruned* | reciprocal `inter-` (§3.4.1), existing, not used in Appendix D |
+| *outrunned each other* | *interoutrunned* | reciprocal `inter-` (§3.4.1), existing, not used in Appendix D |
 
 ### E.3 Size
 
 | Version | Words | Characters |
 |---|---|---|
 | Standard English (D.1) | 359 | 2158 |
-| CE (D.1) | 330 | 2141 |
-| CE with §3.8 (E.1) | 320 | 2122 |
+| CE (D.1) | 330 | 2144 |
+| CE with §3.8 (E.1) | 320 | 2125 |
 
 ### E.4 Comment
 
