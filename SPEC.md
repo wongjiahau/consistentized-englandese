@@ -412,6 +412,7 @@ A prefix looks at the first sound of the base in the same way: *oven* and *hour*
 |---|---|---|
 | Add a vowel | the last sound of the base | `-s` → `-es`, `-an` → `-ian`, `-ture` → `-ature` (§4.1) |
 | Add a consonant | the first sound of the base | `a-` → `an-` (§4.1) |
+| Add a consonant | the last sound of the base | `-ed` → `-yed` (§4.1) |
 | Drop a sound | the last sound of the base | `-ture` → `-ure` (§4.1) |
 | Drop a letter | the last letters of the base | drop *e*, drop *a*, no triple letter, `-th` → `-h`, `-ize` → `-iz` (§4.2) |
 
@@ -429,6 +430,7 @@ The last sound of the base chooses the form. For a prefix, the first sound choos
 | `a-` | `an-` | two vowels meet | The first sound of the base is a vowel, as with the article *a* / *an* | *anoven* (*on the oven*), *anice* (*on the ice*); but *awall* |
 | `-an` | `-ian` | a repeated syllable | The last sound of the base is /n/ (prevents *Japanan*, *Londonan*) | *Japan* → *Japanian*, *Iran* → *Iranian*, *Pakistan* → *Pakistanian*, *Taiwan* → *Taiwanian*, *London* → *Londonian*, *Spain* → *Spainian* |
 | `-ture` | `-ure` | two /t/ sounds meet | The last sound of the base is /t/ (§3.2) | *connect* → *connecture*, *paint* → *painture*, *sculpt* → *sculpture*, *create* → *createure* |
+| `-ed` | `-yed` | the past tense would sound and look like another word (*seed*) | The last sound of the base is /iː/ | *see* → *seeyed* /siːjd/, *agree* → *agreeyed*, *ski* → *skiyed*, *free* → *freeyed* |
 | `-t` | `-et` | a consonant cluster, or two /t/ sounds | The last sound of the base is a consonant (§3.2) | *send* → *sendet*, *teach* → *teachet*, *lend* → *lendet*, *tell* → *tellet*, *give* → *givet* (§4.2), *lift* → *liftet*; after a vowel `-t` stays: *pay* → *payt* |
 | `-ture` | `-ature` | a consonant cluster | The last sound of the base is any other consonant (§3.2) | *sign* → *signature*, *build* → *buildature*, *mix* → *mixature*, *describe* → *describeature*, *offer* → *offerature* |
 
@@ -485,7 +487,6 @@ Some regular CE forms have the same spelling as an existing English word with a 
 
 | CE form | CE meaning | Existing English meaning |
 |---|---|---|
-| *seed* | past tense of *see* | part of a plant |
 | *goodly* | in a good way | large in amount (archaic) |
 | *department* | the act of departing | a part of an organization (CE: *partdom* or a dictionary base word, to be decided) |
 | *towel* | a tool for towing | a cloth for drying |
@@ -494,7 +495,7 @@ Some regular CE forms have the same spelling as an existing English word with a 
 | *ahead* | on the head | in front |
 | *away* | on the way | at a distance |
 
-(Open question Q2.)
+(*seed* is no longer a collision: the past of *see* is *seeyed*, Q2.)
 
 ### 5.1 False affixes
 
@@ -542,7 +543,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 ## 7. Open questions
 
 - **Q1.** (Closed.) *be* is regular (§3.1): *I be*, *he be*, *he beed*.
-- **Q2.** How do we handle collisions such as *seed* (see §5)? Options: accept the collision, add a hyphen (*see-ed*), or change the allomorph rule.
+- **Q2.** (Closed.) *see* + `-ed` gave *seed*, the plant. `-ed` now has the variant `-yed` after /iː/ (§4.1): *seeyed*, *agreeyed*, *skiyed*. The glide /j/ keeps the past tense from sounding like *seed* and keeps *see* whole in the spelling. The other options (accept the collision, add a hyphen) were dropped.
 - **Q3.** (Closed.) Without doubling and *c* → *ck*, some spellings do not show the English sound of the base (*stoped*, *paniced*). Gemination was tried and dropped (Q24). CE is written for reading: the base keeps its spelling, not always its sound, as in English *economy* / *economical*. No hyphen or mark is needed.
 - **Q4.** (Closed.) `-ment` covered the act and its result. It now names only the act, and the result uses `-ture` (§3.2, Q23).
 - **Q5.** (Closed.) `-or` covered agents and instruments. These are different thematic roles, so the instrument now uses `-el` (§3.2): *cutel*, *openel*. The line between them is the role, not the difference between persons and things: a thermostat is a *regulateor*. `-ee` and `-and` still cover persons and things.
@@ -612,10 +613,10 @@ A learner who knows one base word and the affix rules can make every related for
 
 | Meaning | Standard English | CE |
 |---|---|---|
-| past | *saw* | *seed* (see Q2) |
-| past participle (next to a noun) | *seen* | *seed* (see Q2) |
-| is seen | *is seen* | *be seed* |
-| has seen | *has seen* | *have seed* |
+| past | *saw* | *seeyed* |
+| past participle (next to a noun) | *seen* | *seeyed* |
+| is seen | *is seen* | *be seeyed* |
+| has seen | *has seen* | *have seeyed* |
 | does not see | *does not see* | *do not see* |
 | one who sees | *viewer* | *seeor* |
 | can be seen | *visible* | *seeable* |
@@ -729,7 +730,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 
 > Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speak fluent Englandese and Netherlandese. She haved arrived after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, beed prewarned of thons' arrivement. She telled thons that her oven haved misfunctioned twice that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
 >
-> The engineoress examined the machineage carefullyer than the governorage's inspector haved. The subfloor wires beed interconnected, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse beed breaked and that mouses haved transchewed the insulatement. A skilled electricor would have seed it at once, but the inspector haved not.
+> The engineoress examined the machineage carefullyer than the governorage's inspector haved. The subfloor wires beed interconnected, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse beed breaked and that mouses haved transchewed the insulatement. A skilled electricor would have seeyed it at once, but the inspector haved not.
 >
 > Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeature. His repair, however, beed gooder than his teachoress's. The new oven selfclean, autostart and bake twofold the bread. It be waterproof and airproof, and it be beautifuler than the old one, although slightly noisefuler.
 >
@@ -743,9 +744,9 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 |---|---|---|
 | Regular plural | *mice*, *children*, *loaves* → *mouses*, *childs*, *loafs* | `-s` (§3.1) |
 | Regular past | *came*, *told*, *made*, *found*, *gave* → *comed*, *telled*, *maked*, *finded*, *gived* | `-ed` (§3.1) |
-| Regular past participle | *broken*, *written*, *seen*, *built* → *breaked*, *writed*, *seed*, *builded* | `-ed` (§3.1) |
+| Regular past participle | *broken*, *written*, *seen*, *built* → *breaked*, *writed*, *seeyed*, *builded* | `-ed` (§3.1) |
 | Regular *do*, *say*, *be*, *have* | *does*, *said*, *is*, *was*, *been*, *has*, *had* → *do*, *sayed*, *be*, *beed*, *beed*, *have*, *haved* | `-ed`, no agreement; CE has no irregular verbs (§3.1) |
-| Auxiliaries | *had arrived*, *has empowered*, *was broken*, *are written*, *would have seen*, *had not* (ellipsis), *do not tighten* → *haved arrived*, *have bepowered*, *beed breaked*, *be writed*, *would have seed*, *haved not*, *do not overtightize* | English auxiliaries with regular forms (§3.1.1) |
+| Auxiliaries | *had arrived*, *has empowered*, *was broken*, *are written*, *would have seen*, *had not* (ellipsis), *do not tighten* → *haved arrived*, *have bepowered*, *beed breaked*, *be writed*, *would have seeyed*, *haved not*, *do not overtightize* | English auxiliaries with regular forms (§3.1.1) |
 | Regular comparison | *worse*, *better* → *bader*, *gooder* | `-er` (§3.1) |
 | Comparison of long words | *more carefully*, *more beautiful*, *most reliable* → *carefullyer*, *beautifuler*, *relyablest* | no *more* / *most* for degree (§3.1) |
 | Not X | *impossible*, *unreliable* → *unpossible*, *unrelyable* | `un-` (§3.2) |
@@ -791,7 +792,7 @@ This is the passage from Appendix D, translated again with the biological affixe
 
 > Last week, a retired engineoress and her exstudent visited a bakerylet in London. The engineoress, a Japanianess, speak fluent Englandese and Netherlandese. She haved arrived after a long transocean flight, and her student comed by biwheel. The bakeoress, a cheerful Walesaness, beed prewarned of thons' arrivement. She telled thons that her oven haved bimisfunctioned that month, that its heatmeter beed unrelyable, and that the noise it maked beed frightsome.
 >
-> The engineoress examined the machineage carefullyer than the governorage's inspector haved. The subfloor wires beed interconnected, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse beed breaked and that mouses haved transchewed the insulatement. A skilled electricor would have seed it at once, but the inspector haved not.
+> The engineoress examined the machineage carefullyer than the governorage's inspector haved. The subfloor wires beed interconnected, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse beed breaked and that mouses haved transchewed the insulatement. A skilled electricor would have seeyed it at once, but the inspector haved not.
 >
 > Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeature. His repair, however, beed gooder than his teachoress's. The neooven selfclean, autostart and bake twofold the bread. It be waterproof and airproof, and it be beautifuler than the old one, although slightly noisefuler.
 >
