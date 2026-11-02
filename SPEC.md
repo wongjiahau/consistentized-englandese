@@ -98,7 +98,7 @@ Notes:
 | Person or thing that is to be X-ed (gerundive) | `-and` | /ɑːnd/ | gerundive (future passive participle) | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *beaffixand* |
 | Can be X-ed | `-able` | /əbəl/ | passive potential adjective | -ible, -uble | *seeable*, *readable*, *solveable*, *flyable* (can be flown) |
 | The act of X | `-ment` | /mənt/ | action noun (*nomen actionis*) | -tion, -sion, -ation (as an act), -ance, -ence, -al, -age, -ice (act), -ery (practice), -ism (practice), -ing (as a noun) | *connectment* (*connection*), *payment*, *arrivement* (*arrival*), *createment* (*creation*), *observeableizement* |
-| The thing that X makes | `-ion` | /jən/ | result noun | -tion, -sion, -ation, -ing, -ure (result) | *connection* (a connection that has been made), *collection*, *confession*, *paintion* (*painting*), *buildion* (*building*), *describeion* (*description*), *mixion* (*mixture*) |
+| The thing that X makes | `-ture` | /tʃə(r)/ | result noun (*nomen acti*) | -tion, -sion, -ation, -ion, -ing, -ure, -ture (result) | *connecture* (*connection*: a connection that has been made), *collecture* (*collection*), *confessature* (*confession*), *painture* (*painting*), *buildature* (*building*), *describeature* (*description*), *mixature* (*mixture*), *signature* |
 | State or quality of being X | `-ness` | /nəs/ | quality noun (*nomen qualitatis*) | -ity, -th, -ance, -ence, -cy, -hood, -ship, -tude, -ice (quality), -ery (state), -ism (quality or condition) | *unpossibleness*, *trueness*, *longness*, *safeness* |
 | Relating to X | `-al` | /əl/ | relational adjective | -ic, -ical, -ar, -ary (in this meaning); demonym adjectives (-ese, -ish, -ian, -an, -i) | *scienceal*, *historyal*, *personal*, *Englandal* (*English*: *Englandal food*), *Chinal* (*Chinese*) |
 | Full of / having X | `-ful` | /fəl/ | possessive (proprietive) adjective | -ous, -y (on nouns) | *dangerful*, *fameful*, *rainful* |
@@ -113,9 +113,23 @@ Notes:
 - `-ize` has one meaning: a change into the state X. With an object, it means "make" (*widize the road*). With no object, it means "become" (*the road widize*). This is like *open* in *open the door* and *the door opens*.
 - `-ize` on a verb is causative: "make (the object) do X". The object is the one that does X: *deboardize the crew* (make the crew deboard), *fallize the tree* (*fell*), *riseize the flag* (*raise*), *lieize the cable on the floor* (*lay*). Use it only on verbs that have no object. If the verb has its own object, write a phrase: *tell the operator to examine the valve*. Do not put `-ize` on a word that already ends in `-ize`.
 - A noun that ends in *-ics* uses the form without *-s* as the base for a suffix, like a plural place name (§3.4.2): *politics* → *political*, *economics* → *economical*. The noun alone keeps its *-s*. (A field of study uses `-ology`, §3.4.2.)
-- `-ment` and `-ion` are different. *the connectment took one hour* (the act). *the connection is loose* (the thing that the act maked).
-- `-ion` has no variant. The base never changes, so after *e* it stays *-ion*: *describeion*, *quoteion*, like *makeor* and *createive*. After *t* and *s* it gives the standard form: *connection*, *confession*.
-- `-ion` and `-ee` are different. `-ion` is a thing that the action makes (*buildion*). `-ee` is a thing that the action is done to, and that existed before (*employee*).
+- `-ment` and `-ture` are different. *the connectment took one hour* (the act). *the connecture is loose* (the thing that the act maked).
+- `-ture` has three forms. The last sound of the base chooses the form (§4.1, §4.2):
+
+  | Last sound of the base | Form | Examples |
+  |---|---|---|
+  | a vowel | `-ture` /tʃə(r)/ | *tryture*, *playture*, *drawture*, *seeture*, *weighture* |
+  | /t/ | `-ure` /ə(r)/; with the *t*, /tʃə(r)/ | *connecture*, *painture*, *sculpture*, *createure*, *quoteure*, *writeure* |
+  | any other consonant | `-ature` /ətʃə(r)/ | *signature*, *buildature*, *mixature*, *describeature*, *makeature*, *offerature* |
+
+  To find the last sound, say the base as it is said before a vowel:
+  - Silent letters do not count. *describe* ends in /b/, *create* in /t/, *weigh* in /eɪ/. The silent *e* stays in the spelling, as in *makeor* and *makeable*.
+  - Only a written *r* counts as /r/. *offer* ends in /r/ in every accent, because the *r* is said before a vowel (linking *r*). *draw* ends in a vowel, also in accents that add an *r* there (intrusive *r*).
+  - Final *y* and *w* are vowels: *try*, *play*, *draw*, *show*.
+  - If the pronunciation is unclear, the dictionary decides (§6).
+- `-ize` ends in /z/, so it takes `-ature`, and `-ize` becomes `-iz` before the vowel (§4.2): *lawize* → *lawizature*.
+- `-ture` and `-ee` are different. `-ture` is a thing that the action makes (*buildature*). `-ee` is a thing that the action is done to, and that existed before (*employee*).
+- `-ture` is the Latin result suffix *-ūra* on a plain base. Many English *-ture* words began as result nouns of a Latin verb: *creature* (a created thing), *picture* (a painted thing), *scripture* (a written thing), *structure* (a built thing). In CE these are base words (§5.1).
 - `-or`, `-ee` and `-ary` are chosen by grammatical relation, not by thematic role:
   - `-or` is the subject: A, or S on a verb with no object.
   - `-ee` is the direct object (O).
@@ -134,7 +148,7 @@ Notes:
 
 - `-and` means "to be X-ed" (*an addand* is a number that is to be added). It does not say "must"; for that, use *must* (§3.1.1). It does not say that the action happens now. For that, use `-ing` (*the adding machine*).
 - `-or` has no time, so it also covers a subject that is about to act: *the departors board at noon*, *the electors vote on Tuesday*. Context gives the time, as in English (*voters*, *passengers*). `-ee` is different: it means "is or was X-ed", so it cannot also mean "not yet". The object therefore keeps `-and`, and the subject has no "not yet" suffix (Q22).
-- Traditional words in *-ure* that name a process use `-ment`: *failment* (*failure*), *closement* (*closure*), *department* (*departure*). Words that name a result use `-ion`: *mixion* (*mixture*). Words that name a person about to act use `-or`: *departor*. *pressure*, *nature*, *culture* and *measure* are base words.
+- Traditional words in *-ure* that name a process use `-ment`: *failment* (*failure*), *closement* (*closure*), *department* (*departure*). Words that name a result use `-ture`: *mixature* (*mixture*). Words that name a person about to act use `-or`: *departor*. *pressure*, *nature*, *culture* and *measure* are base words.
 
 ### 3.3 Affix order
 
@@ -186,7 +200,7 @@ Notes:
 - `mis-` and `mal-` are different. *misread* means to read wrongly without knowing it; the reader acts in good faith. *malread* means to read in a twisted way on purpose. For poor skill, use the adverb: *reads badly*.
   - *"You are just malreading the scriptures!"* says that the other person twists the text on purpose. *"No, you are misreading it!"* says that the other person is honest but wrong.
   - More pairs: *misquote* / *malquote*, *misrepresent* / *malrepresent*, *misinform* / *malinform* (*disinform*).
-  - *That's a malquoteion!* names the twisted quote (the result, `-ion`). *That's malquotement!* names the act (`-ment`).
+  - *That's a malquoteure!* names the twisted quote (the result, `-ture`). *That's malquotement!* names the act (`-ment`).
 - *under-* and *over-* now have one meaning each (amount). Place and rank use *sub-* and *super-*.
 - *sub-* and *super-* have one meaning each: below and above. A rank is a place on a scale, so *subgroup* and *superpass* use the same meaning.
 - *self-* and *auto-* are different. A *selfclean* oven cleans its own inside. An *autoclean* print head starts its cleaning cycle with no operator.
@@ -290,7 +304,7 @@ CE is agglutinative: each affix has one meaning, the base never changes, and aff
 - **U1. Prefer the affixed form when it is clear.** If an affixed word replaces a phrase of two or more words and a reader can take it apart at once (P0), use the affixed word.
 - **U2. Limit the stack.** Use no more than three derivational affixes in one word. Inflectional affixes (§3.1) are not counted.
 - **U3. Use a phrase when U2 is broken.** If the affixed form needs more than three derivational affixes, write a phrase.
-- **U4. Prefer the verb for an action.** To name an action, prefer the verb to the `-ment` noun: *connect the wires*, not *do the connectment of the wires*. For a result, use `-ion` (*the connection*) or a concrete base word (*the joint*).
+- **U4. Prefer the verb for an action.** To name an action, prefer the verb to the `-ment` noun: *connect the wires*, not *do the connectment of the wires*. For a result, use `-ture` (*the connecture*) or a concrete base word (*the joint*).
 
 | Phrase | Affixed form | Derivational affixes | Use |
 |---|---|---|---|
@@ -387,6 +401,7 @@ These are the only allowed variants. A rule always chooses the form.
 | `-s` | `-es` | Base ends in *s, x, z, ch, sh* | *box* → *boxes*, *wish* → *wishes* |
 | `a-` | `an-` | Base starts with a vowel, as with the article *a* / *an* | *anoven* (*on the oven*), *anice* (*on the ice*) |
 | `-an` | `-ian` | Base ends in *an* (prevents *anan*) | *Japan* → *Japanian*, *Iran* → *Iranian*, *Pakistan* → *Pakistanian*, *Taiwan* → *Taiwanian* |
+| `-ture` | `-ature` | The last sound of the base is a consonant other than /t/ (§3.2) | *sign* → *signature*, *build* → *buildature*, *mix* → *mixature*, *describe* → *describeature*, *offer* → *offerature* |
 
 ### 4.2 Remove the first letter of the affix (prevent an overlap)
 
@@ -401,9 +416,10 @@ When the base ends in the letter that the affix starts with, and keeping both wo
 | Any suffix that starts with *e* (`-ed`, `-el`, `-er`, `-est`, `-ee`, `-ent`, `-ery`, `-ese`, `-ess`, `-ectomy`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *shove* → *shovel*, *write* → *writel*; *choose* → *choosed*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese*; *please* → *pleasent* |
 | Any suffix that starts with *a* (`-al`, `-an`, `-able`, `-and`, `-age`, `-ary`) | drop the *a* | Base ends in *a* | *China* → *Chinal*, *Chinan*; *Canada* → *Canadal*, *Canadan*; *Korea* → *Korean*; *formula* → *formulal*, *formulage* |
 | `-or` | no variant | Base ends in *e* | *make* → *makeor*, *operate* → *operateor* (the base never changes; *e* + *o* is not a doubled *e*) |
-| `-ize` | `-iz` | The next suffix starts with a vowel (*a, e, i, o, u*) | *lawize* → *lawizive*, *lawized*, *lawizing*, *lawizion*; *slaveize* → *slaveizor*; *looseize* → *unlooseizable*; but *slaveizement*, *lawizeful* |
+| `-ize` | `-iz` | The next suffix starts with a vowel (*a, e, i, o, u*) | *lawize* → *lawizive*, *lawized*, *lawizing*, *lawizature*; *slaveize* → *slaveizor*; *looseize* → *unlooseizable*; but *slaveizement*, *lawizeful* |
 | Any affix | drop its first letter | The result would have three of the same letter | *full* + `-ly` → *fully*; *skill* + `-less` → *skilless* |
 | `-th` | `-h` | Base ends in *t* | *eight* → *eighth* |
+| `-ture` | `-ure` | The last sound of the base is /t/ (§3.2) | *connect* → *connecture*, *paint* → *painture*, *sculpt* → *sculpture*, *create* → *createure* |
 
 Exception: after the base *be*, a suffix keeps its *e*: *beed* (was, been). In *be* the *e* is the only vowel and it is spoken, and dropping it would give the existing word *bed*.
 
@@ -477,6 +493,10 @@ Some loan words start or end with letters that look like a CE affix, but the let
 | *abridge* | `a-` + *bridge* | on the surface of | make short | *shortize* |
 | *redress* | `re-` + *dress* | again | set right | *rightize* (*rightizement*) |
 | *peaceable* | *peace* + `-able` | can be X-ed | in a peaceful way | *peaceful* |
+| *nature*, *feature*, *culture*, *stature*, *texture*, *posture*, *venture* | base + `-ture` | the thing that X makes | — | one base word |
+| *capture*, *lecture*, *puncture* | base + `-ure` | the thing that X makes | — | one base word |
+| *temperature*, *literature*, *legislature* | base + `-ature` | the thing that X makes | — | one base word, or rebuilt (P4) |
+| *creature*, *picture*, *scripture*, *structure* | an old result noun in *-ure* | the thing that X makes | a living being; an image; holy text; a built form | one base word; the CE result nouns are *createure*, *painture*, *writeure*, *buildature* |
 
 ## 6. Dictionary
 
@@ -497,7 +517,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q1.** (Closed.) *be* is regular (§3.1): *I be*, *he be*, *he beed*.
 - **Q2.** How do we handle collisions such as *seed* (see §5)? Options: accept the collision, add a hyphen (*see-ed*), or change the allomorph rule.
 - **Q3.** Do we need a variant that keeps the sound of the base without changing its spelling? Example: a hyphen or a written mark between base and affix (*stop-ed*, *panic-ed*).
-- **Q4.** (Closed.) `-ment` covered the act and its result. It now names only the act, and the result uses `-ion` (§3.2).
+- **Q4.** (Closed.) `-ment` covered the act and its result. It now names only the act, and the result uses `-ture` (§3.2, Q23).
 - **Q5.** (Closed.) `-or` covered agents and instruments. These are different thematic roles, so the instrument now uses `-el` (§3.2): *cutel*, *openel*. The line between them is the role, not the difference between persons and things: a thermostat is a *regulateor*. `-ee` and `-and` still cover persons and things.
 - **Q6.** (Closed.) Plural place names made awkward language names (*Netherlandsese*). A plural place name now uses its singular form as the base (§3.4.2): *Netherlandese*, *Philippinese*.
 - **Q7.** (Closed, superseded by Q19.) The modals were verb slots for a time. They are words again (§3.1.1).
@@ -515,7 +535,8 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q19.** (Closed.) From Q7 to Q18, CE replaced the auxiliary verbs with sixteen verb suffixes (*choosen'll*, *choosemust*, *choosedif*), and *we* with an associative plural `-'all` (*I'all*). P0 removed them all. English auxiliaries are already one word for each meaning and do not inflect, so the suffixes made text shorter but harder to read. *we* and plural *you* are already clear. The appendices were translated again without them.
 - **Q20.** Some English modals have two meanings: *may* (permission or possibility), *must* (duty or conclusion), *should* (advice or expectation), *shall* (duty or future). This breaks P1. Do we accept it under P0, or choose one meaning for each modal and use a phrase for the other (*be allowed to*, *it is possible that*)?
 - **Q21.** Do contractions stay, and in which form? English *isn't*, *wasn't*, *don't*, *doesn't*, *won't* and *can't* follow the irregular forms that CE removed. Options: no contractions; regular contractions (*ben't*, *beedn't*, *doedn't*, *willn't*); or English contractions as fixed words.
-- **Q22.** (Closed.) `-ure` (about to X) was dropped (P0). `-or` has no time, so context gives "about to", as in English. `-ure` also moved common words to new meanings (*departure*, *pressure*) and was not guessable (*electure*). `-and` stays, because `-ee` means "is or was X-ed" and cannot also mean "not yet" (§3.2).
+- **Q22.** (Closed.) `-ure` (about to X) was dropped (P0). `-or` has no time, so context gives "about to", as in English. `-ure` also moved common words to new meanings (*departure*, *pressure*) and was not guessable (*electure*). `-and` stays, because `-ee` means "is or was X-ed" and cannot also mean "not yet" (§3.2). The letters *-ure* came back later as a form of the result suffix `-ture`, with a different meaning (Q23).
+- **Q23.** (Closed.) The result noun (*nomen acti*) used `-ion`. Many common English *-tion* words mainly name the act (*inspection*, *operation*, *construction*), so CE `-ion` made false friends. It also gave hard-to-read forms after *e* (*describeion*, *Uniteion*). English has no suffix that names only the result, so CE took `-ture`, the Latin result suffix *-ūra* (*creature*, *picture*, *mixture*). Its three forms are chosen by the last sound of the base: `-ture` after a vowel, `-ure` after /t/, `-ature` after any other consonant (§3.2). This is the first allomorph rule that looks at sound, not letters. It is the model for a later review of all allomorphs in §4.
 
 ## Appendix A. Example translation
 
@@ -674,7 +695,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 >
 > The engineoress examined the machineage carefullyer than the governorage's inspector haved. The subfloor wires beed interconnected, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse beed breaked and that mouses haved transchewed the insulatement. A skilled electricor would have seed it at once, but the inspector haved not.
 >
-> Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeion. His repair, however, beed gooder than his teachoress's. The new oven selfclean, autostart and bake twofold the bread. It be waterproof and airproof, and it be beautifuler than the old one, although slightly noisefuler.
+> Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeature. His repair, however, beed gooder than his teachoress's. The new oven selfclean, autostart and bake twofold the bread. It be waterproof and airproof, and it be beautifuler than the old one, although slightly noisefuler.
 >
 > The bakeorlingess, a pharmacy graduateoress, beed impressed but doubtful. "It be unpossible to trust a machine fully," she sayed. The engineoress smiled. "It be the safest oven in the kingdom, and the relyablest machine that I have ever builded." She refused payment. In return, the bakeoress gived thons a basket of warm loafs and a reddish, heart-shaped cake. The childs in the shop behaved childlikely and outruned each other doorward.
 >
@@ -700,7 +721,7 @@ This passage is written to use as many CE rules as possible in ordinary prose. T
 | Gerundive | *ingredients that must be ordered* → *orderands* (things that are to be ordered; *must* is left to context) | `-and` (§3.2) |
 | Can be X-ed | *reliable* → *relyable* | `-able`, base unchanged (§3.2, §4) |
 | Action noun | *arrival*, *insulation*, *deliveries* → *arrivement*, *insulatement*, *deliverments* | `-ment` (§3.2) |
-| Result noun | *description* → *describeion* | `-ion` (§3.2) |
+| Result noun | *description* → *describeature* | `-ture`, after a consonant sound `-ature` (§3.2) |
 | Having X | *dangerous*, *noisy* → *dangerful*, *noiseful* | `-ful` (§3.2) |
 | Manner adverb | *childishly* → *childlikely* | `-like` + `-ly` (§3.2, §3.4.2) |
 | Make X, causative | *tighten too much*, *raise*, *lay* → *overtightize*, *riseize*, *lieize* | `-ize` (§3.2) |
@@ -736,7 +757,7 @@ This is the passage from Appendix D, translated again with the biological affixe
 >
 > The engineoress examined the machineage carefullyer than the governorage's inspector haved. The subfloor wires beed interconnected, and the superhead lamp beed dangerful. "Deconnect everything and delock the cover," she telled the employees, "and do not overtightize the screws." She finded that the eighth fuse beed breaked and that mouses haved transchewed the insulatement. A skilled electricor would have seed it at once, but the inspector haved not.
 >
-> Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeion. His repair, however, beed gooder than his teachoress's. The neooven selfclean, autostart and bake twofold the bread. It be waterproof and airproof, and it be beautifuler than the old one, although slightly noisefuler.
+> Thons coworked to riseize the oven, lieize new cables afloor and rebuild the heator. The student, a lifeologyor, counterspeaked the bakeoress: the damage beed bader than her describeature. His repair, however, beed gooder than his teachoress's. The neooven selfclean, autostart and bake twofold the bread. It be waterproof and airproof, and it be beautifuler than the old one, although slightly noisefuler.
 >
 > The bakeorlingess, a pharmacy graduateoress, beed impressed but doubtful. "It be unpossible to trust a machine fully," she sayed. The engineoress smiled. "It be the safest oven in the kingdom, and the relyablest machine that I have ever builded." She refused payment. In return, the bakeoress gived thons a basket of warm loafs and a reddish, heartform cake. The intrashop childs behaved childlikely and interoutruned doorward.
 >
@@ -758,8 +779,8 @@ This is the passage from Appendix D, translated again with the biological affixe
 | Version | Words | Characters |
 |---|---|---|
 | Standard English (D.1) | 359 | 2158 |
-| CE (D.1) | 330 | 2139 |
-| CE with §3.8 (E.1) | 320 | 2120 |
+| CE (D.1) | 330 | 2141 |
+| CE with §3.8 (E.1) | 320 | 2122 |
 
 ### E.4 Comment
 
@@ -821,7 +842,7 @@ These translations use only the rules above. They are a baseline: when a new aff
 
 **Consistentized Englandese** (78 words)
 
-> Everyone be betitled to all the rights and freenesses setted forth in this Declareion, without distinguishment of any kind, such as race, colour, sex, language, religion, political or other opinion, national or societyal origin, ownee, bearment or other status. Furthermore, no distinguishment shall be maked on the basis of the political, jurisdictional or international status of the country or territory to which a person belong, whether it be undependent, trust, unselfgoverning or under any other limitment of sovereignness.
+> Everyone be betitled to all the rights and freenesses setted forth in this Declareature, without distinguishment of any kind, such as race, colour, sex, language, religion, political or other opinion, national or societyal origin, ownee, bearment or other status. Furthermore, no distinguishment shall be maked on the basis of the political, jurisdictional or international status of the country or territory to which a person belong, whether it be undependent, trust, unselfgoverning or under any other limitment of sovereignness.
 
 #### F.2.2 Word breakdown
 
@@ -832,7 +853,7 @@ These translations use only the rules above. They are a baseline: when a new aff
 | *setted* | set + ed | *set* | zero past participle replaced (§3.1) |
 | *distinguishment* | distinguish + ment | *distinction* | `-ment` replaces `-tion` (§3.2) |
 | *political* | politic + al | no change | *-ics* noun drops *-s* before a suffix (§3.2) |
-| *Declareion* | declare + ion | *Declaration* | the document that declaring makes, so `-ion` (§3.2); legal terms are not exempt (P6) |
+| *Declareature* | declare + ature | *Declaration* | the document that declaring makes, so `-ture`; *declare* ends in /r/, so `-ature` (§3.2); legal terms are not exempt (P6) |
 | *societyal* | society + al | *social* | affix goes on the plain base (P4) |
 | *national*, *international* | nation + al, inter + nation + al | no change | already CE |
 | *ownee* | own + ee | *property* | the thing that is owned (§3.2) |
@@ -850,14 +871,14 @@ These translations use only the rules above. They are a baseline: when a new aff
 | Version | Words | Characters |
 |---|---|---|
 | Standard English | 78 | 516 |
-| CE | 78 | 529 |
+| CE | 78 | 531 |
 
 #### F.2.4 Gaps
 
 - (Closed.) CE had no affix for "in the state of X" (*independent*), so this translation used *undepending*. Stative `-ent` (§3.4.2) now fills this gap: *undependent*.
 - **Few savings.** The text has the same number of words and 3% more characters. Legal text uses many abstract nouns, and `-ment` and `-ness` are often longer than `-tion` and `-ty`. It has few relative clauses that affixes can replace.
 - *whether it be* is a subjunctive *be*, not an auxiliary, so it stays.
-- (Closed.) Legal terms were exempt under P6, so *Declaration* and *property* were treated differently. P6 no longer exempts legal terms: *Declareion*, *ownee*.
+- (Closed.) Legal terms were exempt under P6, so *Declaration* and *property* were treated differently. P6 no longer exempts legal terms: *Declareature*, *ownee*.
 - (Closed.) *politicsal* was awkward. A noun that ends in *-ics* now drops its *-s* before a suffix (§3.2): *political*.
 
 ### F.3 Article 3
@@ -973,7 +994,7 @@ These translations use only the rules above. The capital letters of the original
 
 **Consistentized Englandese** (51 words)
 
-> We the People of the United States, in Order to form a perfecter Uniteion, establish Justness, sureize homeal Tranquilness, provide for the common defendment, promote the general Welfare, and secure the Blessions of Freeness to ourselfs and our Descendorage, do ordain and establish this Constituteion for the United States of America.
+> We the People of the United States, in Order to form a perfecter Uniteure, establish Justness, sureize homeal Tranquilness, provide for the common defendment, promote the general Welfare, and secure the Blessatures of Freeness to ourselfs and our Descendorage, do ordain and establish this Constituteure for the United States of America.
 
 #### G.1.2 Word breakdown
 
@@ -981,16 +1002,16 @@ These translations use only the rules above. The capital letters of the original
 |---|---|---|---|
 | *ourselfs* | our + self + s | *ourselves* | regular plural (§3.9) |
 | *perfecter* | perfect + er | *more perfect* | no *more* for degree (§3.1) |
-| *Uniteion* | unite + ion | *Union* | the thing that uniting makes, so `-ion` (§3.2); plain base (P4) |
+| *Uniteure* | unite + ure | *Union* | the thing that uniting makes, so `-ture`; *unite* ends in /t/, so `-ure` (§3.2); plain base (P4) |
 | *Justness* | just + ness | *Justice* | `-ness` replaces `-ice` |
 | *sureize* | sure + ize | *insure* | bring into the state *sure* (§3.2); *insure* is a false affix (§5.1) |
 | *homeal* | home + al | *domestic* | plain base (P4); `-al` replaces `-ic` (§3.2) |
 | *Tranquilness* | tranquil + ness | *Tranquility* | `-ness` replaces `-ity` (§3.2) |
 | *defendment* | defend + ment | *defence* | the act (§3.2) |
-| *Blessions* | bless + ion + s | *Blessings* | `-ing` is never a noun; the things that blessing gives are a result, so `-ion` (§3.2) |
+| *Blessatures* | bless + ature + s | *Blessings* | `-ing` is never a noun; the things that blessing gives are a result, so `-ture` (§3.2) |
 | *Freeness* | free + ness | *Liberty* | as in UDHR Article 3 (F.3) |
 | *Descendorage* | descend + or + age | *Posterity* | all who descend, as a group (§3.2, §3.4.2); 2 derivational affixes |
-| *Constituteion* | constitute + ion | *Constitution* | the document that constituting makes, as *Declareion* (F.2) |
+| *Constituteure* | constitute + ure | *Constitution* | the document that constituting makes, as *Declareature* (F.2) |
 | *United States*, *America* | — | no change | place names |
 | *Welfare*, *People* | — | no change | base words |
 
@@ -1004,7 +1025,7 @@ These translations use only the rules above. The capital letters of the original
 #### G.1.4 Gaps
 
 - (Closed.) `-ice` was not in any Replaces column. It now goes to `-ness` for a quality (*justness*, *cowardness*) and to `-ment` for an act (*servement*). *Justness* keeps only the quality of *justice*, not the system of fair law.
-- *Uniteion* and *Constituteion* show the cost of `-ion` after *e* (§3.2). Both are among the most familiar words of the text.
+- *Uniteure* and *Constituteure* are less familiar than *Union* and *Constitution*, two of the best-known words of the text. The silent *e* stays before `-ure` (§3.2).
 - *Descendorage* is clear but long. Standard English has many collective words for people (*posterity*, *ancestry*, *humanity*) that CE builds with `-or` + `-age`.
 
 ### G.2 Article I, Section 1
@@ -1050,7 +1071,7 @@ These translations use only the rules above. The capital letters of the original
 
 **Consistentized Englandese** (41 words)
 
-> The House of Representors shall be composed of Members choosed every twoth Year by the People of the several States, and the Electors in each State shall have the Qualifyions needed for Electors of the numberfulest Branch of the State Lawizorage.
+> The House of Representors shall be composed of Members choosed every twoth Year by the People of the several States, and the Electors in each State shall have the Qualifytures needed for Electors of the numberfulest Branch of the State Lawizorage.
 
 #### G.3.2 Word breakdown
 
@@ -1058,7 +1079,7 @@ These translations use only the rules above. The capital letters of the original
 |---|---|---|---|
 | *choosed* | choose + ed | *chosen* | regular past participle (§3.1) |
 | *twoth* | two + th | *second* | ordinal (§3.4.2) |
-| *Qualifyions* | qualify + ion + s | *Qualifications* | the conditions that qualify a person: result noun (§3.2) |
+| *Qualifytures* | qualify + ture + s | *Qualifications* | the conditions that qualify a person: result noun (§3.2) |
 | *needed* | need + ed | *requisite* | synonym swap (P4); *requisite* is not guessable and starts with a false `re-` (§5.1) |
 | *numberfulest* | number + ful + est | *most numerous* | `-ful` replaces `-ous` (§3.2); no *most* for degree (§3.1) |
 | *Lawizorage* | law + iz + or + age | *Legislature* | all who make law, as a group (§6); part swap as in *lawizive* (G.2); `-ize` is `-iz` before a vowel (§4.2) |
@@ -1070,11 +1091,11 @@ These translations use only the rules above. The capital letters of the original
 | Version | Words | Characters |
 |---|---|---|
 | Standard English | 42 | 257 |
-| CE | 41 | 246 |
+| CE | 41 | 247 |
 
 #### G.3.4 Gaps
 
-- *Qualifyions* is not a clear result. A qualification here is a condition that a person must meet before the act, not a thing that qualifying makes. CE has no affix for "a condition for X".
+- *Qualifytures* is not a clear result. A qualification here is a condition that a person must meet before the act, not a thing that qualifying makes. CE has no affix for "a condition for X".
 - *Lawizorage* and *Legislature* have the same length, but the CE word shows its parts.
 
 ### G.4 Article I, Section 2, Clause 2
@@ -1125,14 +1146,14 @@ The Fourteenth Amendment later changed this clause. The text is the original of 
 
 **Consistentized Englandese** (165 words)
 
-> Representors and direct Taxes shall be parted among the several States which may be included within this Uniteion, according to their own Numbers, which shall be counted by adding to the whole Number of free Persons, including those binded to Servement for a Term of Years, and leaving out Indians not taxed, three fiveths of all other Persons. The actual Numberment shall be maked within three Years after the oneth Meetment of the Congress of the United States, and within every following Term of ten Years, in such Manner as thons shall by Law direct. The Number of Representors shall not outgo one for every thirty Thousand, but each State shall have at Least one Representor; and until such numberment shall be maked, the State of New Hampshire shall be betitled to choose three, Massachusetts eight, Rhode-Island and Providence Plantations one, Connecticut five, New-York six, New Jersey four, Pennsylvania eight, Delaware one, Maryland six, Virginia ten, North Carolina five, South Carolina five, and Georgia three.
+> Representors and direct Taxes shall be parted among the several States which may be included within this Uniteure, according to their own Numbers, which shall be counted by adding to the whole Number of free Persons, including those binded to Servement for a Term of Years, and leaving out Indians not taxed, three fiveths of all other Persons. The actual Numberment shall be maked within three Years after the oneth Meetment of the Congress of the United States, and within every following Term of ten Years, in such Manner as thons shall by Law direct. The Number of Representors shall not outgo one for every thirty Thousand, but each State shall have at Least one Representor; and until such numberment shall be maked, the State of New Hampshire shall be betitled to choose three, Massachusetts eight, Rhode-Island and Providence Plantations one, Connecticut five, New-York six, New Jersey four, Pennsylvania eight, Delaware one, Maryland six, Virginia ten, North Carolina five, South Carolina five, and Georgia three.
 
 #### G.5.2 Word breakdown
 
 | CE | Parts | Standard | Note |
 |---|---|---|---|
 | *parted* | part + ed | *apportioned* | *portio* means "part", so part swap (P4) |
-| *Uniteion* | unite + ion | *Union* | as in G.1 |
+| *Uniteure* | unite + ure | *Union* | as in G.1 |
 | *own* | — | *respective* | synonym swap (P4); *respective* is a false affix (§5.1) |
 | *counted* | count + ed | *determined* | synonym swap (P4); *determine* is a false affix (§5.1) |
 | *binded* | bind + ed | *bound* | regular past participle (§3.1) |
@@ -1154,7 +1175,7 @@ The Fourteenth Amendment later changed this clause. The text is the original of 
 | Version | Words | Characters |
 |---|---|---|
 | Standard English | 164 | 1036 |
-| CE | 165 | 1022 |
+| CE | 165 | 1021 |
 
 #### G.5.4 Gaps
 
@@ -1199,7 +1220,7 @@ The Fourteenth Amendment later changed this clause. The text is the original of 
 #### G.6.4 Gaps
 
 - *about* is wider than *respecting*. In this text both mean "on the subject of".
-- *speakment* is the act of speaking. The right also covers what is said, which would be *speakion* (the result).
+- *speakment* is the act of speaking. The right also covers what is said, which would be *speakature* (the result).
 
 ## Appendix H. Baseline: research abstract
 
