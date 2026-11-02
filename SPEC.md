@@ -98,8 +98,8 @@ Notes:
 | Against X | `anti-` | /ˈænti/ | oppositive | counter-, contra- | *antiact*, *antisay* |
 | Again | `re-` | /riː/ | repetitive | — | *redo* |
 | Person or thing that does X (the subject of X) | `-or` | /ə(r)/ | agent noun (*nomen agentis*), A or S | -er, -ar, -ist, -ian, -ant, -ent, -ee (on verbs with no object), -ure (about to X) | *actor*, *teachor* (*teacher*), *begor* (*beggar*), *scienceor* (*scientist*), *assistor* (*assistant*), *makeor* (*maker*), *escapeor* (*escapee*), *attendor* (*attendee*) |
-| Person or thing that is X-ed (the direct object of X; the action is done or in progress) | `-ee` | /iː/ | object noun, O | — | *employee*, *trainee*, *usee*, *givee* (the gift), *sendee* (the thing that is sent) |
-| Person or thing that gets something from X, or that X is done for (the indirect object of X) | `-ary` | /əri/ | recipient noun | -ee (in this meaning) | *giveary*, *sendary* (*addressee*), *payary* (the person who is payed), *teachary* (*student*), *grantary* (*grantee*), *leaseary* (*lessee*), *benefitary* (*beneficiary*) |
+| Person or thing that is X-ed to, or that X is done for (the recipient, when the verb has a thing and a person; otherwise the direct object of X) | `-ee` | /iː/ | object noun, O | -ee (traditional, mixed roles) | *employee*, *trainee*, *usee*, *givee* (the child who gets it), *payee* (the worker), *sendee* (*addressee*), *teachee* (*student*), *leasee* (*lessee*) |
+| The thing that is X-ed to or for someone (the direct object of a verb that also has a recipient) | `-t` | /t/, /ət/ | transferred-thing noun | — | *givet* (the gift), *sendet* (the thing that is sent), *payt* (the money), *teachet* (the subject that is taught), *tellet* (the story), *lendet* |
 | Thing that someone uses to X (the instrument of X) | `-el` | /əl/ | instrument noun (*nomen instrumenti*) | -er, -or (in this meaning) | *openel* (*opener*), *cutel* (*knife*), *screwel* (*screwdriver*), *writel* (*pen*), *shovel* (*shove* + *el*) |
 | Person or thing that is to be X-ed (gerundive) | `-and` | /ɑːnd/ | gerundive (future passive participle) | -end, -andum, -endum, -anda, -enda | *operand*, *summand*, *divideand* (*dividend*), *addand* (*addendum*), *rememberand* (*memorandum*), *doands* (*agenda*), *beaffixand* |
 | Can be X-ed | `-able` | /əbəl/ | passive potential adjective | -ible, -uble | *seeable*, *readable*, *solveable*, *flyable* (can be flown) |
@@ -130,22 +130,25 @@ Notes:
 
   To find the last sound, see §4: *describe* ends in /b/, *create* in /t/, *weigh* in /eɪ/, *offer* in /r/ and *draw* in a vowel.
 - `-ize` ends in /z/, so it takes `-ature`, and `-ize` becomes `-iz` before the vowel (§4.2): *lawize* → *lawizature*.
-- `-ture` and `-ee` are different. `-ture` is a thing that the action makes (*buildature*). `-ee` is a thing that the action is done to, and that existed before (*employee*).
+- `-ture` and `-ee` are different. `-ture` is a thing that the action makes (*buildature*). `-ee` is the one that the action is done to or for, and that existed before (*employee*).
 - `-ture` is the Latin result suffix *-ūra* on a plain base. Many English *-ture* words began as result nouns of a Latin verb: *creature* (a created thing), *picture* (a painted thing), *scripture* (a written thing), *structure* (a built thing). In CE these are base words (§5.1).
-- `-or`, `-ee` and `-ary` are chosen by grammatical relation, not by thematic role:
+- `-or`, `-ee` and `-t` are chosen by the role in the clause:
   - `-or` is the subject: A, or S on a verb with no object.
-  - `-ee` is the direct object (O).
-  - `-ary` is the indirect object: the one that gets something, or that the action is done for.
-- If a verb has a thing and a person, `-ee` is always the thing and `-ary` is always the person. This is true also when standard English lets the person be the direct object (*pay the worker*, *teach the child*): *payee* is the money and *payary* is the worker; *teachee* is the subject that is taught and *teachary* is the student.
-- A verb with no object has no `-ee` or `-ary` form. Traditional `-ee` words on these verbs use `-or`: *escapeor* (*escapee*), *attendor* (*attendee*), *retireor* (*retiree*).
-- Traditional legal `-ee` words that name a recipient use `-ary`: *grantary* (*grantee*), *leaseary* (*lessee*), *mortgageary* (*mortgagee*), *licenseary* (*licensee*), *sendary* (*addressee*).
+  - `-ee` is the one on the receiving end. If the verb has only one object, `-ee` is that object (*employee*, *usee*). If the verb has a thing and a person, `-ee` is the person: the one that gets the thing, or that the action is done for.
+  - `-t` is the thing, when the verb also has a person. The thing and the person are never both `-ee`.
+- This follows the English words that readers already know. *addressee*, *payee*, *grantee* and *lessee* name the person, and so do *employee* and *trainee*. English `-ee` almost never names a thing. So *payee* is the worker and *payt* is the money; *teachee* is the student and *teachet* is the subject that is taught. This is true also when standard English lets the person be the direct object (*pay the worker*, *teach the child*).
+- A verb with no object has no `-ee` or `-t` form. Traditional `-ee` words on these verbs use `-or`: *escapeor* (*escapee*), *attendor* (*attendee*), *retireor* (*retiree*).
+- Traditional legal `-ee` words name a recipient, and they stay `-ee`: *grantee*, *leasee* (*lessee*), *mortgagee*, *licensee*, *sendee* (*addressee*). The recipient affix `-ary` was dropped (Q26).
+- `-t` is the thing that has been X-ed, so it echoes the past participle (*givet*, *sendet*, *payt*). `-t` and `-ed` are different. `-ed` is a verb form (*the letter beed sended*). `-t` is a noun (*the sendet*).
+- `-t` and `-el` are different, and they look alike. `-el` is the tool that someone uses to X (*sendel*). `-t` is the thing that is X-ed (*sendet*). Check them against each other in real texts (Q26).
 - The roles and their affixes:
 
   | Role | Any time | Not yet |
   |---|---|---|
   | Subject | `-or` (*testor*) | `-or`, with the time from context |
-  | Direct object | `-ee` (*testee*: is or was tested) | `-and` (*testand*: is to be tested) |
-  | Indirect object | `-ary` (*giveary*) | — |
+  | Object (one object only) | `-ee` (*testee*: is or was tested) | `-and` (*testand*: is to be tested) |
+  | Recipient (verb with a thing and a person) | `-ee` (*givee*) | — |
+  | Thing (verb with a thing and a person) | `-t` (*givet*) | `-and` (*giveand*: is to be given) |
 - `-or` and `-el` are different. `-or` is whoever or whatever does X by itself: *teachor*, *regulateor* (a thermostat), *computeor*. `-el` is a thing that someone uses to do X; it does nothing alone: *cutel*, *openel*. The line is the role, not the difference between persons and things. When a case is unclear (a washing machine), the dictionary decides (§6).
 
 - `-and` means "to be X-ed" (*an addand* is a number that is to be added). It does not say "must"; for that, use *must* (§3.1.1). It does not say that the action happens now. For that, use `-ing` (*the adding machine*).
@@ -426,6 +429,7 @@ The last sound of the base chooses the form. For a prefix, the first sound choos
 | `a-` | `an-` | two vowels meet | The first sound of the base is a vowel, as with the article *a* / *an* | *anoven* (*on the oven*), *anice* (*on the ice*); but *awall* |
 | `-an` | `-ian` | a repeated syllable | The last sound of the base is /n/ (prevents *Japanan*, *Londonan*) | *Japan* → *Japanian*, *Iran* → *Iranian*, *Pakistan* → *Pakistanian*, *Taiwan* → *Taiwanian*, *London* → *Londonian*, *Spain* → *Spainian* |
 | `-ture` | `-ure` | two /t/ sounds meet | The last sound of the base is /t/ (§3.2) | *connect* → *connecture*, *paint* → *painture*, *sculpt* → *sculpture*, *create* → *createure* |
+| `-t` | `-et` | a consonant cluster, or two /t/ sounds | The last sound of the base is a consonant (§3.2) | *send* → *sendet*, *teach* → *teachet*, *lend* → *lendet*, *tell* → *tellet*, *give* → *givet* (§4.2), *lift* → *liftet*; after a vowel `-t` stays: *pay* → *payt* |
 | `-ture` | `-ature` | a consonant cluster | The last sound of the base is any other consonant (§3.2) | *sign* → *signature*, *build* → *buildature*, *mix* → *mixature*, *describe* → *describeature*, *offer* → *offerature* |
 
 ### 4.2 Spelling-conditioned variants
@@ -438,8 +442,8 @@ The last letters of the base choose the form. These variants change only the let
 
 | Affix | Variant | Condition | Examples |
 |---|---|---|---|
-| Any suffix that starts with *e* (`-ed`, `-el`, `-er`, `-est`, `-ee`, `-ent`, `-ery`, `-ese`, `-ess`, `-es`, `-ectomy`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *shove* → *shovel*, *write* → *writel*; *choose* → *choosed*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese*; *please* → *pleasent*; *horse* → *horses* |
-| Any suffix that starts with *a* (`-al`, `-an`, `-able`, `-and`, `-age`, `-ary`) | drop the *a* | Base ends in *a* | *China* → *Chinal*, *Chinan*; *Canada* → *Canadal*, *Canadan*; *Korea* → *Korean*; *formula* → *formulal*, *formulage* |
+| Any suffix that starts with *e* (`-ed`, `-el`, `-er`, `-est`, `-ee`, `-et`, `-ent`, `-ery`, `-ese`, `-ess`, `-es`, `-ectomy`) | drop the *e* | Base ends in *e* | *bake* → *baked*; *shove* → *shovel*, *write* → *writel*; *choose* → *choosed*; *large* → *larger*, *largest*; *use* → *usee*; *bake* → *bakery*; *France* → *Francese*; *please* → *pleasent*; *horse* → *horses* |
+| Any suffix that starts with *a* (`-al`, `-an`, `-able`, `-and`, `-age`) | drop the *a* | Base ends in *a* | *China* → *Chinal*, *Chinan*; *Canada* → *Canadal*, *Canadan*; *Korea* → *Korean*; *formula* → *formulal*, *formulage* |
 | `-or` | no variant | Base ends in *e* | *make* → *makeor*, *operate* → *operateor* (the base never changes; *e* + *o* is not a doubled *e*) |
 | Any affix | drop its first letter | The result would have three of the same letter | *full* + `-ly` → *fully*; *skill* + `-less` → *skilless* |
 | `-th` | `-h` | Base ends in *t* | *eight* → *eighth* (said the same either way; the problem is only *tth*) |
@@ -471,7 +475,6 @@ Some affixes sound the same in fast or reduced speech. These pairs sound the sam
 
 | Affixes | IPA | Bases |
 |---|---|---|
-| `-ary`, `-ery` | /əri/ | both attach to verbs |
 | `-or`, `-er` | /ə(r)/ | verb, adjective; the same sound in non-rhotic accents |
 | `-el`, `-al` | /əl/ | verb, noun |
 | `-ee`, `-y` | /iː/, /i/ | both attach to verbs; a milder case |
@@ -545,13 +548,13 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
 - **Q5.** (Closed.) `-or` covered agents and instruments. These are different thematic roles, so the instrument now uses `-el` (§3.2): *cutel*, *openel*. The line between them is the role, not the difference between persons and things: a thermostat is a *regulateor*. `-ee` and `-and` still cover persons and things.
 - **Q6.** (Closed.) Plural place names made awkward language names (*Netherlandsese*). A plural place name now uses its singular form as the base (§3.4.2): *Netherlandese*, *Philippinese*.
 - **Q7.** (Closed, superseded by Q19.) The modals were verb slots for a time. They are words again (§3.1.1).
-- **Q8.** (Closed.) `-ee` covered three thematic roles: patient (*employee*), recipient (*payee*) and agent (*escapee*). `-ee` now means only the direct object. The recipient uses `-ary`, and the agent uses `-or` (§3.2).
+- **Q8.** (Closed.) `-ee` covered three thematic roles: patient (*employee*), recipient (*payee*) and agent (*escapee*). `-ee` was then limited to the direct object, with `-ary` for the recipient. Q26 changed this: `-ee` is the one on the receiving end, and the agent uses `-or` (§3.2).
 - **Q9.** (Closed, superseded by Q19.) The progressive was a verb slot for a time. It is *be* + `-ing` again (§3.1.1).
 - **Q10.** (Closed by Q19.) Stacks of slot suffixes no longer exist.
 - **Q11.** (Closed.) *be* + a suffix that starts with *e* gave *bed*. Now a suffix keeps its *e* after *be* (§4.2): *beed*.
 - **Q12.** (Closed by Q19.) Two verbs share one set of auxiliaries as in English: *shall not have attained … and beed …* (G.4).
 - **Q13.** (Closed by Q19.) The evidential suffixes `-said`, `-seem` and `-sure` were removed. Use *reportedly*, *seem*, *must* and *surely*.
-- **Q14.** Which pronunciation keeps other affixes apart in reduced speech (§4.4)? `-ary` and `-ery` are both /əri/ and both attach to verbs. `-or` and `-er` both become a schwa in non-rhotic accents. `-ee` and `-y` are a milder case. `-el` and `-al` (both /əl/) also sound the same, but they attach to different parts of speech.
+- **Q14.** Which pronunciation keeps other affixes apart in reduced speech (§4.4)? `-or` and `-er` both become a schwa in non-rhotic accents. `-ee` and `-y` are a milder case. `-el` and `-al` (both /əl/) also sound the same, but they attach to different parts of speech.
 - **Q15.** *he* now means a male only (§3.9), but a noun without `-ess` still means a male or a person of unknown or mixed sex (§3.4.2). Should nouns follow the pronouns?
 - **Q16.** Some plural pronoun forms are not decided (§3.9): the other case forms of *hes* and *shes* (*him*, *his*, *her*, *himself*, *herself*), and a plural of *it* for things (*its* is already the possessive).
 - **Q17.** (Closed, superseded by Q19.) `-can` meaned ability or permission, so permission got its own suffix `-ok`. Both were removed with the verb slots.
@@ -569,6 +572,7 @@ The dictionary is to be done. Only base words go in the dictionary. Affixed form
   - `-th` → `-h` stays a spelling rule. *eighth* sounds the same either way, so the problem is only in the letters.
   - Drop *e*, drop *a*, the triple-letter rule and `-ize` → `-iz` stay spelling rules.
 - **Q25.** `-ize` → `-iz` before a vowel (§4.2) solves neither a sound problem nor a spelling problem in P3. *makeable* and *makeor* keep their silent *e*. Should `-iz` go (*lawizeable*, *slaveizeor*, *lawizeature*), or should P3 allow it?
+- **Q26.** (Closed.) `-ee` was the direct object and `-ary` the recipient, so *payee* was the money and *payary* the worker. This was the opposite of the English words that readers know: *addressee*, *payee*, *grantee* and *lessee* name the person, and so do *employee* and *trainee*. Almost no English `-ee` word names a thing. Under P0, `-ee` now names the one on the receiving end: the only object, or the person when the verb has a thing and a person. `-ary` was dropped. The thing takes `-t` (`-et` after a consonant, §4.1): *givet*, *sendet*, *payt*. `-t` was chosen over `-thing`, `-um` and no affix because it is short, native and echoes the past participle (*sent*, *paid*). It is open to the risk that `-et` looks like `-el` (*sendel*, the tool, and *sendet*, the thing), and that `-t` sounds like `-ed` after a vowel. Check both in real texts.
 
 ## Appendix A. Example translation
 
@@ -1317,25 +1321,25 @@ This lease is invented. Legal text states duties, permissions and bans in almost
 
 **Consistentized Englandese** (112 words)
 
-> 1. The Leaseary shall pay the rent to the Leaseor on the oneth day of each month.
+> 1. The Leasee shall pay the rent to the Leaseor on the oneth day of each month.
 >
-> 2. The Leaseary shall not sublet the premises without the writed consent of the Leaseor. The Leaseor may refuse consent only on fair grounds.
+> 2. The Leasee shall not sublet the premises without the writed consent of the Leaseor. The Leaseor may refuse consent only on fair grounds.
 >
-> 3. The Leaseary be not required to repaint the premises at the end of the term.
+> 3. The Leasee be not required to repaint the premises at the end of the term.
 >
 > 4. If the rent be not payed within fourteen days, the Leaseor may end this lease by writed notice.
 >
-> 5. The Leaseary should inspect the smoke-alarms each month.
+> 5. The Leasee should inspect the smoke-alarms each month.
 >
-> 6. Any repairs that have beed carryed out by the Leaseary shall be reported to the Leaseor.
+> 6. Any repairs that have beed carryed out by the Leasee shall be reported to the Leaseor.
 >
-> 7. The deposit will be returned to the Leaseary within thirty days after the lease have ended.
+> 7. The deposit will be returned to the Leasee within thirty days after the lease have ended.
 
 ### I.2 Word breakdown
 
 | CE | Parts | Standard | Note |
 |---|---|---|---|
-| *Leaseary*, *Leaseor* | lease + ary, lease + or | *Lessee*, *Lessor* | recipient and agent (§3.2); the two no longer look alike |
+| *Leasee*, *Leaseor* | lease + ee, lease + or | *Lessee*, *Lessor* | recipient and agent (§3.2); the two differ in the last two letters only |
 | *end* | — | *terminate* | *terminus* means "end", so part swap (P4) |
 | *be not payed* | — | *is not paid* | regular *be* and past participle, no agreement (§3.1) |
 | *have beed carryed* | — | *have been carried* | regular *been*; the base never changes (§3.1, §4) |
